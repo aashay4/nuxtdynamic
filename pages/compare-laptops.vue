@@ -21,13 +21,13 @@
     </div>
     <div class="w3-quarter">
       <p>Search Your Laptop </p>
-      <Dropdown1
+      <Dropdown
         :articles="articles"
         v-on:selected="validateSelection1"
         v-on:filter="getDropdownValues1"
         :disabled="false"
         placeholder="Please select an laptop">
-      </Dropdown1>
+      </Dropdown>
       <img v-if="selected1.title != null" :src="require('~/static/' + selected1.imgpath)" style="width:100%">
       <h3>Selected animal: {{ selected1.title || 'none' }}</h3>
       <h3>Selected COntent: {{ selected1.body || 'none' }}</h3>
@@ -70,9 +70,8 @@
 </template>
 <script>
 import Dropdown from '~/components/Dropdown.vue'
-import Dropdown1 from '~/components/Dropdown1.vue'
   export default {
-    components: { Dropdown, Dropdown1 },
+    components: { Dropdown },
     async asyncData(context){
       const {data} = await context.$axios.get('/api/articles/')
       return {
