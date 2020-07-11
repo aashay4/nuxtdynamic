@@ -1,7 +1,7 @@
 <template>
   <div>
     <navbar /><br>
-    <div class="w3-hide-small w3-hide-medium">
+    <div>
   <table>
     <tr>
       <th>Dropwoen search</th>
