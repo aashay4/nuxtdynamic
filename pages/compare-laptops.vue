@@ -68,7 +68,7 @@
     </div>
   </div>
 </div>
-<table class="table w3-hide-small w3-hide-medium">
+<table class="table">
   <thead>
     <tr>
       <th scope="col">#</th>
@@ -111,40 +111,6 @@
     <tr>
       <th scope="row">3</th>
       <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
-<table class="table w3-hide-large">
-  <thead>
-    <tr>
-      <th scope="col"><Dropdown
-        :articles="articles"
-        v-on:selected="validateSelection"
-        v-on:filter="getDropdownValues"
-        :disabled="false"
-        placeholder="Please select an animal">
-      </Dropdown></th>
-      <th scope="col"><Dropdown
-        :articles="articles"
-        v-on:selected="validateSelection"
-        v-on:filter="getDropdownValues"
-        :disabled="false"
-        placeholder="Please select an animal">
-      </Dropdown></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>{{selected.title}}</td>
-      <td>Otto</td>
-    </tr>
-    <tr>
-      <td>Jacob</td>
-      <td>Thornton</td>
-    </tr>
-    <tr>
       <td>the Bird</td>
       <td>@twitter</td>
     </tr>
