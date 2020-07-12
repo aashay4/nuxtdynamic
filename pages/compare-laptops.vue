@@ -42,15 +42,16 @@
 </div>
 <table class="table">
   <thead>
+    <Dropdown
+      :articles="articles"
+      v-on:selected="validateSelection"
+      v-on:filter="getDropdownValues"
+      :disabled="false"
+      placeholder="Please select an animal">
+    </Dropdown>
     <tr>
       <th scope="col">#</th>
-      <th scope="col"><Dropdown
-        :articles="articles"
-        v-on:selected="validateSelection"
-        v-on:filter="getDropdownValues"
-        :disabled="false"
-        placeholder="Please select an animal">
-      </Dropdown></th>
+      <th scope="col"></th>
       <th scope="col"><Dropdown
         :articles="articles"
         v-on:selected="validateSelection1"
