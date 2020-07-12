@@ -40,14 +40,14 @@
     </div>
   </div>
 </div>
+<Dropdown
+  :articles="articles"
+  v-on:selected="validateSelection"
+  v-on:filter="getDropdownValues"
+  :disabled="false"
+  placeholder="Please select an animal">
+</Dropdown>
 <table class="table">
-  <Dropdown
-    :articles="articles"
-    v-on:selected="validateSelection"
-    v-on:filter="getDropdownValues"
-    :disabled="false"
-    placeholder="Please select an animal">
-  </Dropdown>
   <thead>
     <tr>
       <th scope="col">#</th>
