@@ -1,6 +1,7 @@
 <template>
   <div>
-    <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+        <navbar />
+    <div class="w3-main w3-content" style="max-width:1200px;">
 
   <!-- First Photo Grid-->
   <div class="w3-row-padding w3-padding-16 w3-center" id="food">
@@ -17,6 +18,7 @@
       <h3>Selected animal: {{ selected.title || 'none' }}</h3>
       <h3>Selected COntent: {{ selected.body || 'none' }}</h3>
       <h3>Selected imagepath: {{ selected.imgpath || 'none' }}</h3>
+      <h3>Selected imagepath: {{ selected.amazonlink || 'lik' }}</h3>
       <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
     </div>
     <div class="w3-quarter">
@@ -66,12 +68,95 @@
     </div>
   </div>
 </div>
+<table class="table w3-hide-small w3-hide-medium">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col"><Dropdown
+        :articles="articles"
+        v-on:selected="validateSelection"
+        v-on:filter="getDropdownValues"
+        :disabled="false"
+        placeholder="Please select an animal">
+      </Dropdown></th>
+      <th scope="col"><Dropdown
+        :articles="articles"
+        v-on:selected="validateSelection1"
+        v-on:filter="getDropdownValues1"
+        :disabled="false"
+        placeholder="Please select an laptop">
+      </Dropdown></th>
+      <th scope="col"><Dropdown
+        :articles="articles"
+        v-on:selected="validateSelection2"
+        v-on:filter="getDropdownValues2"
+        :disabled="false"
+        placeholder="Please select an laptop">
+      </Dropdown></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><img v-if="selected.title != null" :src="require('~/assets/' + selected.imgpath)" style="width:50px; height: 50px"><button v-if="selected.imgpath != null" @click="linkcall" type="button" name="button">Buy on Amazon</a></button></td>
+      <td><img v-if="selected1.title != null" :src="require('~/assets/' + selected1.imgpath)" style="width:50px; height: 50px"></td>
+      <td><img v-if="selected2.title != null" :src="require('~/assets/' + selected2.imgpath)" style="width:50px; height: 50px"></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>{{selected.title}}</td>
+      <td>{{selected1.title}}</td>
+      <td>{{selected2.title}}</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+<table class="table w3-hide-large">
+  <thead>
+    <tr>
+      <th scope="col"><Dropdown
+        :articles="articles"
+        v-on:selected="validateSelection"
+        v-on:filter="getDropdownValues"
+        :disabled="false"
+        placeholder="Please select an animal">
+      </Dropdown></th>
+      <th scope="col"><Dropdown
+        :articles="articles"
+        v-on:selected="validateSelection"
+        v-on:filter="getDropdownValues"
+        :disabled="false"
+        placeholder="Please select an animal">
+      </Dropdown></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{selected.title}}</td>
+      <td>Otto</td>
+    </tr>
+    <tr>
+      <td>Jacob</td>
+      <td>Thornton</td>
+    </tr>
+    <tr>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
   </div>
 </template>
 <script>
+import navbar from '~/components/navbar.vue'
 import Dropdown from '~/components/Dropdown.vue'
   export default {
-    components: { Dropdown },
+    components: { Dropdown, navbar },
     async asyncData(context){
       const {data} = await context.$axios.get('/api/articles/')
       return {
@@ -109,6 +194,10 @@ import Dropdown from '~/components/Dropdown.vue'
       },
       getDropdownValues2(keyword) {
         console.log('You could refresh options by querying the API with '+keyword);
+      },
+      linkcall(event){
+        alert(this.selected.amazonlink)
+        window.open(this.selected.amazonlink);
       }
     }
   }

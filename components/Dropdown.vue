@@ -129,6 +129,7 @@
     position: relative;
     display: block;
     margin: auto;
+    width: 100%;
     .dropdown-input {
       background: #fff;
       cursor: pointer;
