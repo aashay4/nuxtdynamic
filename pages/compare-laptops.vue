@@ -7,13 +7,6 @@
   <div class="w3-row-padding w3-padding-16 w3-center" id="food">
     <div class="w3-quarter">
       <p>Search Your Laptop </p>
-      <Dropdown
-        :articles="articles"
-        v-on:selected="validateSelection"
-        v-on:filter="getDropdownValues"
-        :disabled="false"
-        placeholder="Please select an animal">
-      </Dropdown>
       <img v-if="selected.title != null" :src="require('~/assets/' + selected.imgpath)" style="width:100%">
       <h3>Selected animal: {{ selected.title || 'none' }}</h3>
       <h3>Selected COntent: {{ selected.body || 'none' }}</h3>
@@ -23,13 +16,6 @@
     </div>
     <div class="w3-quarter">
       <p>Search Your Laptop </p>
-      <Dropdown
-        :articles="articles"
-        v-on:selected="validateSelection1"
-        v-on:filter="getDropdownValues1"
-        :disabled="false"
-        placeholder="Please select an laptop">
-      </Dropdown>
       <img v-if="selected1.title != null" :src="require('~/assets/' + selected1.imgpath)" style="width:100%">
       <h3>Selected animal: {{ selected1.title || 'none' }}</h3>
       <h3>Selected COntent: {{ selected1.body || 'none' }}</h3>
@@ -38,13 +24,6 @@
     </div>
     <div class="w3-quarter">
       <p>Search Your Laptop </p>
-      <Dropdown
-        :articles="articles"
-        v-on:selected="validateSelection2"
-        v-on:filter="getDropdownValues2"
-        :disabled="false"
-        placeholder="Please select an animal">
-      </Dropdown>
       <img v-if="selected2.title != null" :src="require('~/assets/' + selected2.imgpath)" style="width:100%">
       <h3>Selected animal: {{ selected2.title || 'none' }}</h3>
       <h3>Selected COntent: {{ selected2.body || 'none' }}</h3>
@@ -53,13 +32,6 @@
     </div>
     <div class="w3-quarter">
       <p>Search Your Laptop </p>
-      <Dropdown
-        :articles="articles"
-        v-on:selected="validateSelection3"
-        v-on:filter="getDropdownValues"
-        :disabled="false"
-        placeholder="Please select an animal">
-      </Dropdown>
       <img v-if="selected3.title != null" :src="require('~/assets/' + selected3.imgpath)" style="width:100%">
       <h3>Selected animal: {{ selected3.title || 'none' }}</h3>
       <h3>Selected COntent: {{ selected3.body || 'none' }}</h3>
