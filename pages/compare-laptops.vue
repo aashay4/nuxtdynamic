@@ -52,20 +52,7 @@
     <tr>
       <th scope="col">#</th>
       <th scope="col"></th>
-      <th scope="col"><Dropdown
-        :articles="articles"
-        v-on:selected="validateSelection1"
-        v-on:filter="getDropdownValues1"
-        :disabled="false"
-        placeholder="Please select an laptop">
-      </Dropdown></th>
-      <th scope="col"><Dropdown
-        :articles="articles"
-        v-on:selected="validateSelection2"
-        v-on:filter="getDropdownValues2"
-        :disabled="false"
-        placeholder="Please select an laptop">
-      </Dropdown></th>
+      <th scope="col"></th>
     </tr>
   </thead>
   <tbody>
