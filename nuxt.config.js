@@ -56,11 +56,6 @@ module.exports = {
   axios: {
     proxy: true
   },
-  generate: {
-  minify: {
-    collapseWhitespace: false
-  }
-},
   auth: {
    strategies: {
      local: {
@@ -98,6 +93,9 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
+    minify: {
+      collapseWhitespace: false
+    },
     extend(config, ctx) {
     }
   }
