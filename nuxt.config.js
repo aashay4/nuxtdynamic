@@ -56,6 +56,11 @@ module.exports = {
   axios: {
     proxy: true
   },
+  generate: {
+  minify: {
+    collapseWhitespace: false
+  }
+}
   auth: {
    strategies: {
      local: {
