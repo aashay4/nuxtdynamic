@@ -1,7 +1,5 @@
 <template>
   <div>
-        <navbar />
-
   <!-- First Photo Grid-->
   <h2>HTML Table</h2>
 
@@ -64,10 +62,9 @@
 </div>
 </template>
 <script>
-import navbar from '~/components/navbar.vue'
 import Dropdown from '~/components/Dropdown.vue'
   export default {
-    components: { Dropdown, navbar },
+    components: { Dropdown },
     async asyncData(context){
       const {data} = await context.$axios.get('/api/articles/')
       return {
