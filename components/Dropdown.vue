@@ -123,7 +123,6 @@
   };
 </script>
 
-
 <style lang="scss" scoped>
   .dropdown {
     position: relative;
@@ -136,6 +135,9 @@
       border-radius: 1px;
       color: #333;
       font-size: .8em;
+      padding: 6px;
+      min-width: 100%;
+      max-width: 100%;
       &:hover {
         background: #f8f8fa;
       }
@@ -148,7 +150,7 @@
       z-index: 1;
       .dropdown-item {
         color: black;
-        font-size: .7em;
+        font-size: 1em;
         line-height: 1em;
         text-decoration: none;
         display: block;

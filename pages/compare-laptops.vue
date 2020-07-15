@@ -7,9 +7,17 @@
   <div class="w3-row-padding w3-padding-16 w3-center" id="food">
     <div class="w3-quarter">
       <p>Search Your Laptop </p>
+      <Dropdown
+        :articles="articles"
+        v-on:selected="validateSelection"
+        v-on:filter="getDropdownValues"
+        :disabled="false"
+        placeholder="Please select an animal">
+      </Dropdown>
       <img v-if="selected.title != null" :src="require('~/assets/' + selected.imgpath)" style="width:100%">
       <h3>Selected animal: {{ selected.title || 'none' }}</h3>
       <h3>Selected COntent: {{ selected.body || 'none' }}</h3>
+      <button v-if="selected.imgpath != null" @click="linkcall" type="button" name="button">Buy on Amazon</a></button></td>
       <h3>Selected imagepath: {{ selected.imgpath || 'none' }}</h3>
       <h3>Selected imagepath: {{ selected.amazonlink || 'lik' }}</h3>
       <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
@@ -40,43 +48,105 @@
     </div>
   </div>
 </div>
-<Dropdown
-  :articles="articles"
-  v-on:selected="validateSelection"
-  v-on:filter="getDropdownValues"
-  :disabled="false"
-  placeholder="Please select an animal">
-</Dropdown>
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col"></th>
-      <th scope="col"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td><img v-if="selected.title != null" :src="require('~/assets/' + selected.imgpath)" style="width:50px; height: 50px"><button v-if="selected.imgpath != null" @click="linkcall" type="button" name="button">Buy on Amazon</a></button></td>
-      <td><img v-if="selected1.title != null" :src="require('~/assets/' + selected1.imgpath)" style="width:50px; height: 50px"></td>
-      <td><img v-if="selected2.title != null" :src="require('~/assets/' + selected2.imgpath)" style="width:50px; height: 50px"></td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>{{selected.title}}</td>
-      <td>{{selected1.title}}</td>
-      <td>{{selected2.title}}</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
+
+<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1200px" id="band">
+    <h2 class="w3-wide">THE BAND</h2>
+    <p class="w3-opacity"><i>We love music</i></p>
+    <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-quarter">
+        Title
+      </div>
+      <div class="w3-threequarter">
+      <div class="w3-quarter">
+        <div>
+        <p>choose your laptop</p></div>
+        <Dropdown
+          :articles="articles"
+          v-on:selected="validateSelection"
+          v-on:filter="getDropdownValues"
+          :disabled="false"
+          placeholder="Please select an animal">
+        </Dropdown>
+        <img v-if="selected.title != null" :src="require('~/assets/' + selected.imgpath)" class="w3-margin-top" style="height:50px; width:50px">{{selected.title}}
+        <button v-if="selected.imgpath != null" @click="linkcall" type="button" class="w3-margin-top" name="button">Buy on Amazon</a></button>
+        <p>Title</p></div>
+      <div class="w3-quarter">
+        <p>Name</p>
+        <img src="https://www.w3schools.com/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-quarter">
+        <p>Name</p>
+        <img src="https://www.w3schools.com/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-quarter">
+        <p>Name</p>
+        <img src="https://www.w3schools.com/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      </div>
+    </div>
   </div>
+
+  <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <Dropdown
+    :articles="articles"
+    v-on:selected="validateSelection"
+    v-on:filter="getDropdownValues"
+    :disabled="false"
+    placeholder="Please select an animal">
+  </Dropdown>
+  <img v-if="selected.title != null" :src="require('~/assets/' + selected.imgpath)" style="width:100%">
+  <div class="w3-container">
+  <h3>{{selected.title}}</h3>
+  <h4>Trade</h4>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Lights" style="width:100%">
+  <div class="w3-container">
+  <h3>Customer 2</h3>
+  <h4>Trade</h4>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Mountains" style="width:100%">
+  <div class="w3-container">
+  <h3>Customer 3</h3>
+  <h4>Trade</h4>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  </div>
+  </div>
+</div>
+</div>
+
+</div>
 </template>
 <script>
 import navbar from '~/components/navbar.vue'
@@ -132,15 +202,9 @@ import Dropdown from '~/components/Dropdown.vue'
 
 <style type="text/css" scoped>
   body {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 3em;
   }
   h1 {
-    font-weight: 100;
-    font-size: 1.5em;
   }
   p {
-    font-size: .8em;
-    color: #ccc;
-  }
+ }
 </style>
