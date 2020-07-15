@@ -60,7 +60,7 @@ module.exports = {
   minify: {
     collapseWhitespace: false
   }
-}
+},
   auth: {
    strategies: {
      local: {
