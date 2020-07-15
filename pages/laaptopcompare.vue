@@ -13,20 +13,8 @@
       :disabled="false"
       placeholder="Please select an animal">
     </Dropdown></th>
-    <th><Dropdown
-      :articles="articles"
-      v-on:selected="validateSelection1"
-      v-on:filter="getDropdownValues1"
-      :disabled="false"
-      placeholder="Please select an animal">
-    </Dropdown></th>
-    <th><Dropdown
-      :articles="articles"
-      v-on:selected="validateSelection2"
-      v-on:filter="getDropdownValues2"
-      :disabled="false"
-      placeholder="Please select an animal">
-    </Dropdown></th>
+    <th>Hi</th>
+    <th>Hi</th>
   </tr>
   <tr>
     <td><img v-if="selected.title != null" :src="require('~/assets/' + selected.imgpath)" style="width:50px; height:50px;"><button v-if="selected.imgpath != null" @click="linkcall" type="button" name="button">{{selected.amazonlink}}</a></button></td>
