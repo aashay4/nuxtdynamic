@@ -1,4 +1,5 @@
-<template>
+<template lang="html">
+  <client-only>
   <div>
   <!-- First Photo Grid-->
   <h2>HTML Table</h2>
@@ -60,6 +61,7 @@
 </table>
 </div>
 </div>
+</client-only>
 </template>
 <script>
 import Dropdown from '~/components/Dropdown.vue'
