@@ -13,7 +13,13 @@
       :disabled="false"
       placeholder="Please select an animal">
     </Dropdown></th>
-    <th>Hi</th>
+    <th><Dropdown1
+      :articles="articles"
+      v-on:selected="validateSelection1"
+      v-on:filter="getDropdownValues1"
+      :disabled="false"
+      placeholder="Please select an animal">
+    </Dropdown1></th>
     <th>Hi</th>
   </tr>
   <tr>
@@ -53,8 +59,9 @@
 </template>
 <script>
 import Dropdown from '~/components/Dropdown.vue'
+import Dropdown1 from '~/components/Dropdown1.vue'
   export default {
-    components: { Dropdown },
+    components: { Dropdown, Dropdown1 },
     async asyncData(context){
       const {data} = await context.$axios.get('/api/articles/')
       return {
