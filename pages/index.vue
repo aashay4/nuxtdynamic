@@ -1,4 +1,5 @@
-<template>
+<template lang="html">
+  <client-only>
   <div class="w3-light-grey">
 
 <!-- w3-content defines a container for fixed size centered content,
@@ -465,7 +466,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <footer-app />
   </div>
-
+</client-only>
 </template>
 <script>
 import footer from '../components/footer.vue'
