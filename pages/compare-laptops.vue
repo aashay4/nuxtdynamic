@@ -1,4 +1,5 @@
-<template>
+<template lang="html">
+  <client-only>
   <div>
         <navbar />
     <div class="w3-main w3-content" style="max-width:1200px;">
@@ -147,6 +148,7 @@
 </div>
 
 </div>
+</client-only>
 </template>
 <script>
 import navbar from '~/components/navbar.vue'
