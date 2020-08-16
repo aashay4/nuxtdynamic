@@ -23,6 +23,11 @@ const Article = new Schema ({
   battery: { type: String, require: true},
   processor: { type: String, require: true},
   amazonlink: {type: String, required: true},
+  _id: { type: String, required: true },
+  design: { type: String, required: true },
+  para2: { type: String, required: true },
+  para3: { type: String, required: true },
+  description: { type: String, required: true },
 });
 
 module.exports = mongoose.model('Article', Article)

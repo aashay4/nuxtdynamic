@@ -14,7 +14,7 @@
     </div>
     <h1>Add New Laptop</h1>
     <hr>
-
+    <p id="slug">http://bestbudgetlaptops.com/laptops/<span>{{ slug }}</span></p>
     <div class="row" style="margin-left: 20px">
       <div class="col-md-6">
         <form action=""
@@ -27,7 +27,7 @@
               :class="{ 'is-invalid': errors && errors.title }"
               v-model="title">
           </div>
-
+          {{ id }}
           <div class="form-group">
             <label for="">Company</label>
             <input type="text" class="form-control"
@@ -227,6 +227,42 @@
               {{ errors.body.msg }}
             </div>
           </div>
+          <div class="form-group">
+            <label for="">Design</label>
+            <textarea cols="30" rows="4" class="form-control"
+              :class="{ 'is-invalid': errors && errors.body }"
+              v-model="design"></textarea>
+            <div class="invalid-feedback" v-if="errors && errors.body">
+              {{ errors.body.msg }}
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="">Para 2</label>
+            <textarea cols="30" rows="4" class="form-control"
+              :class="{ 'is-invalid': errors && errors.body }"
+              v-model="para2"></textarea>
+            <div class="invalid-feedback" v-if="errors && errors.body">
+              {{ errors.body.msg }}
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="">Para 3</label>
+            <textarea cols="30" rows="4" class="form-control"
+              :class="{ 'is-invalid': errors && errors.body }"
+              v-model="para3"></textarea>
+            <div class="invalid-feedback" v-if="errors && errors.body">
+              {{ errors.body.msg }}
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="">Meta description</label>
+            <textarea cols="30" rows="4" class="form-control"
+              :class="{ 'is-invalid': errors && errors.body }"
+              v-model="description"></textarea>
+            <div class="invalid-feedback" v-if="errors && errors.body">
+              {{ errors.body.msg }}
+            </div>
+          </div>
 
           <input type="submit" value="Submit" class="btn btn-primary mr-3">
           <nuxt-link to="/" class="btn btn-secondary mr-3">Cancel</nuxt-link>
@@ -244,7 +280,7 @@ export default {
     data(){
         return{
           errors:null,
-          title:null,
+          title:'',
           company:null,
           body:null,
           imgpath:null,
@@ -265,9 +301,41 @@ export default {
           processor:null,
           battery:null,
           amazonlink:null,
+          id: null,
+          design: null,
+          para2: null,
+          para3: null,
+          description: null
         }
       },
+      computed: {
+    slug: function() {
+      var slug = this.sanitizeTitle(this.title);
+      return slug;
+    }
+  },
       methods:{
+        sanitizeTitle: function(title) {
+      var slug = "";
+      // Change to lower case
+      var titleLower = title.toLowerCase();
+      // Letter "e"
+      slug = titleLower.replace(/e|é|è|ẽ|ẻ|ẹ|ê|ế|ề|ễ|ể|ệ/gi, 'e');
+      // Letter "a"
+      slug = slug.replace(/a|á|à|ã|ả|ạ|ă|ắ|ằ|ẵ|ẳ|ặ|â|ấ|ầ|ẫ|ẩ|ậ/gi, 'a');
+      // Letter "o"
+      slug = slug.replace(/o|ó|ò|õ|ỏ|ọ|ô|ố|ồ|ỗ|ổ|ộ|ơ|ớ|ờ|ỡ|ở|ợ/gi, 'o');
+      // Letter "u"
+      slug = slug.replace(/u|ú|ù|ũ|ủ|ụ|ư|ứ|ừ|ữ|ử|ự/gi, 'u');
+      // Letter "d"
+      slug = slug.replace(/đ/gi, 'd');
+      // Trim the last whitespace
+      slug = slug.replace(/\s*$/g, '');
+      // Change whitespace to "-"
+      slug = slug.replace(/\s+/g, '-');
+      this.id = slug;
+      return slug;
+    },
         submitForm(){
           alert(this.imgpath)
           this.$axios.post( '/api/articles', {
@@ -292,6 +360,11 @@ export default {
               battery: this.battery,
               processor: this.processor,
               amazonlink: this.amazonlink,
+              _id: this.id,
+              design: this.design,
+              para2: this.para2,
+              para3: this.para3,
+              description: this.description
             })
             .then((response) => {
               if(response.data._id){

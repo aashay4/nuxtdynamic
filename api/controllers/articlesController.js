@@ -13,10 +13,34 @@ module.exports.list = function (req, res, next) {
   });
 }
 
+module.exports.cheap100 = function (req, res, next) {
+  console.log(req.body.price);
+    Article.find({"price": { $lte: req.body.price }}).sort({price: 'descending'}).exec((err, articles) => {
+
+    if(err) {
+        return res.status(500).json({
+            message: 'Error getting records.'
+        });
+    }
+    return res.json(articles);
+  });
+}
+
 module.exports.filterall = function (req, res, next) {
   console.log(req.body.reason);
   console.log(req.body.price);
   Article.find({reason: req.body.reason, "price": { $lte: req.body.price } }, function(err, articles){
+    if(err) {
+        return res.status(500).json({
+            message: 'Error getting records.'
+        });
+    }
+    return res.json(articles);
+  });
+}
+
+module.exports.related = function (req, res, next) {
+  Article.find({company: req.body.company, _id: { $nin: req.body._id } }, function(err, articles){
     if(err) {
         return res.status(500).json({
             message: 'Error getting records.'
@@ -207,6 +231,12 @@ validator.body('webcam', 'Please enter Article Content').isLength({ min: 1 }),
 validator.body('battery', 'Please enter Article Content').isLength({ min: 1 }),
 validator.body('processor', 'Please enter Article Content').isLength({ min: 1 }),
 validator.body('amazonlink', 'Please enter Article Content').isLength({ min: 1 }),
+validator.body('_id', 'Please enter Article Content').isLength({ min: 1 }),
+validator.body('design', 'Please enter Article Content').isLength({ min: 1 }),
+validator.body('para2', 'Please enter Article Content').isLength({ min: 1 }),
+validator.body('para3', 'Please enter Article Content').isLength({ min: 1 }),
+validator.body('description', 'Please enter Article Content').isLength({ min: 1 }),
+
 
   function(req, res) {
     // throw validation errors
@@ -238,6 +268,11 @@ validator.body('amazonlink', 'Please enter Article Content').isLength({ min: 1 }
         battery: req.body.battery,
         processor: req.body.processor,
         amazonlink: req.body.amazonlink,
+        _id: req.body._id,
+        design: req.body.design,
+        para2: req.body.para2,
+        para3: req.body.para3,
+        description: req.body.description
     })
 
     // save record

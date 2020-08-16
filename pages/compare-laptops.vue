@@ -1,160 +1,269 @@
 <template lang="html">
-  <client-only>
   <div>
         <navbar />
-    <div class="w3-main w3-content" style="max-width:1200px;">
-
-  <!-- First Photo Grid-->
-  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
-    <div class="w3-quarter">
-      <p>Search Your Laptop </p>
-      <Dropdown
-        :articles="articles"
-        v-on:selected="validateSelection"
-        v-on:filter="getDropdownValues"
-        :disabled="false"
-        placeholder="Please select an animal">
-      </Dropdown>
-      <img v-if="selected.title != null" :src="require('~/assets/' + selected.imgpath)" style="width:100%">
-      <h3>Selected animal: {{ selected.title || 'none' }}</h3>
-      <h3>Selected COntent: {{ selected.body || 'none' }}</h3>
-      <button v-if="selected.imgpath != null" @click="linkcall" type="button" name="button">Buy on Amazon</a></button></td>
-      <h3>Selected imagepath: {{ selected.imgpath || 'none' }}</h3>
-      <h3>Selected imagepath: {{ selected.amazonlink || 'lik' }}</h3>
-      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-    <div class="w3-quarter">
-      <p>Search Your Laptop </p>
-      <img v-if="selected1.title != null" :src="require('~/assets/' + selected1.imgpath)" style="width:100%">
-      <h3>Selected animal: {{ selected1.title || 'none' }}</h3>
-      <h3>Selected COntent: {{ selected1.body || 'none' }}</h3>
-      <h3>Selected imagepath: {{ selected1.imgpath || 'none' }}</h3>
-      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-    <div class="w3-quarter">
-      <p>Search Your Laptop </p>
-      <img v-if="selected2.title != null" :src="require('~/assets/' + selected2.imgpath)" style="width:100%">
-      <h3>Selected animal: {{ selected2.title || 'none' }}</h3>
-      <h3>Selected COntent: {{ selected2.body || 'none' }}</h3>
-      <h3>Selected imagepath: {{ selected2.imgpath || 'none' }}</h3>
-      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-    <div class="w3-quarter">
-      <p>Search Your Laptop </p>
-      <img v-if="selected3.title != null" :src="require('~/assets/' + selected3.imgpath)" style="width:100%">
-      <h3>Selected animal: {{ selected3.title || 'none' }}</h3>
-      <h3>Selected COntent: {{ selected3.body || 'none' }}</h3>
-      <h3>Selected imagepath: {{ selected3.imgpath || 'none' }}</h3>
-      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-  </div>
-</div>
-
 <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1200px" id="band">
-    <h2 class="w3-wide">THE BAND</h2>
-    <p class="w3-opacity"><i>We love music</i></p>
-    <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <div class="w3-row w3-padding-32">
-      <div class="w3-quarter">
-        Title
+    <h1 class="w3-wide">Compare Laptops</h1>
+    <p class="w3-opacity"><i>A really simple tool for laptop comparision</i></p>
+      <p class="w3-justify">Confused? Which laptop you should buy?  Welcome to a really simple laptop comparision tool. Just enter the laptops in the text box and select the machines you want to compare. With our compare laptops tool, you can compare maximum three laptop with the specifications like RAM, size, operating system, storage, CPU, GPU, processor and many other things. Just use our laptop comparision tool and let us know your experience. We want to make this tool as simple as possible and more user friendly.</p>
       </div>
-      <div class="w3-threequarter">
-      <div class="w3-quarter">
-        <div>
-        <p>choose your laptop</p></div>
-        <Dropdown
-          :articles="articles"
-          v-on:selected="validateSelection"
-          v-on:filter="getDropdownValues"
-          :disabled="false"
-          placeholder="Please select an animal">
-        </Dropdown>
-        <img v-if="selected.title != null" :src="require('~/assets/' + selected.imgpath)" class="w3-margin-top" style="height:50px; width:50px">{{selected.title}}
-        <button v-if="selected.imgpath != null" @click="linkcall" type="button" class="w3-margin-top" name="button">Buy on Amazon</a></button>
-        <p>Title</p></div>
-      <div class="w3-quarter">
-        <p>Name</p>
-        <img src="https://www.w3schools.com/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
-      </div>
-      <div class="w3-quarter">
-        <p>Name</p>
-        <img src="https://www.w3schools.com/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
-      </div>
-      <div class="w3-quarter">
-        <p>Name</p>
-        <img src="https://www.w3schools.com/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
-      </div>
-      </div>
+      <div>
+        <client-only>
+      <table class="w3-hide-small w3-hide-medium">
+        <tr>
+          <th>Search Laptop</th>
+          <th><Dropdown
+            :articles="articles"
+            v-on:selected="validateSelection"
+            v-on:filter="getDropdownValues"
+            :disabled="false"
+            placeholder="Search Your Laptop">
+          </Dropdown></th>
+          <th><Dropdown1
+            :articles="articles"
+            v-on:selected="validateSelection1"
+            v-on:filter="getDropdownValues1"
+            :disabled="false"
+            placeholder="Search Your Laptop">
+          </Dropdown1></th>
+          <th><Dropdown2
+            :articles="articles"
+            v-on:selected="validateSelection2"
+            v-on:filter="getDropdownValues2"
+            :disabled="false"
+            placeholder="Search Your Laptop">
+          </Dropdown2></th>
+        </tr>
+        <tr>
+          <td>About Laptop</td>
+          <td><img v-if="selected.title != null" :src="require('~/assets/' + selected.imgpath)" style="width:50px; height:50px;"><button v-if="selected.imgpath != null" @click="linkcall" type="button" name="button">{{selected.amazonlink}}</a></button></td>
+          <td><img v-if="selected1.title != null" :src="require('~/assets/' + selected1.imgpath)" style="width:50px; height:50px;"><button v-if="selected1.imgpath != null" @click="linkcall1" type="button" name="button">{{selected1.amazonlink}}</a></button></td>
+          <td><img v-if="selected2.title != null" :src="require('~/assets/' + selected2.imgpath)" style="width:50px; height:50px;"><button v-if="selected2.imgpath != null" @click="linkcall2" type="button" name="button">{{selected2.amazonlink}}</a></button></td>
+        </tr>
+        <tr>
+          <td>Title</td>
+          <td>{{selected.title}}</td>
+          <td>{{selected1.title}}</td>
+          <td>{{selected2.title}}</td>
+        </tr>
+        <tr>
+          <td>company</td>
+          <td>{{selected.company}}</td>
+          <td>{{selected1.company}}</td>
+          <td>{{selected2.company}}</td>
+        </tr>
+        <tr>
+          <td>Price</td>
+          <td>{{selected.price}}</td>
+          <td>{{selected1.price}}</td>
+          <td>{{selected2.price}}</td>
+        </tr>
+        <tr>
+          <td>Best for</td>
+          <td>{{selected.reason}}</td>
+          <td>{{selected1.reason}}</td>
+          <td>{{selected2.reason}}</td>
+        </tr>
+        <tr>
+          <td>Operating System</td>
+          <td>{{selected.os}}</td>
+          <td>{{selected1.os}}</td>
+          <td>{{selected2.os}}</td>
+        </tr>
+        <tr>
+          <td>Size</td>
+          <td>{{selected.size}}</td>
+          <td>{{selected1.size}}</td>
+          <td>{{selected2.size}}</td>
+        </tr>
+        <tr>
+          <td>Is it Two in One?</td>
+          <td>{{selected.twoinone}}</td>
+          <td>{{selected1.twoinone}}</td>
+          <td>{{selected2.twoinone}}</td>
+        </tr>
+        <tr>
+          <td>Storage</td>
+          <td>{{selected.storage}}</td>
+          <td>{{selected1.storage}}</td>
+          <td>{{selected2.storage}}</td>
+        </tr>
+        <tr>
+          <td>Display</td>
+          <td>{{selected.display}}</td>
+          <td>{{selected1.display}}</td>
+          <td>{{selected2.display}}</td>
+        </tr>
+        <tr>
+          <td>RAM</td>
+          <td>{{selected.ram}}</td>
+          <td>{{selected1.ram}}</td>
+          <td>{{selected2.ram}}</td>
+        </tr>
+        <tr>
+          <td>Expandable Memory</td>
+          <td>{{selected.expandablememory}}</td>
+          <td>{{selected1.expandablememory}}</td>
+          <td>{{selected2.expandablememory}}</td>
+        </tr>
+        <tr>
+          <td>ostype</td>
+          <td>{{selected.ostype}}</td>
+          <td>{{selected1.ostype}}</td>
+          <td>{{selected2.ostype}}</td>
+        </tr>
+        <tr>
+          <td>keyboard</td>
+          <td>{{selected.keyboard}}</td>
+          <td>{{selected1.keyboard}}</td>
+          <td>{{selected2.keyboard}}</td>
+        </tr>
+        <tr>
+          <td>Has Bluetooth?</td>
+          <td>{{selected.bluethooth}}</td>
+          <td>{{selected1.bluethooth}}</td>
+          <td>{{selected2.bluethooth}}</td>
+        </tr>
+        <tr>
+          <td>Has webcam?</td>
+          <td>{{selected.webcam}}</td>
+          <td>{{selected1.webcam}}</td>
+          <td>{{selected2.webcam}}</td>
+        </tr>
+        <tr>
+          <td>Battery</td>
+          <td>{{selected.battery}}</td>
+          <td>{{selected1.battery}}</td>
+          <td>{{selected2.battery}}</td>
+        </tr>
+        <tr>
+          <td>Processor</td>
+          <td>{{selected.processor}}</td>
+          <td>{{selected1.processor}}</td>
+          <td>{{selected2.processor}}</td>
+        </tr>
+      </table>
+      <table class="w3-hide-large">
+        <b >Search Laptop</b>
+        <tr>
+          <th><Dropdown3
+            :articles="articles"
+            v-on:selected="validateSelection3"
+            v-on:filter="getDropdownValues3"
+            :disabled="false"
+            placeholder="Search Your Laptop">
+          </Dropdown3></th>
+          <th><Dropdown4
+            :articles="articles"
+            v-on:selected="validateSelection4"
+            v-on:filter="getDropdownValues4"
+            :disabled="false"
+            placeholder="Search Your Laptop">
+          </Dropdown4></th>
+          </tr>
+          <b >Amazon Link</b>
+        <tr>
+          <td><img v-if="selected3.title != null" :src="require('~/assets/' + selected3.imgpath)" style="width:50px; height:50px;"><button v-if="selected3.imgpath != null" @click="linkcall3" type="button" name="button">{{selected3.amazonlink}}</a></button></td>
+          <td><img v-if="selected4.title != null" :src="require('~/assets/' + selected4.imgpath)" style="width:50px; height:50px;"><button v-if="selected4.imgpath != null" @click="linkcall4" type="button" name="button">{{selected4.amazonlink}}</a></button></td>
+        </tr>
+        <b >Title</b>
+        <tr>
+          <td>{{selected3.title}}</td>
+          <td>{{selected4.title}}</td>
+        </tr>
+        <b >Company</b>
+        <tr>
+          <td>{{selected3.company}}</td>
+          <td>{{selected4.company}}</td>
+        </tr>
+        <b >Price</b>
+        <tr>
+          <td>{{selected3.price}}</td>
+          <td>{{selected4.price}}</td>
+        </tr>
+        <b >Best For</b>
+        <tr>
+          <td>{{selected3.reason}}</td>
+          <td>{{selected4.reason}}</td>
+        </tr>
+        <b >Operating System</b>
+        <tr>
+          <td>{{selected3.os}}</td>
+          <td>{{selected4.os}}</td>
+        </tr>
+        <b >Size</b>
+        <tr>
+          <td>{{selected3.size}}</td>
+          <td>{{selected4.size}}</td>
+        </tr>
+        <b >Is it two in one?</b>
+        <tr>
+          <td>{{selected3.twoinone}}</td>
+          <td>{{selected4.twoinone}}</td>
+        </tr>
+        <b >Storage</b>
+        <tr>
+          <td>{{selected3.storage}}</td>
+          <td>{{selected4.storage}}</td>
+        </tr>
+        <b >Display</b>
+        <tr>
+          <td>{{selected3.display}}</td>
+          <td>{{selected4.display}}</td>
+        </tr>
+        <b >RAM</b>
+        <tr>
+          <td>{{selected3.ram}}</td>
+          <td>{{selected4.ram}}</td>
+        </tr>
+        <b >Expandable Memory</b>
+        <tr>
+          <td>{{selected3.expandablememory}}</td>
+          <td>{{selected4.expandablememory}}</td>
+        </tr>
+        <b >OS Type</b>
+        <tr>
+          <td>{{selected3.ostype}}</td>
+          <td>{{selected4.ostype}}</td>
+        </tr>
+        <b >Keyboard</b>
+        <tr>
+          <td>{{selected3.keyboard}}</td>
+          <td>{{selected4.keyboard}}</td>
+        </tr>
+        <b >Has Bluetooth?</b>
+        <tr>
+          <td>{{selected3.bluethooth}}</td>
+          <td>{{selected4.bluethooth}}</td>
+        </tr>
+        <b >Has WebCam?</b>
+        <tr>
+          <td>{{selected3.webcam}}</td>
+          <td>{{selected4.webcam}}</td>
+        </tr>
+        <b >Battery</b>
+        <tr>
+          <td>{{selected3.battery}}</td>
+          <td>{{selected4.battery}}</td>
+        </tr>
+        <b >Processor</b>
+          <tr>
+          <td>{{selected3.processor}}</td>
+          <td>{{selected4.processor}}</td>
+        </tr>
+      </table>
+      </client-only>
     </div>
-  </div>
-
-  <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
-
-<div class="w3-quarter">
-<h2>Our Work</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
-
-<div class="w3-quarter">
-<div class="w3-card w3-white">
-  <Dropdown
-    :articles="articles"
-    v-on:selected="validateSelection"
-    v-on:filter="getDropdownValues"
-    :disabled="false"
-    placeholder="Please select an animal">
-  </Dropdown>
-  <img v-if="selected.title != null" :src="require('~/assets/' + selected.imgpath)" style="width:100%">
-  <div class="w3-container">
-  <h3>{{selected.title}}</h3>
-  <h4>Trade</h4>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
-  </div>
-  </div>
-</div>
-
-<div class="w3-quarter">
-<div class="w3-card w3-white">
-  <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Lights" style="width:100%">
-  <div class="w3-container">
-  <h3>Customer 2</h3>
-  <h4>Trade</h4>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
-  </div>
-  </div>
-</div>
-
-<div class="w3-quarter">
-<div class="w3-card w3-white">
-  <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Mountains" style="width:100%">
-  <div class="w3-container">
-  <h3>Customer 3</h3>
-  <h4>Trade</h4>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
-  <p>Blablabla</p>
-  </div>
-  </div>
-</div>
-</div>
-
-</div>
-</client-only>
 </template>
 <script>
 import navbar from '~/components/navbar.vue'
 import Dropdown from '~/components/Dropdown.vue'
+import Dropdown1 from '~/components/Dropdown1.vue'
+import Dropdown2 from '~/components/Dropdown2.vue'
+import Dropdown3 from '~/components/Dropdown2.vue'
+import Dropdown4 from '~/components/Dropdown2.vue'
   export default {
-    components: { Dropdown, navbar },
+    components: { Dropdown, Dropdown1, navbar, Dropdown2, Dropdown3, Dropdown4 },
     async asyncData(context){
       const {data} = await context.$axios.get('/api/articles/')
       return {
@@ -169,6 +278,8 @@ import Dropdown from '~/components/Dropdown.vue'
         selected1: { title: null, content: null },
         selected2: { title: null, content: null },
         selected3: { title: null, content: null },
+        selected4: { title: null, content: null },
+        selected5: { title: null, content: null },
       }
     },
     methods: {
@@ -184,18 +295,38 @@ import Dropdown from '~/components/Dropdown.vue'
       validateSelection3(selection3) {
         this.selected3 = selection3;
       },
+      validateSelection4(selection4) {
+        this.selected4 = selection4;
+      },
       getDropdownValues(keyword) {
-        console.log('You could refresh options by querying the API with '+keyword);
       },
       getDropdownValues1(keyword) {
-        console.log('You could refresh options by querying the API with '+keyword);
       },
       getDropdownValues2(keyword) {
-        console.log('You could refresh options by querying the API with '+keyword);
+      },
+      getDropdownValues3(keyword) {
+      },
+      getDropdownValues4(keyword) {
       },
       linkcall(event){
         alert(this.selected.amazonlink)
         window.open(this.selected.amazonlink);
+      },
+      linkcall1(event){
+        alert(this.selected1.amazonlink)
+        window.open(this.selected1.amazonlink);
+      },
+      linkcall2(event){
+        alert(this.selected2.amazonlink)
+        window.open(this.selected2.amazonlink);
+      },
+      linkcall3(event){
+        alert(this.selected3.amazonlink)
+        window.open(this.selected3.amazonlink);
+      },
+      linkcall4(event){
+        alert(this.selected4.amazonlink)
+        window.open(this.selected4.amazonlink);
       }
     }
   }
@@ -203,10 +334,15 @@ import Dropdown from '~/components/Dropdown.vue'
 
 
 <style type="text/css" scoped>
-  body {
-  }
-  h1 {
-  }
-  p {
- }
+table
+{
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
 </style>

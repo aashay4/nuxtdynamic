@@ -7,6 +7,8 @@ const router = Router()
 // Initialize Controller
 const articlesController = require('../controllers/articlesController')
 
+router.post('/articles/cheap100', articlesController.cheap100)
+
 router.post('/articles/filtersev', articlesController.filtersev)
 
 router.post('/articles/filtersix', articlesController.filtersix)
@@ -26,6 +28,8 @@ router.post('/articles/filterall', articlesController.filterall)
 router.get('/articles/filtera', articlesController.filtera)
 
 router.post('/articles/filter', articlesController.filter)
+
+router.post('/articles/related', articlesController.related)
 
 // Get All
 router.get('/articles', articlesController.list)

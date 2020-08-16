@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="w3-light-grey">
-    <div class="w3-bar w3-black w3-hide-small">
+  <div class="w3-bar w3-black w3-hide-small">
   <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
   <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
   <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
@@ -14,36 +14,35 @@
 and is wrapped around the whole page content, except for the footer in this example -->
 <div class="w3-content" style="max-width:1600px">
 
-  <!-- Header -->
-
-  <!-- Image header -->
-  <!-- Grid -->
   <div class="w3-row w3-padding w3-border">
-    <!-- Blog entries -->
     <div class="w3-col l8 s12">
-
-      <!-- Blog entry -->
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
-          <h2>Best Laptops Under 100 Dollars</h2>
+          <h1>Best Laptops Under 100 Dollars</h1>
           <span class="w3-opacity">Jan 2, 2020</span><em class="w3-opacity"> by </em><strong>Adam Johnson</strong><em class="w3-opacity">  In </em><strong>Budget Laptops</strong>
           <hr>
-          <p><strong>More Hats!</strong> I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
-            magna enim, ac accumsan tortor cursus at.</p><br>
-
-        <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-        <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
-        <p class="w3-clear"></p></div></div>
+          <p>Yes, you read it right. Laptops under 100 dollars do actually exist. There are a few companies that manufacture laptops at such a cheap price. When there are plenty of choices, selecting a perticular piece is difficult. For that reason, we are here to help you out with the best laptops under $100.
+          </p>
+          <p>All the companies try their best to manufacture a top-notch product that the users enjoy using. But the fact is, technology is changing every year and every month. This makes the old product cheaper as the demand for newer products rises. In this list of the best laptops under 100 dollar, you won't find laptops with advance features or the latest operating system. All the laptops in this list are old but highly productive if you are going to perform just one task at a time or use one software at once.</p>
+          <h3>Who Should Buy Laptops Under 100 Dollars?</h3>
+          <p>As discussed above, the laptops in this list do not offer advance functionality and some of the modern software might not just work in these laptops. If you are buying laptop for a limited use and you have no plans to use heavy softwae then buying laptops under 1000 dollars is good for you. These tasks include creating a doc file, manage excal sheet, watch movies, read online articles & visit other websites then choosing cheap laptops under 100 is best choice for you. But if you are expecting more from these laptop then you need to upgrade your budget.</p>
+          <p>Few things you should remember before buying this laptop. First, in this list you will see very few new laptops becasue 100 dollars is very less. In many laptops you won't be able to run latest software and in case you install these software, laptop might heat up or hang. So, let's dive into the list of the best cheap laptops under 100 dollars without wasting any time.</p>
+          <h2>Cheap Laptops Under 100 Dollars</h2><hr>
+          <h3>Acer - Chromebook</h3>
+          <h4>Chromebook</h4>
+          <p>Chromebook laptops are considers as one of the most affordable laptops. Acer is also one of the most trusted brands. You can trust this brand even if you are buying a pre-owned laptop.</p><hr>
+          <h3>Dell Latitude D630</h3>
+          <h4>Windows 7</h4>
+          <p>Amazing 14.1 inches display, Windows 7 already installed, less 3 pounds of weight makes this laptop best for chieldren. While growing up, handing this kind of laptops to kids is more preferrable.</p><hr>
+          <h3>Apple MacBook MB402LL/A A1181</h3>
+          <p>Released in 2008, it is a pre-owned laptop. With 2 GB of RAM, it makes super easy to create docs and maintain sheets. The processor speed is 2.0 GHz which will work amazingly well unless you run big designing or programming software.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p></div></div>
     </div>
 
     <!-- About/Information menu -->
     <div class="w3-col l4">
-      <!-- About Card -->
-      <aboutsection />
-      <hr>
-
-      <!-- Posts -->
-
         <popularposts />
 
       <hr>
@@ -58,41 +57,6 @@ and is wrapped around the whole page content, except for the footer in this exam
             <span class="w3-display-middle">AD</span>
           </div>
         </div>
-      </div>
-      <hr>
-
-      <!-- Tags -->
-      <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
-          <h4>Tags</h4>
-        </div>
-        <div class="w3-container w3-white"><br>
-          <p>
-            <span class="w3-tag w3-black w3-margin-bottom">Fashion</span><span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span><span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
-            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Hats</span><span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Norway</span><span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sweaters</span>
-            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span><span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Deals</span><span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Accessories</span>
-            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span><span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span><span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
-            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Jeans</span><span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Trends</span>
-          </p>
-        </div>
-      </div>
-      <hr>
-
-      <!-- Inspiration -->
-      <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
-          <h4>Inspiration</h4>
-        </div>
-        <div class="w3-row-padding w3-white"><br>
-          <div class="w3-col s6">
-            <p><img src="https://www.w3schools.com/w3images/jeans.jpg" alt="Jeans" style="width:100%"></p><br>
-            <p><img src="https://www.w3schools.com/w3images/jeans.jpg" alt="Jeans" style="width:100%"></p>
-          </div>
-          <div class="w3-col s6">
-            <p><img src="https://www.w3schools.com/w3images/jeans.jpg" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p><br>
-            <p><img src="https://www.w3schools.com/w3images/jeans.jpg" alt="Jeans" style="width:100%"></p>
-         </div>
-       </div><br>
       </div>
       <hr>
 
@@ -155,10 +119,9 @@ and is wrapped around the whole page content, except for the footer in this exam
 </template>
 
 <script>
-import aboutsection from '../components/aboutsection.vue'
 import popularposts from '../components/popularposts.vue'
 export default {
-components: { aboutsection, popularposts },
+components: { popularposts },
 }
 </script>
 

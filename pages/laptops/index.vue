@@ -14,7 +14,7 @@
       v-if="articles.length">
       <nuxt-link
         class="list-group-item list-group-item-action"
-        :to="'/laptops/' + article._id"
+        :to="'/laptops/' + article._id + '/'"
         v-for="article in articles"
         :key="article._id">
         <h4>{{ article.title }}</h4><br>

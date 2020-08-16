@@ -12,8 +12,8 @@
     border-style: inset;
     border-width: 1px;
     border-color: red" />
-      <router-link to="/business-laptops/" class="w3-white"><h6>Business Laptops</h6></router-link>
-      <router-link to="/gaming-laptops/" class="w3-white"><h6>Gaming Laptops</h6></router-link>
+      <router-link to="#" class="w3-white"><h6>Business Laptops</h6></router-link>
+      <router-link to="#" class="w3-white"><h6>Gaming Laptops</h6></router-link>
       <h6>Budget Laptops</h6>
     </div>
   </div>
@@ -46,8 +46,8 @@
     border-style: inset;
     border-width: 1px;
     border-color: red" />
-      <router-link to="/business-laptops/" class="w3-white"><h6>Business Laptops</h6></router-link>
-      <router-link to="/gaming-laptops/" class="w3-white"><h6>Gaming Laptops</h6></router-link>
+      <router-link to="#" class="w3-white"><h6>Business Laptops</h6></router-link>
+      <router-link to="#" class="w3-white"><h6>Gaming Laptops</h6></router-link>
       <h6>Budget Laptops</h6>
     </div>
   </div>

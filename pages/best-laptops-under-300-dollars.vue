@@ -1,0 +1,213 @@
+<template lang="html">
+  <div class="w3-light-grey">
+  <div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+
+<!-- w3-content defines a container for fixed size centered content,
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <div class="w3-row w3-padding w3-border">
+    <div class="w3-col l8 s12">
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-justify">
+          <h1>Best Laptops Under 300 Dollars</h1>
+          <date-app /><em class="w3-opacity"> by </em><strong>Adam Johnson</strong><em class="w3-opacity">  In </em><strong>Budget Laptops</strong>
+          <hr>
+          <p>Nowaday the demand of laptop has hiked and so is the number of companies around the world. A few year back, getting a brand new laptop for just 300 dollars was not possible at all. But thanks to the competition, getting the best laptops under 300 dollars is possible. You can get a laptop that offers latest funtionalities at such an affordable price. With the laptops under 300 dollars, you can perform day-today tasks like managing excel sheets, creating docs, creating business proposals easily. But, playing high resolution games, working on multiple software or tools at a same time might not be possible with these cheap laptops under 300. But some of the laptops in this list are capable of doing it. There are some potential laptops that you can find within your budget, so let's dive into the list.</p>
+          <h4>What You Can Expect from These Laptops?</h4>
+          <p>These laptops have the abilty to perform all the tasks but not as fast as other higher budget laptops do. For that reason, you should avoid running large software simanteniously, play games or keep laptop running for days. Eventually, it affects the performance of your laptop especially the laptops under $300. While using these laptops, you need to be accurate in unpluggin the charger once fully charged, limit the programms running at start up, turn off cisual effects, shut down regularly, run fewer programms at the same time.</p>
+          <p>Once you start taking care of these little things, your laptop will work well for longer period of time. Now, let's dive into the list of amazing laptops under $300.</p>
+          <h1>Best Cheap Laptops Under 300 Dollars</h1>
+          <h2>HP Stream 11</h2>
+          <h3>Windows</h3>
+          <p>The HP Stream 11 laptops are windows laptops and one of the most recommended laptops under 300 dollars. With the long battery life, 4GB RAM, 11 Inch display at such a cheap prices, it becomes one of the most recommended laptops. The only dis-advantage of this model is web camera. For the daily use, you can definitely select this laptop but if you are buying laptop for the business use then you might face camera isseu while going on a skype call.</p>
+          <p>Another big advantage of this laptop is nothing but the weight. It weights just 2.5 pounds which is lesser then the average laptop weight. If you travel more often and you have to carry laptop along with you then considering HP Stream 11 can be a good choice.</p><hr>
+          <h2>Lenovo Ideapad 1</h2>
+          <h3>Windows</h3>
+          <p>This is a great laptop if you are looking for one of the best windows laptops under 300 dollars. The design and web camera are perfect for the students and businessmen. Other features of Lenovo Ideapad includes 2 USB ports, HDMI, Card-reader, WI-FI, Bluetooth, Audio jack. Battery life is 8 hours which is little lesser then the other competitors but you can bet on the other features this laptop offer for under $300.</p><hr>
+          <h2>Acer chromebook 314</h2>
+          <h3>Chromebook</h3>
+          <p>As we have said earlier, you will notice a lot of chromebook laptops in this list. Acer Chromebook 314 is one of the best chromebook laptops when it comes to the performance and eyecatchy design especially you are looking for a laptop that is under $300. Also, it has a 14 inch HD display.</p>
+          <p>This Chromebook has 4GB of RAM which is enough to run software and applications simanteniously. Also, it provides 64GB of internal storage 100 GB storage of Google drive which is enough to store your document. But one thing you need to remember is that uploading documents on the clound and downloading from there might be time-consuming. Not only in this device but on all Chromebook laptops. Apart from that, it is worth buying laptop.</p><hr>
+          <h2>Acer aspire 1</h2>
+          <h3>Windows</h3>
+          <p>Acer aspire 1 is a windows 10 laptop that offer 4GB of RAM, 64GB of storage, big 15.6 Inch full HD display which are a great functionality you need in the laptop under 300. An attracive design is a bonus. We would highly recommend this laptop if you are not a traveler and you do not carry laptop along with you. Becasue the battery life of Acer aspire 1 is just 7 hours which is slightly less then other laptops in the list and it weighs 4.1 pounds. Substracting these small issues, it is a great laptop for frequant users.</p><hr>
+          <h2>Lenovo Chromebook Duet</h2>
+          <h3>Chromebook</h3>
+          <p>Battery life of the Lenovo Chromebook duet is the biggest plus. It lasts almost around 12 hours but only if it is used ideally oterwise the battery can last around 10 to 11 hours which is great. Apart from that Lenovo chromebook duet offers 4GB of RAM, 64GB of storage and fully High defination display and 10.1 inches of display which is smaller then the other competitors.</p>
+          <p>This laptop is tinier then the other laptops which means that the keyboard size is also compressed and typing might not be as comfortable as the other laptops. I see small size is the only dis-advantage of this laptop, apart from that its an awesome laptop. </p>
+          <h2>HP Chromebook 14</h2>
+          <h3>Chromebook</h3>
+          <p>HP Chromebook 14 is one of the best laptops under 300 dollars if your top priorities are long battery life, 1080P display and attractive designs. Along with that, HP chromebook also offers 4GB RAM, 32GB storage, 14 Inches display, and just 3.3 pounds of weight. This laptop works great for the small daily tasks but while running big apps it may not work good and might become slow hence performance is an issue.</p>
+          <p>Keywboard size is big and comfortable. So, great for office work in document creation, proposal creation, and watching movies online or offline.0</p>
+          <h2>Samsung Chromebook 3</h2>
+          <h3>Chromebook</h3>
+          <p>Another chromebook laptop, and they have become a face of the budget laptops. First time, Samsung makes it to the list. Intel Celeron N3060 processor, 4 GB RAM which weights just 2.50 pounds. Electric fast speed and long lasting battery(almost 11 hours) are the biggest plus of this laptop. If performance is everything you need in a laptop then selecting Samsung Chromebook 3 is the right option. It has a good quality of camera as well, if you go on a client calls more often then this laptop will work wonders for you.</p><hr>
+          <h2>Lenovo Chromebook C330</h2>
+          <h3>Chromebook</h3>
+          <p>Lenovo Chromebook C330 has almost 10 hours of battery life along with 4GB RAM and 32 GB of storage. 11.6 inches of wide display and a comfortable keyboard. It weighs less then 3 pounds, perfect if you need to carry your laptop while traveling.</p>
+          <p>There are a few cons of this laptop as well. Performane is not as good as other competitors. You can't work on multiple application at once, the laptop may slow down. Along with that, audio player and screen display are not up to the mark as well. We would recommend this laptop for those who work on simple in built application and use this for regular day-to-day tasks.</p><hr>
+          <h2>Dell Inspiron 11</h2>
+          <h3>Windows</h3>
+          <p>Not many laptops offer 128 GB of Storage when you are looking for a laptop under 300 dollars. Along with 128 GB memory, Dell Inspiron offers 4 GB of RAM and an eleven inch HD display. It is also a convertible laptop that can be used as a tablet as well. Dell inspiron works wonder while working on a group and discuss certain topics very often.</p>
+          <p>Also, it weights just 2.5 pounds which is way lighter then the other laptops. Just 6 hours of battery life is a misnus point while other competitors in this list offer much higher battery battery life. Overall, this laptop is not built for gaming but its a good choice for students and businessmen to perform business routine tasks. Unlike Chromebook laptops, you do not need to store data on clound, you have 128 GB of data on the local storage. So, this can be helpful if you are dealing with a lot of computer data in the form of sheets, docs, PPT presentations or PDFs.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p></div></div>
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <div class="w3-white w3-margin">
+      <div class="w3-container w3-padding w3-black">
+        <h4>Related Posts</h4>
+      </div>
+      <ul class="w3-ul w3-hoverable w3-white">
+        <li class="w3-padding-16">
+          <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+          <nuxt-link style="color: black" to="/cheap-laptops-under-100-dollars"><span class="w3-large">Cheap Laptops Under 100 Dollars</span></nuxt-link>
+          <br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Cheap Laptops Under 300 Dollars</span>
+          <br>
+          <span>Praes tinci sed</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="https://www.w3schools.com/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Cheap Laptops Under 400 Dollars</span>
+          <br>
+          <span>Ultricies congue</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+          <span class="w3-large">Cheap Laptops Under 500 Dollars</span>
+          <br>
+          <span>Lorem ipsum dipsum</span>
+        </li>
+      </ul>
+    </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+      <div class="w3-container w3-padding w3-black">
+        <h4>Popular Posts</h4>
+      </div>
+      <ul class="w3-ul w3-hoverable w3-white">
+        <li class="w3-padding-16">
+          <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+          <nuxt-link style="color: black" to="/cheap-laptops-under-100-dollars"><span class="w3-large">Cheap Laptops Under 100 Dollars</span></nuxt-link>
+          <br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Cheap Laptops Under 300 Dollars</span>
+          <br>
+          <span>Praes tinci sed</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="https://www.w3schools.com/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Cheap Laptops Under 400 Dollars</span>
+          <br>
+          <span>Ultricies congue</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+          <span class="w3-large">Cheap Laptops Under 500 Dollars</span>
+          <br>
+          <span>Lorem ipsum dipsum</span>
+        </li>
+      </ul>
+    </div>
+      <hr>
+    <!-- Advertising -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Advertise</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <div class="w3-container w3-display-container w3-light-grey w3-section" style="height:200px">
+            <span class="w3-display-middle">AD</span>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-white"><br>
+          <p>Enter your e-mail below and get notified on the latest blog posts.</p><br>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p><br>
+          <p><button type="button" class="w3-button w3-block w3-red">Subscribe</button></p><br>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+  </div>
+</template>
+
+<script>
+import date from '../components/date.vue'
+export default {
+components: { 'date-app': date },
+}
+</script>
+
+<style lang="css">
+</style>
