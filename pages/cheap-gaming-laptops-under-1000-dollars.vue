@@ -18,42 +18,31 @@ and is wrapped around the whole page content, except for the footer in this exam
     <div class="w3-col l8 s12">
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
-          <h1>Best Gaming Laptops</h1>
+          <h1>Cheap Gaming Laptops Under 1000</h1>
           <date-app /><em class="w3-opacity"> by </em><strong>Adam Johnson</strong><em class="w3-opacity">  In </em><strong>Gaming Laptops</strong>
           <hr>
-          <p>A good gaming laptop is kind of blessing for a gamer. Buying the best gaming laptop can confusing, because there are some magnificent models in the market now. Let us guide you through this web and help you choose best gaming laptops.</p>
-          <p>In this article, we will guide you through all the specifications, features, advantages and dis-advantages (in any!) of the best gaming laptops. We visited different ecommerce websites and company stores and we have come up with the top-notch laptops from different companies.</p>
-          <p>Our team has several years of gaming experience starting from the 90’s games Road rash to GTA: vice city, Counter strike, FIFA, GTA:5, call of duty: warzone and many other games. We have played games on several machines and here the list we share is our experience. Here, we share the best gaming laptops which are great performers and affordable at the same time.</p>
-          <h1>Top Gaming Laptops</h1><hr>
-          <h2>Alienware m17 R3</h2>
-          <p>Overall one of the best gaming laptops, Alienware m17 R3 definitely deserves a place. With Nvidia RTX 2080 Super GPU, Intel Core i9-10980HK processor and 32 GB RAM, Alienware m17 R3 is built to give magnificent gaming experience. 17.3 inches’ screen and 4K display enhance gaming experience.</p>
-          <p>Alienware m17 R3 is very expensive, that’s the only dis-advantage of this laptop. Due to so many advanced features, the battery is below average. Design of this machine is out of the box. Slight white paint gives it a classy look.</p><hr>
-          <h2>Razer Blade 15</h2>
-          <p>Razer blade 15 has everything that the best gaming laptop requires, outstanding performance, amazing gaming experience, well built, display and the lighting. Razer laptops are known for all these qualities. This laptop’s design is unique and cool and it is smaller than the other competitor laptops. With 10th-gen intel processor with 16 GB of RAM performance can never be an issue.</p>
-          <p>The bottom-line is any game can easily be installed and played on this machine with outstanding performance. There are several other configurations available that you can choose or replace while buying. Do check the configuration before buying this laptop.</p><hr>
-          <h2>ACER PREDATOR TRITON 500</h2>
-          <p>The acer predator triton 500 is one of the most attractive laptops and delivers awesome performance. It definitely deserves a place in this list. With 15.6 inches wide screen, 16 GB of RAM, Intel Core i7-8750H, 2.20GHz, it is able to run every game smoothly. Ray tracing capable RTX graphics is a plus. This laptop is not quite as expensive as the other laptops in this list. It can considered as a high-performing budget gaming laptop.</p><hr>
-            <h2>Razer Blade Pro 17</h2>
-            <p>Razer laptops have the image of great performers and so do Razer blade pro 17. It is a powerhouse and provides best gaming experience. It has 17.6 inches large screen with 1080p display works great for gaming. It has the 16GB RAM and 512 GB SSD and weights almost 6.1 pounds.</p>
-            <p>With Nvidia GeForce RTX 2080 Super Max-Q and 10th generation octa core processor, it gives a tough competition to other laptops in every aspect of specification. Pricing might be a dis-advantage but overall it’s a great machine and long-lasting battery life. You can definitely consider it in the best gaming laptops.</p><hr>
-            <h2>ASUS ROG ZEPHYRUS G14</h2>
-            <p>Despite of being a gaming laptop, Asus rog ZEPHYRUS G14’s battery life is above average which is not usual in all the gaming laptops. Additionally, it offers 1 TB of memory, 16 GB RAM and it weighs just 3.5 pounds so you can also carry it while traveling easily.</p>
-            <p>It is powered by AMD ryzen 9 processors which enhances the performance of a system. All the specifications are pointing that it is one of the best gaming laptops and worth buying if you are a gaming enthusiast.</p>
-            <h2>ASUS ZEPHYRUS S GX701</h2>
-            <p>Asus is one of the best producers of gaming laptops and you can always reply of their product. Asus zephyrus s gb701 is also an outstanding performer equipped with all the latest specifications. It offers 1 TB of memory, 17.3 inches full HD screen, 32 GB RAM and Intel Core i7-9750H CPU which make it stand tall in the list of the best gaming laptops.</p>
-            <p>The price of this Asus laptop is very high but if you are an enthusiast and want to spend heavy amount of the amazing then this laptop is definitely worth it.</p>
-            <h2>HP Omen 17</h2>
-            <p>HP Omen 17 is amongst the most popular gaming laptops with great designs and performance. This is not as expensive as other laptops on the list. Many users have complaints regarding the heat so, this machine has an advance cooling system. Along with that, it offers intel core i-7 CPU and 8 GB of RAM which is capable of running most of games.</p>
-            <p>HP Omen 17 comes with GTX 1660 which is a really great GPU. Increase RAM up to 32 GB and all the modern games will work just fine with this machine. Yes, HP can produce a great gaming laptop as well and this one is the example.</p><hr>
-            <h2>MSI GS65 STEALTH</h2>
-            <p>Nvidia GeForce RTX 2060, Intel core i-7, 16 GB of RAM and 15.6 inches full HD screen make MSI GS5 stand tall in this list of best gaming laptops. MSI brand keep on producing great gaming machines and this one is one of the bests. The 240 Hz monitor increases responsiveness of the screen makes better fluid gaming experience and eventually reduces screen blurring issues.</p>
-            <p>In GS65 you get plenty of RAM and SSD space to store games. It has a great 8 hours of battery life which is above average for such advanced gaming laptops. For 240 Hz penal, you should give this one a chance.</p><hr>
-            <h2>Dell G3 15</h2>
-            <p>With the powerful 9th generation intel core i5 9300H processors and 16 GB RAM, this is one of the best gaming laptops when you are searching for a machine under your budget. This laptop costs just under 1000 dollars. It is perfect if you want to get awesome gaming experience and want to spend under your budget.</p>
-            <p>This laptop is not as good as the other laptops in this list when it comes to performance, design, and battery life. Apart from that, Dell G3 15 has 512 GB of storage, a big wide 15.6-inch full HD screen and 16GB of RAM.</p><hr>
-            <h2>ACER NITRO 5</h2>
-            <p>We included Acer nitro 5 in this list for good performance and lower price. If you want to experience the best gaming but do not want to spend a lot of money, then this is the laptop you should look forward to. Though price of this laptop is cheap and storage is also a minus point but you won’t be upset for it performance.</p>
-            <p>It has a long battery life compared to other laptops on the list. 8 GB RAM and Intel i-5 make sure that you smoothly play medium to large sized games. Apart from that, you can also install and work on large software. So, this is not just a gaming laptop but it’s basically a multi-purpose laptop which you can use for work and play games part-time.</p>
+          <p>There is a “myth” that Gaming laptops are often too expensive but the fact is they are not. You can actually buy cheap gaming laptops under 1000 dollars. A laptop’s performance is not measured on the basis of price but it measured on basis of software and hardware specification.</p>
+          <p>There are a lot of laptops available within this budget and these machines are produced by multiple known companies like HP, Acer, Lenovo and many other. So, despite of cheap price, you won’t be compromising much of the performance or specification of these machines.</p>
+          <p>Our goal is to go through every single gaming laptop that’s under 1000, study the specification in detail and list out the best models that match your expectation. In this list, all the laptops are powered by latest GPU, CPU, graphics cards and other important specifications.</p>
+          <h1>Cheap Best gaming laptops under 1000 dollars</h1><hr>
+          <h2>ACER NITRO 5</h2>
+          <p>Acer nitro 5 is a great performer and it is amongst the best gaming laptops list. It comes with Nvidia GTX 1650 with 4GB of VRAM and 2.4 Ghz intel i5 CPU, you can smoothly play almost any games on this laptop. </p>
+          <p>Acer nitro starts from just $699, just add a few more bucks and increase the specification of this laptop. It has a big 15.6 inches’ screen so it might be difficult for you to carry it while traveling. Apart from gaming, you can install and use video and sound editing software, programming software and this laptop will work just fine. It definitely deserves a place in the list of cheap laptops under $1000.</p><hr>
+          <h2>Dell G3 15</h2>
+          <p>This biggest advantage of this laptop is its battery life. You don’t see much laptops with a great battery life but it offers an above average battery life. Of course, performance of this laptop is a plus. Just like Nitro, Dell G3 15 stands tall in-front of higher budget gaming laptops. Though it offers lesser storage space and dull display but other specifications are worth considering when opting for gaming laptops below 1000 dollars.</p>
+          <p>You can play almost all the games smoothly and a comfortable keyboard adds better playing experience. It is an all-purpose laptop that’s going to help you in using different software and performing other office tasks as well.</p><hr>
+          <h2>MSI GF63</h2>
+          <p>With intel I 7 processor and Nvidia GeForce GTX 1050 Ti with 4GB of VRAM, MSI GF63 is one of the best performers in this budget. It has a big 15.6 inch HD screen that makes your gaming experience even better. With the kind of performance, it offers, you get to play almost all the modern games smoothly. A perfect choice for the gaming enthusiasts and want to spend a limited amount of gaming laptop.</p><hr>
+          <h2>Dell G7 15</h2>
+          <p>As we said earlier, there are very few gaming laptops available in the market that offers good battery life and Dell G7 15 is one of them. It has a stylish design and it’s very slim. You get an outstanding gaming experience with medium-sized games. If you really want to install and play multiple large games, then this laptop won’t be a good choice. It is good for daily work and gaming.</p><hr>
+          <h2>Lenovo Legion 5i</h2>
+            <p>Lenovo Legion 5i costs just above 1000 dollars and it offers 8 GB of RAM, 512 GB storage, 15.6 inches screen and HD display. It also offers remarkable performance. It came into the lime light because of the VR technology. Apart from that, it has a great FPS score compared to other laptops.</p>
+            <p>It has a decent design and not as large compared to other laptops on the list. So, it is really easy to carry this laptop while traveling.</p><hr>
+            <h2>Acer Aspire 7</h2>
+            <p>If you are a part time gamer and also use laptops for school/college work or office work then Acer Aspire 7 is the right choice. This is not an ideal gaming laptop but works great when it comes to multi-purpose. With Nvidia GTX 1650 graphics card and intel i-5 processor, it provides decent performance for almost all games. Also, 15.6 inches full HD display is a plus for a laptop just around 800 dollars.</p>
+            <p>Design is something you need compromise for this laptop. Apart from that, every features Acer Aspire has, totally justifies the price. We recommend this laptop if you are looking for a multi-purpose laptop.</p><hr>
+            <h2>HP Gaming Pavilion 15-dk0046nr</h2>
+            <p>Don’t be surprised seeing HP in this list. HP gaming pavilion 15 is a great entry-level laptop from HP. Ever since its release, this laptop is getting positive reviews from the users. Outstanding performance and long-lasting battery life are the biggest advantages of this laptop. HP gaming pavilion does not heat up after ours of gaming that is also a great sign for the gaming laptop.</p><hr>
           <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
           <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
           <p class="w3-clear"></p></div></div>

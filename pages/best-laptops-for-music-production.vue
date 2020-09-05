@@ -18,42 +18,30 @@ and is wrapped around the whole page content, except for the footer in this exam
     <div class="w3-col l8 s12">
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
-          <h1>Best Gaming Laptops</h1>
+          <h1>Best Laptops for College Students</h1>
           <date-app /><em class="w3-opacity"> by </em><strong>Adam Johnson</strong><em class="w3-opacity">  In </em><strong>Gaming Laptops</strong>
           <hr>
-          <p>A good gaming laptop is kind of blessing for a gamer. Buying the best gaming laptop can confusing, because there are some magnificent models in the market now. Let us guide you through this web and help you choose best gaming laptops.</p>
-          <p>In this article, we will guide you through all the specifications, features, advantages and dis-advantages (in any!) of the best gaming laptops. We visited different ecommerce websites and company stores and we have come up with the top-notch laptops from different companies.</p>
-          <p>Our team has several years of gaming experience starting from the 90’s games Road rash to GTA: vice city, Counter strike, FIFA, GTA:5, call of duty: warzone and many other games. We have played games on several machines and here the list we share is our experience. Here, we share the best gaming laptops which are great performers and affordable at the same time.</p>
-          <h1>Top Gaming Laptops</h1><hr>
-          <h2>Alienware m17 R3</h2>
-          <p>Overall one of the best gaming laptops, Alienware m17 R3 definitely deserves a place. With Nvidia RTX 2080 Super GPU, Intel Core i9-10980HK processor and 32 GB RAM, Alienware m17 R3 is built to give magnificent gaming experience. 17.3 inches’ screen and 4K display enhance gaming experience.</p>
-          <p>Alienware m17 R3 is very expensive, that’s the only dis-advantage of this laptop. Due to so many advanced features, the battery is below average. Design of this machine is out of the box. Slight white paint gives it a classy look.</p><hr>
-          <h2>Razer Blade 15</h2>
-          <p>Razer blade 15 has everything that the best gaming laptop requires, outstanding performance, amazing gaming experience, well built, display and the lighting. Razer laptops are known for all these qualities. This laptop’s design is unique and cool and it is smaller than the other competitor laptops. With 10th-gen intel processor with 16 GB of RAM performance can never be an issue.</p>
-          <p>The bottom-line is any game can easily be installed and played on this machine with outstanding performance. There are several other configurations available that you can choose or replace while buying. Do check the configuration before buying this laptop.</p><hr>
-          <h2>ACER PREDATOR TRITON 500</h2>
-          <p>The acer predator triton 500 is one of the most attractive laptops and delivers awesome performance. It definitely deserves a place in this list. With 15.6 inches wide screen, 16 GB of RAM, Intel Core i7-8750H, 2.20GHz, it is able to run every game smoothly. Ray tracing capable RTX graphics is a plus. This laptop is not quite as expensive as the other laptops in this list. It can considered as a high-performing budget gaming laptop.</p><hr>
-            <h2>Razer Blade Pro 17</h2>
-            <p>Razer laptops have the image of great performers and so do Razer blade pro 17. It is a powerhouse and provides best gaming experience. It has 17.6 inches large screen with 1080p display works great for gaming. It has the 16GB RAM and 512 GB SSD and weights almost 6.1 pounds.</p>
-            <p>With Nvidia GeForce RTX 2080 Super Max-Q and 10th generation octa core processor, it gives a tough competition to other laptops in every aspect of specification. Pricing might be a dis-advantage but overall it’s a great machine and long-lasting battery life. You can definitely consider it in the best gaming laptops.</p><hr>
-            <h2>ASUS ROG ZEPHYRUS G14</h2>
-            <p>Despite of being a gaming laptop, Asus rog ZEPHYRUS G14’s battery life is above average which is not usual in all the gaming laptops. Additionally, it offers 1 TB of memory, 16 GB RAM and it weighs just 3.5 pounds so you can also carry it while traveling easily.</p>
-            <p>It is powered by AMD ryzen 9 processors which enhances the performance of a system. All the specifications are pointing that it is one of the best gaming laptops and worth buying if you are a gaming enthusiast.</p>
-            <h2>ASUS ZEPHYRUS S GX701</h2>
-            <p>Asus is one of the best producers of gaming laptops and you can always reply of their product. Asus zephyrus s gb701 is also an outstanding performer equipped with all the latest specifications. It offers 1 TB of memory, 17.3 inches full HD screen, 32 GB RAM and Intel Core i7-9750H CPU which make it stand tall in the list of the best gaming laptops.</p>
-            <p>The price of this Asus laptop is very high but if you are an enthusiast and want to spend heavy amount of the amazing then this laptop is definitely worth it.</p>
-            <h2>HP Omen 17</h2>
-            <p>HP Omen 17 is amongst the most popular gaming laptops with great designs and performance. This is not as expensive as other laptops on the list. Many users have complaints regarding the heat so, this machine has an advance cooling system. Along with that, it offers intel core i-7 CPU and 8 GB of RAM which is capable of running most of games.</p>
-            <p>HP Omen 17 comes with GTX 1660 which is a really great GPU. Increase RAM up to 32 GB and all the modern games will work just fine with this machine. Yes, HP can produce a great gaming laptop as well and this one is the example.</p><hr>
-            <h2>MSI GS65 STEALTH</h2>
-            <p>Nvidia GeForce RTX 2060, Intel core i-7, 16 GB of RAM and 15.6 inches full HD screen make MSI GS5 stand tall in this list of best gaming laptops. MSI brand keep on producing great gaming machines and this one is one of the bests. The 240 Hz monitor increases responsiveness of the screen makes better fluid gaming experience and eventually reduces screen blurring issues.</p>
-            <p>In GS65 you get plenty of RAM and SSD space to store games. It has a great 8 hours of battery life which is above average for such advanced gaming laptops. For 240 Hz penal, you should give this one a chance.</p><hr>
-            <h2>Dell G3 15</h2>
-            <p>With the powerful 9th generation intel core i5 9300H processors and 16 GB RAM, this is one of the best gaming laptops when you are searching for a machine under your budget. This laptop costs just under 1000 dollars. It is perfect if you want to get awesome gaming experience and want to spend under your budget.</p>
-            <p>This laptop is not as good as the other laptops in this list when it comes to performance, design, and battery life. Apart from that, Dell G3 15 has 512 GB of storage, a big wide 15.6-inch full HD screen and 16GB of RAM.</p><hr>
-            <h2>ACER NITRO 5</h2>
-            <p>We included Acer nitro 5 in this list for good performance and lower price. If you want to experience the best gaming but do not want to spend a lot of money, then this is the laptop you should look forward to. Though price of this laptop is cheap and storage is also a minus point but you won’t be upset for it performance.</p>
-            <p>It has a long battery life compared to other laptops on the list. 8 GB RAM and Intel i-5 make sure that you smoothly play medium to large sized games. Apart from that, you can also install and work on large software. So, this is not just a gaming laptop but it’s basically a multi-purpose laptop which you can use for work and play games part-time.</p>
+          <p>For the modern musicians, DJs and singers, laptop is as required as any other music instrument. There is several editing software like FL Studio, Logic pro, Audacity help musicians to express their creativity.</p>
+          <p>To use software to create music, remix, edit musical notes, you need a high-performing powerful laptop with a long battery life.</p>
+          <p>Today there are many laptops available in the market. Sometimes, it may get confusing for anyone to select the best one for music. In this article, we shortlisted the best suitable laptops for music production.</p>
+          <h1>Best Laptops for music production</h1>
+          <h2>Dell XPS 15</h2>
+          <p>If you are a windows fan and looking for the best windows laptop for music, then keep Dell XPS 15 first on the list. It is one of the best sellers’ laptops and has a huge number of positive review as well. When it comes to performance, it is one of the best performing laptops by the company and capable of running any sound engineering or music production application flawlessly.</p>
+          <p>Talking about the features, it runs on the intel 10th generation i-7 core processor and 16 GB RAM. It offers the storage of 512 GB on SSD drive and Nvidia GeForce GTX 1650 Ti graphics which are capable of running any kind audio or video software. For refreshment, if you like to play games, just bring it on! You can play any game on this machine and it will work great.</p>
+          <p>If we talk about the screen, it offers 15.6 inches full HD display which is the best. Its battery life is around 9 hours which is pretty amazing for a laptop that offers such features. For the 15.6 inches’ screen, 4 pounds’ weight is comprisable. In a nut shell, this one is one of the best laptops for music.</p><hr>
+          <h2>Macbook Pro 16</h2>
+          <p>There is a macOS community as well, if you belong to that community then Macbook pro 16 is the right choice for you. This is currently market’s best sellers and the first choice of music producers. With the features it offers, Macbook pro 16 can be used as a multi-purpose laptop for music production as well as gaming and video editing.</p>
+          <p>Macbook Pro 16 is popular for the best quality of performance and power it offers to the users. It is possible because of the intel i-7-9750H Six-Core 2.6 GHz CPU, 16 GB RAM, 512GB SSD, AMD Radeon graphics. The battery life is above 11 hours which is really commendable for a machine with these specifications. We will highly recommend this device because of the macOS. When it comes to editing, macOS has many default editing applications.</p><hr>
+          <h2>Razer Blade</h2>
+          <p>There is a similarity between music production laptops and gaming laptops that they are extremely powerful. You might think that Razer is the company that produces games but looking at the performance, Razer laptops are good for music production and video editing.</p>
+          <p>Talking about the specifications, it offers 9th generation intel core i-7 processor, 16 GB RAM, 256 GB SSD storage and Nvidia GeForce GTX 1660 graphics which is capable of running any music editing software smoothly. Apart from that, battery life is up to 8 hours and it weighs 4.6 pounds. So, Razer blade is a powerful ultrabook laptop that is capable of running any task.</p>
+          <hr>
+          <h2>ASUS TUF A15</h2>
+          <p>Running short of cash? Asus TUD A15 is a powerful music production laptop under $1000. Just like Razer blade Asus TUF is also a gaming laptop and a great performer. It provides the latest hardware specifications at just under $1000. It is the perfect machine for any kind of music production and editing.</p>
+          <p>Asus TUF A15 has AMD Ryzen 7 processor, 16 GB of RAM, 512 GB Storage and 15.6 inches full HD screen. Apart from that it offers 8 hours of battery life and it weighs 5 pounds which is little bit heavier than the other laptops so it might be difficult to carry. The good thing is, spend some extra bucks and you can upgrade RAM and storage.</p><hr>
+          <h2>HP Omen 15</h2>
+          <p>HP Omen 15 is yet another budget laptop that costs just around $1000. HP is known for the business laptop but with HP Omen 15 HP has been praised for the gaming laptop. With magnificent battery life and performance, HP has gain a lot of appreciations as gaming laptop as well as music production and editing.</p>
+          <p>With Intel Core i7-10750H processor, 16 GB RAM and Nvidia GeForce GTX 1650 Ti 4GB DDR6 Graphics HP Omen 15 is one of the top performers. But, battery life is the minus point. Battery life HP Omen 15 is just around 5 hours. If you are really after the best performers in the market this machine is definitely for you.</p><hr>
           <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
           <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
           <p class="w3-clear"></p></div></div>

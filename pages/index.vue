@@ -21,7 +21,7 @@ and is wrapped around the whole page content, except for the footer in this exam
     <div class="w3-margin w3-container w3-white w3-justify">
 
       <div class="w3-container w3-white w3-padding-large">
-        <div><img src="https://www.w3schools.com/w3images/girl_hat.jpg" alt="Girl Hat" style="width:100%"></div><br>
+        <div><img src="../assets/laptop.jpg" alt="Girl Hat" style="width:100%"></div><br>
 
         <div style="width:100%;" class="w3-justify">
           <h3>Best Budget Laptops 2020</h3>
@@ -29,25 +29,25 @@ and is wrapped around the whole page content, except for the footer in this exam
           <h5>As our lives are getting back to normal, more stock of different budget laptops is available for you. Here, we bring the best laptops within your budget.</h5>
           <ul class="w3-ul w3-hoverable w3-white">
             <li class="w3-padding-16">
-              <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Image" class="w3-left -right" style="width:50px">
+              <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
               <span class="w3-large">Denim</span>
               <br>
               <span>Sed mattis nunc</span>
             </li>
             <li class="w3-padding-16">
-              <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Image" class="w3-left -right" style="width:50px">
+              <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
               <span class="w3-large w3-margin-left">Sweaters</span>
               <br>
               <span>Praes tinci sed</span>
             </li>
             <li class="w3-padding-16">
-              <img src="https://www.w3schools.com/w3images/workshop.jpg" alt="Image" class="w3-left -right" style="width:50px">
+              <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
               <span class="w3-large">Workshop</span>
               <br>
               <span>Ultricies congue</span>
             </li>
             <li class="w3-padding-16">
-              <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Image" class="w3-left -right w3-sepia" style="width:50px">
+              <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right w3-sepia" style="width:50px">
               <span class="w3-large">Trends</span>
               <br>
               <span>Lorem ipsum dipsum</span>
@@ -115,25 +115,25 @@ and is wrapped around the whole page content, except for the footer in this exam
         <div v-if="selected === 'Business'">
         <ul class="w3-ul w3-hoverable w3-white">
           <li class="w3-padding-16">
-            <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Image" class="w3-left -right" style="width:50px">
+            <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
             <span class="w3-large">Business</span>
             <br>
             <span>Sed mattis nunc</span>
           </li>
           <li class="w3-padding-16">
-            <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Image" class="w3-left -right" style="width:50px">
+            <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
             <span class="w3-large">Business</span>
             <br>
             <span>Praes tinci sed</span>
           </li>
           <li class="w3-padding-16">
-            <img src="https://www.w3schools.com/w3images/workshop.jpg" alt="Image" class="w3-left -right" style="width:50px">
+            <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
             <span class="w3-large">Business</span>
             <br>
             <span>Ultricies congue</span>
           </li>
           <li class="w3-padding-16">
-            <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Image" class="w3-left -right w3-sepia" style="width:50px">
+            <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right w3-sepia" style="width:50px">
             <span class="w3-large">Business</span>
             <br>
             <span>Lorem ipsum dipsum</span>
@@ -143,25 +143,25 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div v-else-if="selected === 'Gaming'">
       <ul class="w3-ul w3-hoverable w3-white">
         <li class="w3-padding-16">
-          <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Image" class="w3-left -right" style="width:50px">
+          <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
           <span class="w3-large">Gaming</span>
           <br>
           <span>Sed mattis nunc</span>
         </li>
         <li class="w3-padding-16">
-          <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Image" class="w3-left -right" style="width:50px">
+          <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
           <span class="w3-large">Gaming</span>
           <br>
           <span>Praes tinci sed</span>
         </li>
         <li class="w3-padding-16">
-          <img src="https://www.w3schools.com/w3images/workshop.jpg" alt="Image" class="w3-left -right" style="width:50px">
+          <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
           <span class="w3-large">Gaming</span>
           <br>
           <span>Ultricies congue</span>
         </li>
         <li class="w3-padding-16">
-          <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Image" class="w3-left -right w3-sepia" style="width:50px">
+          <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right w3-sepia" style="width:50px">
           <span class="w3-large">Gaming</span>
           <br>
           <span>Lorem ipsum dipsum</span>
@@ -171,25 +171,25 @@ and is wrapped around the whole page content, except for the footer in this exam
     <div v-else-if="selected === 'General Purpose'">
     <ul class="w3-ul w3-hoverable w3-white">
       <li class="w3-padding-16">
-        <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Image" class="w3-left -right" style="width:50px">
+        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
         <span class="w3-large">General Purpose</span>
         <br>
         <span>Sed mattis nunc</span>
       </li>
       <li class="w3-padding-16">
-        <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Image" class="w3-left -right" style="width:50px">
+        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
         <span class="w3-large">General Purpose</span>
         <br>
         <span>Praes tinci sed</span>
       </li>
       <li class="w3-padding-16">
-        <img src="https://www.w3schools.com/w3images/workshop.jpg" alt="Image" class="w3-left -right" style="width:50px">
+        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
         <span class="w3-large">General Purpose</span>
         <br>
         <span>Ultricies congue</span>
       </li>
       <li class="w3-padding-16">
-        <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Image" class="w3-left -right w3-sepia" style="width:50px">
+        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right w3-sepia" style="width:50px">
         <span class="w3-large">General Purpose</span>
         <br>
         <span>Lorem ipsum dipsum</span>
@@ -199,25 +199,25 @@ and is wrapped around the whole page content, except for the footer in this exam
     <div v-else="selected === 'Student'">
     <ul class="w3-ul w3-hoverable w3-white">
       <li class="w3-padding-16">
-        <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Image" class="w3-left -right" style="width:50px">
+        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
         <span class="w3-large w3-margin-left">Student</span>
         <br>
         <span class="w3-margin-left">Sed mattis nunc</span>
       </li>
       <li class="w3-padding-16">
-        <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Image" class="w3-left -right" style="width:50px">
+        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
         <span class="w3-large">Student</span>
         <br>
         <span>Praes tinci sed</span>
       </li>
       <li class="w3-padding-16">
-        <img src="https://www.w3schools.com/w3images/workshop.jpg" alt="Image" class="w3-left -right" style="width:50px">
+        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
         <span class="w3-large">Student</span>
         <br>
         <span>Ultricies congue</span>
       </li>
       <li class="w3-padding-16">
-        <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Image" class="w3-left -right w3-sepia" style="width:50px">
+        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right w3-sepia" style="width:50px">
         <span class="w3-large">Student</span>
         <br>
         <span>Lorem ipsum dipsum</span>
@@ -234,25 +234,25 @@ and is wrapped around the whole page content, except for the footer in this exam
     </div>
     <ul class="w3-ul w3-hoverable w3-white">
       <li class="w3-padding-16">
-        <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Image" class="w3-left -right" style="width:50px">
+        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
         <span class="w3-large">Denim</span>
         <br>
         <span>Sed mattis nunc</span>
       </li>
       <li class="w3-padding-16">
-        <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Image" class="w3-left -right" style="width:50px">
+        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
         <span class="w3-large">Sweaters</span>
         <br>
         <span>Praes tinci sed</span>
       </li>
       <li class="w3-padding-16">
-        <img src="https://www.w3schools.com/w3images/workshop.jpg" alt="Image" class="w3-left -right" style="width:50px">
+        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
         <span class="w3-large">Workshop</span>
         <br>
         <span>Ultricies congue</span>
       </li>
       <li class="w3-padding-16">
-        <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Image" class="w3-left -right w3-sepia" style="width:50px">
+        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right w3-sepia" style="width:50px">
         <span class="w3-large">Trends</span>
         <br>
         <span>Lorem ipsum dipsum</span>
@@ -340,7 +340,7 @@ and is wrapped around the whole page content, except for the footer in this exam
            <div class="w3-display-container">
            <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
            <div class="w3-display-topright w3-red w3-padding">Adam Johnson</div>
-             <img src="https://www.w3schools.com/w3images/house5.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
+             <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
            <a><p><b><h3>Best Budget Laptops Under 200 Dollars</h3></b></p></a>
          </div>
@@ -351,7 +351,7 @@ and is wrapped around the whole page content, except for the footer in this exam
            <div class="w3-display-container">
            <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
            <div class="w3-display-topright w3-red w3-padding">Adam Johnson</div>
-             <img src="https://www.w3schools.com/w3images/house5.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
+             <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
            <a><p><b><h3>Best Budget Laptops Under 500 Dollars</h3></b></p></a>
          </div>
@@ -362,7 +362,7 @@ and is wrapped around the whole page content, except for the footer in this exam
            <div class="w3-display-container">
            <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
            <div class="w3-display-topright w3-red w3-padding">Adam Johnson</div>
-             <img src="https://www.w3schools.com/w3images/house5.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
+             <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
            <a><p><b><h3>Best Budget Laptops Under 100 Dollars</h3></b></p></a>
          </div>
@@ -373,7 +373,7 @@ and is wrapped around the whole page content, except for the footer in this exam
            <div class="w3-display-container">
            <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
            <div class="w3-display-topright w3-red w3-padding">Adam Johnson</div>
-             <img src="https://www.w3schools.com/w3images/house5.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
+             <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
            <a><p><b><h3>10 Best Laptops Under 300 Dollars</h3></b></p></a>
          </div>
@@ -395,7 +395,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
         <div class="w3-display-topright w3-red w3-padding">Adam Johnson</div>
-          <img src="https://www.w3schools.com/w3images/house5.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
+          <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
           <div class="w3-container w3-white">
         <a><p><b><h3>Best Laptops Under 1000 Dollars</h3></b></p></a>
       </div>
@@ -406,7 +406,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
         <div class="w3-display-topright w3-red w3-padding">Adam Johnson</div>
-          <img src="https://www.w3schools.com/w3images/house5.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
+          <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
           <div class="w3-container w3-white">
         <a><p><b><h3>Best Laptops Under 600 Dollars</h3></b></p></a>
       </div>
@@ -417,7 +417,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
         <div class="w3-display-topright w3-red w3-padding">Adam Johnson</div>
-          <img src="https://www.w3schools.com/w3images/house5.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
+          <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
           <div class="w3-container w3-white">
         <a><p><b><h3>Best Laptops Under 800 Dollars</h3></b></p></a>
       </div>
@@ -428,7 +428,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
         <div class="w3-display-topright w3-red w3-padding">Adam Johnson</div>
-          <img src="https://www.w3schools.com/w3images/house5.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
+          <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
           <div class="w3-container w3-white">
         <a><p><b><h3>Best Laptops Under 500 Dollars</h3></b></p></a>
       </div>

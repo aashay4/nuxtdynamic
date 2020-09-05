@@ -148,7 +148,7 @@
     <ul class="w3-ul w3-hoverable w3-white">
       <li class="w3-padding-16">
 
-        <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <img src="~/assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
         <span>
           <h4>{{ article.title }}</h4><br>
             </span>

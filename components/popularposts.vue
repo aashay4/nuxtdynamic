@@ -5,25 +5,25 @@
   </div>
   <ul class="w3-ul w3-hoverable w3-white">
     <li class="w3-padding-16">
-      <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+      <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
       <nuxt-link style="color: black" to="/cheap-laptops-under-100-dollars"><span class="w3-large">Cheap Laptops Under 100 Dollars</span></nuxt-link>
       <br>
       <span>Sed mattis nunc</span>
     </li>
     <li class="w3-padding-16">
-      <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+      <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
       <span class="w3-large">Cheap Laptops Under 300 Dollars</span>
       <br>
       <span>Praes tinci sed</span>
     </li>
     <li class="w3-padding-16">
-      <img src="https://www.w3schools.com/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+      <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
       <span class="w3-large">Cheap Laptops Under 400 Dollars</span>
       <br>
       <span>Ultricies congue</span>
     </li>
     <li class="w3-padding-16">
-      <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+      <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
       <span class="w3-large">Cheap Laptops Under 500 Dollars</span>
       <br>
       <span>Lorem ipsum dipsum</span>
