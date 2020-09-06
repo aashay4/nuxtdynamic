@@ -112,7 +112,7 @@
         </tr>
         <tr>
           <td>Processor</td>
-          <td>This is fucking shit{{article.processor}}</td>
+          <td>{{article.processor}}</td>
         </tr>
       </table>
     </div>
