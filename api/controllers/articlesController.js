@@ -220,11 +220,9 @@ validator.body('os', 'Please enter os').isLength({ min: 1 }),
 validator.body('size', 'Please enter size').isLength({ min: 1 }),
 validator.body('twoinone', 'Please enter twoinone').isLength({ min: 1 }),
 validator.body('storage', 'Please enter storage').isLength({ min: 1 }),
+validator.body('gpu', 'Please enter GpU').isLength({ min: 1 }),
 validator.body('display', 'Please enter Article Content').isLength({ min: 1 }),
 validator.body('ram', 'Please enter Article Content').isLength({ min: 1 }),
-validator.body('expandablememory', 'Please enter Article Content').isLength({ min: 1 }),
-validator.body('ostype', 'Please enter Article Content').isLength({ min: 1 }),
-validator.body('keyboard', 'Please enter Article Content').isLength({ min: 1 }),
 validator.body('weight', 'Please enter Article Content').isLength({ min: 1 }),
 validator.body('bluethooth', 'Please enter Article Content').isLength({ min: 1 }),
 validator.body('webcam', 'Please enter Article Content').isLength({ min: 1 }),
@@ -257,11 +255,9 @@ validator.body('description', 'Please enter Article Content').isLength({ min: 1 
         size: req.body.size,
         twoinone: req.body.twoinone,
         storage: req.body.storage,
+        gpu: req.body.gpu,
         display: req.body.display,
         ram: req.body.ram,
-        expandablememory: req.body.expandablememory,
-        ostype: req.body.ostype,
-        keyboard: req.body.keyboard,
         weight: req.body.weight,
         bluethooth: req.body.bluethooth,
         webcam: req.body.webcam,
@@ -312,17 +308,19 @@ module.exports.update = [
   validator.body('size', 'Please enter Article Content').isLength({ min: 1 }),
   validator.body('twoinone', 'Please enter Article Content').isLength({ min: 1 }),
   validator.body('storage', 'Please enter Article Content').isLength({ min: 1 }),
+  validator.body('gpu', 'Please enter Article Content').isLength({ min: 1 }),
   validator.body('display', 'Please enter Article Content').isLength({ min: 1 }),
   validator.body('ram', 'Please enter Article Content').isLength({ min: 1 }),
-  validator.body('expandablememory', 'Please enter Article Content').isLength({ min: 1 }),
-  validator.body('ostype', 'Please enter Article Content').isLength({ min: 1 }),
-  validator.body('keyboard', 'Please enter Article Content').isLength({ min: 1 }),
   validator.body('weight', 'Please enter Article Content').isLength({ min: 1 }),
   validator.body('bluethooth', 'Please enter Article Content').isLength({ min: 1 }),
   validator.body('webcam', 'Please enter Article Content').isLength({ min: 1 }),
   validator.body('battery', 'Please enter Article Content').isLength({ min: 1 }),
   validator.body('processor', 'Please enter Article Content').isLength({ min: 1 }),
   validator.body('amazonlink', 'Please enter Article Content').isLength({ min: 1 }),
+  validator.body('design', 'Please enter Article Content').isLength({ min: 1 }),
+  validator.body('para2', 'Please enter Article Content').isLength({ min: 1 }),
+  validator.body('para3', 'Please enter Article Content').isLength({ min: 1 }),
+  validator.body('description', 'Please enter Article Content').isLength({ min: 1 }),
 
   function(req, res) {
     // throw validation errors
@@ -356,17 +354,19 @@ module.exports.update = [
         article.size =  req.body.size ? req.body.size : article.size;
         article.twoinone =  req.body.twoinone ? req.body.twoinone : article.twoinone;
         article.storage =  req.body.storage ? req.body.storage : article.storage;
+        article.gpu =  req.body.gpu ? req.body.gpu : article.gpu;
         article.display =  req.body.display ? req.body.display : article.display;
         article.ram =  req.body.ram ? req.body.ram : article.ram;
-        article.expandablememory =  req.body.expandablememory ? req.body.expandablememory : article.expandablememory;
-        article.ostype =  req.body.ostype ? req.body.ostype : article.ostype;
-        article.keyboard =  req.body.keyboard ? req.body.keyboard : article.keyboard;
         article.weight =  req.body.weight ? req.body.weight : article.weight;
         article.bluethooth =  req.body.bluethooth ? req.body.bluethooth : article.bluethooth;
         article.webcam =  req.body.webcam ? req.body.webcam : article.webcam;
         article.battery =  req.body.battery ? req.body.battery : article.battery;
         article.processor =  req.body.processor ? req.body.processor : article.processor;
         article.amazonlink =  req.body.amazonlink ? req.body.amazonlink : article.amazonlink;
+        article.design =  req.body.design ? req.body.design : article.design;
+        article.para2 =  req.body.para2 ? req.body.para2 : article.para2;
+        article.para3 =  req.body.para3 ? req.body.para3 : article.para3;
+        article.description =  req.body.description ? req.body.description : article.description;
 
         // save record
         article.save(function(err, article){

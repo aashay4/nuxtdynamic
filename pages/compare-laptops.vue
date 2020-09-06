@@ -81,6 +81,13 @@
           <td>{{selected1.twoinone}}</td>
           <td>{{selected2.twoinone}}</td>
         </tr>
+
+        <tr>
+          <td>gpu</td>
+          <td>{{selected.gpu}}</td>
+          <td>{{selected1.gpu}}</td>
+          <td>{{selected2.gpu}}</td>
+        </tr>
         <tr>
           <td>Storage</td>
           <td>{{selected.storage}}</td>
@@ -98,24 +105,6 @@
           <td>{{selected.ram}}</td>
           <td>{{selected1.ram}}</td>
           <td>{{selected2.ram}}</td>
-        </tr>
-        <tr>
-          <td>Expandable Memory</td>
-          <td>{{selected.expandablememory}}</td>
-          <td>{{selected1.expandablememory}}</td>
-          <td>{{selected2.expandablememory}}</td>
-        </tr>
-        <tr>
-          <td>ostype</td>
-          <td>{{selected.ostype}}</td>
-          <td>{{selected1.ostype}}</td>
-          <td>{{selected2.ostype}}</td>
-        </tr>
-        <tr>
-          <td>keyboard</td>
-          <td>{{selected.keyboard}}</td>
-          <td>{{selected1.keyboard}}</td>
-          <td>{{selected2.keyboard}}</td>
         </tr>
         <tr>
           <td>Has Bluetooth?</td>
@@ -200,6 +189,12 @@
           <td>{{selected3.twoinone}}</td>
           <td>{{selected4.twoinone}}</td>
         </tr>
+
+        <b >GPU</b>
+        <tr>
+          <td>{{selected3.gpu}}</td>
+          <td>{{selected4.gpu}}</td>
+        </tr>
         <b >Storage</b>
         <tr>
           <td>{{selected3.storage}}</td>
@@ -214,21 +209,6 @@
         <tr>
           <td>{{selected3.ram}}</td>
           <td>{{selected4.ram}}</td>
-        </tr>
-        <b >Expandable Memory</b>
-        <tr>
-          <td>{{selected3.expandablememory}}</td>
-          <td>{{selected4.expandablememory}}</td>
-        </tr>
-        <b >OS Type</b>
-        <tr>
-          <td>{{selected3.ostype}}</td>
-          <td>{{selected4.ostype}}</td>
-        </tr>
-        <b >Keyboard</b>
-        <tr>
-          <td>{{selected3.keyboard}}</td>
-          <td>{{selected4.keyboard}}</td>
         </tr>
         <b >Has Bluetooth?</b>
         <tr>

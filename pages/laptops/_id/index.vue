@@ -21,25 +21,21 @@
   <div class="w3-card-4 w3-margin w3-white">
     <div class="w3-container"><br>
       <h3><b>{{article.title}}</b></h3>
-      <h5><a :href="article.amazonlink">Buy Now</a> <span class="w3-opacity">April 7, 2014</span></h5>
+      <h5><a :href="article.amazonlink">Buy Now</a></h5>
     </div>
 
     <div class="w3-container">
       <p>{{article.body}}</p>
+      <div class="">
+        <p>{{article.para2}}</p>
+        <p>{{article.para3}}</p>
+        <p>{{article.design}}</p>
+      </div>
       <div class="w3-row">
         <div class="w3-col m8 s12">
           <p><button @click="linkcall" class="w3-button w3-padding-large w3-white w3-border"><b>Buy Now &raquo;</b></button></p>
         </div>
-        <div class="w3-col m4 w3-hide-small">
-          <p><span class="w3-padding-large w3-right"><b>Comments &nbsp;</b> <span class="w3-tag">0</span></span></p>
         </div>
-        <div class="">
-          <p>Para 1:{{article.para2}}</p>
-          <p>Para 2: {{article.para3}}</p>
-          <p>Design: {{article.design}}</p>
-          <p>Descritpio: {{article.description}}</p>
-        </div>
-      </div>
     </div>
   </div>
   <hr>
@@ -97,18 +93,6 @@
         <tr>
           <td>ram</td>
           <td>{{article.ram}}</td>
-        </tr>
-        <tr>
-          <td>Expandable Memory</td>
-          <td>{{article.expandablememory}}</td>
-        </tr>
-        <tr>
-          <td>O.S Type</td>
-          <td>{{article.ostype}}</td>
-        </tr>
-        <tr>
-          <td>Keyboard</td>
-          <td>{{article.keyboard}}</td>
         </tr>
         <tr>
           <td>Weight</td>
@@ -184,7 +168,7 @@ export default {
   },
   head () {
     return {
-      title: this.article.title,
+      title: this.article.title + ' review',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         { hid: 'description', name: 'description', content: this.article.desccription }

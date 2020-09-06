@@ -99,6 +99,16 @@
           </div>
 
           <div class="form-group">
+            <label for="">GPU</label>
+            <input type="text" class="form-control"
+              :class="{ 'is-invalid': errors && errors.gpu }"
+              v-model="gpu">
+            <div class="invalid-feedback" v-if="errors && errors.gpu">
+              {{ errors.gpu }}
+            </div>
+          </div>
+
+          <div class="form-group">
             <label for="">Storage capacity</label>
             <input type="text" class="form-control"
               :class="{ 'is-invalid': errors && errors.twoinone }"
@@ -125,36 +135,6 @@
               v-model="ram">
             <div class="invalid-feedback" v-if="errors && errors.twoinone">
               {{ errors.reason.twoinone }}
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="">Expandable Memory</label>
-            <input type="text" class="form-control"
-              :class="{ 'is-invalid': errors && errors.twoinone }"
-              v-model="expandablememory">
-            <div class="invalid-feedback" v-if="errors && errors.twoinone">
-              {{ errors.reason.twoinone }}
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="">OS Type</label>
-            <input type="text" class="form-control"
-              :class="{ 'is-invalid': errors && errors.twoinone }"
-              v-model="ostype">
-            <div class="invalid-feedback" v-if="errors && errors.twoinone">
-              {{ errors.reason.ostype }}
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="">keyboard</label>
-            <input type="text" class="form-control"
-              :class="{ 'is-invalid': errors && errors.twoinone }"
-              v-model="keyboard">
-            <div class="invalid-feedback" v-if="errors && errors.twoinone">
-              {{ errors.reason.ostype }}
             </div>
           </div>
 
@@ -290,11 +270,9 @@ export default {
           size:null,
           twoinone:null,
           storage:null,
+          gpu: null,
           display:null,
           ram:null,
-          expandablememory:null,
-          ostype:null,
-          keyboard:null,
           weight:null,
           bluethooth:null,
           webcam:null,
@@ -349,11 +327,9 @@ export default {
               size: this.size,
               twoinone: this.twoinone,
               storage: this.storage,
+              gpu: this.gpu,
               display: this.display,
               ram: this.ram,
-              expandablememory: this.expandablememory,
-              ostype: this.ostype,
-              keyboard: this.keyboard,
               weight: this.weight,
               bluethooth: this.bluethooth,
               webcam: this.webcam,

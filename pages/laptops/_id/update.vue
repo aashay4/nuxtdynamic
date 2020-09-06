@@ -100,6 +100,16 @@
           </div>
 
           <div class="form-group">
+            <label for="">GPU</label>
+            <textarea cols="30" rows="4" class="form-control"
+              :class="{ 'is-invalid': errors && errors.gpu }"
+              v-model="gpu"></textarea>
+            <div class="invalid-feedback" v-if="errors && errors.gpu">
+              {{ errors.gpu.msg }}
+            </div>
+          </div>
+
+          <div class="form-group">
             <label for="">storage</label>
             <textarea cols="30" rows="4" class="form-control"
               :class="{ 'is-invalid': errors && errors.storage }"
@@ -126,36 +136,6 @@
               v-model="ram"></textarea>
             <div class="invalid-feedback" v-if="errors && errors.ram">
               {{ errors.ram.msg }}
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="">expandablememory</label>
-            <textarea cols="30" rows="4" class="form-control"
-              :class="{ 'is-invalid': errors && errors.expandablememory }"
-              v-model="expandablememory"></textarea>
-            <div class="invalid-feedback" v-if="errors && errors.expandablememory">
-              {{ errors.expandablememory.msg }}
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="">ostype</label>
-            <textarea cols="30" rows="4" class="form-control"
-              :class="{ 'is-invalid': errors && errors.ostype }"
-              v-model="ostype"></textarea>
-            <div class="invalid-feedback" v-if="errors && errors.ostype">
-              {{ errors.ostype.msg }}
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="">keyboard</label>
-            <textarea cols="30" rows="4" class="form-control"
-              :class="{ 'is-invalid': errors && errors.keyboard }"
-              v-model="keyboard"></textarea>
-            <div class="invalid-feedback" v-if="errors && errors.keyboard">
-              {{ errors.keyboard.msg }}
             </div>
           </div>
 
@@ -219,6 +199,46 @@
             </div>
           </div>
 
+          <div class="form-group">
+            <label for="">design</label>
+            <textarea cols="30" rows="4" class="form-control"
+              :class="{ 'is-invalid': errors && errors.design }"
+              v-model="design"></textarea>
+            <div class="invalid-feedback" v-if="errors && errors.design">
+              {{ errors.design.msg }}
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="">para2</label>
+            <textarea cols="30" rows="4" class="form-control"
+              :class="{ 'is-invalid': errors && errors.para2 }"
+              v-model="para2"></textarea>
+            <div class="invalid-feedback" v-if="errors && errors.para2">
+              {{ errors.para2.msg }}
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="">para3</label>
+            <textarea cols="30" rows="4" class="form-control"
+              :class="{ 'is-invalid': errors && errors.para3 }"
+              v-model="para3"></textarea>
+            <div class="invalid-feedback" v-if="errors && errors.para3">
+              {{ errors.para3.msg }}
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="">description</label>
+            <textarea cols="30" rows="4" class="form-control"
+              :class="{ 'is-invalid': errors && errors.description }"
+              v-model="description"></textarea>
+            <div class="invalid-feedback" v-if="errors && errors.description">
+              {{ errors.description.msg }}
+            </div>
+          </div>
+
           <input type="submit" value="Submit" class="btn btn-primary mr-3">
           <nuxt-link :to="'/laptops/' + $route.params.id" class="btn btn-secondary mr-3">Cancel</nuxt-link>
 
@@ -252,15 +272,17 @@ export default {
       storage:null,
       display:null,
       ram:null,
-      expandablememory:null,
-      ostype:null,
-      keyboard:null,
       weight:null,
       bluethooth:null,
       webcam:null,
       battery:null,
       processor:null,
-      amazonlink:null
+      amazonlink:null,
+      design: null,
+      para2: null,
+      para3: null,
+      description: null,
+      gpu: null
     }
   },
   mounted(){
@@ -278,17 +300,19 @@ export default {
       this.size = this.article.size
       this.twoinone = this.article.twoinone
       this.storage = this.article.storage
+      this.gpu = this.article.gpu
       this.display = this.article.display
       this.ram = this.article.ram
-      this.expandablememory = this.article.expandablememory
-      this.ostype = this.article.ostype
       this.weight = this.article.weight
       this.bluethooth = this.article.bluethooth
       this.webcam = this.article.webcam
       this.battery = this.article.battery
       this.processor = this.article.processor
       this.amazonlink = this.article.amazonlink
-      this.keyboard = this.article.keyboard
+      this.design = this.article.design
+      this.para2 = this.article.para2
+      this.para3 = this.article.para3
+      this.description = this.article.description
     },
     submitForm(){
       this.$axios.put( '/api/articles/' + this.$route.params.id , {
@@ -302,17 +326,19 @@ export default {
           size: this.size,
           twoinone: this.twoinone,
           storage: this.storage,
+          gpu: this.gpu,
           display: this.display,
           ram: this.ram,
-          expandablememory: this.expandablememory,
-          ostype: this.ostype,
-          keyboard: this.keyboard,
           weight: this.weight,
           bluethooth: this.bluethooth,
           webcam: this.webcam,
           battery: this.battery,
           processor: this.processor,
-          amazonlink: this.amazonlink
+          amazonlink: this.amazonlink,
+          design: this.design,
+          para2: this.para2,
+          para3: this.para3,
+          description: this.description
         })
         .then((response) => {
           console.log(response)

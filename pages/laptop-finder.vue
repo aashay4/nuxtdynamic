@@ -63,6 +63,8 @@
         <h2><br>
           Step 4 - Which OS you prefer?
         </h2>
+        <input type="radio" id="chrome" value="Chrome" v-model="os">
+  <label for="windows">Chrome OS</label><br>
         <input type="radio" id="windows" value="Windows" v-model="os">
   <label for="windows">Windows</label><br>
   <input type="radio" id="MAC" value="MAC" v-model="os">

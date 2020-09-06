@@ -21,7 +21,6 @@ and is wrapped around the whole page content, except for the footer in this exam
     <div class="w3-margin w3-container w3-white w3-justify">
 
       <div class="w3-container w3-white w3-padding-large">
-        <div><img src="../assets/laptop.jpg" alt="Girl Hat" style="width:100%"></div><br>
 
         <div style="width:100%;" class="w3-justify">
           <h3>Best Budget Laptops 2020</h3>
