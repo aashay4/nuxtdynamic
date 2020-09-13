@@ -8,6 +8,15 @@
         <form action=""
           method="post"
           @submit.prevent="submitForm()">
+          <div class="form-group">
+            <label for="">Note</label>
+            <input type="text" class="form-control"
+              :class="{ 'is-invalid': errors && errors.note }"
+              v-model="note">
+            <div class="invalid-feedback" v-if="errors && errors.note">
+              {{ errors.note.msg }}
+            </div>
+          </div>
 
           <div class="form-group">
             <label for="">Title</label>
@@ -282,7 +291,8 @@ export default {
       para2: null,
       para3: null,
       description: null,
-      gpu: null
+      gpu: null,
+      note: null
     }
   },
   mounted(){
@@ -312,7 +322,8 @@ export default {
       this.design = this.article.design
       this.para2 = this.article.para2
       this.para3 = this.article.para3
-      this.description = this.article.description
+      this.description = this.article.description,
+      this.note = this.article.note
     },
     submitForm(){
       this.$axios.put( '/api/articles/' + this.$route.params.id , {
@@ -338,7 +349,8 @@ export default {
           design: this.design,
           para2: this.para2,
           para3: this.para3,
-          description: this.description
+          description: this.description,
+          note: this.note
         })
         .then((response) => {
           console.log(response)

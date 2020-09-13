@@ -7,6 +7,14 @@ const router = Router()
 // Initialize Controller
 const articlesController = require('../controllers/articlesController')
 
+router.post('/articles/bestlaptopscompany', articlesController.bestlaptopscompany)
+
+router.post('/articles/bestlaptopspurpose', articlesController.bestlaptopspurpose)
+
+router.post('/articles/bestlaptopsos', articlesController.bestlaptopsos)
+
+router.post('/articles/bestlaptops', articlesController.bestlaptops)
+
 router.post('/articles/cheap100', articlesController.cheap100)
 
 router.post('/articles/filtersev', articlesController.filtersev)

@@ -46,6 +46,12 @@
           <td>{{selected2.title}}</td>
         </tr>
         <tr>
+          <td>Note</td>
+          <td>{{selected.note}}</td>
+          <td>{{selected1.note}}</td>
+          <td>{{selected2.note}}</td>
+        </tr>
+        <tr>
           <td>company</td>
           <td>{{selected.company}}</td>
           <td>{{selected1.company}}</td>
@@ -159,7 +165,12 @@
           <td>{{selected3.title}}</td>
           <td>{{selected4.title}}</td>
         </tr>
-        <b >Company</b>
+        <b>Note</b>
+        <tr>
+          <td>{{selected3.note}}</td>
+          <td>{{selected4.note}}</td>
+        </tr>
+        <b>Company</b>
         <tr>
           <td>{{selected3.company}}</td>
           <td>{{selected4.company}}</td>

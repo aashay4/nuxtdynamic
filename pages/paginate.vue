@@ -2,7 +2,7 @@
   <div>
     <div class="d-flex justify-content-between align-items-center">
       <h1>Laptops</h1>
-      <nuxt-link to="/add" class="btn btn-success">Add New</nuxt-link>
+      <nuxt-link to="/add" v-if="$auth.loggedIn" class="btn btn-success">Add New</nuxt-link>
     </div>
     <hr>
     <div class="alert alert-success"
@@ -19,9 +19,9 @@
         <h5>{{ article.author}}</h5>
         <h5>{{ article.body }}</h5>
       </nuxt-link>
-      <li v-for="pageNumber in totalPages" :key="pageNumber.id">
+      <div v-for="pageNumber in totalPages" :key="pageNumber.id">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-red" v-bind:key="pageNumber" @click="setPage(pageNumber)" :class="{current: currentPage === pageNumber, last: (pageNumber == totalPages && Math.abs(pageNumber - currentPage) > 3), first:(pageNumber == 1 && Math.abs(pageNumber - currentPage) > 3)}">{{ pageNumber }}</a>
-    </li>
+  </div>
     </div>
 
     </div>

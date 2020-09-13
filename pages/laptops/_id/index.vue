@@ -1,5 +1,4 @@
 <template lang="html">
-  <client-only>
   <div>
     <navbar /><br>
     <div class="d-flex justify-content-between">
@@ -49,6 +48,7 @@
   <img src="~/assets/laptop.jpg" style="width:100%">
     <div class="w3-container w3-white" style="width:100%">
       <h4><b>{{article.title}} Configuration</b></h4>
+      <client-only>
       <table style="width:100%">
         <tr>
           <th>Buy Now</th>
@@ -57,6 +57,10 @@
         <tr>
           <td>Specifications</td>
           <td>Content</td>
+        </tr>
+        <tr>
+          <td>Note</td>
+          <td>{{article.note}}</td>
         </tr>
         <tr>
           <td>Company</td>
@@ -115,6 +119,7 @@
           <td>{{article.processor}}</td>
         </tr>
       </table>
+    </client-only>
     </div>
   </div><hr>
 
@@ -152,7 +157,6 @@
 </div>
 
   </div>
-</client-only>
 </template>
 
 <script>

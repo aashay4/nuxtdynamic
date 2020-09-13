@@ -67,8 +67,8 @@
   <label for="windows">Chrome OS</label><br>
         <input type="radio" id="windows" value="Windows" v-model="os">
   <label for="windows">Windows</label><br>
-  <input type="radio" id="MAC" value="MAC" v-model="os">
-  <label for="MAC">MACOS</label><br>
+  <input type="radio" id="macOS" value="macOS" v-model="os">
+  <label for="macOS">MACOS</label><br>
   <input type="radio" id="all" value="all" v-model="os">
   <label for="all">All</label><br>
       </section><br>
@@ -99,11 +99,11 @@
       v-for="article in articles"
       :key="article._id">
         <img v-if="article.title != null" :src="require('~/assets/' + article.imgpath)" class="w3-half" style="width:140px; height:140px;">
-      <h4>Name:{{ article.title }}</h4>
-      <h5>Price:{{ article.price}}</h5>
-      <h5>Reason:{{ article.reason }}</h5>
-      <h5>Operating System:{{ article.os }}</h5>
-      <h5>Is it two in one?{{ article.twoinone }}</h5>
+      <h4>Name:{{ article.title }},</h4>
+      <h5>Price:${{ article.price}},</h5>
+      <h5>Reason:{{ article.reason }},</h5>
+      <h5>Operating System:{{ article.os }},</h5>
+      <h5>Is it two in one?{{ article.twoinone }},</h5>
 
     </nuxt-link>
       </div>

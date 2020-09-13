@@ -13,6 +13,68 @@ module.exports.list = function (req, res, next) {
   });
 }
 
+module.exports.bestlaptopscompany = function (req, res, next) {
+    Article.find({company: req.body.company}).sort({price: 'descending'}).exec((err, articles) => {
+
+    if(err) {
+        return res.status(500).json({
+            message: 'Error getting records.'
+        });
+    }
+    return res.json(articles);
+  });
+}
+
+module.exports.bestlaptopspurpose = function (req, res, next) {
+    Article.find({reason: req.body.reason}).sort({price: 'descending'}).exec((err, articles) => {
+
+    if(err) {
+        return res.status(500).json({
+            message: 'Error getting records.'
+        });
+    }
+    return res.json(articles);
+  });
+}
+
+module.exports.bestlaptopsos = function (req, res, next) {
+  console.log(req.body.os);
+  if(req.body.os === "all"){
+    Article.find({}).sort({price: 'descending'}).exec((err, articles) => {
+
+    if(err) {
+        return res.status(500).json({
+            message: 'Error getting records.'
+        });
+    }
+    return res.json(articles);
+  });
+  }
+  else {
+    Article.find({ os: req.body.os }).sort({price: 'descending'}).exec((err, articles) => {
+
+    if(err) {
+        return res.status(500).json({
+            message: 'Error getting records.'
+        });
+    }
+    return res.json(articles);
+  });
+}
+}
+
+module.exports.bestlaptops = function (req, res, next) {
+    Article.find({"price": { $lte: req.body.price }}).sort({price: 'descending'}).exec((err, articles) => {
+
+    if(err) {
+        return res.status(500).json({
+            message: 'Error getting records.'
+        });
+    }
+    return res.json(articles);
+  });
+}
+
 module.exports.cheap100 = function (req, res, next) {
   console.log(req.body.price);
     Article.find({"price": { $lte: req.body.price }}).sort({price: 'descending'}).exec((err, articles) => {
@@ -211,6 +273,7 @@ module.exports.create = [
       }
     })
   }),
+    validator.body('note', 'Please enter Note Name').isLength({ min: 1 }),
   validator.body('company', 'Please enter Company Name').isLength({ min: 1 }),
   validator.body('body', 'Please enter Body Content').isLength({ min: 1 }),
 validator.body('imgpath', 'Please enter Imgpath Content').isLength({ min: 1 }),
@@ -268,7 +331,8 @@ validator.body('description', 'Please enter Article Content').isLength({ min: 1 
         design: req.body.design,
         para2: req.body.para2,
         para3: req.body.para3,
-        description: req.body.description
+        description: req.body.description,
+        note: req.body.note
     })
 
     // save record
@@ -321,6 +385,7 @@ module.exports.update = [
   validator.body('para2', 'Please enter Article Content').isLength({ min: 1 }),
   validator.body('para3', 'Please enter Article Content').isLength({ min: 1 }),
   validator.body('description', 'Please enter Article Content').isLength({ min: 1 }),
+  validator.body('note', 'Please enter Note Content').isLength({ min: 1 }),
 
   function(req, res) {
     // throw validation errors
@@ -367,7 +432,7 @@ module.exports.update = [
         article.para2 =  req.body.para2 ? req.body.para2 : article.para2;
         article.para3 =  req.body.para3 ? req.body.para3 : article.para3;
         article.description =  req.body.description ? req.body.description : article.description;
-
+        article.note =  req.body.note ? req.body.note : article.note;
         // save record
         article.save(function(err, article){
             if(err) {

@@ -49,6 +49,16 @@
           </div>
 
           <div class="form-group">
+            <label for="">Note - Any other information</label>
+            <input type="text" class="form-control"
+              :class="{ 'is-invalid': errors && errors.note }"
+              v-model="note">
+            <div class="invalid-feedback" v-if="errors && errors.note">
+              {{ errors.note.msg }}
+            </div>
+          </div>
+
+          <div class="form-group">
             <label for="">Price</label>
             <input type="text" class="form-control"
               :class="{ 'is-invalid': errors && errors.price }"
@@ -259,6 +269,7 @@ export default {
     middleware: 'auth',
     data(){
         return{
+          note: null,
           errors:null,
           title:'',
           company:null,
@@ -340,7 +351,8 @@ export default {
               design: this.design,
               para2: this.para2,
               para3: this.para3,
-              description: this.description
+              description: this.description,
+              note: this.note
             })
             .then((response) => {
               if(response.data._id){

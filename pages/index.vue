@@ -64,7 +64,10 @@ and is wrapped around the whole page content, except for the footer in this exam
         <p>Chrome OS can be a right choice when you are looking for the laptops within your budget. Acer Chromebook is right choice for the business purposes. You can work on mails, online/off-line documents for hours with this device. With the basic configuration, you can get these laptops under 400 dollars. If you want to go with more features then the budget might touch $500. This laptop is famous among the youngsters especially the techies.</p><hr>
         <h3>Acer Spin 3</h3>
         <h4>Windows</h4>
-        <p>Love windows? This one is for you. It's a two in one laptop with long battery life. Intel i-3 processor, 4 GM RAM, and windows 10 at under $450 is profitable.</p><hr>
+        <p>Love windows? This one is for you. It's a two in one laptop with long battery life. Intel i-3 processor, 4 GM RAM, and windows 10 at under $450 is profitable.</p>
+        <h5>Note:</h5>
+        <p>The same model is available with some advanced features at $799.99. The advanced Acer Spin 3 offer 16 GB RAM and intel i-7 processor which makes this laptop an outstanding performer. If you are looking for an all-purpose laptop and perform various tasks with ease then you should consider the machine with advanced features. If you want a laptop for daily regular tasks and some document work then you should go with $450 model.</p><hr>
+        <hr>
         <h3>Acer Aspire 5</h3>
         <h4>Windows</h4>
         <p>Great for business use. Complete your projects, use large software with ease with this Acer laptops. AMD ryzen 4000 series mobile processor and AMD radeon grapics, users can perform milti tasks and run different software simanteniously. In other words, this laptop is a powerhouse.</p><hr>
@@ -74,7 +77,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <h3>Asus Chromebook C4223</h3>
         <h4>Chrome OS</h4>
         <p>This laptop definitely deserves a place in the best budget laptops list. It costs just under $350. The features of this laptop includes 4 GB memory and 32 GB storage along with a long battery life. The only con of this laptop is that it does not have an HD screen.</p><hr>
-        <h3>Dell Inspiration 15 3593</h3>
+        <h3>Dell Inspiron 15 3593</h3>
         <h4>Windows</h4>
         <p>This amazing dell laptops cost just below $450. In this budget they offer 15-inch screen, Core i3 processor, 8GB RAM, and an HD display and definitely it deserves a place in the best budget laptops list. Afterall, Dell is also a well-known brand with millions of users.</p><hr>
         <h3>HP 15</h3>
@@ -335,110 +338,54 @@ and is wrapped around the whole page content, except for the footer in this exam
   <div class="w3-row-padding">
     <div class="w3-row-padding">
        <div class="w3-quarter w3-container -bottom">
-         <router-link to="/best-laptops-under-200-dollars/">
+         <router-link to="/under-100-dollars/">
            <div class="w3-display-container">
            <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
            <div class="w3-display-topright w3-red w3-padding">Adam Johnson</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
-           <a><p><b><h3>Best Budget Laptops Under 200 Dollars</h3></b></p></a>
+           <a><p><b><h3>Laptops Under 100 Dollars</h3></b></p></a>
          </div>
          </router-link>
        </div>
        <div class="w3-quarter w3-container -bottom">
-         <router-link to="#">
+         <router-link to="/under-200-dollars/">
            <div class="w3-display-container">
            <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
            <div class="w3-display-topright w3-red w3-padding">Adam Johnson</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
-           <a><p><b><h3>Best Budget Laptops Under 500 Dollars</h3></b></p></a>
+           <a><p><b><h3>Laptops Under 200 Dollars</h3></b></p></a>
          </div>
          </router-link>
        </div>
        <div class="w3-quarter w3-container -bottom">
-         <router-link to="/cheap-laptops-under-100-dollars/">
+         <router-link to="/under-300-dollars/">
            <div class="w3-display-container">
            <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
            <div class="w3-display-topright w3-red w3-padding">Adam Johnson</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
-           <a><p><b><h3>Best Budget Laptops Under 100 Dollars</h3></b></p></a>
+           <a><p><b><h3>Laptops Under 300 Dollars</h3></b></p></a>
          </div>
          </router-link>
        </div>
        <div class="w3-quarter w3-container -bottom">
-         <router-link to="#">
+         <router-link to="/under-400-dollars/">
            <div class="w3-display-container">
            <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
            <div class="w3-display-topright w3-red w3-padding">Adam Johnson</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
-           <a><p><b><h3>10 Best Laptops Under 300 Dollars</h3></b></p></a>
+           <a><p><b><h3>Laptops Under 400 Dollars</h3></b></p></a>
          </div>
          </router-link>
        </div>
      </div>
   </div>
 </client-only>
-<client-only>
-  <div class="w3-row-padding">
-    <div class="w3-container w3-padding-32" id="projects">
-    <div class="borderleft" style="background-color: white">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-card w3-center">Best Business Laptops</h3></div>
-  </div>
-  </div>
-  <div class="w3-row-padding">
-    <div class="w3-quarter w3-container -bottom">
-      <router-link to="#">
-        <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
-        <div class="w3-display-topright w3-red w3-padding">Adam Johnson</div>
-          <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
-          <div class="w3-container w3-white">
-        <a><p><b><h3>Best Laptops Under 1000 Dollars</h3></b></p></a>
+<!-- Blog entries -->
       </div>
-      </router-link>
-    </div>
-    <div class="w3-quarter w3-container -bottom">
-      <router-link to="#">
-        <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
-        <div class="w3-display-topright w3-red w3-padding">Adam Johnson</div>
-          <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
-          <div class="w3-container w3-white">
-        <a><p><b><h3>Best Laptops Under 600 Dollars</h3></b></p></a>
-      </div>
-      </router-link>
-    </div>
-    <div class="w3-quarter w3-container -bottom">
-      <router-link to="#">
-        <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
-        <div class="w3-display-topright w3-red w3-padding">Adam Johnson</div>
-          <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
-          <div class="w3-container w3-white">
-        <a><p><b><h3>Best Laptops Under 800 Dollars</h3></b></p></a>
-      </div>
-      </router-link>
-    </div>
-    <div class="w3-quarter w3-container -bottom">
-      <router-link to="#">
-        <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
-        <div class="w3-display-topright w3-red w3-padding">Adam Johnson</div>
-          <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
-          <div class="w3-container w3-white">
-        <a><p><b><h3>Best Laptops Under 500 Dollars</h3></b></p></a>
-      </div>
-      </router-link>
-    </div>
-   </div>
- </client-only>
-    <!-- Blog entries -->
-    <div class="w3-col l8 s12 w3-margin-top">
-    </div>
-  </div>
 <br>
 <!-- END w3-content -->
 </div>

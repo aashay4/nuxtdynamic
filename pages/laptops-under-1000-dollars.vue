@@ -18,59 +18,36 @@ and is wrapped around the whole page content, except for the footer in this exam
     <div class="w3-col l8 s12">
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
-          <h1>Choose Best Cheap Laptops</h1>
-          <span class="w3-opacity">Jan 2, 2020</span><em class="w3-opacity"> by </em><strong>Adam Johnson</strong><em class="w3-opacity">  In </em><strong>Budget Laptops</strong>
+          <h1>Best Laptops Under 1000 Dollars</h1>
+          <date-app /><em class="w3-opacity"> by </em><strong>Adam Johnson</strong><em class="w3-opacity">  In </em><strong>Budget Laptops</strong>
           <hr>
-          <p>In this article, we bring you the best cheap laptops. There are some unexpensive laptops available in the market today that is capable of getting the job done quickly. Select the price that and we will get you the best cheap laptops from our database. Remember one thing, all the affordable laptops won't be able to pull out all the task/load that you throw at it. The inexpensive laptops are not as good at performance as all the other gaming laptops. But the laptops on this list are capable of performing all the daily tasks smoothly.</p>
-          <p>If you want more customization options then you can visit our <nuxt-link to="/laptop-finder/">laptop finder tool</nuxt-link>. With this tool, you can customize price, operating system, laptop size and purpose.</p><hr>
-          <section>
-            <h2>
-              Select Cheap Laptop Price
-            </h2>
-            <input type="radio" id="10" value="100" v-model="price">
-      <label for="10">Under 100</label><br>
-      <input type="radio" id="12" value="200" v-model="price">
-      <label for="12">Under 200</label><br>
-      <input type="radio" id="14" value="300" v-model="price">
-      <label for="14">Under 300</label><br>
-      <input type="radio" id="16" value="400" v-model="price">
-      <label for="16">Under 400</label><br>
-      <input type="radio" id="all" value="500" v-model="price">
-      <label for="all">Under 500</label><br>
-      <p>Or Add Custom Value: <input type="text" v-model="price" placeholder="Or Enter a custom value" /></p>
-      <button class="w3-margin-bottom w3-button w3-padding-large w3-white w3-border" @click.prevent="findit"><b>Get Laptops &raquo;</b></button>
-          </section>
-          <div class="w3-margin w3-white" id="found"><hr>
-          <div v-for="article in articles"
-            :key="article._id">
-            <ul class="w3-ul w3-hoverable w3-white">
-              <li class="w3-padding-16">
-                <img v-if="article.title != null" :src="require('~/assets/' + article.imgpath)" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-                <nuxt-link style="color: black" :to="'/laptops/' + article._id"><span class="w3-large">{{ article.title }}</span></nuxt-link>
-                <br>
-                <span>Price: {{ article.price }}</span><br>
-                <span>Operating System: {{ article.os }} OS</span><br>
-                <b><span><a :href="article.amazonlink">Buy Now</a></span></b>
-              </li><hr>
-            </ul>
-          </div>
-              </div>
-              <h3>How Much Do I Need to Spend for Cheap Laptops?</h3>
-              <p>If you are looking for a laptop for daily use and you are not concerned about the designs or looks then you can buy a good laptop at very affordable price. The price would be below 500 dollars. Today, there are multiple well-known companies that are building some of the best cheap laptops which are equipped to provide a great performance. You do not need to spend thousand of dollars just to perform the daily work. You will find multiple all-purpose laptops here on this list.</p><hr>
-              <h2>Best Cheap Laptops</h2>
-              <h3>Acer Aspire 5</h3>
-              <p>With good performance, 8 hours of battery life and intel core i-3 processor, Acer Aspire 5 comes at just $399. Apart from that, it offers 8 GB of RAM and 256 GB storage. With these features, Acer Aspire 5 deserves to be on this list. If you are looking for an all-purpose cheap laptop then you can definitely choose this laptop. This machine is not receiving good reviews when it comes graphics and display.</p><hr>
-              <h3>HP 15</h3>
-              <p>If you are a looking for a cheap laptop with a huge storage capacity then HP 15 is the right option for you. HP 15 offer 1 TB storage and 8 GB RAM, it is not usual for a machine just around $450. With AMD Ryzen processor, it is a powerful performer.</p>
-              <p>Battery life of this machine is not impressive, it lasts just below 5 hours. Choose this laptop if you are a fan of AMD Ryzen processor and require a lot of internal storage to save your data.</p><hr>
-              <h3>Dell Inspiron 15</h3>
-              <p>This is a great performer for the day-to-day tasks. Dell Inspiron 15 can be considered as general-purpose laptop. It offers 4 GB of RAM and 1 TB storage and Intel Celeron processor. On this machine, you can perform regular daily tasks and store a lot of data. Just like HP 11, you can buy this laptop if you are dealing with a lot of data and requires a lot of storage on your machine.</p><hr>
-              <h3>Lenovo Chromebook C340-11</h3>
-              <p>Chromebook laptops are often way cheaper but great performers at the same time. Lenovo Chromebook C340 is an unexpensive laptop but a good performer commes with a long lasting battery of 10-hours. Apart from that, it offers 4GB RAM, 64GB storage and Intel Celeron N4000 processor. With just 11.6 inch screen, you can carry this laptop easily while traveling.</p><hr>
-              <h3>Lenovo Ideapad 1</h3>
-              <p>This is a good all-purpose laptop that offers 4 GB RAM, 64 GB storage, AMD A6-9220E processor and AMD Radeon graphics. With professional design and good battery life, this machine can be a great choice for college students and businessmen. A dolly audio at such cheap budget is a plus.</p><hr>
-              <h3>Samsung Chromebook 4</h3>
-              <p>Samsung Chromebook 4 is one of the cheapest laptops that is a good performer at the same time. It costs just around $229 but you won't be compromising on the performance. For 229 dollars, you get an 11.6 inches screen, 32 GB of storage and 4 GB RAM. Along with performance, battery life is also a plus of this laptop. Battery of Samsung Chromebook 4 lasts around 9 hours. If you need a laptop with more storage and RAM, you can add a few bucks more and get a bigger machines with more storage and RAM.</p><hr>
+          <p>By selecting the best laptop under 1000 dollars, you can definitely get an above average laptop with some of the most advanced specifications. Apart from features, these laptops offer excellent performance, a long battery life and a classic design.</p>
+          <p>As the recent trend suggests, everyone needs a laptop for different kind of works. It has become an integral part of our professional life. With this kind of growing demand, there are several laptops available in the market and to choose the best one from all these laptops is challenging. For that reason, we have analysed all the laptops under $1000 and shortlisted the best one for you.</p>
+          <p>The higher your budget is, the more advance specification you get. In this list of laptops below 1000 dollars, you might not find a machine with all the advance specifications that you find in a $2000. You might need to compromise on some of the features. All the laptops on this list are capable of pulling out all daily tasks that you do on the regular basis.</p>
+          <h2>Best Laptops Under $1000</h2>
+          <h3>Asus ZenBook 13</h3>
+          <p>Asus Zenbook 13 offers good battery life and great performance at the price of just below $1000. It features 8th generation intel core i5 processor and beautiful design at just around $850, making it one of the best Asus laptops available right now.</p>
+          <p>Apart from that, it offers 8GB of RAM, 256 GB of storage, 1080P display and around 11 hours of battery life. With the classy design and 2.69 pounds’ weight, you can easily carry this laptop to the meeting or school presentations.</p>
+          <p>With these kind of features, this machine is capable of running any software smoothly. When it comes to gaming, the performance is average, you cannot install and play multiple large games on this machine. Apart from gaming, all these features make Asus Zenbook one of the best contenders for the sub-$1000 laptop list. </p><hr>
+          <h3>Dell XPS 13</h3>
+          <p>Since the release, Dell XPS 13 has been receiving numerous positive reviews. With the kind of features it offers, Dell XPS 13 is one of the best laptops under 1000 dollars. This Dell machine is powered by 10th generation Intel core i5 processor and offers 8 GB of RAM. This helps it to handle all the tasks that you throw easily.</p>
+          <p>It offers 256 GB of storage which is sufficient for almost all the users. If you require more storage to save your data, you can upgrade memory space to 1 TB. Talking about the weight, it weighs lesser then most of the competitors in the list with just 2.7 Pounds.</p><hr>
+          <h3>Apple MacBook Air</h3>
+          <p>Apple MacBook Air is slim, stylish, a powerful performer with a long-lasting battery. If you prefer macOS and looking for a budget MacBook, then this laptop is for you. Despite being a budget laptop, you can definitely rely on this laptop.</p>
+          <p>MacBook air comes with the 10th generation intel i3 processor, it is powered by the 8 GB RAM which is capable of running multi-tasks smoothly. Along with that, Apple MacBook Air offer 256 GB of internal storage and if you need more storage space, you can upgrade it. This is one of the cheapest Apple laptops but with comfortable keyboard and long battery life, it is one of the best under 1000.</p><hr>
+          <h3>Dell G5 15</h3>
+          <p>It is believed that the gaming laptops are great performers and so is Dell G5. This is one a gaming laptop and one of the best performers. If performance is your priority and want to run multiple heavy software at the same time, then Dell G5 is the perfect choice.</p>
+          <p>With 9th Generation quad-core Intel Core i5 Processor, 8 GB of RAM, 1 TB storage, you can play absolutely any game or run any software. This is a great all-purpose laptop under $1000. Everything’s great about this laptop except for battery life. Since, this is a gaming laptop, battery life is lesser then the other laptops on this list.</p><hr>
+          <h3>Lenovo Legion Y540</h3>
+          <p>Here comes another gaming laptop on the list. Lenovo Legion Y540 is a gaming laptop and a great performer. With 9th Generation Intel Core i5 processor, 8 GB RAM(Can be expanded to 323 GB) and 256 GB storage, you can pull out any task on this laptop.</p>
+          <p>It has a 17.3-inch display which is bigger than other laptops on this list. For a graphics card, it offers Nvidia GeForce GTX 1660 Ti graphic card which helps you to perform gaming and other graphic related tasks. It weighs 6.2 Pounds. Just like Dell G5 15, Lenovo Legion’s battery life is shorter than the other laptops in the same range. The battery life of most of gaming laptops is generally low because of the specifications and performance they offer. Apart from battery life, you are not going to compromise on anything with this laptop.</p><hr>
+          <h3>Asus ZenBook 13</h3>
+          <p>If looks are the priority along with the performance, then Asus Zenbook 13 is the best laptop sub-$1000. Asus has worked really hard to make this machine stylish and made this one of the best designed laptops. With strong intel i5 processor and 11 hours of battery life, this machine is convenient for everyone.</p>
+          <p>Asus ZenBook 13 has the capability to run every task smoothly and can be considered as the multi-purpose laptop. With 13.3 inches screen and just 2.7 pounds weight, it is really easy to carry this laptop to the meeting or college presentation.</p>
+          <h3>Acer Swift 3</h3>
+          <p>This one is the first laptop on this list with AMD Ryzen 7 4700U processor. Currently, this is the best Acer budget laptop. With 8 GB RAM, Radeon Graphics and AMD Ryzen processer, this is the one of the best performers. Apart from that, it offers 512 GB storage and 1920 x 1080 display. Fingerprint scanner is another surprise factor within this laptop.</p>
+          <p>With more than 11 hours of battery life, you can work on this laptop for whole day. Acer Swift 3 costs just around $650 which is way lesser then the other laptops on this list. This Acer machine is probably one of the best laptops below $1000.</p>
+          <h3></h3>
           <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
           <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
           <p class="w3-clear"></p></div></div>
@@ -215,29 +192,9 @@ and is wrapped around the whole page content, except for the footer in this exam
 </template>
 
 <script>
+import date from '../components/date.vue'
 export default {
-components: {  },
-data() {
-  return {
-    price: '400',
-    articles: []
-  }
-},
-methods: {
-  async findit(){
-      await this.$axios.$post('/api/articles/cheap100', {
-        price: this.price
-      })
-      .then((response) => {
-        console.log(response)
-       this.articles = response
-       this.$router.push({ to:'/#laptops' })
-     })
-    }
-  },
-mounted:function(){
-    this.findit() //method1 will execute at pageload
-}
+components: { 'date-app': date },
 }
 </script>
 

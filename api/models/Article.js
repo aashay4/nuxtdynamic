@@ -26,6 +26,7 @@ const Article = new Schema ({
   para2: { type: String, required: true },
   para3: { type: String, required: true },
   description: { type: String, required: true },
+  note: { type: String, required: true },
 });
 
 module.exports = mongoose.model('Article', Article)
