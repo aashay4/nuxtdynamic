@@ -29,6 +29,7 @@
         <p>{{article.para2}}</p>
         <p>{{article.para3}}</p>
         <p>{{article.design}}</p>
+        Meta Descritpion: <p>{{article.description}}</p>
       </div>
       <div class="w3-row">
         <div class="w3-col m8 s12">
@@ -65,6 +66,10 @@
         <tr>
           <td>Company</td>
           <td>{{article.company}}</td>
+        </tr>
+        <tr>
+          <td>GPU</td>
+          <td>{{article.gpu}}</td>
         </tr>
         <tr>
           <td>price</td>
