@@ -64,12 +64,6 @@
           <td>{{selected2.price}}</td>
         </tr>
         <tr>
-          <td>Best for</td>
-          <td>{{selected.reason}}</td>
-          <td>{{selected1.reason}}</td>
-          <td>{{selected2.reason}}</td>
-        </tr>
-        <tr>
           <td>Operating System</td>
           <td>{{selected.os}}</td>
           <td>{{selected1.os}}</td>
@@ -96,9 +90,12 @@
         </tr>
         <tr>
           <td>Storage</td>
-          <td>{{selected.storage}}</td>
-          <td>{{selected1.storage}}</td>
-          <td>{{selected2.storage}}</td>
+          <td v-if="selected.storage >=1000">{{selected.storage/1000}} TB</td>
+          <td v-else="selected.storage != null">{{selected.storage}} GB</td>
+          <td v-if="selected1.storage >=1000">{{selected1.storage/1000}} TB</td>
+          <td v-else>{{selected1.storage}} GB</td>
+          <td v-if="selected2.storage >=1000">{{selected2.storage/1000}} TB</td>
+          <td v-else>{{selected2.storage}} GB</td>
         </tr>
         <tr>
           <td>Display</td>
@@ -180,11 +177,6 @@
           <td>{{selected3.price}}</td>
           <td>{{selected4.price}}</td>
         </tr>
-        <b >Best For</b>
-        <tr>
-          <td>{{selected3.reason}}</td>
-          <td>{{selected4.reason}}</td>
-        </tr>
         <b >Operating System</b>
         <tr>
           <td>{{selected3.os}}</td>
@@ -208,8 +200,10 @@
         </tr>
         <b >Storage</b>
         <tr>
-          <td>{{selected3.storage}}</td>
-          <td>{{selected4.storage}}</td>
+          <td v-if="selected3.storage >=1000">{{selected3.storage/1000}} TB</td>
+          <td v-else>{{selected3.storage}} GB</td>
+          <td v-if="selected4.storage >=1000">{{selected4.storage/1000}} TB</td>
+          <td v-else>{{selected4.storage}} GB</td>
         </tr>
         <b >Display</b>
         <tr>

@@ -13,6 +13,18 @@ module.exports.list = function (req, res, next) {
   });
 }
 
+module.exports.finditram = function (req, res, next) {
+    Article.find({"ram": { $lte: req.body.ram }}).sort({ram: 'descending'}).exec((err, articles) => {
+
+    if(err) {
+        return res.status(500).json({
+            message: 'Error getting records.'
+        });
+    }
+    return res.json(articles);
+  });
+}
+
 module.exports.bestlaptopscompany = function (req, res, next) {
     Article.find({company: req.body.company}).sort({price: 'descending'}).exec((err, articles) => {
 

@@ -69,14 +69,37 @@
           </div>
 
           <div class="form-group">
-            <label for="">reason</label>
-            <textarea cols="30" rows="4" class="form-control"
+            <label for="">reason business/student/gaming/etc...</label>
+            <input type="text" class="form-control"
               :class="{ 'is-invalid': errors && errors.reason }"
-              v-model="reason"></textarea>
-            <div class="invalid-feedback" v-if="errors && errors.reason">
-              {{ errors.reason.msg }}
-            </div>
-          </div>
+              v-model="reason">
+
+              <input type="checkbox" id="General-purpose" value="General-purpose" v-model="reason">
+  <label for="General-purpose">General-purpose</label>
+  <input type="checkbox" id="All-purpose" value="All-purpose" v-model="reason">
+  <label for="All-purpose">All-purpose</label>
+  <input type="checkbox" id="Gaming" value="Gaming" v-model="reason">
+  <label for="Gaming">Gaming</label>
+  <input type="checkbox" id="Programming" value="Programming" v-model="reason">
+  <label for="Programming">Programming</label>
+  <input type="checkbox" id="Business" value="Business" v-model="reason">
+  <label for="Business">Business</label>
+  <input type="checkbox" id="College students" value="College students" v-model="reason">
+  <label for="College students">College students</label>
+  <input type="checkbox" id="Writing" value="Writing" v-model="reason">
+  <label for="Writing">Writing</label>
+  <input type="checkbox" id="Music production" value="Music production" v-model="reason">
+  <label for="Music production">Music production</label>
+  <input type="checkbox" id="Kids" value="Kids" v-model="reason">
+  <label for="Kids">Kids</label>
+  <input type="checkbox" id="Photo editing" value="Photo editing" v-model="reason">
+  <label for="Photo editing">Photo editing</label>
+  <input type="checkbox" id="High school" value="High school" v-model="reason">
+  <label for="High school">High school</label>
+  <input type="checkbox" id="Video editing" value="Video editing" v-model="reason">
+  <label for="Video editing">Video editing</label>
+  <br>
+        </div>
 
           <div class="form-group">
             <label for="">os</label>
@@ -274,7 +297,7 @@ export default {
       body:null,
       imgpath:null,
       price:null,
-      reason:null,
+      reason:[],
       os:null,
       size:null,
       twoinone:null,

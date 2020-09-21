@@ -88,7 +88,8 @@
         </tr>
         <tr>
           <td>storage</td>
-          <td>{{article.storage}}</td>
+          <td v-if="article.storage >= '1000'">{{article.storage/1000}} TB</td>
+          <td v-else>{{article.storage}} GB</td>
         </tr>
         <tr>
           <td>Display</td>
@@ -178,7 +179,7 @@ export default {
         { hid: 'description', name: 'description', content: this.article.desccription }
       ],
       link: [
- {rel: 'canonical', href: 'https://bestbudgetlaptops.net/laptops/' + this.article._id + '/' }
+ {rel: 'canonical', href: 'https://bestbudgetlaptop.net/laptops/' + this.article._id + '/' }
 ]
     }
   },

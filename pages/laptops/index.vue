@@ -38,6 +38,8 @@ and is wrapped around the whole page content, except for the footer in this exam
     <option value="800">Under 800</option>
     <option value="1000">Under 1000</option>
     <option value="1500">Under 1500</option>
+    <option value="2000">Under 2000</option>
+    <option value="2500">Under 2500</option>
     <option value="5000">No Limit</option>
   </select>
           <select v-model="os" @change.prevent="finditos">
@@ -50,11 +52,17 @@ and is wrapped around the whole page content, except for the footer in this exam
 <select v-model="purpose" @change.prevent="finditpurpose">
 <option disabled value="">What's Your Purpose?</option>
 <option value="Gaming">Gaming</option>
-<option value="generalpurpose">General Purpose</option>
-<option value="all-purpose">All-purpose</option>
-<option value="writing">Writing</option>
-<option value="programming">Programming</option>
-<option value="musicproduction">Music Production</option>
+<option value="General-purpose">General Purpose</option>
+<option value="All-purpose">All-purpose</option>
+<option value="Writing">Writing</option>
+<option value="Programming">Programming</option>
+<option value="Music production">Music Production</option>
+<option value="Kids">Kids</option>
+<option value="High school">High school</option>
+<option value="Video editing">Video editing</option>
+<option value="Photo editing">Photo editing</option>
+<option value="Business">Business</option>
+<option value="College students">College students</option>
 </select>
 <select v-model="company" @change.prevent="finditcompany">
 <option disabled value="">Preferred company</option>
@@ -63,6 +71,16 @@ and is wrapped around the whole page content, except for the footer in this exam
 <option>Lenovo</option>
 <option>Apple</option>
 <option>Samsung</option>
+<option>Acer</option>
+<option>MSI</option>
+<option>Asus</option>
+</select>
+<select v-model="ram" @change.prevent="finditram">
+<option disabled value="">RAM</option>
+<option value="4">4 GB</option>
+<option value="8">8 GB</option>
+<option value="16">16 GB</option>
+<option value="32">32 GB</option>
 </select>
           <div class="w3-margin w3-white" id="found"><hr>
           <div v-for="article in articles"
@@ -77,7 +95,8 @@ and is wrapped around the whole page content, except for the footer in this exam
                 </div>
                 <span>{{ article.os }} OS,</span><br>
                 <span>{{ article.ram }} RAM,</span><br>
-                <span>{{ article.storage }} Storage,</span><br>
+                <span v-if="article.storage >= 1000">{{ article.storage/1000 }} TB Storage,</span>
+                <span v-else>{{ article.storage }} GB Storage,</span><br>
                 <span>{{ article.size }} inches,</span><br>
                 <b><span><a :href="article.amazonlink">Buy Now</a></span></b>
               </li><hr>
@@ -233,10 +252,22 @@ data() {
     articles: [],
     os: '',
     purpose: '',
-    company: ''
+    company: '',
+    ram: ''
   }
 },
 methods: {
+  async finditram(){
+    alert(this.ram)
+    this.os = ''
+      await this.$axios.$post('/api/articles/finditstorage', {
+        ram: this.ram
+      })
+      .then((response) => {
+       this.articles = response
+       this.$router.push({ to:'/#laptops' })
+     })
+  },
   async findit(){
     this.os = ''
       await this.$axios.$post('/api/articles/bestlaptops', {

@@ -50,27 +50,44 @@
         <h2><br>
           Step 3 - What's Your reason?
         </h2>
-        <input type="radio" id="business" value="Business" v-model="reason">
+        <input type="radio" id="General-purpose" value="General-purpose" v-model="reason">
+  <label for="radio">General-purpose</label><br>
+  <input type="radio" id="All-purpose" value="All-purpose" v-model="reason">
+<label for="radio">All-purpose</label><br>
+        <input type="radio" id="Business" value="Business" v-model="reason">
   <label for="radio">Business</label><br>
   <input type="radio" id="Gaming" value="Gaming" v-model="reason">
   <label for="radio">Gaming</label><br>
-  <input type="radio" id="Designing" value="Designing" v-model="reason">
-  <label for="radio">Designing And Editing</label><br>
-  <input type="radio" id="Student" value="Student" v-model="reason">
-  <label for="radio">Student</label>
+  <input type="radio" id="Programming" value="Programming" v-model="reason">
+  <label for="radio">Programming</label><br>
+  <input type="radio" id="Students" value="Students" v-model="reason">
+  <label for="radio">Students</label>
+  <input type="radio" id="Writing" value="Writing" v-model="reason">
+  <label for="radio">Writing</label>
+  <input type="radio" id="Music production" value="Music production" v-model="reason">
+  <label for="radio">Music production</label>
+  <input type="radio" id="Photo editing" value="Photo editing" v-model="reason">
+  <label for="radio">Photo editing</label>
+  <input type="radio" id="High school" value="High school" v-model="reason">
+  <label for="radio">High school</label>
+  <input type="radio" id="Video editing" value="Video editing" v-model="reason">
+  <label for="radio">Video editing</label>
+  <input type="radio" id="Kids" value="Kids" v-model="reason">
+  <label for="radio">Kids</label>
+
       </section>
       <section v-if="step == 4">
         <h2><br>
           Step 4 - Which OS you prefer?
         </h2>
-        <input type="radio" id="chrome" value="Chrome" v-model="os">
-  <label for="windows">Chrome OS</label><br>
-        <input type="radio" id="windows" value="Windows" v-model="os">
-  <label for="windows">Windows</label><br>
+        <input type="radio" id="Chrome" value="Chrome" v-model="os">
+  <label for="Chrome">Chrome OS</label><br>
+        <input type="radio" id="Windows" value="Windows" v-model="os">
+  <label for="Windows">Windows</label><br>
   <input type="radio" id="macOS" value="macOS" v-model="os">
-  <label for="macOS">MACOS</label><br>
+  <label for="macOS">macOS</label><br>
   <input type="radio" id="all" value="all" v-model="os">
-  <label for="all">All</label><br>
+  <label for="all">No Preference</label><br>
       </section><br>
       <section v-if="step == 5">
         <h2>
@@ -101,7 +118,7 @@
         <img v-if="article.title != null" :src="require('~/assets/' + article.imgpath)" class="w3-half" style="width:140px; height:140px;">
       <h4>Name:{{ article.title }},</h4>
       <h5>Price:${{ article.price}},</h5>
-      <h5>Reason:{{ article.reason }},</h5>
+      <h5>Reason:{{ reason }},</h5>
       <h5>Operating System:{{ article.os }},</h5>
       <h5>Is it two in one?{{ article.twoinone }},</h5>
 
@@ -122,11 +139,7 @@
       <p>Operating System <b>{{os}}</b></p>
       <p>Two in One Laptops? <b>{{twoinone}}</b></p>
     </div>
-    <div class="w3-container w3-white">
-      <h4><b>My Name</b></h4>
-      <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
-    </div>
-  </div><hr>
+    </div><hr>
 
   <!-- Posts -->
   <div class="w3-card w3-margin">
@@ -183,7 +196,7 @@ export default {
       step: 1,
       totalsteps: 5,
       size: 'all',
-      reason: 'Business',
+      reason: 'General-purpose',
       price: '5000',
       os: 'all',
       twoinone: 'all'
