@@ -13,6 +13,40 @@ module.exports.list = function (req, res, next) {
   });
 }
 
+module.exports.finditweight = function (req, res, next) {
+      console.log(req.body.weight)
+    Article.find({"weight": { $lte: req.body.weight }}).sort({weight: 'descending'}).exec((err, articles) => {
+    if(err) {
+        return res.status(500).json({
+            message: 'Error getting records.'
+        });
+    }
+    return res.json(articles);
+  });
+}
+
+module.exports.finditsize = function (req, res, next) {
+    Article.find({"size": { $lte: req.body.size }}).sort({size: 'descending'}).exec((err, articles) => {
+    if(err) {
+        return res.status(500).json({
+            message: 'Error getting records.'
+        });
+    }
+    return res.json(articles);
+  });
+}
+
+module.exports.finditstorage = function (req, res, next) {
+    Article.find({"storage": { $lte: req.body.storage }}).sort({storage: 'descending'}).exec((err, articles) => {
+    if(err) {
+        return res.status(500).json({
+            message: 'Error getting records.'
+        });
+    }
+    return res.json(articles);
+  });
+}
+
 module.exports.finditram = function (req, res, next) {
     Article.find({"ram": { $lte: req.body.ram }}).sort({ram: 'descending'}).exec((err, articles) => {
 
@@ -50,7 +84,6 @@ module.exports.bestlaptopspurpose = function (req, res, next) {
 }
 
 module.exports.bestlaptopsos = function (req, res, next) {
-  console.log(req.body.os);
   if(req.body.os === "all"){
     Article.find({}).sort({price: 'descending'}).exec((err, articles) => {
 
@@ -344,7 +377,11 @@ validator.body('description', 'Please enter Article Content').isLength({ min: 1 
         para2: req.body.para2,
         para3: req.body.para3,
         description: req.body.description,
-        note: req.body.note
+        note: req.body.note,
+        performancepercentage: req.body.performancepercentage,
+        batterypercentage: req.body.batterypercentage,
+        displaypercentage: req.body.displaypercentage,
+        stylepercentage: req.body.stylepercentage
     })
 
     // save record
@@ -445,6 +482,11 @@ module.exports.update = [
         article.para3 =  req.body.para3 ? req.body.para3 : article.para3;
         article.description =  req.body.description ? req.body.description : article.description;
         article.note =  req.body.note ? req.body.note : article.note;
+        article.performancepercentage =  req.body.performancepercentage ? req.body.performancepercentage : article.performancepercentage;
+        article.batterypercentage =  req.body.batterypercentage ? req.body.batterypercentage : article.batterypercentage;
+        article.displaypercentage =  req.body.displaypercentage ? req.body.displaypercentage : article.displaypercentage;
+        article.stylepercentage =  req.body.stylepercentage ? req.body.stylepercentage : article.stylepercentage;
+
         // save record
         article.save(function(err, article){
             if(err) {

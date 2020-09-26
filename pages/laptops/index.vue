@@ -26,8 +26,8 @@ and is wrapped around the whole page content, except for the footer in this exam
             <h2>
               Filter Laptops
             </h2><br>
-            <select v-model="price" @change.prevent="findit">
-    <option disabled value="">Please Select Price</option>
+            <select style="width:25%" v-model="price" class="" @change.prevent="findit">
+    <option disabled value="">Price</option>
     <option value="100">Under 100</option>
     <option value="200">Under 200</option>
     <option value="300">Under 300</option>
@@ -42,14 +42,14 @@ and is wrapped around the whole page content, except for the footer in this exam
     <option value="2500">Under 2500</option>
     <option value="5000">No Limit</option>
   </select>
-          <select v-model="os" @change.prevent="finditos">
-  <option disabled value="">Select OS</option>
+          <select style="width:25%" v-model="os" @change.prevent="finditos">
+  <option disabled value="">Operating System</option>
   <option>macOS</option>
   <option>Windows</option>
   <option>Chrome</option>
   <option>all</option>
 </select>
-<select v-model="purpose" @change.prevent="finditpurpose">
+<select style="width:25%" v-model="purpose" @change.prevent="finditpurpose">
 <option disabled value="">What's Your Purpose?</option>
 <option value="Gaming">Gaming</option>
 <option value="General-purpose">General Purpose</option>
@@ -63,11 +63,12 @@ and is wrapped around the whole page content, except for the footer in this exam
 <option value="Photo editing">Photo editing</option>
 <option value="Business">Business</option>
 <option value="College students">College students</option>
-</select>
-<select v-model="company" @change.prevent="finditcompany">
-<option disabled value="">Preferred company</option>
+</select><br><br>
+<select style="width:25%" v-model="company" @change.prevent="finditcompany">
+<option disabled value="">Company</option>
 <option>HP</option>
 <option>Dell</option>
+<option>Razer</option>
 <option>Lenovo</option>
 <option>Apple</option>
 <option>Samsung</option>
@@ -75,35 +76,65 @@ and is wrapped around the whole page content, except for the footer in this exam
 <option>MSI</option>
 <option>Asus</option>
 </select>
-<select v-model="ram" @change.prevent="finditram">
+<select style="width:25%" v-model="ram" @change.prevent="finditram">
 <option disabled value="">RAM</option>
 <option value="4">4 GB</option>
 <option value="8">8 GB</option>
 <option value="16">16 GB</option>
 <option value="32">32 GB</option>
 </select>
-          <div class="w3-margin w3-white" id="found"><hr>
-          <div v-for="article in articles"
-            :key="article._id">
-            <ul class="w3-ul w3-hoverable w3-white w3-card">
-              <li class="w3-padding-16">
-                <img v-if="article.title != null" :src="require('~/assets/' + article.imgpath)" alt="Image" class="w3-left w3-margin-right" style="width:100px; height:100px">
-                <nuxt-link style="color: black" :to="'/laptops/' + article._id"><span class="w3-large">{{ article.title }},</span></nuxt-link>
-                <br>
-                <div class="w3-right">
-                  <h3>${{article.price}}</h3>
-                </div>
-                <span>{{ article.os }} OS,</span><br>
-                <span>{{ article.ram }} RAM,</span><br>
-                <span v-if="article.storage >= 1000">{{ article.storage/1000 }} TB Storage,</span>
-                <span v-else>{{ article.storage }} GB Storage,</span><br>
-                <span>{{ article.size }} inches,</span><br>
-                <b><span><a :href="article.amazonlink">Buy Now</a></span></b>
-              </li><hr>
-            </ul>
-          </div>
-              </div>
-              <h3>Best Affordable Laptops</h3>
+<select style="width:25%" v-model="storage" @change.prevent="finditstorage1">
+<option disabled value="">Storage</option>
+<option value="32">32 GB</option>
+<option value="64">64 GB</option>
+<option value="128">128 GB</option>
+<option value="256">256 GB</option>
+<option value="512">512 GB</option>
+<option value="1000">1 TB</option>
+</select><br><br>
+<select style="width:25%" v-model="size" @change.prevent="finditsize">
+<option disabled value="">Size</option>
+<option value="11">Upto 11 inches</option>
+<option value="12">Upto 12 inches</option>
+<option value="13">Upto 13 inches</option>
+<option value="14">Upto 14 inches</option>
+<option value="15">Upto 15 inches</option>
+<option value="20">Show all</option>
+</select>
+<select style="width:25%" v-model="weight" @change.prevent="finditweight">
+<option disabled value="">Weight</option>
+<option value="2">Upto 2 Pounds</option>
+<option value="3">Upto 3 Pounds</option>
+<option value="4">Upto 4 Pounds</option>
+<option value="5">Upto 5 Pounds</option>
+<option value="20">Show all</option>
+</select><hr>
+
+              <div class="container w3-white w3-card" v-for="article in articles"
+                :key="article._id"><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img v-if="article.title != null" :src="require('~/assets/' + article.imgpath)" style="width:100px; height:100px">
+    </div>
+    <div class="col-sm-4">
+
+      <h5><nuxt-link style="color: black" :to="'/laptops/' + article._id"><span class="w3-large w3-text-teal">{{ article.title }},</span></nuxt-link></h5>
+      <span>OS: {{article.os}}</span><br>
+      <span>{{article.size}} Inches</span><br>
+      <span>{{article.ram}} GB</span><br>
+      <span v-if="article.storage >= 1000">{{ article.storage/1000 }} TB Storage,</span>
+      <span v-else>{{ article.storage }} GB Storage,</span><br>
+    </div>
+    <div class="col-sm-4">
+      <h3>${{article.price}}</h3>
+      <p><a :href="article.amazonlink"><button class="w3-button w3-block w3-teal">Buy Now</button></a></p>
+    </div>
+  </div><hr>
+</div>
+
+
+
+      <h3>Best Affordable Laptops</h3>
 
           <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
           <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
@@ -113,7 +144,7 @@ and is wrapped around the whole page content, except for the footer in this exam
     <!-- About/Information menu -->
     <div class="w3-col l4">
       <div class="w3-white w3-margin">
-      <div class="w3-container w3-padding w3-black">
+      <div class="w3-container w3-padding w3-teal">
         <h4>Related Posts</h4>
       </div>
       <ul class="w3-ul w3-hoverable w3-white">
@@ -133,7 +164,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <br>
         </li>
         <li class="w3-padding-16">
-          <img src="~/assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:40px">
+          <img src="~/assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:40px">
           <nuxt-link style="color: black" to="/under-400-dollars/"><span class="w3-large">Laptops Under 400 Dollars</span></nuxt-link>
           <br>
         </li>
@@ -142,7 +173,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <hr>
 
       <div class="w3-white w3-margin">
-      <div class="w3-container w3-padding w3-black">
+      <div class="w3-container w3-padding w3-teal">
         <h4>Trending Laptops</h4>
       </div>
       <ul class="w3-ul w3-hoverable w3-white">
@@ -175,7 +206,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <hr>
     <!-- Advertising -->
       <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
+        <div class="w3-container w3-padding w3-teal">
           <h4>Advertise</h4>
         </div>
         <div class="w3-container w3-white">
@@ -187,13 +218,12 @@ and is wrapped around the whole page content, except for the footer in this exam
       <hr>
 
       <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
-          <h4>Follow Me</h4>
+        <div class="w3-container w3-padding w3-teal">
+          <h4>Follow Us</h4>
         </div>
         <div class="w3-container w3-xlarge w3-padding">
           <i class="fa fa-facebook-official w3-hover-opacity"></i>
           <i class="fa fa-instagram w3-hover-opacity"></i>
-          <i class="fa fa-snapchat w3-hover-opacity"></i>
           <i class="fa fa-pinterest-p w3-hover-opacity"></i>
           <i class="fa fa-twitter w3-hover-opacity"></i>
           <i class="fa fa-linkedin w3-hover-opacity"></i>
@@ -203,13 +233,15 @@ and is wrapped around the whole page content, except for the footer in this exam
 
       <!-- Subscribe -->
       <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
+        <div class="w3-container w3-padding w3-teal">
           <h4>Subscribe</h4>
         </div>
         <div class="w3-container w3-white"><br>
           <p>Enter your e-mail below and get notified on the latest blog posts.</p><br>
           <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p><br>
-          <p><button type="button" class="w3-button w3-block w3-red">Subscribe</button></p><br>
+          <p>
+            <button class="w3-button w3-block w3-teal">Subscribe</button>
+          </p><br>
         </div>
       </div>
 
@@ -253,12 +285,47 @@ data() {
     os: '',
     purpose: '',
     company: '',
-    ram: ''
+    ram: '',
+    storage: '',
+    size: '',
+    weight: ''
   }
 },
 methods: {
+
+async finditweight(){
+  this.os = ''
+    await this.$axios.$post('/api/articles/finditweight', {
+      weight: this.weight
+    })
+    .then((response) => {
+     this.articles = response
+     this.$router.push({ to:'/#laptops' })
+   })
+},
+
+async finditsize(){
+  this.os = ''
+    await this.$axios.$post('/api/articles/finditsize', {
+      size: this.size
+    })
+    .then((response) => {
+     this.articles = response
+     this.$router.push({ to:'/#laptops' })
+   })
+},
+  async finditstorage1(){
+    this.os = ''
+      await this.$axios.$post('/api/articles/finditstorage1', {
+        storage: this.storage
+      })
+      .then((response) => {
+       this.articles = response
+       this.$router.push({ to:'/#laptops' })
+     })
+  },
+
   async finditram(){
-    alert(this.ram)
     this.os = ''
       await this.$axios.$post('/api/articles/finditstorage', {
         ram: this.ram
@@ -279,7 +346,6 @@ methods: {
      })
    },
   async finditos(){
-    alert(this.os);
     this.price = ''
     await this.$axios.$post('/api/articles/bestlaptopsos', {
       os: this.os
@@ -290,7 +356,6 @@ methods: {
    })
  },
  async finditpurpose(){
-   alert(this.purpose);
    this.price = ''
    this.os = ''
    await this.$axios.$post('/api/articles/bestlaptopspurpose', {
@@ -302,7 +367,6 @@ methods: {
   })
 },
 async finditcompany(){
-  alert(this.company);
   this.price = ''
   this.os = ''
   this.purpose = ''
@@ -313,7 +377,11 @@ async finditcompany(){
    this.articles = response
    this.$router.push({ to:'/#laptops' })
  })
-}
+},
+linkcall(event){
+  alert(this.articles.amazonlink)
+  window.open(this.articles.amazonlink);
+},
 },
 mounted:function(){
     this.findit() //method1 will execute at pageload

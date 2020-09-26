@@ -7,7 +7,7 @@ and is wrapped around the whole page content, except for the footer in this exam
   <!-- Header -->
   <header class="w3-container w3-center w3-padding-48 w3-black">
     <h1 class="w3-xxxlarge"><b>Best Budget Laptops</b></h1>
-    <h6>We help you to <span class="w3-tag w3-red">Find the Best Budget Laptops</span></h6>
+    <h6>We help you to <span class="w3-tag w3-teal">Find the Best Budget Laptops</span></h6>
   </header>
 <navbar />
   <!-- Navbar -->
@@ -103,7 +103,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
     <!-- Advertising -->
     <div class="w3-white w3-margin w3-margin-top">
-      <div class="w3-container w3-padding w3-black">
+      <div class="w3-container w3-padding w3-teal">
         <h4>Filter Budget Laptops</h4>
       </div><br>
       <select v-model="selected" class="w3-margin-left">
@@ -231,7 +231,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
   <!-- Posts -->
   <div class="w3-white ">
-    <div class="w3-container w3-padding w3-black">
+    <div class="w3-container w3-padding w3-teal">
       <h4>Popular Posts</h4>
     </div>
     <ul class="w3-ul w3-hoverable w3-white">
@@ -265,7 +265,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
   <!-- Advertising -->
   <div class="w3-white ">
-    <div class="w3-container w3-padding w3-black">
+    <div class="w3-container w3-padding w3-teal">
       <h4>Advertise</h4>
     </div>
     <div class="w3-container w3-white">
@@ -278,34 +278,33 @@ and is wrapped around the whole page content, except for the footer in this exam
 
   <!-- Tags -->
   <div class="w3-white ">
-    <div class="w3-container w3-padding w3-black">
+    <div class="w3-container w3-padding w3-teal">
       <h4>Compare Laptops</h4>
     </div>
     <div class="w3-container w3-white"><br>
-      <p>Confused, Which laptop to choose? Nevigate to our <router-link style="color:red;" to="/compare-laptops/">compare laptops</router-link> page and enter the specification of laptops and compare different laptops of various brands.</p>
+      <p>Confused, Which laptop to choose? Nevigate to our <router-link style="color:blue;" to="/compare-laptops/">compare laptops</router-link> page and enter the specification of laptops and compare different laptops of various brands.</p>
     </div>
   </div>
   <hr>
 
   <!-- Laptop finder -->
   <div class="w3-white ">
-    <div class="w3-container w3-padding w3-black">
+    <div class="w3-container w3-padding w3-teal">
       <h4>Laptop Finder</h4>
     </div>
     <div class="w3-container w3-white"><br>
-      <p><router-link style="color:red;" to="/laptop-finder/">Laptop finder</router-link> is an advanced feature of our website. Enter your needs and reason, our algorithm will help you find the best laptop as per your needs and requirement.</p>
+      <p><router-link style="color:teal;" to="/laptop-finder/">Laptop finder</router-link> is an advanced feature of our website. Enter your needs and reason, our algorithm will help you find the best laptop as per your needs and requirement.</p>
     </div>
   </div>
   <hr>
 
   <div class="w3-white ">
-    <div class="w3-container w3-padding w3-black">
-      <h4>Follow Me</h4>
+    <div class="w3-container w3-padding w3-teal">
+      <h4>Follow Us</h4>
     </div>
     <div class="w3-container w3-xlarge w3-padding">
       <i class="fa fa-facebook-official w3-hover-opacity"></i>
       <i class="fa fa-instagram w3-hover-opacity"></i>
-      <i class="fa fa-snapchat w3-hover-opacity"></i>
       <i class="fa fa-pinterest-p w3-hover-opacity"></i>
       <i class="fa fa-twitter w3-hover-opacity"></i>
       <i class="fa fa-linkedin w3-hover-opacity"></i>
@@ -315,13 +314,13 @@ and is wrapped around the whole page content, except for the footer in this exam
 
   <!-- Subscribe -->
   <div class="w3-white ">
-    <div class="w3-container w3-padding w3-black">
+    <div class="w3-container w3-padding w3-teal">
       <h4>Subscribe</h4>
     </div>
     <div class="w3-container w3-white"><br>
       <p>Enter your e-mail below and get notified on the latest blog posts.</p><br>
       <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p><br>
-      <p><button type="button" class="w3-button w3-block w3-red">Subscribe</button></p><br>
+      <p><button type="button" class="w3-button w3-block w3-teal">Subscribe</button></p><br>
     </div>
   </div>
     </div>
@@ -341,7 +340,7 @@ and is wrapped around the whole page content, except for the footer in this exam
          <router-link to="/under-100-dollars/">
            <div class="w3-display-container">
            <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
-           <div class="w3-display-topright w3-red w3-padding">Adam Johnson</div>
+           <div class="w3-display-topright w3-teal w3-padding">Adam Johnson</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
            <a><p><b><h3>Laptops Under 100 Dollars</h3></b></p></a>
@@ -352,7 +351,7 @@ and is wrapped around the whole page content, except for the footer in this exam
          <router-link to="/under-200-dollars/">
            <div class="w3-display-container">
            <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
-           <div class="w3-display-topright w3-red w3-padding">Adam Johnson</div>
+           <div class="w3-display-topright w3-teal w3-padding">Adam Johnson</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
            <a><p><b><h3>Laptops Under 200 Dollars</h3></b></p></a>

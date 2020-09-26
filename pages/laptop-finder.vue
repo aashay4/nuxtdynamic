@@ -29,8 +29,8 @@
   <label for="14">14</label><br>
   <input type="radio" id="16" value="16" v-model="size">
   <label for="16">16</label><br>
-  <input type="radio" id="all" value="all" v-model="size">
-  <label for="all">All</label>
+  <input type="radio" id="No Preference" value="No Preference" v-model="size">
+  <label for="No Preference">All</label>
       </section>
       <section v-if="step == 2">
         <h2><br>
@@ -86,8 +86,8 @@
   <label for="Windows">Windows</label><br>
   <input type="radio" id="macOS" value="macOS" v-model="os">
   <label for="macOS">macOS</label><br>
-  <input type="radio" id="all" value="all" v-model="os">
-  <label for="all">No Preference</label><br>
+  <input type="radio" id="No Preference" value="No Preference" v-model="os">
+  <label for="No Preference">No Preference</label><br>
       </section><br>
       <section v-if="step == 5">
         <h2>
@@ -97,13 +97,13 @@
   <label for="radio">Yes</label><br>
   <input type="radio" id="" value="No" v-model="twoinone">
   <label for="radio">No</label><br>
-  <input type="radio" id="all" value="all" v-model="twoinone">
-  <label for="all">All</label>
+  <input type="radio" id="No Preference" value="No Preference" v-model="twoinone">
+  <label for="No Preference">All</label>
   <br>
       </section>
-      <button class="w3-margin-bottom w3-button w3-padding-large w3-white w3-border" v-if="step != totalsteps" @click.prevent="nextstep"><b>Next Step &raquo;</b></button>
+      <button class="w3-margin-bottom w3-button w3-padding-large w3-white w3-border" style="width:25%" v-if="step != totalsteps" @click.prevent="nextstep"><b>Next Step &raquo;</b></button>
       <button class="w3-margin-bottom w3-button w3-padding-large w3-white w3-border" v-if="step != 1" @click.prevent="previousstep"><b>&laquo; Previous Step</b></button>
-      <button class="w3-margin-bottom w3-button w3-padding-large w3-white w3-border" v-if="step == 5" @click.prevent="findit"><b>Send Query &raquo;</b></button>
+      <button class="w3-margin-bottom w3-button w3-padding-large w3-white w3-border" v-if="step == 5" @click.prevent="findit(); scrollMeTo('porto')"><b>Send Query &raquo;</b></button>
     </form>
   </div>
   <hr>
@@ -179,7 +179,187 @@
 
 <!-- END w3-content -->
 </div>
+<div class="w3-light-grey">
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
 
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+    <!-- Left Column -->
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-laptop fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Laptop Finder</h2>
+        <div class="w3-container" v-if="step == 1">
+          <h5 class="w3-opacity"><b>Step 1 - Select a Size</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">Sept, 24 2020</span></h6>
+          <p>The average size of a laptop is around 11-12 inches. If you are a frequent traveler and often carry laptop while traveling then we would recommend you to choose a smaller laptop.</p>
+          <hr>
+            <input type="radio" id="10" value="10" v-model="size">
+      <label for="10">10</label><br>
+      <input type="radio" id="12" value="12" v-model="size">
+      <label for="12">12</label><br>
+      <input type="radio" id="14" value="14" v-model="size">
+      <label for="14">14</label><br>
+      <input type="radio" id="16" value="16" v-model="size">
+      <label for="16">16</label><br>
+      <input type="radio" id="No Preference" value="No Preference" v-model="size">
+      <label for="No Preference">All</label>
+        </div>
+        <div class="w3-container" v-if="step == 2">
+            <h5 class="w3-opacity"><b>Step 2 - Select Price</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">Sept, 24 2020</span></h6>
+            <p>The price of a laptop is directly proportional to the features and specifications. A laptop with more advanced specs is way costlier. For general purpose, you can find a good laptop at around $700.</p>
+            <hr>
+            <input type="radio" id="700" value="400" v-model="price">
+          <label for="500">Below $400</label><br>
+          <input type="radio" id="700" value="700" v-model="price">
+          <label for="1000">Upto $700</label><br>
+          <input type="radio" id="700" value="1000" v-model="price">
+          <label for="1000">Upto $1000</label><br>
+          <input type="radio" id="1500" value="5000" v-model="price">
+          <label for="1500">no limit</label>
+        </div>
+
+        <div class="w3-container" v-if="step == 3">
+            <h5 class="w3-opacity"><b>Step 3 - What's Your reason?</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">Sept, 24 2020</span></h6>
+            <p>Gaming, Video/Audio Editing and Music production laptops are way costly. Programming, Business and college laptops are less costly while general-purpose laptops are the cheapest.</p>
+            <hr>
+            <input type="radio" id="General-purpose" value="General-purpose" v-model="reason">
+      <label for="radio">General-purpose</label><br>
+      <input type="radio" id="All-purpose" value="All-purpose" v-model="reason">
+    <label for="radio">All-purpose</label><br>
+            <input type="radio" id="Business" value="Business" v-model="reason">
+      <label for="radio">Business</label><br>
+      <input type="radio" id="Gaming" value="Gaming" v-model="reason">
+      <label for="radio">Gaming</label><br>
+      <input type="radio" id="Programming" value="Programming" v-model="reason">
+      <label for="radio">Programming</label>
+          </div>
+
+          <div class="w3-container" v-if="step == 4">
+              <h5 class="w3-opacity"><b>Step 4 - Which OS you prefer?</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">Sept, 24 2020</span></h6>
+              <p>There are three major operating systems, ChromeOS, Windows and macOS. ChromeOS laptops are way cheaper then the Windows and macOS. If you are looking a laptop with general-purpose then ChromeOS is the right choice.</p>
+              <hr>
+              <input type="radio" id="Chrome" value="Chrome" v-model="os">
+        <label for="Chrome">Chrome OS</label><br>
+              <input type="radio" id="Windows" value="Windows" v-model="os">
+        <label for="Windows">Windows</label><br>
+        <input type="radio" id="macOS" value="macOS" v-model="os">
+        <label for="macOS">macOS</label><br>
+        <input type="radio" id="No Preference" value="No Preference" v-model="os">
+        <label for="No Preference">No Preference</label>
+            </div>
+
+            <div class="w3-container" v-if="step == 5">
+                <h5 class="w3-opacity"><b>Step 5 - Do you prefer two in one Laptops?</b></h5>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">Sept, 24 2020</span></h6>
+                <p>Two in one laptops offer both touchscreen and keyboard. Most of businessmen who have to carry laptops while traveling prefer two in one laptops. Also, Students who do group projects select these laptops.</p>
+                <hr>
+                <input type="radio" id="" value="Yes" v-model="twoinone">
+          <label for="radio">Yes</label><br>
+          <input type="radio" id="" value="No" v-model="twoinone">
+          <label for="radio">No</label><br>
+          <input type="radio" id="No Preference" value="No Preference" v-model="twoinone">
+          <label for="No Preference">All</label>
+              </div>
+        <button class="w3-margin-bottom w3-button w3-padding-large w3-teal w3-border" v-if="step != totalsteps" @click.prevent="nextstep"><b>Next Step &raquo;</b></button>
+        <button class="w3-margin-bottom w3-button w3-padding-large w3-teal w3-border" v-if="step != 1" @click.prevent="previousstep"><b>&laquo; Previous Step</b></button>
+        <button class="w3-margin-bottom w3-button w3-padding-large w3-teal w3-border" v-if="step == 5" @click.prevent="findit(); scrollMeTo('porto')"><b>Send Query &raquo;</b></button>
+        <p></p>
+      </div>
+
+      <div class="w3-container w3-card w3-white fl-porto" ref="porto"><br>
+        <div class="container w3-white w3-card" v-for="article in articles"
+          :key="article._id"><br>
+<div class="row">
+<div class="col-sm-4">
+<img v-if="article.title != null" :src="require('~/assets/' + article.imgpath)" style="width:100px; height:100px">
+</div>
+<div class="col-sm-4">
+
+<h5><nuxt-link style="color: black" :to="'/laptops/' + article._id"><span class="w3-large w3-text-teal">{{ article.title }},</span></nuxt-link></h5>
+<span>OS: {{article.os}}</span><br>
+<span>{{article.size}} Inches</span><br>
+<span>{{article.ram}} GB</span><br>
+<span v-if="article.storage >= 1000">{{ article.storage/1000 }} TB Storage,</span>
+<span v-else>{{ article.storage }} GB Storage,</span><br>
+</div>
+<div class="col-sm-4">
+<h3>${{article.price}}</h3>
+<p><a :href="article.amazonlink"><button class="w3-button w3-block w3-teal">Buy Now</button></a></p>
+</div>
+</div><hr>
+</div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    <div class="w3-third">
+
+      <div class="w3-white w3-text-grey w3-card-4">
+
+        <div class="w3-display-container">
+          <img src="~/assets/laptop.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>YOUR SELECTION</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-laptop fa-fw w3-margin-right w3-large w3-text-teal"></i>Laptop Size: <b>{{size}}</b></p>
+          <p><i class="fa fa-money fa-fw w3-margin-right w3-large w3-text-teal"></i>Laptop Price: <b>{{ price }}</b></p>
+          <p><i class="fa fa-file-powerpoint-o fa-fw w3-margin-right w3-large w3-text-teal"></i>Buying Purpose: <b>{{ reason }}</b></p>
+          <p><i class="fa fa-laptop fa-fw w3-margin-right w3-large w3-text-teal"></i>OS: <b>{{ os }}</b></p>
+          <p><i class="fa fa-laptop fa-fw w3-margin-right w3-large w3-text-teal"></i>Two in One: <b>{{ twoinone }}</b></p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>User's Rating</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:71%">71%</div>
+          </div>
+          <p>Tool's Accuracy</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:74%">
+              <div class="w3-center w3-text-white">74%</div>
+            </div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Add Your Review</b></p>
+          <div class="" v-if="review === 'yea'">
+            <select v-model="percentage" style="width: 100%">
+        <option disabled value="70%">70%</option>
+        <option>10%</option>
+        <option>20%</option>
+        <option>40%</option>
+        <option>60%</option>
+        <option>80%</option>
+        <option>90%</option>
+        <option>100%</option>
+      </select><br><br>
+            <input type="text" name="" value="" placeholder="Enter your review" style="width: 100%"><br><br>
+            <button class="w3-margin-bottom w3-button w3-padding-large w3-teal w3-border" @click.prevent="percentclick"><b>Send Review</b></button>
+          </div>
+          <div class="" v-if="review === 'yea1'">
+            <h1>Thanks for your review.</h1>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+  <!-- End Grid -->
+  </div>
+
+  <!-- End Page Container -->
+</div>
+</div>
 <!-- Footer -->
 <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
@@ -195,14 +375,25 @@ export default {
       articles : [],
       step: 1,
       totalsteps: 5,
-      size: 'all',
+      size: 'No Preference',
       reason: 'General-purpose',
       price: '5000',
-      os: 'all',
-      twoinone: 'all'
+      os: 'No Preference',
+      twoinone: 'No Preference',
+      review: 'yea',
+      percentage: ''
   }
 },
   methods: {
+    scrollMeTo(refName) {
+    var element = this.$refs[refName];
+    var top = element.offsetTop;
+
+    window.scrollTo(0, top);
+  },
+  percentclick(){
+    this.review = 'yea1';
+  },
     nextstep()
         {
             this.step++;
@@ -212,8 +403,7 @@ export default {
             this.step--;
         },
         async findit(){
-          if(this.size == "all" && this.twoinone == "all" && this.os == "all"){
-            alert("everything all")
+          if(this.size == "No Preference" && this.twoinone == "No Preference" && this.os == "No Preference"){
             await this.$axios.$post('/api/articles/filterall', {
               reason: this.reason,
               price: this.price
@@ -224,7 +414,7 @@ export default {
              this.$router.push({ to:'/#laptops' })
            })
           }
-          else if( this.size == "all" && this.os == "all"){
+          else if( this.size == "No Preference" && this.os == "No Preference"){
             alert("into size and os")
             await this.$axios.$post('/api/articles/filtertwo', {
               reason: this.reason,
@@ -236,7 +426,7 @@ export default {
              this.articles = response
            })
           }
-          else if(this.size == "all" && this.twoinone == "all") {
+          else if(this.size == "No Preference" && this.twoinone == "No Preference") {
             alert("into size and two in one");
             await this.$axios.$post('/api/articles/filterone', {
               reason: this.reason,
@@ -248,7 +438,7 @@ export default {
              this.articles = response
            })
           }
-          else if(this.twoinone == "all" && this.os == "all"){
+          else if(this.twoinone == "No Preference" && this.os == "No Preference"){
             alert("twoinone and os all");
             await this.$axios.$post('/api/articles/filterthree', {
               reason: this.reason,
@@ -260,7 +450,7 @@ export default {
              this.articles = response
            })
           }
-          else if (this.size == "all") {
+          else if (this.size == "No Preference") {
           alert("size all");
           await this.$axios.$post('/api/articles/filterfour', {
             reason: this.reason,
@@ -273,7 +463,7 @@ export default {
            this.articles = response
          })
         }
-        else if(this.os == "all"){
+        else if(this.os == "No Preference"){
           alert("os all")
           await this.$axios.$post('/api/articles/filterfive', {
             reason: this.reason,
@@ -286,7 +476,7 @@ export default {
            this.articles = response
          })
         }
-          else if(this.twoinone == "all"){
+          else if(this.twoinone == "No Preference"){
             alert("two in one all")
             await this.$axios.$post('/api/articles/filtersix', {
               reason: this.reason,

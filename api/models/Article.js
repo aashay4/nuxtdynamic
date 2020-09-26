@@ -27,6 +27,10 @@ const Article = new Schema ({
   para3: { type: String, required: true },
   description: { type: String, required: true },
   note: { type: String, required: true },
+  performancepercentage: { type: String },
+  batterypercentage: { type: String },
+  displaypercentage: { type: String },
+  stylepercentage: { type: String },
 });
 
 module.exports = mongoose.model('Article', Article)

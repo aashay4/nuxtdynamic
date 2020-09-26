@@ -276,6 +276,46 @@
             </div>
           </div>
 
+          <div class="form-group">
+            <label for="">Performance percentage</label>
+            <textarea cols="30" rows="4" class="form-control"
+              :class="{ 'is-invalid': errors && errors.body }"
+              v-model="performancepercentage"></textarea>
+            <div class="invalid-feedback" v-if="errors && errors.body">
+              {{ errors.body.msg }}
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="">Battery Percentage</label>
+            <textarea cols="30" rows="4" class="form-control"
+              :class="{ 'is-invalid': errors && errors.body }"
+              v-model="batterypercentage"></textarea>
+            <div class="invalid-feedback" v-if="errors && errors.body">
+              {{ errors.body.msg }}
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="">Display Percentage</label>
+            <textarea cols="30" rows="4" class="form-control"
+              :class="{ 'is-invalid': errors && errors.body }"
+              v-model="displaypercentage"></textarea>
+            <div class="invalid-feedback" v-if="errors && errors.body">
+              {{ errors.body.msg }}
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="">Style Percentage</label>
+            <textarea cols="30" rows="4" class="form-control"
+              :class="{ 'is-invalid': errors && errors.body }"
+              v-model="stylepercentage"></textarea>
+            <div class="invalid-feedback" v-if="errors && errors.body">
+              {{ errors.body.msg }}
+            </div>
+          </div>
+
           <input type="submit" value="Submit" class="btn btn-primary mr-3">
           <nuxt-link to="/" class="btn btn-secondary mr-3">Cancel</nuxt-link>
 
@@ -316,7 +356,11 @@ export default {
           design: null,
           para2: null,
           para3: null,
-          description: null
+          description: null,
+          performancepercentage: null,
+          batterypercentage: null,
+          displaypercentage: null,
+          stylepercentage: null
         }
       },
       computed: {
@@ -374,7 +418,11 @@ export default {
               para2: this.para2,
               para3: this.para3,
               description: this.description,
-              note: this.note
+              note: this.note,
+              performancepercentage: this.performancepercentage,
+              batterypercentage: this.batterypercentage,
+              displaypercentage: this.displaypercentage,
+              stylepercentage: this.stylepercentage
             })
             .then((response) => {
               if(response.data._id){

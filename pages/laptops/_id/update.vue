@@ -271,6 +271,46 @@
             </div>
           </div>
 
+          <div class="form-group">
+            <label for="">Performance percentage</label>
+            <textarea cols="30" rows="4" class="form-control"
+              :class="{ 'is-invalid': errors && errors.body }"
+              v-model="performancepercentage"></textarea>
+            <div class="invalid-feedback" v-if="errors && errors.body">
+              {{ errors.body.msg }}
+            </div>
+          </div>
+          {{ performancepercentage }}
+          <div class="form-group">
+            <label for="">Battery Percentage</label>
+            <textarea cols="30" rows="4" class="form-control"
+              :class="{ 'is-invalid': errors && errors.body }"
+              v-model="batterypercentage"></textarea>
+            <div class="invalid-feedback" v-if="errors && errors.body">
+              {{ errors.body.msg }}
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="">Display Percentage</label>
+            <textarea cols="30" rows="4" class="form-control"
+              :class="{ 'is-invalid': errors && errors.body }"
+              v-model="displaypercentage"></textarea>
+            <div class="invalid-feedback" v-if="errors && errors.body">
+              {{ errors.body.msg }}
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="">Style Percentage</label>
+            <textarea cols="30" rows="4" class="form-control"
+              :class="{ 'is-invalid': errors && errors.body }"
+              v-model="stylepercentage"></textarea>
+            <div class="invalid-feedback" v-if="errors && errors.body">
+              {{ errors.body.msg }}
+            </div>
+          </div>
+
           <input type="submit" value="Submit" class="btn btn-primary mr-3">
           <nuxt-link :to="'/laptops/' + $route.params.id" class="btn btn-secondary mr-3">Cancel</nuxt-link>
 
@@ -315,7 +355,11 @@ export default {
       para3: null,
       description: null,
       gpu: null,
-      note: null
+      note: null,
+      performancepercentage: null,
+      batterypercentage: null,
+      displaypercentage: null,
+      stylepercentage: null
     }
   },
   mounted(){
@@ -346,7 +390,11 @@ export default {
       this.para2 = this.article.para2
       this.para3 = this.article.para3
       this.description = this.article.description,
-      this.note = this.article.note
+      this.note = this.article.note,
+      this.performancepercentage = this.article.performancepercentage,
+      this.batterypercentage = this.article.batterypercentage,
+      this.displaypercentage = this.article.displaypercentage,
+      this.stylepercentage = this.article.stylepercentage
     },
     submitForm(){
       this.$axios.put( '/api/articles/' + this.$route.params.id , {
@@ -373,7 +421,11 @@ export default {
           para2: this.para2,
           para3: this.para3,
           description: this.description,
-          note: this.note
+          note: this.note,
+          performancepercentage: this.performancepercentage,
+          batterypercentage: this.batterypercentage,
+          displaypercentage: this.displaypercentage,
+          stylepercentage: this.stylepercentage
         })
         .then((response) => {
           console.log(response)
