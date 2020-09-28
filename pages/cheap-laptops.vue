@@ -1,15 +1,6 @@
 <template lang="html">
   <div class="w3-light-grey">
-  <div class="w3-bar w3-black w3-hide-small">
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
-  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
-</div>
-
+      <navbar />
 <!-- w3-content defines a container for fixed size centered content,
 and is wrapped around the whole page content, except for the footer in this example -->
 <div class="w3-content" style="max-width:1600px">
@@ -23,6 +14,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <hr>
           <p>In this article, we bring you the best cheap laptops. There are some unexpensive laptops available in the market today that is capable of getting the job done quickly. Select the price that and we will get you the best cheap laptops from our database. Remember one thing, all the affordable laptops won't be able to pull out all the task/load that you throw at it. The inexpensive laptops are not as good at performance as all the other gaming laptops. But the laptops on this list are capable of performing all the daily tasks smoothly.</p>
           <p>If you want more customization options then you can visit our <nuxt-link to="/laptop-finder/">laptop finder tool</nuxt-link>. With this tool, you can customize price, operating system, laptop size and purpose.</p><hr>
+          <div>
           <section>
             <h2>
               Select Cheap Laptop Price
@@ -38,23 +30,30 @@ and is wrapped around the whole page content, except for the footer in this exam
       <input type="radio" id="all" value="500" v-model="price">
       <label for="all">Under 500</label><br>
       <p>Or Add Custom Value: <input type="text" v-model="price" placeholder="Or Enter a custom value" /></p>
-      <button class="w3-margin-bottom w3-button w3-padding-large w3-white w3-border" @click.prevent="findit"><b>Get Laptops &raquo;</b></button>
+      <button class="w3-margin-bottom w3-button w3-padding-large w3-teal w3-border" @click.prevent="findit"><b>Get Laptops &raquo;</b></button>
           </section>
-          <div class="w3-margin w3-white" id="found"><hr>
-          <div v-for="article in articles"
-            :key="article._id">
-            <ul class="w3-ul w3-hoverable w3-white">
-              <li class="w3-padding-16">
-                <img v-if="article.title != null" :src="require('~/assets/' + article.imgpath)" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-                <nuxt-link style="color: black" :to="'/laptops/' + article._id"><span class="w3-large">{{ article.title }}</span></nuxt-link>
-                <br>
-                <span>Price: {{ article.price }}</span><br>
-                <span>Operating System: {{ article.os }} OS</span><br>
-                <b><span><a :href="article.amazonlink">Buy Now</a></span></b>
-              </li><hr>
-            </ul>
-          </div>
-              </div>
+        </div>
+          <div class="container w3-white w3-card" v-for="article in articles"
+            :key="article._id"><br>
+<div class="row">
+<div class="col-sm-4">
+  <img v-if="article.title != null" :src="require('~/assets/' + article.imgpath)" style="width:100px; height:100px">
+</div>
+<div class="col-sm-4">
+
+  <h5><nuxt-link style="color: black" :to="'/laptops/' + article._id"><span class="w3-large w3-text-teal">{{ article.title }},</span></nuxt-link></h5>
+  <span>OS: {{article.os}}</span><br>
+  <span>{{article.size}} Inches</span><br>
+  <span>{{article.ram}} GB</span><br>
+  <span v-if="article.storage >= 1000">{{ article.storage/1000 }} TB Storage,</span>
+  <span v-else>{{ article.storage }} GB Storage,</span><br>
+</div>
+<div class="col-sm-4">
+  <h3>${{article.price}}</h3>
+  <p><a :href="article.amazonlink"><button class="w3-button w3-block w3-teal">Buy Now</button></a></p>
+</div>
+</div><hr>
+</div>
               <h3>How Much Do I Need to Spend for Cheap Laptops?</h3>
               <p>If you are looking for a laptop for daily use and you are not concerned about the designs or looks then you can buy a good laptop at very affordable price. The price would be below 500 dollars. Today, there are multiple well-known companies that are building some of the best cheap laptops which are equipped to provide a great performance. You do not need to spend thousand of dollars just to perform the daily work. You will find multiple all-purpose laptops here on this list.</p><hr>
               <h2>Best Cheap Laptops</h2>
@@ -72,14 +71,14 @@ and is wrapped around the whole page content, except for the footer in this exam
               <h3>Samsung Chromebook 4</h3>
               <p>Samsung Chromebook 4 is one of the cheapest laptops that is a good performer at the same time. It costs just around $229 but you won't be compromising on the performance. For 229 dollars, you get an 11.6 inches screen, 32 GB of storage and 4 GB RAM. Along with performance, battery life is also a plus of this laptop. Battery of Samsung Chromebook 4 lasts around 9 hours. If you need a laptop with more storage and RAM, you can add a few bucks more and get a bigger machines with more storage and RAM.</p><hr>
           <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-right"><button class="w3-button w3-teal" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
           <p class="w3-clear"></p></div></div>
     </div>
 
     <!-- About/Information menu -->
     <div class="w3-col l4">
       <div class="w3-white w3-margin">
-      <div class="w3-container w3-padding w3-black">
+      <div class="w3-container w3-padding w3-teal">
         <h4>Related Posts</h4>
       </div>
       <ul class="w3-ul w3-hoverable w3-white">
@@ -112,7 +111,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <hr>
 
       <div class="w3-white w3-margin">
-      <div class="w3-container w3-padding w3-black">
+      <div class="w3-container w3-padding w3-teal">
         <h4>Popular Posts</h4>
       </div>
       <ul class="w3-ul w3-hoverable w3-white">
@@ -145,7 +144,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <hr>
     <!-- Advertising -->
       <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
+        <div class="w3-container w3-padding w3-teal">
           <h4>Advertise</h4>
         </div>
         <div class="w3-container w3-white">
@@ -157,7 +156,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <hr>
 
       <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
+        <div class="w3-container w3-padding w3-teal">
           <h4>Follow Me</h4>
         </div>
         <div class="w3-container w3-xlarge w3-padding">
@@ -173,13 +172,13 @@ and is wrapped around the whole page content, except for the footer in this exam
 
       <!-- Subscribe -->
       <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
+        <div class="w3-container w3-padding w3-teal">
           <h4>Subscribe</h4>
         </div>
         <div class="w3-container w3-white"><br>
           <p>Enter your e-mail below and get notified on the latest blog posts.</p><br>
           <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p><br>
-          <p><button type="button" class="w3-button w3-block w3-red">Subscribe</button></p><br>
+          <p><button type="button" class="w3-button w3-block w3-teal">Subscribe</button></p><br>
         </div>
       </div>
 
@@ -200,23 +199,22 @@ and is wrapped around the whole page content, except for the footer in this exam
       <h2 class="w3-wide">SUBSCRIBE</h2>
       <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
       <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
-      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-teal w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
     </div>
   </div>
 </div>
 
 <!-- Footer -->
-<footer class="w3-container w3-dark-grey" style="padding:32px">
-  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
+<footer-app />
 
   </div>
 </template>
 
 <script>
+import navbar from '~/components/navbar.vue'
+import footer from '~/components/footer.vue'
 export default {
-components: {  },
+components: { navbar, 'footer-app': footer },
 data() {
   return {
     price: '400',
@@ -224,7 +222,7 @@ data() {
   }
 },
 methods: {
-  async findit(){
+    async findit(){
       await this.$axios.$post('/api/articles/cheap100', {
         price: this.price
       })

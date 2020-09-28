@@ -1,15 +1,6 @@
 <template lang="html">
   <div class="w3-light-grey">
-  <div class="w3-bar w3-black w3-hide-small">
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
-  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
-</div>
-
+  <navbar />
 <!-- w3-content defines a container for fixed size centered content,
 and is wrapped around the whole page content, except for the footer in this example -->
 <div class="w3-content" style="max-width:1600px">
@@ -60,14 +51,14 @@ and is wrapped around the whole page content, except for the footer in this exam
           <p>Not many laptops offer 128 GB of Storage when you are looking for a laptop under 300 dollars. Along with 128 GB memory, Dell Inspiron offers 4 GB of RAM and an eleven inch HD display. It is also a convertible laptop that can be used as a tablet as well. Dell inspiron works wonder while working on a group and discuss certain topics very often.</p>
           <p>Also, it weights just 2.5 pounds which is way lighter then the other laptops. Just 6 hours of battery life is a misnus point while other competitors in this list offer much higher battery battery life. Overall, this laptop is not built for gaming but its a good choice for students and businessmen to perform business routine tasks. Unlike Chromebook laptops, you do not need to store data on clound, you have 128 GB of data on the local storage. So, this can be helpful if you are dealing with a lot of computer data in the form of sheets, docs, PPT presentations or PDFs.</p>
           <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-right"><button class="w3-button w3-teal" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
           <p class="w3-clear"></p></div></div>
     </div>
 
     <!-- About/Information menu -->
     <div class="w3-col l4">
       <div class="w3-white w3-margin">
-      <div class="w3-container w3-padding w3-black">
+      <div class="w3-container w3-padding w3-teal">
         <h4>Related Posts</h4>
       </div>
       <ul class="w3-ul w3-hoverable w3-white">
@@ -100,7 +91,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <hr>
 
       <div class="w3-white w3-margin">
-      <div class="w3-container w3-padding w3-black">
+      <div class="w3-container w3-padding w3-teal">
         <h4>Popular Posts</h4>
       </div>
       <ul class="w3-ul w3-hoverable w3-white">
@@ -133,7 +124,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <hr>
     <!-- Advertising -->
       <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
+        <div class="w3-container w3-padding w3-teal">
           <h4>Advertise</h4>
         </div>
         <div class="w3-container w3-white">
@@ -145,7 +136,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <hr>
 
       <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
+        <div class="w3-container w3-padding w3-teal">
           <h4>Follow Me</h4>
         </div>
         <div class="w3-container w3-xlarge w3-padding">
@@ -161,13 +152,13 @@ and is wrapped around the whole page content, except for the footer in this exam
 
       <!-- Subscribe -->
       <div class="w3-white w3-margin">
-        <div class="w3-container w3-padding w3-black">
+        <div class="w3-container w3-padding w3-teal">
           <h4>Subscribe</h4>
         </div>
         <div class="w3-container w3-white"><br>
           <p>Enter your e-mail below and get notified on the latest blog posts.</p><br>
           <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p><br>
-          <p><button type="button" class="w3-button w3-block w3-red">Subscribe</button></p><br>
+          <p><button type="button" class="w3-button w3-block w3-teal">Subscribe</button></p><br>
         </div>
       </div>
 
@@ -188,24 +179,23 @@ and is wrapped around the whole page content, except for the footer in this exam
       <h2 class="w3-wide">SUBSCRIBE</h2>
       <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
       <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
-      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-teal w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
     </div>
   </div>
 </div>
 
 <!-- Footer -->
-<footer class="w3-container w3-dark-grey" style="padding:32px">
-  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
+<footer-app />
 
   </div>
 </template>
 
 <script>
+import navbar from '~/components/navbar.vue'
+import footer from '~/components/footer.vue'
 import date from '../components/date.vue'
 export default {
-components: { 'date-app': date },
+components: { 'date-app': date, navbar, 'footer-app': footer },
 }
 </script>
 

@@ -1,15 +1,6 @@
 <template lang="html">
   <div class="w3-light-grey">
-  <div class="w3-bar w3-black w3-hide-small">
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
-  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
-</div>
-
+          <navbar />
 <!-- w3-content defines a container for fixed size centered content,
 and is wrapped around the whole page content, except for the footer in this example -->
 <div class="w3-content" style="max-width:1600px">
@@ -26,7 +17,7 @@ and is wrapped around the whole page content, except for the footer in this exam
             <h2>
               Filter Laptops
             </h2><br>
-            <select style="width:25%" v-model="price" class="" @change.prevent="findit">
+            <select style="width:35%" v-model="price" class="" @change.prevent="findit">
     <option disabled value="">Price</option>
     <option value="100">Under 100</option>
     <option value="200">Under 200</option>
@@ -43,14 +34,14 @@ and is wrapped around the whole page content, except for the footer in this exam
     <option value="5000">No Limit</option>
   </select>
           <select style="width:25%" v-model="os" @change.prevent="finditos">
-  <option disabled value="">Operating System</option>
+  <option disabled value="">OS</option>
   <option>macOS</option>
   <option>Windows</option>
   <option>Chrome</option>
   <option>all</option>
 </select>
 <select style="width:25%" v-model="purpose" @change.prevent="finditpurpose">
-<option disabled value="">What's Your Purpose?</option>
+<option disabled value="">Purpose</option>
 <option value="Gaming">Gaming</option>
 <option value="General-purpose">General Purpose</option>
 <option value="All-purpose">All-purpose</option>
@@ -275,9 +266,10 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <script>
 import footer from '~/components/footer.vue'
+import navbar from '~/components/navbar.vue'
 
 export default {
-components: { 'footer-app': footer },
+components: { 'footer-app': footer, navbar },
 data() {
   return {
     price: '1500',

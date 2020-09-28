@@ -12,154 +12,6 @@
     <div class="alert alert-success"
       v-if="$route.params.updated=='yes'">Record updated successfully</div><br>
 
-<!-- Grid -->
-<div class="w3-row">
-
-<!-- Blog entries -->
-<div class="w3-col l8 s12">
-  <!-- Blog entry -->
-  <div class="w3-card-4 w3-margin w3-white">
-    <div class="w3-container"><br>
-      <h3><b>{{article.title}}</b></h3>
-      <h5><a :href="article.amazonlink">Buy Now</a></h5>
-    </div>
-
-    <div class="w3-container">
-      <p>{{article.body}}</p>
-      <div class="">
-        <p>{{article.para2}}</p>
-        <p>{{article.para3}}</p>
-        <p>{{article.design}}</p>
-      </div>
-      <div class="w3-row">
-        <div class="w3-col m8 s12">
-          <p><button @click="linkcall" class="w3-button w3-padding-large w3-white w3-border"><b>Buy Now &raquo;</b></button></p>
-        </div>
-        </div>
-    </div>
-  </div>
-  <hr>
-<!-- END BLOG ENTRIES -->
-</div>
-
-<!-- Introduction menu -->
-<div class="w3-col l4">
-  <!-- About Card -->
-  <div class="w3-card w3-margin w3-margin-top ex2">
-  <img :src="require('~/assets/' + article.imgpath)" style="width:100%">
-    <div class="w3-container w3-white" style="width:100%">
-      <h4><b>{{article.title}} Configuration</b></h4>
-      <client-only>
-      <table style="width:100%">
-        <tr>
-          <th>Buy Now</th>
-          <th><button @click="linkcall" type="button" name="button">Buy Now</a></button></th>
-        </tr>
-        <tr>
-          <td>Specifications</td>
-          <td>Content</td>
-        </tr>
-        <tr>
-          <td>Note</td>
-          <td>{{article.note}}</td>
-        </tr>
-        <tr>
-          <td>Company</td>
-          <td>{{article.company}}</td>
-        </tr>
-        <tr>
-          <td>GPU</td>
-          <td>{{article.gpu}}</td>
-        </tr>
-        <tr>
-          <td>price</td>
-          <td>{{article.price}}</td>
-        </tr>
-        <tr>
-          <td>Best Works For</td>
-          <td>{{article.reason}}</td>
-        </tr>
-        <tr>
-          <td>Operating System</td>
-          <td>{{article.os}}</td>
-        </tr>
-        <tr>
-          <td>Size</td>
-          <td>{{article.size}}</td>
-        </tr>
-        <tr>
-          <td>Is it two in one?</td>
-          <td>{{article.twoinone}}</td>
-        </tr>
-        <tr>
-          <td>storage</td>
-          <td v-if="article.storage >= '1000'">{{article.storage/1000}} TB</td>
-          <td v-else>{{article.storage}} GB</td>
-        </tr>
-        <tr>
-          <td>Display</td>
-          <td>{{article.display}}</td>
-        </tr>
-        <tr>
-          <td>ram</td>
-          <td>{{article.ram}}</td>
-        </tr>
-        <tr>
-          <td>Weight</td>
-          <td>{{article.weight}}</td>
-        </tr>
-        <tr>
-          <td>Has Bluetooth</td>
-          <td>{{article.bluethooth}}</td>
-        </tr>
-        <tr>
-          <td>Has Webcam?</td>
-          <td>{{article.webcam}}</td>
-        </tr>
-        <tr>
-          <td>Battery</td>
-          <td>{{article.battery}}</td>
-        </tr>
-        <tr>
-          <td>Processor</td>
-          <td>{{article.processor}}</td>
-        </tr>
-      </table> <hr> <br>
-    </client-only><hr><br>
-    </div>
-  </div><hr>
-
-  <!-- Posts -->
-  <div class="w3-card w3-margin">
-    <div class="w3-container w3-padding">
-      <h4>Other {{article.company}} Laptops</h4>
-    </div>
-
-    <nuxt-link
-      :to="'/laptops/' + article._id"
-      v-for="article in related"
-      :key="article._id"
-      style="color: black;">
-    <ul class="w3-ul w3-hoverable w3-white">
-      <li class="w3-padding-16">
-
-        <img :src="require('~/assets/' + article.imgpath)" class="w3-left w3-margin-right" style="width:50px">
-        <span>
-          <h4>{{ article.title }}</h4><br>
-            </span>
-      </li>
-    </ul><hr>
-  </nuxt-link>
-  </div>
-  <hr>
-
-<!-- END Introduction Menu -->
-</div>
-
-<!-- END GRID -->
-</div><br>
-
-<!-- END w3-content -->
 </div>
 <div class="w3-light-grey">
   <div class="w3-content w3-margin-top" style="max-width:1400px;">
@@ -303,33 +155,50 @@
         </table>
       </client-only>
           </div>
+          <div class="w3-container w3-card w3-white">
+            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Other {{ article.company }} Laptops</h2>
+            <div class="w3-container" v-for="article in related">
+              <div class="container w3-white w3-card"><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img v-if="article.title != null" :src="require('~/assets/' + article.imgpath)" style="width:100px; height:100px">
+    </div>
+    <div class="col-sm-4">
 
+      <h5><nuxt-link style="color: black" :to="'/laptops/' + article._id"><span class="w3-large w3-text-teal">{{ article.title }},</span></nuxt-link></h5>
+      <span>OS: {{article.os}}</span><br>
+      <span>{{article.size}} Inches</span><br>
+      <span>{{article.ram}} GB</span><br>
+      <span v-if="article.storage >= 1000">{{ article.storage/1000 }} TB Storage,</span>
+      <span v-else>{{ article.storage }} GB Storage,</span><br>
+    </div>
+    <div class="col-sm-4">
+      <h3>${{article.price}}</h3>
+      <p><a :href="article.amazonlink"><button class="w3-button w3-block w3-teal">Buy Now</button></a></p>
+    </div>
+  </div><hr>
+</div>
+    </div>
+
+              </div>
     <!-- End Right Column -->
   </div><br>
-
   <!-- End Grid -->
 </div>
 
   <!-- End Page Container -->
 </div>
 
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media.</p>
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-</footer>
+<footer-app />
 </div>
 </div>
 </template>
 
 <script>
+import footer from '~/components/footer.vue'
 import navbar from '~/components/navbar.vue'
 export default {
-  components: { navbar },
+  components: { navbar, 'footer-app': footer },
   async asyncData(context){
     const {data} = await context.$axios.get('/api/articles/' + context.route.params.id)
     return {
@@ -375,7 +244,11 @@ export default {
         _id: this.article._id
       })
       .then((response) => {
-       this.related = response
+    //    var arrayslice = [];
+      //  arrayslice = response;
+        //const myarray = arrayslice.slice(-2);
+        //console.log(myarray);
+       this.related = response.slice(-2);
      })
     }
   },

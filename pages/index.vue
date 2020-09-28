@@ -5,7 +5,7 @@
 and is wrapped around the whole page content, except for the footer in this example -->
 <div class="w3-content" style="max-width:1600px">
   <!-- Header -->
-  <header class="w3-container w3-center w3-padding-48 w3-black">
+  <header class="w3-container w3-center w3-padding-48 w3-light-gray">
     <h1 class="w3-xxxlarge"><b>Best Budget Laptops</b></h1>
     <h6>We help you to <span class="w3-tag w3-teal">Find the Best Budget Laptops</span></h6>
   </header>
@@ -66,7 +66,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <h4>Windows</h4>
         <p>Love windows? This one is for you. It's a two in one laptop with long battery life. Intel i-3 processor, 4 GM RAM, and windows 10 at under $450 is profitable.</p>
         <h5>Note:</h5>
-        <p>The same model is available with some advanced features at $799.99. The advanced Acer Spin 3 offer 16 GB RAM and intel i-7 processor which makes this laptop an outstanding performer. If you are looking for an all-purpose laptop and perform various tasks with ease then you should consider the machine with advanced features. If you want a laptop for daily regular tasks and some document work then you should go with $450 model.</p><hr>
+        <p>The same model is available with some advanced features at $799.99. The advanced Acer Spin 3 offer 16 GB RAM and intel i-7 processor which makes this laptop an outstanding performer. If you are looking for an all-purpose laptop and perform various tasks with ease then you should consider the machine with advanced features. If you want a laptop for daily regular tasks and some document work then you should go with $450 model.</p>
         <hr>
         <h3>Acer Aspire 5</h3>
         <h4>Windows</h4>
@@ -92,9 +92,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <h3>HP Stream 11</h3>
         <h4>Windows</h4>
         <p>11.6" Stream N3060, 4GB RAM windows laptop. Best for any use except for gaming. If you are a gaming enthusiast and love gaing while working then you should not opt for this one. Apert from that, it is a performer. </p>
-        <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-        <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
-        <p class="w3-clear"></p></div></div>
+        </div></div>
       </div>
       </div>
   <!-- About/Information menu -->
@@ -293,7 +291,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <h4>Laptop Finder</h4>
     </div>
     <div class="w3-container w3-white"><br>
-      <p><router-link style="color:teal;" to="/laptop-finder/">Laptop finder</router-link> is an advanced feature of our website. Enter your needs and reason, our algorithm will help you find the best laptop as per your needs and requirement.</p>
+      <p><router-link style="color:blue;" to="/laptop-finder/">Laptop finder</router-link> is an advanced feature of our website. Enter your needs and reason, our algorithm will help you find the best laptop as per your needs and requirement.</p>
     </div>
   </div>
   <hr>
@@ -339,7 +337,7 @@ and is wrapped around the whole page content, except for the footer in this exam
        <div class="w3-quarter w3-container -bottom">
          <router-link to="/under-100-dollars/">
            <div class="w3-display-container">
-           <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
+           <div class="w3-display-topleft w3-white w3-padding"><b>Oct, 1 2020</b></div>
            <div class="w3-display-topright w3-teal w3-padding">Adam Johnson</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
@@ -350,7 +348,7 @@ and is wrapped around the whole page content, except for the footer in this exam
        <div class="w3-quarter w3-container -bottom">
          <router-link to="/under-200-dollars/">
            <div class="w3-display-container">
-           <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
+           <div class="w3-display-topleft w3-white w3-padding"><b>Oct, 1 2020</b></div>
            <div class="w3-display-topright w3-teal w3-padding">Adam Johnson</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
@@ -361,8 +359,8 @@ and is wrapped around the whole page content, except for the footer in this exam
        <div class="w3-quarter w3-container -bottom">
          <router-link to="/under-300-dollars/">
            <div class="w3-display-container">
-           <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
-           <div class="w3-display-topright w3-red w3-padding">Adam Johnson</div>
+           <div class="w3-display-topleft w3-white w3-padding"><b>Oct, 1 2020</b></div>
+           <div class="w3-display-topright w3-teal w3-padding">Adam Johnson</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
            <a><p><b><h3>Laptops Under 300 Dollars</h3></b></p></a>
@@ -372,8 +370,8 @@ and is wrapped around the whole page content, except for the footer in this exam
        <div class="w3-quarter w3-container -bottom">
          <router-link to="/under-400-dollars/">
            <div class="w3-display-container">
-           <div class="w3-display-topleft w3-black w3-padding">Jan, 1 2020</div>
-           <div class="w3-display-topright w3-red w3-padding">Adam Johnson</div>
+           <div class="w3-display-topleft w3-white w3-padding"><b>Oct, 1 2020</b></div>
+           <div class="w3-display-topright w3-teal w3-padding">Adam Johnson</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
            <a><p><b><h3>Laptops Under 400 Dollars</h3></b></p></a>
@@ -431,7 +429,7 @@ body {font-family: "Open Sans"}
   border-bottom: 3px solid #06c4d1;
 }
 .borderleft {
-  border-left: 3px solid red;
+  border-left: 3px solid teal;
 }
 body {font-family: "Open Sans"}
 </style>
