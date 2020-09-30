@@ -101,7 +101,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 <option value="20">Show all</option>
 </select><hr>
 
-              <div class="container w3-white w3-card" v-for="article in articles"
+              <div class="container w3-white w3-card" v-for="article in paginate"
                 :key="article._id"><br>
   <div class="row">
     <div class="col-sm-4">
@@ -122,9 +122,9 @@ and is wrapped around the whole page content, except for the footer in this exam
     </div>
   </div><hr>
 </div>
-
-
-
+<div>
+<button v-for="pageNumber in totalPages" :key="pageNumber.id" class="w3-button" v-bind:key="pageNumber" @click="setPage(pageNumber)" :class="{current: currentPage === pageNumber, last: (pageNumber == totalPages && Math.abs(pageNumber - currentPage) > 3), first:(pageNumber == 1 && Math.abs(pageNumber - currentPage) > 3)}">{{ pageNumber }} </button>
+</div>
       <h3>Best Affordable Laptops</h3>
 
           <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
@@ -280,7 +280,11 @@ data() {
     ram: '',
     storage: '',
     size: '',
-    weight: ''
+    weight: '',
+    searchKey: '',
+  currentPage: 1,
+  itemsPerPage: 16,
+  resultCount: 0
   }
 },
 methods: {
@@ -295,7 +299,9 @@ async finditweight(){
      this.$router.push({ to:'/#laptops' })
    })
 },
-
+setPage: function(pageNumber) {
+    this.currentPage = pageNumber
+  },
 async finditsize(){
   this.os = ''
     await this.$axios.$post('/api/articles/finditsize', {
@@ -377,9 +383,35 @@ linkcall(event){
 },
 mounted:function(){
     this.findit() //method1 will execute at pageload
-}
+},
+computed: {
+  /* eslint-disable */
+      totalPages: function() {
+        if (this.resultCount == 0){
+          return 1
+        }
+        else {
+        return Math.ceil(this.resultCount / this.itemsPerPage)
+      }
+      },
+      /* eslint-disable */
+      paginate: function() {
+          if (!this.articles || this.articles.length != this.articles.length) {
+              return
+          }
+          this.resultCount = this.articles.length
+          if (this.currentPage >= this.totalPages) {
+            this.currentPage = this.totalPages
+          }
+          var index = this.currentPage * this.itemsPerPage - this.itemsPerPage
+          return this.articles.slice(index, index + this.itemsPerPage)
+      }
+  },
 }
 </script>
 
 <style lang="css">
+.current {
+color: teal;
+}
 </style>
