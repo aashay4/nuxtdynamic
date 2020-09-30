@@ -28,7 +28,7 @@ and is wrapped around the whole page content, except for the footer in this exam
     <option value="700">Under 700</option>
     <option value="800">Under 800</option>
     <option value="1000">Under 1000</option>
-    <option value="1500">Under 1500</option>
+    <option value="1600">Under 1600</option>
     <option value="2000">Under 2000</option>
     <option value="2500">Under 2500</option>
     <option value="5000">No Limit</option>
@@ -272,7 +272,7 @@ export default {
 components: { 'footer-app': footer, navbar },
 data() {
   return {
-    price: '1500',
+    price: '1600',
     articles: [],
     os: '',
     purpose: '',

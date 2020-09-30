@@ -144,27 +144,27 @@ and is wrapped around the whole page content, except for the footer in this exam
       <ul class="w3-ul w3-hoverable w3-white">
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-          <span class="w3-large">Gaming</span>
+          <nuxt-link to="/laptops/alienware-m17-r3"><span class="w3-large w3-margin-left">Alienware m17 R3</span></nuxt-link>
           <br>
-          <span>Sed mattis nunc</span>
+          <span class="w3-margin-left">Gaming</span>
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-          <span class="w3-large">Gaming</span>
+          <nuxt-link to="/laptops/asus-zephyrus-s-gx701"> <span class="w3-large w3-margin-left">Asus Zephyrus S GX701</span></nuxt-link>
           <br>
-          <span>Praes tinci sed</span>
+          <span class="w3-margin-left">Gaming</span>
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-          <span class="w3-large">Gaming</span>
+          <nuxt-link to="/laptops/razer-blade-pro-17/"><span class="w3-large w3-margin-left">Razer Blade Pro 17</span></nuxt-link>
           <br>
-          <span>Ultricies congue</span>
+          <span class="w3-margin-left">Gaming</span>
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right w3-sepia" style="width:50px">
-          <span class="w3-large">Gaming</span>
+          <nuxt-link to="/laptops/razer-blade-15/"><span class="w3-large w3-margin-left">Razer Blade 15</span></nuxt-link>
           <br>
-          <span>Lorem ipsum dipsum</span>
+          <span class="w3-margin-left">Gaming</span>
         </li>
       </ul>
     </div>
@@ -200,27 +200,27 @@ and is wrapped around the whole page content, except for the footer in this exam
     <ul class="w3-ul w3-hoverable w3-white">
       <li class="w3-padding-16">
         <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-        <span class="w3-large w3-margin-left">Student</span>
+        <nuxt-link to="/laptops/dell-xps-13/"><span class="w3-large w3-margin-left">Dell XPS 13</span></nuxt-link>
         <br>
-        <span class="w3-margin-left">Sed mattis nunc</span>
+        <span class="w3-margin-left">Students, All Purpose</span>
       </li>
       <li class="w3-padding-16">
         <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-        <span class="w3-large">Student</span>
+        <nuxt-link to="/laptops/acer-chromebook-15/"><span class="w3-large w3-margin-left">Acer Chromebook 15</span></nuxt-link>
         <br>
-        <span>Praes tinci sed</span>
+        <span class="w3-margin-left">Students, general purpose</span>
       </li>
       <li class="w3-padding-16">
         <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-        <span class="w3-large">Student</span>
+        <nuxt-link to="/laptops/dell-inspiron-15-3000/"> <span class="w3-large w3-margin-left">Dell Inspiron 15 3000</span></nuxt-link>
         <br>
-        <span>Ultricies congue</span>
+        <span class="w3-margin-left">Students</span>
       </li>
       <li class="w3-padding-16">
-        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right w3-sepia" style="width:50px">
-        <span class="w3-large">Student</span>
+        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
+        <nuxt-link to="/laptops/acer-nitro-5/"><span class="w3-large w3-margin-left">Acer Nitro 5</span></nuxt-link>
         <br>
-        <span>Lorem ipsum dipsum</span>
+        <span class="w3-margin-left">Students, All-purpose</span>
       </li>
     </ul>
   </div><hr>
@@ -230,32 +230,31 @@ and is wrapped around the whole page content, except for the footer in this exam
   <!-- Posts -->
   <div class="w3-white ">
     <div class="w3-container w3-padding w3-teal">
-      <h4>Popular Posts</h4>
+      <h4>Related Posts</h4>
     </div>
     <ul class="w3-ul w3-hoverable w3-white">
       <li class="w3-padding-16">
-        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-        <span class="w3-large">Denim</span>
+        <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <nuxt-link style="color: black;" to="/cheap-gaming-laptops-under-1000-dollars/"><span class="w3-large">Gaming Laptops Under 1000 Dollars</span></nuxt-link>
         <br>
-        <span>Sed mattis nunc</span>
+        <span>Includes Gaming/App-Purpose Laptops</span>
       </li>
       <li class="w3-padding-16">
-        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-        <span class="w3-large">Sweaters</span>
+        <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <nuxt-link style="color: black" to="/laptops-for-college-students/"><span class="w3-large">Laptops for College Students</span></nuxt-link><br>
+        <span>Includes App-Purpose Laptops</span>
+        </li>
+      <li class="w3-padding-16">
+        <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <nuxt-link style="color: black" to="/best-laptops-for-programming/"><span class="w3-large">Best Laptops for Programming</span></nuxt-link>
         <br>
-        <span>Praes tinci sed</span>
+        <span>Includes Programming Laptops</span>
       </li>
       <li class="w3-padding-16">
-        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-        <span class="w3-large">Workshop</span>
+        <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <nuxt-link style="color: black" to="/laptops-under-1000-dollars/"><span class="w3-large">Laptops Under 1000 Dollars</span></nuxt-link>
         <br>
-        <span>Ultricies congue</span>
-      </li>
-      <li class="w3-padding-16">
-        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right w3-sepia" style="width:50px">
-        <span class="w3-large">Trends</span>
-        <br>
-        <span>Lorem ipsum dipsum</span>
+        <span>Includes App-Purpose Laptops</span>
       </li>
     </ul>
   </div>

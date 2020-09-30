@@ -7,7 +7,7 @@
         <nuxt-link :to="'/laptops/' + article._id + '/update'" v-if="$auth.loggedIn" class="btn btn-primary mr-3">Update</nuxt-link>
         <button v-if="$auth.loggedIn" class="btn btn-danger" @click="deleteRecord()">Delete</button>
       </div>
-      <nuxt-link to="/laptops" class="btn btn-secondary mr-3">Back to Laptops</nuxt-link>
+      <nuxt-link to="/laptops" class="btn btn-secondary mr-3 w3-teal">All Laptops</nuxt-link>
     </div>
     <div class="alert alert-success"
       v-if="$route.params.updated=='yes'">Record updated successfully</div><br>

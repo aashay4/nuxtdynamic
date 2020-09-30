@@ -19,8 +19,8 @@
         <h5>{{ article.author}}</h5>
         <h5>{{ article.body }}</h5>
       </nuxt-link>
-      <div v-for="pageNumber in totalPages" :key="pageNumber.id">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-red" v-bind:key="pageNumber" @click="setPage(pageNumber)" :class="{current: currentPage === pageNumber, last: (pageNumber == totalPages && Math.abs(pageNumber - currentPage) > 3), first:(pageNumber == 1 && Math.abs(pageNumber - currentPage) > 3)}">{{ pageNumber }}</a>
+      <div>
+    <a v-for="pageNumber in totalPages" :key="pageNumber.id" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-red" v-bind:key="pageNumber" @click="setPage(pageNumber)" :class="{current: currentPage === pageNumber, last: (pageNumber == totalPages && Math.abs(pageNumber - currentPage) > 3), first:(pageNumber == 1 && Math.abs(pageNumber - currentPage) > 3)}">{{ pageNumber }}</a>
   </div>
     </div>
 

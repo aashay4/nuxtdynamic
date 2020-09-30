@@ -1,34 +1,35 @@
 <template lang="html">
   <div class="w3-white w3-margin">
-  <div class="w3-container w3-padding w3-black">
+  <div class="w3-container w3-padding w3-teal">
     <h4>Popular Posts</h4>
   </div>
   <ul class="w3-ul w3-hoverable w3-white">
     <li class="w3-padding-16">
       <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-      <nuxt-link style="color: black" to="/cheap-laptops-under-100-dollars"><span class="w3-large">Cheap Laptops Under 100 Dollars</span></nuxt-link>
+      <nuxt-link style="color: black" to="/best-gaming-laptops/"><span class="w3-large">Best Gaming Laptops</span></nuxt-link>
       <br>
-      <span>Sed mattis nunc</span>
+      <span>Gaming</span>
     </li>
     <li class="w3-padding-16">
       <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-      <span class="w3-large">Cheap Laptops Under 300 Dollars</span>
+      <nuxt-link style="color: black" to="/best-laptops-for-programming/"><span class="w3-large">Laptops for Programming</span></nuxt-link>
       <br>
-      <span>Praes tinci sed</span>
+      <span>Programming, Business</span>
     </li>
     <li class="w3-padding-16">
       <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-      <span class="w3-large">Cheap Laptops Under 400 Dollars</span>
+      <nuxt-link style="color: black" to="/best-laptops-for-writers/"><span class="w3-large">Best Laptops for Writers</span></nuxt-link>
       <br>
-      <span>Ultricies congue</span>
+      <span>Writers, professionals</span>
     </li>
     <li class="w3-padding-16">
-      <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
-      <span class="w3-large">Cheap Laptops Under 500 Dollars</span>
+      <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+      <nuxt-link style="color: black" to="/laptops-for-college-students/"><span class="w3-large">Laptops for College Students</span></nuxt-link>
       <br>
-      <span>Lorem ipsum dipsum</span>
+      <span>Students</span>
     </li>
   </ul>
+  <hr>
 </div>
 </template>
 

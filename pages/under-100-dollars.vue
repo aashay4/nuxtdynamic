@@ -112,7 +112,7 @@ import navbar from '~/components/navbar.vue'
 import footer from '~/components/footer.vue'
 import popularposts from '../components/popularposts.vue'
 export default {
-components: { popularposts, navbar },
+components: { popularposts, navbar, 'footer-app': footer },
 }
 </script>
 

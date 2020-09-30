@@ -64,64 +64,33 @@ and is wrapped around the whole page content, except for the footer in this exam
       <ul class="w3-ul w3-hoverable w3-white">
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link style="color: black" to="/cheap-laptops-under-100-dollars"><span class="w3-large">Cheap Laptops Under 100 Dollars</span></nuxt-link>
+          <nuxt-link style="color: black" to="/under-100-dollars/"><span class="w3-large">Cheap Laptops Under 100 Dollars</span></nuxt-link>
           <br>
-          <span>Sed mattis nunc</span>
+          <span>Kids</span>
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <span class="w3-large">Cheap Laptops Under 300 Dollars</span>
+          <nuxt-link to="/under-200-dollars/" style="color: black"> <span class="w3-large">Laptops Under 200 Dollars</span></nuxt-link>
           <br>
-          <span>Praes tinci sed</span>
+          <span>General-purpose</span>
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <span class="w3-large">Cheap Laptops Under 400 Dollars</span>
+          <nuxt-link to="/under-400-dollars/" style="color: black"><span class="w3-large">Cheap Laptops Under 400 Dollars</span></nuxt-link>
           <br>
-          <span>Ultricies congue</span>
+          <span>General-purpose</span>
         </li>
         <li class="w3-padding-16">
-          <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
-          <span class="w3-large">Cheap Laptops Under 500 Dollars</span>
+          <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+          <nuxt-link to="/under-500/" style="color: black;"><span class="w3-large">Cheap Laptops Under 500 Dollars</span></nuxt-link>
           <br>
-          <span>Lorem ipsum dipsum</span>
+          <span>All-purpose</span>
         </li>
       </ul>
     </div>
       <hr>
 
-      <div class="w3-white w3-margin">
-      <div class="w3-container w3-padding w3-teal">
-        <h4>Popular Posts</h4>
-      </div>
-      <ul class="w3-ul w3-hoverable w3-white">
-        <li class="w3-padding-16">
-          <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link style="color: black" to="/cheap-laptops-under-100-dollars"><span class="w3-large">Cheap Laptops Under 100 Dollars</span></nuxt-link>
-          <br>
-          <span>Sed mattis nunc</span>
-        </li>
-        <li class="w3-padding-16">
-          <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <span class="w3-large">Cheap Laptops Under 300 Dollars</span>
-          <br>
-          <span>Praes tinci sed</span>
-        </li>
-        <li class="w3-padding-16">
-          <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <span class="w3-large">Cheap Laptops Under 400 Dollars</span>
-          <br>
-          <span>Ultricies congue</span>
-        </li>
-        <li class="w3-padding-16">
-          <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
-          <span class="w3-large">Cheap Laptops Under 500 Dollars</span>
-          <br>
-          <span>Lorem ipsum dipsum</span>
-        </li>
-      </ul>
-    </div>
-      <hr>
+      <popularposts />
     <!-- Advertising -->
       <div class="w3-white w3-margin">
         <div class="w3-container w3-padding w3-teal">
@@ -192,10 +161,11 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <script>
 import navbar from '~/components/navbar.vue'
+import popularposts from '~/components/popularposts.vue'
 import footer from '~/components/footer.vue'
 import date from '../components/date.vue'
 export default {
-components: { 'date-app': date, navbar, 'footer-app': footer },
+components: { 'date-app': date, navbar, 'footer-app': footer, popularposts },
 }
 </script>
 
