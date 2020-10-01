@@ -7,7 +7,7 @@
         <nuxt-link :to="'/laptops/' + article._id + '/update'" v-if="$auth.loggedIn" class="btn btn-primary mr-3">Update</nuxt-link>
         <button v-if="$auth.loggedIn" class="btn btn-danger" @click="deleteRecord()">Delete</button>
       </div>
-      <nuxt-link to="/laptops" class="btn btn-secondary mr-3 w3-teal">All Laptops</nuxt-link>
+      <nuxt-link to="/laptops/" class="btn btn-secondary mr-3 w3-teal">All Laptops</nuxt-link>
     </div>
     <div class="alert alert-success"
       v-if="$route.params.updated=='yes'">Record updated successfully</div><br>
@@ -34,16 +34,16 @@
           <hr>
 
           <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
-          <p>Performance</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
+          <p v-if="article.performancepercentage != null && article.performancepercentage.includes('%')">Performance</p>
+          <div v-if="article.performancepercentage != null && article.performancepercentage.includes('%')" class="w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-teal" v-bind:style="barWidthCalculated"> {{ article.performancepercentage }} </div>
           </div>
-          <p>Battery Life</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
+          <p v-if="article.batterypercentage != null && article.batterypercentage.includes('%')">Battery Life</p>
+          <div v-if="article.batterypercentage != null && article.batterypercentage.includes('%')" class="w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-teal" v-bind:style="barWidthCalculated1"> {{ article.batterypercentage }} </div>
           </div>
-          <p>Display</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
+          <p v-if="article.displaypercentage != null && article.displaypercentage.includes('%')">Display</p>
+          <div v-if="article.displaypercentage != null && article.displaypercentage.includes('%')" class="w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-teal" v-bind:style="barWidthCalculated2"> {{ article.displaypercentage }} </div>
           </div>
           <p v-if="article.stylepercentage != null && article.stylepercentage.includes('%')">Style</p>
@@ -75,12 +75,6 @@
 
       <div class="w3-container w3-card w3-white">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Specifications</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
-          <p>Web Development! All I need to know in one place</p>
-          <hr>
-        </div>
         <client-only>
         <table style="width:100%">
           <tr>

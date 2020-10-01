@@ -187,7 +187,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <span>Ultricies congue</span>
         </li>
         <li class="w3-padding-16">
-          <img src="~/assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+          <img src="~/assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
           <span class="w3-large">Cheap Laptops Under 500 Dollars</span>
           <br>
           <span>Lorem ipsum dipsum</span>

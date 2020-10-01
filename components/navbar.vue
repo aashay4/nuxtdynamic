@@ -14,7 +14,7 @@
       <b>Best Gaming Laptops</b>
     </nuxt-link>
     <nuxt-link to="/laptops/" class="w3-white w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-teal">
-      <b>Laptops</b>
+      <b>All Laptops</b>
     </nuxt-link>
     <nuxt-link to="/cheap-laptops/" class="w3-white w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-teal">
       <b>Cheap Laptops</b>
