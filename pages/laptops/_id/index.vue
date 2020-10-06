@@ -5,7 +5,7 @@
     <div class="d-flex justify-content-between">
       <div>
         <nuxt-link :to="'/laptops/' + article._id + '/update'" v-if="$auth.loggedIn" class="btn btn-primary mr-3">Update</nuxt-link>
-        <button v-if="$auth.loggedIn" class="btn btn-danger" @click="deleteRecord()">Delete</button>
+        <button v-if="$auth.loggedIn" class="btn btn-secondary mr-3 w3-teal" @click="deleteRecord()">Delete</button>
       </div>
       <nuxt-link to="/laptops/" class="btn btn-secondary mr-3 w3-teal">All Laptops</nuxt-link>
     </div>
@@ -66,9 +66,9 @@
 
         <div class="w3-container">
           <h5 class="w3-opacity"><b>{{article.body}}</b></h5>
+          <p>{{article.design}}</p>
           <p>{{article.para2}}</p>
           <p>{{article.para3}}</p>
-          <p>{{article.design}}</p>
           <hr>
         </div>
       </div>

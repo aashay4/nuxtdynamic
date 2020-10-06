@@ -13,6 +13,17 @@ module.exports.list = function (req, res, next) {
   });
 }
 
+module.exports.finditbattery = function (req, res, next) {
+    Article.find({"battery": { $gte: req.body.battery }}).sort({battery: 'ascending'}).exec((err, articles) => {
+    if(err) {
+        return res.status(500).json({
+            message: 'Error getting records.'
+        });
+    }
+    return res.json(articles);
+  });
+}
+
 module.exports.finditweight = function (req, res, next) {
       console.log(req.body.weight)
     Article.find({"weight": { $lte: req.body.weight }}).sort({weight: 'descending'}).exec((err, articles) => {

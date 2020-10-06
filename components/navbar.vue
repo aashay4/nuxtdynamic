@@ -31,6 +31,8 @@
   </div>
     <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-medium w3-hide-large" v-show="isclose" id="mySidebar">
   <a href="javascript:void(0)" v-on:click='isclose = !isclose' class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <nuxt-link class="w3-bar-item w3-button" to="/">
+   <b>Home</b></nuxt-link>
   <nuxt-link class="w3-bar-item w3-button" to="/laptop-finder/">
    <b>Laptop Finder</b></nuxt-link>
   <nuxt-link class="w3-bar-item w3-button" to="/compare-laptops/">

@@ -16,7 +16,7 @@
         <div class="w3-container" v-if="step == 1">
           <h5 class="w3-opacity"><b>Step 1 - Select a Size</b></h5>
                 <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">Sept, 24 2020</span></h6>
-          <p>The average size of a laptop is around 11-12 inches. If you are a frequent traveler and often carry laptop while traveling then we would recommend you to choose a smaller laptop.</p>
+          <p>The average size of a laptop is around 11-12 inches. If you are a frequent traveler and often carry a laptop while traveling then we would recommend you choose a smaller laptop.</p>
           <hr>
             <input type="radio" id="10" value="10" v-model="size">
       <label for="10">10</label><br>
@@ -32,7 +32,7 @@
         <div class="w3-container" v-if="step == 2">
             <h5 class="w3-opacity"><b>Step 2 - Select Price</b></h5>
                 <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">Sept, 24 2020</span></h6>
-            <p>The price of a laptop is directly proportional to the features and specifications. A laptop with more advanced specs is way costlier. For general purpose, you can find a good laptop at around $700.</p>
+            <p>The price of a laptop is directly proportional to the features and specifications. A laptop with more advanced specs is way costlier. For general purposes, you can find a good laptop at around $700.</p>
             <hr>
             <input type="radio" id="700" value="400" v-model="price">
           <label for="500">Below $400</label><br>
@@ -47,7 +47,7 @@
         <div class="w3-container" v-if="step == 3">
             <h5 class="w3-opacity"><b>Step 3 - What's Your reason?</b></h5>
                 <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">Sept, 24 2020</span></h6>
-            <p>Gaming, Video/Audio Editing and Music production laptops are way costly. Programming, Business and college laptops are less costly while general-purpose laptops are the cheapest.</p>
+            <p>Gaming, Video/Audio Editing, and Music production laptops are way costly. Programming, Business, and college laptops are less costly while general-purpose laptops are the cheapest.</p>
             <hr>
             <input type="radio" id="General-purpose" value="General-purpose" v-model="reason">
       <label for="radio">General-purpose</label><br>
@@ -64,7 +64,7 @@
           <div class="w3-container" v-if="step == 4">
               <h5 class="w3-opacity"><b>Step 4 - Which OS you prefer?</b></h5>
                 <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">Sept, 24 2020</span></h6>
-              <p>There are three major operating systems, ChromeOS, Windows and macOS. ChromeOS laptops are way cheaper then the Windows and macOS. If you are looking a laptop with general-purpose then ChromeOS is the right choice.</p>
+              <p>There are three major operating systems, ChromeOS, Windows, and macOS. ChromeOS laptops are way cheaper than the Windows and macOS. If you are looking for a laptop with general-purpose then ChromeOS is the right choice.</p>
               <hr>
               <input type="radio" id="Chrome" value="Chrome" v-model="os">
         <label for="Chrome">Chrome OS</label><br>
@@ -79,7 +79,7 @@
             <div class="w3-container" v-if="step == 5">
                 <h5 class="w3-opacity"><b>Step 5 - Do you prefer two in one Laptops?</b></h5>
                 <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">Sept, 24 2020</span></h6>
-                <p>Two in one laptops offer both touchscreen and keyboard. Most of businessmen who have to carry laptops while traveling prefer two in one laptops. Also, Students who do group projects select these laptops.</p>
+                <p>Two in one laptop offer both touchscreen and keyboard. Most of the businessmen who have to carry laptops while traveling prefer two in one laptop. Also, Students who do group projects select these laptops.</p>
                 <hr>
                 <input type="radio" id="" value="Yes" v-model="twoinone">
           <label for="radio">Yes</label><br>
@@ -138,7 +138,7 @@
           <p><i class="fa fa-laptop fa-fw w3-margin-right w3-large w3-text-teal"></i>Two in One: <b>{{ twoinone }}</b></p>
           <hr>
 
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating & Review</b></p>
           <p>User's Rating</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:71%">71%</div>

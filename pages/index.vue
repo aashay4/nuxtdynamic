@@ -46,7 +46,7 @@ and is wrapped around the whole page content, except for the footer in this exam
               <span>Ultricies congue</span>
             </li>
             <li class="w3-padding-16">
-              <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right w3-sepia" style="width:50px">
+              <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
               <span class="w3-large">Trends</span>
               <br>
               <span>Lorem ipsum dipsum</span>
@@ -133,7 +133,7 @@ and is wrapped around the whole page content, except for the footer in this exam
             <span>Ultricies congue</span>
           </li>
           <li class="w3-padding-16">
-            <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right w3-sepia" style="width:50px">
+            <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
             <span class="w3-large">Business</span>
             <br>
             <span>Lorem ipsum dipsum</span>
@@ -161,7 +161,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <span class="w3-margin-left">Gaming</span>
         </li>
         <li class="w3-padding-16">
-          <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right w3-sepia" style="width:50px">
+          <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
           <nuxt-link to="/laptops/razer-blade-15/"><span class="w3-large w3-margin-left">Razer Blade 15</span></nuxt-link>
           <br>
           <span class="w3-margin-left">Gaming</span>
@@ -189,7 +189,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <span>Ultricies congue</span>
       </li>
       <li class="w3-padding-16">
-        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right w3-sepia" style="width:50px">
+        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
         <span class="w3-large">General Purpose</span>
         <br>
         <span>Lorem ipsum dipsum</span>

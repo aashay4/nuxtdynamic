@@ -4,7 +4,7 @@
 <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1200px" id="band">
     <h1 class="w3-wide">Compare Laptops</h1>
     <p class="w3-opacity"><i>A really simple tool for laptop comparision</i></p>
-      <p class="w3-justify">Confused? Which laptop you should buy?  Welcome to a really simple laptop comparision tool. Just enter the laptops in the text box and select the machines you want to compare. With our compare laptops tool, you can compare maximum three laptop with the specifications like RAM, size, operating system, storage, CPU, GPU, processor and many other things. Just use our laptop comparision tool and let us know your experience. We want to make this tool as simple as possible and more user friendly.</p>
+      <p class="w3-justify">Confused? Which laptop you should buy?  Welcome to a really simple laptop comparison tool. Just enter the laptops in the text box and select the machines you want to compare. With our compare laptops tool, you can compare the maximum of three laptops with specifications like RAM, size, operating system, storage, CPU, GPU, processor, and many other things. Just use our laptop comparison tool and let us know your experience. We want to make this tool as simple as possible and more user friendly.</p>
       </div>
       <div>
         <client-only>

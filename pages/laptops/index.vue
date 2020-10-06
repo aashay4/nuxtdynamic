@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>List of Laptops: Choose the best suitable laptop</h1>
-          <span class="w3-opacity">Jan 2, 2020</span><em class="w3-opacity"> by </em><strong>Adam Johnson</strong><em class="w3-opacity">  In </em><strong>Budget Laptops</strong>
+          <span class="w3-opacity">Oct 2, 2020</span><em class="w3-opacity"> by </em><strong>Adam Johnson</strong>
           <hr>
           <p>Shop the best laptop as per your requirement. Filter the best laptops as per your budget, the company you prefer, operating system you are comfortable with and the kind of tasks you are going to perform on this laptop. Accelerate everything you do on a laptop by selecting the perfect laptop as per your profession with ease. Compare different brands in the least amount of time.</p>
           <p>If you want to comare different laptps, you can visit <nuxt-link to="/compare-laptops/">this link</nuxt-link> to compare all the features and specifications. If you want more customization in the laptop search then you can visit our laptop compare tool.</p><hr>
@@ -99,7 +99,15 @@ and is wrapped around the whole page content, except for the footer in this exam
 <option value="4">Upto 4 Pounds</option>
 <option value="5">Upto 5 Pounds</option>
 <option value="20">Show all</option>
-</select><hr>
+</select>
+<select style="width:25%" v-model="battery" @change.prevent="finditbattery">
+<option disabled value="">Battery Life</option>
+<option value="12">12+ Hours</option>
+<option value="10">10+ Hours</option>
+<option value="8">8+ Hours</option>
+<option value="6">6+ Hours</option>
+</select>
+<hr>
 
               <div class="container w3-white w3-card" v-for="article in paginate"
                 :key="article._id"><br>
@@ -112,7 +120,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <h5><nuxt-link style="color: black" :to="'/laptops/' + article._id"><span class="w3-large w3-text-teal">{{ article.title }},</span></nuxt-link></h5>
       <span>OS: {{article.os}}</span><br>
       <span>{{article.size}} Inches</span><br>
-      <span>{{article.ram}} GB</span><br>
+      <span>{{article.ram}} GB RAM</span><br>
       <span v-if="article.storage >= 1000">{{ article.storage/1000 }} TB Storage,</span>
       <span v-else>{{ article.storage }} GB Storage,</span><br>
     </div>
@@ -134,34 +142,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
     <!-- About/Information menu -->
     <div class="w3-col l4">
-      <div class="w3-white w3-margin">
-      <div class="w3-container w3-padding w3-teal">
-        <h4>Related Posts</h4>
-      </div>
-      <ul class="w3-ul w3-hoverable w3-white">
-        <li class="w3-padding-16">
-          <img src="~/assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:40px">
-          <nuxt-link style="color: black" to="/under-100-dollars/"><span class="w3-large">Laptops Under 100 Dollars</span></nuxt-link>
-          <br>
-        </li>
-        <li class="w3-padding-16">
-          <img src="~/assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:40px">
-          <nuxt-link style="color: black" to="/under-200-dollars/"><span class="w3-large">Laptops Under 200 Dollars</span></nuxt-link>
-          <br>
-        </li>
-        <li class="w3-padding-16">
-          <img src="~/assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:40px">
-          <nuxt-link style="color: black" to="/under-300-dollars/"><span class="w3-large">Best Laptops Under 300 Dollars</span></nuxt-link>
-          <br>
-        </li>
-        <li class="w3-padding-16">
-          <img src="~/assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:40px">
-          <nuxt-link style="color: black" to="/under-400-dollars/"><span class="w3-large">Laptops Under 400 Dollars</span></nuxt-link>
-          <br>
-        </li>
-      </ul>
-    </div>
-      <hr>
+      <popularposts />
 
       <div class="w3-white w3-margin">
       <div class="w3-container w3-padding w3-teal">
@@ -266,10 +247,11 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <script>
 import footer from '~/components/footer.vue'
+import popularposts from '~/components/popularposts.vue'
 import navbar from '~/components/navbar.vue'
 
 export default {
-components: { 'footer-app': footer, navbar },
+components: { 'footer-app': footer, navbar, popularposts },
 data() {
   return {
     price: '1600',
@@ -284,13 +266,37 @@ data() {
     searchKey: '',
   currentPage: 1,
   itemsPerPage: 16,
-  resultCount: 0
+  resultCount: 0,
+  battery: ''
   }
 },
 methods: {
-
+async finditbattery(){
+  this.os = ''
+  this.price = ''
+  this.purpose = ''
+  this.company = ''
+  this.ram = ''
+  this.storage = ''
+  this.size = ''
+  this.weight = ''
+  await this.$axios.$post('/api/articles/finditbattery', {
+    battery: this.battery
+  })
+  .then((response) => {
+   this.articles = response
+   this.$router.push({ to:'/#laptops' })
+ })
+},
 async finditweight(){
   this.os = ''
+  this.price = ''
+  this.purpose = ''
+  this.company = ''
+  this.ram = ''
+  this.storage = ''
+  this.size = ''
+  this.battery = ''
     await this.$axios.$post('/api/articles/finditweight', {
       weight: this.weight
     })
@@ -304,6 +310,13 @@ setPage: function(pageNumber) {
   },
 async finditsize(){
   this.os = ''
+  this.price = ''
+  this.purpose = ''
+  this.company = ''
+  this.ram = ''
+  this.storage = ''
+  this.battery = ''
+  this.weight = ''
     await this.$axios.$post('/api/articles/finditsize', {
       size: this.size
     })
@@ -314,6 +327,13 @@ async finditsize(){
 },
   async finditstorage1(){
     this.os = ''
+    this.price = ''
+    this.purpose = ''
+    this.company = ''
+    this.ram = ''
+    this.battery = ''
+    this.size = ''
+    this.weight = ''
       await this.$axios.$post('/api/articles/finditstorage1', {
         storage: this.storage
       })
@@ -325,6 +345,13 @@ async finditsize(){
 
   async finditram(){
     this.os = ''
+    this.price = ''
+    this.purpose = ''
+    this.company = ''
+    this.battery = ''
+    this.storage = ''
+    this.size = ''
+    this.weight = ''
       await this.$axios.$post('/api/articles/finditstorage', {
         ram: this.ram
       })
@@ -335,6 +362,13 @@ async finditsize(){
   },
   async findit(){
     this.os = ''
+    this.battery = ''
+    this.purpose = ''
+    this.company = ''
+    this.ram = ''
+    this.storage = ''
+    this.size = ''
+    this.weight = ''
       await this.$axios.$post('/api/articles/bestlaptops', {
         price: this.price
       })
@@ -344,7 +378,14 @@ async finditsize(){
      })
    },
   async finditos(){
-    this.price = ''
+    this.os = ''
+    this.battery = ''
+    this.purpose = ''
+    this.company = ''
+    this.ram = ''
+    this.storage = ''
+    this.size = ''
+    this.weight = ''
     await this.$axios.$post('/api/articles/bestlaptopsos', {
       os: this.os
     })
@@ -354,8 +395,14 @@ async finditsize(){
    })
  },
  async finditpurpose(){
-   this.price = ''
    this.os = ''
+   this.price = ''
+   this.battery = ''
+   this.company = ''
+   this.ram = ''
+   this.storage = ''
+   this.size = ''
+   this.weight = ''
    await this.$axios.$post('/api/articles/bestlaptopspurpose', {
      reason: this.purpose
    })
@@ -365,9 +412,14 @@ async finditsize(){
   })
 },
 async finditcompany(){
-  this.price = ''
   this.os = ''
+  this.price = ''
   this.purpose = ''
+  this.battery = ''
+  this.ram = ''
+  this.storage = ''
+  this.size = ''
+  this.weight = ''
   await this.$axios.$post('/api/articles/bestlaptopscompany', {
     company: this.company
   })
