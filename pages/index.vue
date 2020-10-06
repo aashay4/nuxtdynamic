@@ -24,7 +24,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
         <div style="width:100%;" class="w3-justify">
           <h3>Best Budget Laptops 2020</h3>
-          <span class="w3-opacity">July 22, 2020</span><br>
+          <span class="w3-opacity">Oct 2, 2020</span><br>
           <h5>As our lives are getting back to normal, more stock of different budget laptops is available for you. Here, we bring the best laptops within your budget.</h5>
           <ul class="w3-ul w3-hoverable w3-white">
             <li class="w3-padding-16">
