@@ -95,7 +95,7 @@
           </tr>
           <tr>
             <td class="w3-text-teal">price</td>
-            <td>{{article.price}}</td>
+            <td>$ {{article.price}}</td>
           </tr>
           <tr>
             <td class="w3-text-teal">Best Works For</td>
@@ -107,7 +107,7 @@
           </tr>
           <tr>
             <td class="w3-text-teal">Size</td>
-            <td>{{article.size}}</td>
+            <td>{{article.size}} Inches</td>
           </tr>
           <tr>
             <td class="w3-text-teal">Is it two in one?</td>
@@ -124,11 +124,11 @@
           </tr>
           <tr>
             <td class="w3-text-teal">ram</td>
-            <td>{{article.ram}}</td>
+            <td>{{article.ram}} GB</td>
           </tr>
           <tr>
             <td class="w3-text-teal">Weight</td>
-            <td>{{article.weight}}</td>
+            <td>{{article.weight}} Pounds</td>
           </tr>
           <tr>
             <td class="w3-text-teal">Has Bluetooth</td>
@@ -140,7 +140,7 @@
           </tr>
           <tr>
             <td class="w3-text-teal">Battery</td>
-            <td>{{article.battery}}</td>
+            <td>{{article.battery}} Hours</td>
           </tr>
           <tr>
             <td class="w3-text-teal">Processor</td>

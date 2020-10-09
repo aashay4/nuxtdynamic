@@ -58,40 +58,360 @@ and is wrapped around the whole page content, except for the footer in this exam
         <h3>HP Chromebook 15</h3>
         <h4>Chrome OS</h4>
         <p>HP is a brand widely known for the extra-ordinary battery life of the product. HP's chromebook has decent features including comfortable keyboard. Like other HP laptops, Chromebook also offer fentastic battery life. Even after working hours, HP chromebook does not heat up, that's a plus. Data in chromebook is stored on the cloud instead of the local machine. If you are dealing with a lot of data then cloud data storing process might be slow.</p>
-        <p><b>Read Review and know more about it here.</b></p><hr>
+        <div class="">
+          <div class="w3-half">
+          <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
+          <p>Performance</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 75%"> 75% </div>
+          </div>
+          <p>Battery Life</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 80%"> 80% </div>
+          </div>
+          <p>Display</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 55%"> 55% </div>
+          </div>
+          <p>Style</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 65%"> 65% </div>
+          </div></div></div>
+          <div class="w3-third">
+          <p class="w3-large"><b><i class="fa fa-list-alt w3-margin-right w3-text-teal"></i>Specifications</b></p>
+            <p class="w3-margin-left">
+
+            <ul>
+              <li><b>RAM:</b> 4 GB |</li>
+              <li><b>Storage:</b> 128 GB SSD |</li>
+              <li><b>CPU:</b> Intel Core i3-8130U |</li>
+              <li><b>GPU:</b> Intel UHD 620 |</li>
+              <li><b>Display:</b> 14 Inches 1080P</li>
+            </ul>
+
+          </p>
+              </div>
+          <br>
+        </div><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+        <hr>
         <h3>Acer Chromebook 714</h3>
         <h4>Chrome OS</h4>
-        <p>Chrome OS can be a right choice when you are looking for the laptops within your budget. Acer Chromebook is right choice for the business purposes. You can work on mails, online/off-line documents for hours with this device. With the basic configuration, you can get these laptops under 400 dollars. If you want to go with more features then the budget might touch $500. This laptop is famous among the youngsters especially the techies.</p><hr>
+        <p>Chrome OS can be a right choice when you are looking for the laptops within your budget. Acer Chromebook is right choice for the business purposes. You can work on mails, online/off-line documents for hours with this device. With the basic configuration, you can get these laptops under 400 dollars. If you want to go with more features then the budget might touch $500. This laptop is famous among the youngsters especially the techies.</p>
+        <div class="">
+          <div class="w3-half">
+          <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
+          <p>Performance</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 75%"> 75% </div>
+          </div>
+          <p>Battery Life</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 75%"> 75% </div>
+          </div>
+          <p>Display</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 55%"> 55% </div>
+          </div>
+          <p>Style</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 60%"> 60% </div>
+          </div></div></div>
+          <div class="w3-third">
+          <p class="w3-large"><b><i class="fa fa-list-alt w3-margin-right w3-text-teal"></i>Specifications</b></p>
+            <p class="w3-margin-left">
+
+            <ul>
+              <li><b>RAM:</b> 8 GB |</li>
+              <li><b>Storage:</b> 64 GB SSD |</li>
+              <li><b>CPU:</b> Intel Core i3-8130U |</li>
+              <li><b>GPU:</b> Intel HD Graphics 620 |</li>
+              <li><b>Display:</b> 14 Inches 1080P</li>
+            </ul>
+
+          </p>
+              </div>
+          <br>
+        </div><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+        <hr>
         <h3>Acer Spin 3</h3>
         <h4>Windows</h4>
         <p>Love windows? This one is for you. It's a two in one laptop with long battery life. Intel i-3 processor, 4 GM RAM, and windows 10 at under $450 is profitable.</p>
         <h5>Note:</h5>
         <p>The same model is available with some advanced features at $799.99. The advanced Acer Spin 3 offer 16 GB RAM and intel i-7 processor which makes this laptop an outstanding performer. If you are looking for an all-purpose laptop and perform various tasks with ease then you should consider the machine with advanced features. If you want a laptop for daily regular tasks and some document work then you should go with $450 model.</p>
+        <div class="">
+          <div class="w3-half">
+          <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
+          <p>Performance</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 75%"> 75% </div>
+          </div>
+          <p>Battery Life</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 65%"> 65% </div>
+          </div>
+          <p>Display</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 65%"> 65% </div>
+          </div>
+          <p>Style</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 70%"> 70% </div>
+          </div></div></div>
+          <div class="w3-third">
+          <p class="w3-large"><b><i class="fa fa-list-alt w3-margin-right w3-text-teal"></i>Specifications</b></p>
+            <p class="w3-margin-left">
+
+            <ul>
+              <li><b>RAM:</b> 16 GB |</li>
+              <li><b>Storage:</b> 256 GB SSD |</li>
+              <li><b>CPU:</b> 8th Gen Intel Core i7-8665U |</li>
+              <li><b>GPU:</b> Intel UHD 620 |</li>
+              <li><b>Display:</b> 14 Inches 1080P</li>
+            </ul>
+
+          </p>
+              </div>
+          <br>
+        </div><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
         <hr>
         <h3>Acer Aspire 5</h3>
         <h4>Windows</h4>
-        <p>Great for business use. Complete your projects, use large software with ease with this Acer laptops. AMD ryzen 4000 series mobile processor and AMD radeon grapics, users can perform milti tasks and run different software simanteniously. In other words, this laptop is a powerhouse.</p><hr>
-        <h3>Asus VivoBook 15</h3>
+        <p>Great for business use. Complete your projects, use large software with ease with this Acer laptops. AMD ryzen 4000 series mobile processor and AMD radeon grapics, users can perform milti tasks and run different software simanteniously. In other words, this laptop is a powerhouse.</p>
+        <div class="">
+          <div class="w3-half">
+          <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
+          <p>Performance</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 70%"> 70% </div>
+          </div>
+          <p>Battery Life</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 60%"> 60% </div>
+          </div>
+          <p>Display</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 50%"> 50% </div>
+          </div>
+          <p>Style</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 50%"> 50% </div>
+          </div></div></div>
+          <div class="w3-third">
+          <p class="w3-large"><b><i class="fa fa-list-alt w3-margin-right w3-text-teal"></i>Specifications</b></p>
+            <p class="w3-margin-left">
+
+            <ul>
+              <li><b>RAM:</b> 4 GB |</li>
+              <li><b>Storage:</b> 256 GB |</li>
+              <li><b>CPU:</b> Intel Core i5-1035G1 |</li>
+              <li><b>GPU:</b> Intel UHD 620 GPU |</li>
+              <li><b>Display:</b> 15.6 Inches 1080P</li>
+            </ul>
+
+          </p>
+              </div>
+          <br>
+        </div><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+        <hr>
+        <h3>Asus VivoBook S15</h3>
         <h4>Windows</h4>
-        <p>This is a great laptop if you play games for hours or work on different software. It offers long-lasting battery life, 88% screen-to-body ratio and 15.6" FHD display. A pleasing HD camera makes way for this laptop in this list.</p><hr>
-        <h3>Asus Chromebook C4223</h3>
-        <h4>Chrome OS</h4>
-        <p>This laptop definitely deserves a place in the best budget laptops list. It costs just under $350. The features of this laptop includes 4 GB memory and 32 GB storage along with a long battery life. The only con of this laptop is that it does not have an HD screen.</p><hr>
-        <h3>Dell Inspiron 15 3593</h3>
-        <h4>Windows</h4>
-        <p>This amazing dell laptops cost just below $450. In this budget they offer 15-inch screen, Core i3 processor, 8GB RAM, and an HD display and definitely it deserves a place in the best budget laptops list. Afterall, Dell is also a well-known brand with millions of users.</p><hr>
+        <p>This is a great laptop if you play games for hours or work on different software. It offers long-lasting battery life, 88% screen-to-body ratio and 15.6" FHD display. A pleasing HD camera makes way for this laptop in this list.</p>
+        <div class="">
+          <div class="w3-half">
+          <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
+          <p>Performance</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 65%"> 65% </div>
+          </div>
+          <p>Battery Life</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 50%"> 50% </div>
+          </div>
+          <p>Display</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 55%"> 55% </div>
+          </div>
+          <p>Style</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 60%"> 60% </div>
+          </div></div></div>
+          <div class="w3-third">
+          <p class="w3-large"><b><i class="fa fa-list-alt w3-margin-right w3-text-teal"></i>Specifications</b></p>
+            <p class="w3-margin-left">
+
+            <ul>
+              <li><b>RAM:</b> 8 GB |</li>
+              <li><b>Storage:</b> 512 GB |</li>
+              <li><b>CPU:</b> Intel Core i5-8265U |</li>
+              <li><b>GPU:</b> Intel UHD 620 |</li>
+              <li><b>Display:</b> 15.6 Inches 1080P</li>
+            </ul>
+
+          </p>
+              </div>
+          <br>
+        </div><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+        <hr>
         <h3>HP 15</h3>
         <h4>Windows</h4>
-        <p>HP 15 costs just around $400 with all the necessary specification required in the budget laptop. It offer 10th-gen Core i3 processor, 4GB RAM and 128 GB SSD storage. If you are actually looking for a fabulous windows laptop then you can really rely on this laptop. It has all the features except for the HD display.</p><hr>
+        <p>HP 15 costs just around $400 with all the necessary specification required in the budget laptop. It offer 10th-gen Core i3 processor, 4GB RAM and 128 GB SSD storage. If you are actually looking for a fabulous windows laptop then you can really rely on this laptop. It has all the features except for the HD display.</p>
+        <div class="">
+          <div class="w3-half">
+          <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
+          <p>Performance</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 65%"> 65% </div>
+          </div>
+          <p>Battery Life</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 50%"> 50% </div>
+          </div>
+          <p>Display</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 55%"> 55% </div>
+          </div>
+          <p>Style</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 45%"> 45% </div>
+          </div></div></div>
+          <div class="w3-third">
+          <p class="w3-large"><b><i class="fa fa-list-alt w3-margin-right w3-text-teal"></i>Specifications</b></p>
+            <p class="w3-margin-left">
+
+            <ul>
+              <li><b>RAM:</b> 8 GB |</li>
+              <li><b>Storage:</b> 1 TB |</li>
+              <li><b>CPU:</b> AMD Ryzen 5 2500U |</li>
+              <li><b>GPU:</b> AMD Radeon Vega 8 |</li>
+              <li><b>Display:</b> 15.6 Inches 1366 x 768</li>
+            </ul>
+
+          </p>
+              </div>
+          <br>
+        </div><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+        <hr>
         <h3>Samsung Chromebook 4</h3>
         <h4>Chrome OS</h4>
-        <p>This is the best laptop under $300. Its a slim, weights under 3 pounds, and 11.6 inches of screen. Best product for kids for their learning purposes. Specifications like 4GB RAM and 64GB storage are bonus for such a cheap price.</p><hr>
+        <p>This is the best laptop under $300. Its a slim, weights under 3 pounds, and 11.6 inches of screen. Best product for kids for their learning purposes. Specifications like 4GB RAM and 64GB storage are bonus for such a cheap price.</p>
+        <div class="">
+          <div class="w3-half">
+          <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
+          <p>Performance</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 60%"> 60% </div>
+          </div>
+          <p>Battery Life</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 60%"> 60% </div>
+          </div>
+          <p>Display</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 50%"> 50% </div>
+          </div>
+          <p>Style</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 45%"> 45% </div>
+          </div></div></div>
+          <div class="w3-third">
+          <p class="w3-large"><b><i class="fa fa-list-alt w3-margin-right w3-text-teal"></i>Specifications</b></p>
+            <p class="w3-margin-left">
+
+            <ul>
+              <li><b>RAM:</b> 4 GB |</li>
+              <li><b>Storage:</b> 32 GB |</li>
+              <li><b>CPU:</b> Intel Celeron 3000N |</li>
+            </ul>
+
+          </p>
+              </div>
+          <br>
+        </div><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+        <hr>
         <h3>Lenovo S340 Chromebook</h3>
         <h4>Chrome OS</h4>
-        <p>Usually Chromebook laptops come at a very cheap price and so is this laptop. Lenovo S340 Chromebook's specifications include 4GB RAM, 14" Touch-screen at just under $300. The price may go upto $400 if you want to include other specification like accidental geek squad protection.</p><hr>
+        <p>Usually Chromebook laptops come at a very cheap price and so is this laptop. Lenovo S340 Chromebook's specifications include 4GB RAM, 14" Touch-screen at just under $300. The price may go upto $400 if you want to include other specification like accidental geek squad protection.</p>
+        <div class="">
+          <div class="w3-half">
+          <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
+          <p>Performance</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 60%"> 60% </div>
+          </div>
+          <p>Battery Life</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 60%"> 65% </div>
+          </div>
+          <p>Display</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 50%"> 50% </div>
+          </div>
+          <p>Style</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 45%"> 45% </div>
+          </div></div></div>
+          <div class="w3-third">
+          <p class="w3-large"><b><i class="fa fa-list-alt w3-margin-right w3-text-teal"></i>Specifications</b></p>
+            <p class="w3-margin-left">
+
+            <ul>
+              <li><b>RAM:</b> Up to 8 GB |</li>
+              <li><b>CPU:</b> Intel Celeron N4000 |</li>
+              <li><b>Display</b> 14-inch, 1920 x 1080</li>
+            </ul>
+
+          </p>
+              </div>
+          <br>
+        </div><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+        <hr>
         <h3>HP Stream 11</h3>
         <h4>Windows</h4>
-        <p>11.6" Stream N3060, 4GB RAM windows laptop. Best for any use except for gaming. If you are a gaming enthusiast and love gaing while working then you should not opt for this one. Apert from that, it is a performer. </p>
+        <p>11.6" Stream N3060, 4GB RAM windows laptop. Best for any use except for gaming. If you are a gaming enthusiast and love gaing while working then you should not opt for this one. Apert from that, it is a performer.
+          <div class="">
+            <div class="w3-half">
+            <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
+            <p>Performance</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 50%"> 50% </div>
+            </div>
+            <p>Battery Life</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 60%"> 65% </div>
+            </div>
+            <p>Display</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 40%"> 40% </div>
+            </div>
+            <p>Style</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 40%"> 40% </div>
+            </div></div></div>
+            <div class="w3-third">
+            <p class="w3-large"><b><i class="fa fa-list-alt w3-margin-right w3-text-teal"></i>Specifications</b></p>
+              <p class="w3-margin-left">
+
+              <ul>
+                <li><b>RAM:</b> Up to 8 GB |</li>
+                <li><b>CPU:</b> 1.6-GHz Intel Celeron N3060 |</li>
+                <li><b>GPU:</b> Intel HD Graphics 400 GPU |</li>
+                <li><b>Display</b> 11.6-inch, 1366 x 768</li>
+              </ul>
+
+            </p>
+                </div>
+            <br>
+          </div><br><br><br><br><br><br><br><br><br><br><br><br>
+                  <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+        </p>
         </div></div>
       </div>
       </div>
@@ -104,126 +424,19 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-padding w3-teal">
         <h4>Filter Budget Laptops</h4>
       </div><br>
-      <select v-model="selected" class="w3-margin-left">
-  <option disabled value="">Please select one</option>
-  <option>Business</option>
-  <option>Gaming</option>
-  <option>General Purpose</option>
-  <option>Student</option>
-</select>
-<span>Selected: {{ selected }}</span>
-        <div v-if="selected === 'Business'">
-        <ul class="w3-ul w3-hoverable w3-white">
-          <li class="w3-padding-16">
-            <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-            <span class="w3-large">Business</span>
-            <br>
-            <span>Sed mattis nunc</span>
-          </li>
-          <li class="w3-padding-16">
-            <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-            <span class="w3-large">Business</span>
-            <br>
-            <span>Praes tinci sed</span>
-          </li>
-          <li class="w3-padding-16">
-            <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-            <span class="w3-large">Business</span>
-            <br>
-            <span>Ultricies congue</span>
-          </li>
-          <li class="w3-padding-16">
-            <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-            <span class="w3-large">Business</span>
-            <br>
-            <span>Lorem ipsum dipsum</span>
-          </li>
-        </ul>
-      </div>
-      <div v-else-if="selected === 'Gaming'">
-      <ul class="w3-ul w3-hoverable w3-white">
-        <li class="w3-padding-16">
-          <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-          <nuxt-link to="/laptops/alienware-m17-r3"><span class="w3-large w3-margin-left">Alienware m17 R3</span></nuxt-link>
-          <br>
-          <span class="w3-margin-left">Gaming</span>
-        </li>
-        <li class="w3-padding-16">
-          <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-          <nuxt-link to="/laptops/asus-zephyrus-s-gx701"> <span class="w3-large w3-margin-left">Asus Zephyrus S GX701</span></nuxt-link>
-          <br>
-          <span class="w3-margin-left">Gaming</span>
-        </li>
-        <li class="w3-padding-16">
-          <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-          <nuxt-link to="/laptops/razer-blade-pro-17/"><span class="w3-large w3-margin-left">Razer Blade Pro 17</span></nuxt-link>
-          <br>
-          <span class="w3-margin-left">Gaming</span>
-        </li>
-        <li class="w3-padding-16">
-          <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-          <nuxt-link to="/laptops/razer-blade-15/"><span class="w3-large w3-margin-left">Razer Blade 15</span></nuxt-link>
-          <br>
-          <span class="w3-margin-left">Gaming</span>
-        </li>
-      </ul>
+      <div class="w3-container">
+        <p class="w3-padding">Enter your Budget: <input type="text" v-model="price" placeholder="Or Enter a custom value" /></p>
+        <p><button type="button" class="w3-button w3-block w3-teal" @click.prevent="findit">Get Laptops</button></p><br>
     </div>
-    <div v-else-if="selected === 'General Purpose'">
-    <ul class="w3-ul w3-hoverable w3-white">
+    <ul v-for="article in articles" :key="article._id" class="w3-ul w3-hoverable w3-white">
       <li class="w3-padding-16">
-        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-        <span class="w3-large">General Purpose</span>
+        <img v-if="article.title != null" :src="require('~/assets/' + article.imgpath)" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <nuxt-link style="color: blue" :to="'/laptops/' + article._id"><span class="w3-large"><b>{{article.title}}</b></span></nuxt-link>
         <br>
-        <span>Sed mattis nunc</span>
-      </li>
-      <li class="w3-padding-16">
-        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-        <span class="w3-large">General Purpose</span>
-        <br>
-        <span>Praes tinci sed</span>
-      </li>
-      <li class="w3-padding-16">
-        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-        <span class="w3-large">General Purpose</span>
-        <br>
-        <span>Ultricies congue</span>
-      </li>
-      <li class="w3-padding-16">
-        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-        <span class="w3-large">General Purpose</span>
-        <br>
-        <span>Lorem ipsum dipsum</span>
+        <span>${{article.price}}, {{article.ram}} GB RAM, {{article.size}} Inches, {{ article.weight }} Pounds</span>
       </li>
     </ul>
-  </div>
-    <div v-else="selected === 'Student'">
-    <ul class="w3-ul w3-hoverable w3-white">
-      <li class="w3-padding-16">
-        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-        <nuxt-link to="/laptops/dell-xps-13/"><span class="w3-large w3-margin-left">Dell XPS 13</span></nuxt-link>
-        <br>
-        <span class="w3-margin-left">Students, All Purpose</span>
-      </li>
-      <li class="w3-padding-16">
-        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-        <nuxt-link to="/laptops/acer-chromebook-15/"><span class="w3-large w3-margin-left">Acer Chromebook 15</span></nuxt-link>
-        <br>
-        <span class="w3-margin-left">Students, general purpose</span>
-      </li>
-      <li class="w3-padding-16">
-        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-        <nuxt-link to="/laptops/dell-inspiron-15-3000/"> <span class="w3-large w3-margin-left">Dell Inspiron 15 3000</span></nuxt-link>
-        <br>
-        <span class="w3-margin-left">Students</span>
-      </li>
-      <li class="w3-padding-16">
-        <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-        <nuxt-link to="/laptops/acer-nitro-5/"><span class="w3-large w3-margin-left">Acer Nitro 5</span></nuxt-link>
-        <br>
-        <span class="w3-margin-left">Students, All-purpose</span>
-      </li>
-    </ul>
-  </div><hr>
+    <hr>
   <about-section />
   <hr>
 
@@ -413,11 +626,24 @@ export default {
   components: { 'footer-app': footer, 'about-section': aboutsection, navbar },
   data () {
     return {
-        selected: 'Student'
+      price: '6400',
+      articles: []
       }
     },
       methods: {
-
+        async findit(){
+          await this.$axios.$post('/api/articles/cheap101', {
+            price: this.price
+          })
+          .then((response) => {
+            console.log(response)
+           this.articles = response.slice(0,10)
+           this.$router.push({ to:'/#laptops' })
+         })
+       }
+    },
+    mounted:function(){
+        this.findit() //method1 will execute at pageload
     }
       }
 </script>

@@ -9,7 +9,7 @@
       <div class="card-body">
         <h4>{{ this.$auth.user.full_name }}</h4>
         <div class="mb-5"><strong>Email:</strong> {{ this.$auth.user.email }}</div>
-        <nuxt-link to="/logout" class="btn btn-danger">Logout</nuxt-link>
+        <nuxt-link to="/logout" class="btn w3-blue">Logout</nuxt-link>
       </div>
     </div>
     <h1>Add New Laptop</h1>

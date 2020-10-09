@@ -131,6 +131,18 @@ module.exports.bestlaptops = function (req, res, next) {
   });
 }
 
+module.exports.cheap101 = function (req, res, next) {
+    Article.find({"price": { $lte: req.body.price }}).sort({price: 'descending'}).exec((err, articles) => {
+
+    if(err) {
+        return res.status(500).json({
+            message: 'Error getting records.'
+        });
+    }
+    return res.json(articles);
+  });
+}
+
 module.exports.cheap100 = function (req, res, next) {
   console.log(req.body.price);
     Article.find({"price": { $lte: req.body.price }}).sort({price: 'descending'}).exec((err, articles) => {

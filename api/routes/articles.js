@@ -25,6 +25,8 @@ router.post('/articles/bestlaptopsos', articlesController.bestlaptopsos)
 
 router.post('/articles/bestlaptops', articlesController.bestlaptops)
 
+router.post('/articles/cheap101', articlesController.cheap101)
+
 router.post('/articles/cheap100', articlesController.cheap100)
 
 router.post('/articles/filtersev', articlesController.filtersev)
