@@ -140,17 +140,165 @@ and is wrapped around the whole page content, except for the footer in this exam
           <hr>
           <h2>MSI GP65 Leopard</h2>
           <p>How can you miss the brand MSI when talking about gaming laptops? MSI GP65 is one of the best gaming laptops under 1500 dollars. As we have said earlier, the merit of this list is the performance of the laptops. Just like other laptops on the list, you will get a great gaming experience with MSI GP65 laptops. Along with that, it offers a revolutionary cooling for gaming enthusiasts who love to play for hours.</p>
-          <p>It has in-built windows 10 home OS, 15.6 inches full HD screen, Intel Core i7-10750H 2.6-5.0GHz CPU, and 512 GB internal storage. Talking about the audio, it has 5 times louder sound, more resonance, and higher quality sound play that make you feel every bit of a game. In short, it is a great laptop for gaming enthusiasts, and best if you do not want to spend a lot of cash on gaming laptops.</p><hr>
+          <p>It has in-built windows 10 home OS, 15.6 inches full HD screen, Intel Core i7-10750H 2.6-5.0GHz CPU, and 512 GB internal storage. Talking about the audio, it has 5 times louder sound, more resonance, and higher quality sound play that make you feel every bit of a game. In short, it is a great laptop for gaming enthusiasts, and best if you do not want to spend a lot of cash on gaming laptops.</p>
+          <div class="">
+            <div class="w3-half">
+            <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
+            <p>Performance</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 90%"> 90% </div>
+            </div>
+            <p>Battery Life</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 40%"> 40% </div>
+            </div>
+            <p>Display</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 85%"> 85% </div>
+            </div>
+            <p>Style</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 85%"> 85% </div>
+            </div></div></div>
+            <div class="w3-third">
+            <p class="w3-large"><b><i class="fa fa-list-alt w3-margin-right w3-text-teal"></i>Specifications</b></p>
+              <p class="w3-margin-left">
+
+              <ul>
+                <li><b>RAM:</b> 16 GB |</li>
+                <li><b>Storage:</b> 512 GB |</li>
+                <li><b>CPU:</b> 2.6GHz Intel Core i7-10750H |</li>
+                <li><b>GPU:</b> 8GB NVIDIA GeForce RTX 2070 |</li>
+                <li><b>Display:</b> 15.6 Inches</li>
+              </ul>
+
+            </p>
+                </div>
+            <br>
+          </div><br><br><br><br><br><br><br><br><br><br><br><br>
+                  <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+          <hr>
           <h2>Lenovo Legion Y740</h2>
             <p>There is a category of users that want a laptop with a stylish look and attractive designs. If you belong to this category of users, then Lenovo legion y740 is built for you. It is one of the stylish laptops with outstanding performance. This laptop offers 15.6 Inches full HD display and powered by an Intel Core i7 processor with 16 GB RAM. Talking about the graphics, it has 8 GB Nvidia GeForce RTX 2070 which is one of the best GPUs in the market.</p>
-            <p>In short, you do not need to worry about the performance of this Lenovo machine which offers a stylish design at the same time. This laptop has a battery life of five hours which is not bad for a gaming laptop.</p><hr>
+            <p>In short, you do not need to worry about the performance of this Lenovo machine which offers a stylish design at the same time. This laptop has a battery life of five hours which is not bad for a gaming laptop.</p>
+            <div class="">
+              <div class="w3-half">
+              <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
+              <p>Performance</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 85%"> 85% </div>
+              </div>
+              <p>Battery Life</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 35%"> 35% </div>
+              </div>
+              <p>Display</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 85%"> 85% </div>
+              </div>
+              <p>Style</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 80%"> 80% </div>
+              </div></div></div>
+              <div class="w3-third">
+              <p class="w3-large"><b><i class="fa fa-list-alt w3-margin-right w3-text-teal"></i>Specifications</b></p>
+                <p class="w3-margin-left">
+
+                <ul>
+                  <li><b>RAM:</b> 16 GB |</li>
+                  <li><b>Storage:</b> 256 GB |</li>
+                  <li><b>CPU:</b> Intel Core i7-8750H processor |</li>
+                  <li><b>GPU:</b> Nvidia GeForce RTX 2070 Max-Q GPU |</li>
+                  <li><b>Display:</b> 15 Inches</li>
+                </ul>
+
+              </p>
+                  </div>
+              <br>
+            </div><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+            <hr>
             <h2>HP Omen 15</h2>
             <p>HP is widely known for building professional laptops but now HP has introduced an attractive gaming laptop HP Omen 15. The new edition of this laptop comes with the latest RTX powering the laptop to perform as good as the other competitor laptops.</p>
             <p>If we look at the specifications of this laptop, it has 15.6 inches of screen full HD, 16 GB RAM, 9th generation intel i-7 processor which offers an amazing gaming experience above your expectations. It can be considered as one of the best gaming laptops under 1500 for sure.</p>
-            <p>Along with gaming, you can also perform multi-tasks with ease on this laptop, it’s a great combination to perform daily tasks and play some kickass games.</p><hr>
+            <p>Along with gaming, you can also perform multi-tasks with ease on this laptop, it’s a great combination to perform daily tasks and play some kickass games.</p>
+            <div class="">
+              <div class="w3-half">
+              <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
+              <p>Performance</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 75%"> 75% </div>
+              </div>
+              <p>Battery Life</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 60%"> 60% </div>
+              </div>
+              <p>Display</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 65%"> 65% </div>
+              </div>
+              <p>Style</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 65%"> 65% </div>
+              </div></div></div>
+              <div class="w3-third">
+              <p class="w3-large"><b><i class="fa fa-list-alt w3-margin-right w3-text-teal"></i>Specifications</b></p>
+                <p class="w3-margin-left">
+
+                <ul>
+                  <li><b>RAM:</b> 16 GB |</li>
+                  <li><b>Storage:</b> 512 GB |</li>
+                  <li><b>CPU:</b> AMD Ryzen 7 4800H |</li>
+                  <li><b>GPU:</b> Nvidia GeForce GTX 1660 Ti (6GB GDDR6) |</li>
+                  <li><b>Display:</b> 15.6 Inches</li>
+                </ul>
+
+              </p>
+                  </div>
+              <br>
+            </div><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+            <hr>
             <h2>Acer Predator Helios 300</h2>
             <p>Acer Predator is one of the most popular and used laptops around the world. For all the latest features it deserves a place in the list of best laptops under 1.5K. You can play all the latest games on this laptop smoothly.</p>
-            <p>Acer predator offers Intel Core i7-9750H, 15.6 inches full HD screen, and 6GB of NVidia GeForce RTX 2060 card which gives a great gaming experience. 512 GB SSD storage helps you to store different games on the machine. It also offers a comfortable keyboard for better gaming and dual cooling fat to manage hit issues.</p><hr>
+            <p>Acer predator offers Intel Core i7-9750H, 15.6 inches full HD screen, and 6GB of NVidia GeForce RTX 2060 card which gives a great gaming experience. 512 GB SSD storage helps you to store different games on the machine. It also offers a comfortable keyboard for better gaming and dual cooling fat to manage hit issues.</p>
+            <div class="">
+              <div class="w3-half">
+              <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
+              <p>Performance</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 75%"> 75% </div>
+              </div>
+              <p>Battery Life</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 35%"> 35% </div>
+              </div>
+              <p>Display</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 75%"> 75% </div>
+              </div>
+              <p>Style</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 80%"> 80% </div>
+              </div></div></div>
+              <div class="w3-third">
+              <p class="w3-large"><b><i class="fa fa-list-alt w3-margin-right w3-text-teal"></i>Specifications</b></p>
+                <p class="w3-margin-left">
+
+                <ul>
+                  <li><b>RAM:</b> 16 GB |</li>
+                  <li><b>Storage:</b> 512 GB |</li>
+                  <li><b>CPU:</b> Intel Core i7-10750H |</li>
+                  <li><b>GPU:</b> Nvidia GeForce RTX 2070 Max-Q |</li>
+                  <li><b>Display:</b> 15.6 Inches</li>
+                </ul>
+
+              </p>
+                  </div>
+              <br>
+            </div><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+            <hr>
           </div></div>
     </div>
 

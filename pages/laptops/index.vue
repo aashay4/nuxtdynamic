@@ -378,7 +378,6 @@ async finditsize(){
      })
    },
   async finditos(){
-    this.os = ''
     this.battery = ''
     this.purpose = ''
     this.company = ''
