@@ -10,35 +10,9 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Gaming Laptops</h1>
-          <date-app /><em class="w3-opacity"> by </em><strong>Adam Johnson</strong>
+          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <hr>
-          <ul class="w3-ul w3-white">
-            <li class="w3-padding-16">
-              <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-              <span class="w3-large w3-margin-left"><a href="#Alienware">Alienware m17 R3</a></span>
-              <button type="button" class="w3-button w3-block w3-blue w3-right w3-third">Buy Now</button></p>
-              <br>
-              <span>Sed mattis nunc</span>
-            </li>
-            <li class="w3-padding-16">
-              <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-              <span class="w3-large w3-margin-left">Sweaters</span>
-              <br>
-              <span>Praes tinci sed</span>
-            </li>
-            <li class="w3-padding-16">
-              <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-              <span class="w3-large">Workshop</span>
-              <br>
-              <span>Ultricies congue</span>
-            </li>
-            <li class="w3-padding-16">
-              <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-              <span class="w3-large">Trends</span>
-              <br>
-              <span>Lorem ipsum dipsum</span>
-            </li>
-          </ul>
+
           <p>A good gaming laptop is a kind of blessing for a gamer. Buying the best gaming laptop can confusing because there are some magnificent models available in the market now. Let us guide you through this web and help you choose the best gaming laptops.</p>
           <p>In this article, we will guide you through all the specifications, features, advantages, and disadvantages (in any!) of the best gaming laptops. We visited different e-commerce websites and company stores and we have come up with the top-notch laptops from different companies.</p>
           <p>Our team has several years of gaming experience starting from the 90’s games Road rash to GTA: vice city, Counterstrike, FIFA, GTA:5, call of duty: warzone, and many other games. We have played games on several machines and here the list we share is our experience. Here, we share the best gaming laptops which are great performers and affordable at the same time.</p>
@@ -408,6 +382,43 @@ and is wrapped around the whole page content, except for the footer in this exam
             <h2>ACER NITRO 5</h2>
             <p>We included Acer nitro 5 in this list for good performance and lower prices. If you want to experience the best gaming but do not want to spend a lot of money, then this is the laptop you should look forward to. Though the price of this laptop is cheap and storage is also a minus point but you won’t be upset about its performance.</p>
             <p>It has a long battery life compared to other laptops on the list. 8 GB RAM and Intel i-5 make sure that you smoothly play medium to large-sized games. Apart from that, you can also install and work on large software. So, this is not just a gaming laptop but it’s basically a multi-purpose laptop that you can use for work and play games part-time.</p>
+            <div class="">
+              <div class="w3-half">
+              <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
+              <p>Performance</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 75%"> 75% </div>
+              </div>
+              <p>Battery Life</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 60%"> 60% </div>
+              </div>
+              <p>Display</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 75%"> 75% </div>
+              </div>
+              <p>Style</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 65%"> 65% </div>
+              </div></div></div>
+              <div class="w3-third">
+              <p class="w3-large"><b><i class="fa fa-list-alt w3-margin-right w3-text-teal"></i>Specifications</b></p>
+                <p class="w3-margin-left">
+
+                <ul>
+                  <li><b>RAM:</b> 8 GB |</li>
+                  <li><b>Storage:</b> 256 GB SSD |</li>
+                  <li><b>CPU:</b> AMD Ryzen 5 4600H |</li>
+                  <li><b>GPU:</b> 4 GB Nvidia GeForce GTX 1650 |</li>
+                  <li><b>Display:</b> 15.6 Inches 1080P</li>
+                </ul>
+
+              </p>
+                  </div>
+              <br>
+            </div><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+                    <hr>
           </div></div>
     </div>
 

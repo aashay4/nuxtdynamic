@@ -10,10 +10,10 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Choose Best Cheap Laptops</h1>
-          <span class="w3-opacity">Jan 2, 2020</span><em class="w3-opacity"> by </em><strong>Adam Johnson</strong>
+          <span class="w3-opacity">Oct 19, 2020</span><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <hr>
           <p>In this article, we bring you the best cheap laptops. There are some inexpensive laptops available in the market today that are capable of getting the job done quickly. Select the price that and we will get you the best cheap laptops from our database. Remember one thing, all the affordable laptops won't be able to pull out all the tasks/load that you throw at it. The inexpensive laptops are not as good at performance as all the other gaming laptops. But the laptops on this list are capable of performing all the daily tasks smoothly.</p>
-          <p>If you want more customization options then you can visit our <nuxt-link to="/laptop-finder/">laptop finder tool</nuxt-link>. With this tool, you can customize price, operating system, laptop size and purpose.</p><hr>
+          <p>If you want more customization options then you can visit our <nuxt-link to="/laptop-finder/" style="color: blue">laptop finder tool</nuxt-link>. With this tool, you can customize price, operating system, laptop size and purpose.</p><hr>
           <div>
           <section>
             <h2>
@@ -29,7 +29,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <label for="16">Under 400</label><br>
       <input type="radio" id="all" value="500" v-model="price">
       <label for="all">Under 500</label><br>
-      <p>Or Add Custom Value: <input type="text" v-model="price" placeholder="Or Enter a custom value" /></p>
+      <b><p>Or Add Custom Value: <input type="text" v-model="price" style="color: blue" placeholder="Or Enter a custom value" /></p></b>
       <button class="w3-margin-bottom w3-button w3-padding-large w3-teal w3-border" @click.prevent="findit"><b>Get Laptops &raquo;</b></button>
           </section>
         </div>
@@ -41,10 +41,10 @@ and is wrapped around the whole page content, except for the footer in this exam
 </div>
 <div class="col-sm-4">
 
-  <h5><nuxt-link style="color: black" :to="'/laptops/' + article._id"><span class="w3-large w3-text-teal">{{ article.title }},</span></nuxt-link></h5>
+  <h5><nuxt-link style="color: black" :to="'/laptops/' + article._id + '/'"><span class="w3-large w3-text-teal">{{ article.title }},</span></nuxt-link></h5>
   <span>OS: {{article.os}}</span><br>
   <span>{{article.size}} Inches</span><br>
-  <span>{{article.ram}} GB</span><br>
+  <span>{{article.ram}} GB RAM</span><br>
   <span v-if="article.storage >= 1000">{{ article.storage/1000 }} TB Storage,</span>
   <span v-else>{{ article.storage }} GB Storage,</span><br>
 </div>
@@ -75,9 +75,7 @@ and is wrapped around the whole page content, except for the footer in this exam
               <p>This is a good all-purpose laptop that offers 4 GB RAM, 64 GB storage, AMD A6-9220E processor, and AMD Radeon graphics. With professional design and good battery life, this machine can be a great choice for college students and businessmen. Dolly audio at such a cheap budget is a plus.</p><hr>
               <h3>Samsung Chromebook 4</h3>
               <p>Samsung Chromebook 4 is one of the cheapest laptops that is a good performer at the same time. It costs just around $229 but you won't be compromising on the performance. For 229 dollars, you get an 11.6 inches screen, 32 GB of storage, and 4 GB RAM. Along with performance, battery life is also a plus of this laptop. The battery of Samsung Chromebook 4 lasts around 9 hours. If you need a laptop with more storage and RAM, you can add a few bucks more and get a bigger machine with more storage and RAM.</p><hr>
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-teal" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
-          <p class="w3-clear"></p></div></div>
+          </div></div>
     </div>
 
     <!-- About/Information menu -->
@@ -192,7 +190,7 @@ export default {
 components: { navbar, 'footer-app': footer, popularposts },
 data() {
   return {
-    price: '500',
+    price: '460',
     articles: [],
     searchKey: '',
   currentPage: 1,

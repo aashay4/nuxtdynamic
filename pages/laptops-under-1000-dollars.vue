@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Laptops Under 1000 Dollars</h1>
-          <date-app /><em class="w3-opacity"> by </em><strong>Adam Johnson</strong>
+          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <hr>
           <p>By selecting the best laptop under 1000 dollars, you can get an above-average laptop with some of the most advanced specifications. Apart from features, these laptops offer excellent performance, long battery life, and classic design.</p>
           <p>As the recent trend suggests, everyone needs a laptop for different kinds of works. It has become an integral part of our professional life. With this kind of growing demand, there are several laptops available in the market and to choose the best one from all these laptops is challenging. For that reason, we have analyzed all the laptops under $1000 and shortlisted the best one for you.</p>
@@ -39,9 +39,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <p>This one is the first laptop on this list with AMD Ryzen 7 4700U processor. Currently, this is the best Acer budget laptop. With 8 GB RAM, Radeon Graphics, and AMD Ryzen processer, this is one of the best performers. Apart from that, it offers 512 GB storage and a 1920 x 1080 display. The fingerprint scanner is another surprise factor within this laptop.</p>
           <p>With more than 11 hours of battery life, you can work on this laptop for the whole day. Acer Swift 3 costs just around $650 which is way lesser than the other laptops on this list. This Acer machine is probably one of the best laptops below $1000.</p>
           <h3></h3>
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-teal" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
-          <p class="w3-clear"></p></div></div>
+          </div></div>
     </div>
 
     <!-- About/Information menu -->

@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Laptops Under 300 Dollars</h1>
-          <date-app /><em class="w3-opacity"> by </em><strong>Adam Johnson</strong>
+          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <hr>
           <p>Nowadays the demand for laptops has hiked and so is the number of companies around the world. A few years back, getting a brand new laptop for just 300 dollars was not possible at all. But thanks to the competition, getting the best laptops under 300 dollars is possible. You can get a laptop that offers the latest functionalities at such an affordable price. With the laptops under 300 dollars, you can perform day-to-day tasks like managing excel sheets, creating docs, creating business proposals easily. But, playing high-resolution games, working on multiple software or tools at the same time might not be possible with these cheap laptops under 300. But some of the laptops in this list are capable of doing it. There are some potential laptops that you can find within your budget, so let's dive into the list.</p>
           <h4>What You Can Expect from These Laptops?</h4>
@@ -50,9 +50,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <h3>Windows</h3>
           <p>Not many laptops offer 128 GB of Storage when you are looking for a laptop under 300 dollars. Along with 128 GB memory, Dell Inspiron offers 4 GB of RAM and an eleven-inch HD display. It is also a convertible laptop that can be used as a tablet as well. Dell Inspiron works wonder while working on a group and discuss certain topics very often.</p>
           <p>Also, it weighs just 2.5 pounds which is way lighter than the other laptops. Just 6 hours of battery life is a minus point while other competitors in this list offer much higher battery life. Overall, this laptop is not built for gaming but its a good choice for students and businessmen to perform business routine tasks. Unlike Chromebook laptops, you do not need to store data on the cloud, you have 128 GB of data on the local storage. So, this can be helpful if you are dealing with a lot of computer data in the form of sheets, docs, PPT presentations, or PDFs.</p>
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-teal" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
-          <p class="w3-clear"></p></div></div>
+          </div></div>
     </div>
 
     <!-- About/Information menu -->

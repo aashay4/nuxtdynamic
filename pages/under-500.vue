@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Laptops Under 500 Dollars</h1>
-          <date-app /><em class="w3-opacity"> by </em><strong>Adam Johnson</strong>
+          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <hr>
           <p>There is a vast number of laptops available in the market with advanced features specifically built to run advanced software, play games. The price of these laptops may go beyond a thousand dollars which might not be possible to buy for everyone. But the good thing is that you can still find the best laptops under 500 dollars. In this list, you may need to compromise on some of the latest features, the laptops may not be recently released but we are here to shortlist the best laptops under 500 that are capable of doing almost all the daily routine tasks and run some of the large software.</p>
           <p>After reviewing many laptops, we shortlisted these laptops. In this list, we prioritized the laptop's performance and memory. Whether you are a student, businessman, writer, or programmer, we know how important a laptop's performance is. Gone are the days when users worked on just one software or use one web browser. Nowadays, users work on multiple software simultaneously and deal with hundreds of files. In this scenario, having a high performing laptop with a good amount of memory space can be helpful. So, all the laptops we included in this list have these features.</p>
@@ -41,9 +41,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <h4>Windows</h4>
           <p>If you are looking for an outstanding performer under 500 dollars then this machine is for you. With 4 GB RAM, Intel UHD 620 graphics, and Intel Core i3-8130U, this machine can run every task that you throw at it. Apart from that, it has a really cool keyboard, you can work on this laptop comfortably.</p>
           <p>Battery life can be an issue with this laptop, battery lasts for just around 7 hours. </p><hr>
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-teal" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
-          <p class="w3-clear"></p></div></div>
+          </div></div>
     </div>
 
     <!-- About/Information menu -->

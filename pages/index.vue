@@ -24,40 +24,56 @@ and is wrapped around the whole page content, except for the footer in this exam
 
         <div style="width:100%;" class="w3-justify">
           <h3>Best Budget Laptops 2020</h3>
-          <span class="w3-opacity">Oct 2, 2020</span><br>
+          <span class="w3-opacity">Oct 19, 2020</span><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <h5>As our lives are getting back to normal, more stock of different budget laptops is available for you. Here, we bring the best laptops within your budget.</h5>
           <ul class="w3-ul w3-hoverable w3-white">
             <li class="w3-padding-16">
-              <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-              <span class="w3-large">Denim</span>
+              <strong>1.</strong> <span class="w3-large" style="color: blue">HP Chromebook 15</span>
               <br>
-              <span>Sed mattis nunc</span>
             </li>
             <li class="w3-padding-16">
-              <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-              <span class="w3-large w3-margin-left">Sweaters</span>
+              <strong>2.</strong> <span class="w3-large" style="color: blue">Acer Chromebook 714</span>
               <br>
-              <span>Praes tinci sed</span>
             </li>
             <li class="w3-padding-16">
-              <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-              <span class="w3-large">Workshop</span>
+              <strong>3.</strong> <span class="w3-large" style="color: blue">Acer Spin 3</span>
               <br>
-              <span>Ultricies congue</span>
             </li>
             <li class="w3-padding-16">
-              <img src="../assets/laptop.jpg" alt="Image" class="w3-left -right" style="width:50px">
-              <span class="w3-large">Trends</span>
+              <strong>4.</strong> <span class="w3-large" style="color: blue">Acer Aspire 5</span>
               <br>
-              <span>Lorem ipsum dipsum</span>
-            </li>
+              </li>
+              <li class="w3-padding-16">
+                <strong>5.</strong> <span class="w3-large" style="color: blue">Asus VivoBook S15</span>
+                <br>
+                </li>
+                <li class="w3-padding-16">
+                  <strong>6.</strong> <span class="w3-large" style="color: blue">HP 15</span>
+                  <br>
+                  </li>
+                  <li class="w3-padding-16">
+                    <strong>7.</strong> <span class="w3-large" style="color: blue">Samsung Chromebook 4</span>
+                    <br>
+                    </li>
+                    <li class="w3-padding-16">
+                      <strong>8.</strong> <span class="w3-large" style="color: blue">Denim</span>
+                      <br>
+                      </li>
+                      <li class="w3-padding-16">
+                        <strong>9.</strong> <span class="w3-large" style="color: blue">Lenovo S340 Chromebook</span>
+                        <br>
+                        </li>
+                        <li class="w3-padding-16">
+                          <strong>10.</strong> <span class="w3-large" style="color: blue">HP Stream 11</span>
+                          <br>
+                          </li>
           </ul>
         <br>
         Nowadays, there are many different laptop manufacturing companies available in the market. To select a decent laptop within your budget is quite difficult. For that reason, we bring these top 10 best budget laptops that are affordable and run efficiantly at the same time. Our main focus is to include the laptops with innovative functionality and are cheap at the same time.</p>
         <p>As, this is the list of the budget laptops, you might need to compromise on some functionality. If you are a student then you might use laptop for programming, designing, create document, or creating note faster. So, you can avoid the laptops with extra-ordinary functionality in music, or gaming. You can select the laptops which perform better for programming or designing work. So, without wasting any time let's dive into the list</p><hr>
-        <h3>HP Chromebook 15</h3>
+        <h3 class="">HP Chromebook 15</h3>
         <h4>Chrome OS</h4>
-        <p>HP is a brand widely known for the extra-ordinary battery life of the product. HP's chromebook has decent features including comfortable keyboard. Like other HP laptops, Chromebook also offer fentastic battery life. Even after working hours, HP chromebook does not heat up, that's a plus. Data in chromebook is stored on the cloud instead of the local machine. If you are dealing with a lot of data then cloud data storing process might be slow.</p>
+        <p>HP is a brand widely known for the extra-ordinary battery life of the product. HP's chromebook has decent features including comfortable keyboard. Like other HP laptops, Chromebook also offer fentastic battery life. Even after working hours, HP chromebook does not heat up, that's a plus. Data in chromebook is stored on the cloud instead of the local machine. If you are dealing with a lot of data then cloud data storing process might be slow. But this one is indeed one of the best budget laptops available right now.</p>
         <div class="">
           <div class="w3-half">
           <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
@@ -215,7 +231,7 @@ and is wrapped around the whole page content, except for the footer in this exam
               </div>
           <br>
         </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+                <div><p> <button class="w3-button w3-block w3-blue"><a href="https://google.com/"> Buy Now</a></button></p></div>
         <hr>
         <h3>Asus VivoBook S15</h3>
         <h4>Windows</h4>
@@ -431,7 +447,7 @@ and is wrapped around the whole page content, except for the footer in this exam
     <ul v-for="article in articles" :key="article._id" class="w3-ul w3-hoverable w3-white">
       <li class="w3-padding-16">
         <img v-if="article.title != null" :src="require('~/assets/' + article.imgpath)" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <nuxt-link style="color: blue" :to="'/laptops/' + article._id"><span class="w3-large"><b>{{article.title}}</b></span></nuxt-link>
+        <nuxt-link style="color: blue" :to="'/laptops/' + article._id + '/'"><span class="w3-large"><b>{{article.title}}</b></span></nuxt-link>
         <br>
         <span>${{article.price}}, {{article.ram}} GB RAM, {{article.size}} Inches, {{ article.weight }} Pounds</span>
       </li>
@@ -549,8 +565,8 @@ and is wrapped around the whole page content, except for the footer in this exam
        <div class="w3-quarter w3-container -bottom">
          <router-link to="/under-100-dollars/">
            <div class="w3-display-container">
-           <div class="w3-display-topleft w3-white w3-padding"><b>Oct, 1 2020</b></div>
-           <div class="w3-display-topright w3-teal w3-padding">Adam Johnson</div>
+           <div class="w3-display-topleft w3-white w3-padding"><b>Oct, 19 2020</b></div>
+           <div class="w3-display-topright w3-teal w3-padding">Denzel Vieta</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
            <a><p><b><h3>Laptops Under 100 Dollars</h3></b></p></a>
@@ -560,8 +576,8 @@ and is wrapped around the whole page content, except for the footer in this exam
        <div class="w3-quarter w3-container -bottom">
          <router-link to="/under-200-dollars/">
            <div class="w3-display-container">
-           <div class="w3-display-topleft w3-white w3-padding"><b>Oct, 1 2020</b></div>
-           <div class="w3-display-topright w3-teal w3-padding">Adam Johnson</div>
+           <div class="w3-display-topleft w3-white w3-padding"><b>Oct, 19 2020</b></div>
+           <div class="w3-display-topright w3-teal w3-padding">Denzel Vieta</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
            <a><p><b><h3>Laptops Under 200 Dollars</h3></b></p></a>
@@ -571,8 +587,8 @@ and is wrapped around the whole page content, except for the footer in this exam
        <div class="w3-quarter w3-container -bottom">
          <router-link to="/under-300-dollars/">
            <div class="w3-display-container">
-           <div class="w3-display-topleft w3-white w3-padding"><b>Oct, 1 2020</b></div>
-           <div class="w3-display-topright w3-teal w3-padding">Adam Johnson</div>
+           <div class="w3-display-topleft w3-white w3-padding"><b>Oct, 19 2020</b></div>
+           <div class="w3-display-topright w3-teal w3-padding">Denzel Vieta</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
            <a><p><b><h3>Laptops Under 300 Dollars</h3></b></p></a>
@@ -582,8 +598,8 @@ and is wrapped around the whole page content, except for the footer in this exam
        <div class="w3-quarter w3-container -bottom">
          <router-link to="/under-400-dollars/">
            <div class="w3-display-container">
-           <div class="w3-display-topleft w3-white w3-padding"><b>Oct, 1 2020</b></div>
-           <div class="w3-display-topright w3-teal w3-padding">Adam Johnson</div>
+           <div class="w3-display-topleft w3-white w3-padding"><b>Oct, 19 2020</b></div>
+           <div class="w3-display-topright w3-teal w3-padding">Denzel Vieta</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
            <a><p><b><h3>Laptops Under 400 Dollars</h3></b></p></a>

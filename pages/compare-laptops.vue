@@ -238,9 +238,11 @@
       </table>
       </client-only>
     </div>
+    <footer-app />
 </div>
 </template>
 <script>
+import footer from '../components/footer.vue'
 import navbar from '~/components/navbar.vue'
 import Dropdown from '~/components/Dropdown.vue'
 import Dropdown1 from '~/components/Dropdown1.vue'
@@ -248,7 +250,7 @@ import Dropdown2 from '~/components/Dropdown2.vue'
 import Dropdown3 from '~/components/Dropdown2.vue'
 import Dropdown4 from '~/components/Dropdown2.vue'
   export default {
-    components: { Dropdown, Dropdown1, navbar, Dropdown2, Dropdown3, Dropdown4 },
+    components: { Dropdown, Dropdown1, navbar, Dropdown2, Dropdown3, Dropdown4, 'footer-app': footer },
     async asyncData(context){
       const {data} = await context.$axios.get('/api/articles/')
       return {

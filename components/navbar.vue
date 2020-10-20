@@ -19,7 +19,6 @@
     <nuxt-link to="/cheap-laptops/" class="w3-white w3-bar-item w3-button w3-padding-large w3-hide-small w3-hover-teal">
       <b>Cheap Laptops</b>
     </nuxt-link>
-      <a href="#" class="w3-padding-large w3-hover-teal w3-hide-small w3-right w3-white"><i class="fa fa-search"></i></a>
       <a href="#" class="w3-padding-large w3-hover-teal w3-hide-small w3-right w3-white"><i class="fa fa-facebook-official"></i></a>
       <a href="#" class="w3-padding-large w3-hover-teal w3-hide-small w3-right w3-white"><i class="fa fa-instagram"></i></a>
       <a href="#" class="w3-padding-large w3-hover-teal w3-hide-small w3-right w3-white"><i class="fa fa-twitter"></i></a>
@@ -40,7 +39,7 @@
   <nuxt-link class="w3-bar-item w3-button" to="/best-gaming-laptops/">
    <b>Best Gaming Laptops</b></nuxt-link>
   <nuxt-link class="w3-bar-item w3-button" to="/laptops/">
-   <b>Laptops</b></nuxt-link>
+   <b>All Laptops</b></nuxt-link>
   <nuxt-link class="w3-bar-item w3-button" to="/cheap-laptops/">
    <b>Cheap Laptops</b></nuxt-link>
 </nav>

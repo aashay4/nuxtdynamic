@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Gaming Laptops Under 1500 Dollars</h1>
-          <date-app /><em class="w3-opacity"> by </em><strong>Adam Johnson</strong>
+          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <hr>
           <p>Gaming laptops under 1500 dollars do exist. There are multiple companies that product laptop at this price range. If you are looking for a gaming laptop with all the modern specifications in CPU and GPU, then it would cost around 2500 and above. But the best thing is that you get a great experience with the laptops under 1500 dollars as well.</p>
           <h2>Should you buy gaming laptops under 1500?</h2>

@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Laptops for College Students</h1>
-          <date-app /><em class="w3-opacity"> by </em><strong>Adam Johnson</strong>
+          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <hr>
           <p>If you are a college student, you need the best performer machine. When you have so many choices, finding the best college laptop under budget is a challenging task. When you are buying a laptop for school or college, you need to make sure the display is good for group studies, the weight of a laptop, and the most important battery life. While working on a project, students may not get a charging port every time so long-lasting battery life is the most required. Apart from that, many students are familiar with Windows 10 and some might not be comfortable with Ubuntu.</p>
           <p>As the analysis suggests, college students use the laptop for multiple tasks like watching movies, programming, video editing, designing, and whatnot. Keeping that in mind, we included only those laptops which you can use for the multi-tasks. Have a look at the best laptops for college students.</p>
@@ -18,8 +18,8 @@ and is wrapped around the whole page content, except for the footer in this exam
           <h2>Dell XPS 13</h2>
           <p>Released in 2020, Dell XPS 13 is receiving some great review from the students. With attractive looks, outstanding performance and excellent battery life, Dell XPS 13 is one of the best laptops for college students.</p>
           <p>It is a lightweight laptop that can easily be carried by the student. With the 10th generation intel core i7 processor, it is perfect for multi-tasks. A comfortable keyboard and near -bezel-less display make it perfect to work on this laptop for hours. If you are looking for the perfect laptop for college students, then this laptop is definitely for you.</p><hr>
-          <h2>HP Envy 13</h2>
-          <p>When it comes to performance, you can rely on the brand HP. HP Envy 13 is perfect for the students who play games often and do some document work as well. Along with students, this laptop is also perfect for professionals.</p>
+          <h2>HP Envy 13t</h2>
+          <p>When it comes to performance, you can rely on the brand HP. HP Envy 13t is perfect for the students who play games often and do some document work as well. Along with students, this laptop is also perfect for professionals.</p>
           <p>It weighs just 2.8 pounds, really easy to carry while traveling or going to school/college. Depending on your budget and requirement, you can choose between storage, display quality, and RAM. It offers 8 GB/16 GB RAM, 256 GB/512 GB/1 TB of storage. If you are a fan of attractive laptop designs, then this one is definitely for you. It has an excellent battery life of around 10-11 hours, an amazing display, and reliable performance for multi-tasking.</p><hr>
           <h2>HP Envy x360 13</h2>
           <p>If you are looking for an all-purpose laptop and you perform several tasks like gaming, programming, document creation, or project work then this is the perfect laptop for you. With AMD Ryzen 5 4500U and AMD Radeon graphics, it best performer on this list. This 2-in-1 envy laptop costs just around 800 dollars and becomes one of the best college laptops.</p><hr>
@@ -36,9 +36,7 @@ and is wrapped around the whole page content, except for the footer in this exam
             <p>
 If you do not want to save on a laptop and expecting outstanding performance at the same time, then you should consider Acer Swift 3. At the price of just around $650, Acer Swift 3 stands tall when it comes to performance. AMD Ryzen 7 4700U & AMD Radeon Graphics make this laptop capable of running any software or game smoothly.</p>
             <p>It offers 8 GB RAM, 512 GB storage and weighs just around 2.7 pounds. All these features make this laptop a perfect choice for college students. The fingerprint scanner is the plus point in this laptop. The display can be an issue for those who sit in front of the laptop for hours. If the display is not an issue for then this is a great choice under budget.</p><hr>
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-teal" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
-          <p class="w3-clear"></p></div></div>
+          </div></div>
     </div>
 
     <!-- About/Information menu -->

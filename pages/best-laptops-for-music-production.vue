@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Laptops for College Students</h1>
-          <date-app /><em class="w3-opacity"> by </em><strong>Adam Johnson</strong>
+          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <hr>
           <p>For modern musicians, DJs, and singers, the laptop is as required as any other musical instrument. There are several editing software like FL Studio, Logic Pro, Audacity help musicians to express their creativity.</p>
           <p>To use software to create music, remix, edit musical notes, you need a high-performing powerful laptop with long battery life.</p>
@@ -33,9 +33,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <h2>HP Omen 15</h2>
           <p>HP Omen 15 is yet another budget laptop that costs just around $1000. HP is known for the business laptop but with HP Omen 15 HP has been praised for the gaming laptop. With magnificent battery life and performance, HP has gained a lot of appreciation as a gaming laptop as well as music production and editing.</p>
           <p>With Intel Core i7-10750H processor, 16 GB RAM, and Nvidia GeForce GTX 1650 Ti 4GB DDR6 Graphics HP Omen 15 is one of the top performers. But, battery life is the minus point. Battery life HP Omen 15 is just around 5 hours. If you are really after the best performers in the market this machine is definitely for you.</p><hr>
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-teal" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
-          <p class="w3-clear"></p></div></div>
+          </div></div>
     </div>
 
     <!-- About/Information menu -->

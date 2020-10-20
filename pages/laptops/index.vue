@@ -10,10 +10,10 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>List of Laptops: Choose the best suitable laptop</h1>
-          <span class="w3-opacity">Oct 2, 2020</span><em class="w3-opacity"> by </em><strong>Adam Johnson</strong>
+          <span class="w3-opacity">Oct 19, 2020</span><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <hr>
           <p>Shop the best laptop as per your requirement. Filter the best laptops as per your budget, the company you prefer, operating system you are comfortable with and the kind of tasks you are going to perform on this laptop. Accelerate everything you do on a laptop by selecting the perfect laptop as per your profession with ease. Compare different brands in the least amount of time.</p>
-          <p>If you want to comare different laptps, you can visit <nuxt-link to="/compare-laptops/">this link</nuxt-link> to compare all the features and specifications. If you want more customization in the laptop search then you can visit our laptop compare tool.</p><hr>
+          <p>If you want to comare different laptps, you can visit <nuxt-link to="/compare-laptops/" style="color: blue">this link</nuxt-link> to compare all the features and specifications. If you want more customization in the laptop search then you can visit our laptop compare tool.</p><hr>
             <h2>
               Filter Laptops
             </h2><br>
@@ -66,6 +66,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 <option>Acer</option>
 <option>MSI</option>
 <option>Asus</option>
+<option>Google</option>
 </select>
 <select style="width:25%" v-model="ram" @change.prevent="finditram">
 <option disabled value="">RAM</option>
@@ -135,9 +136,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 </div>
       <h3>Best Affordable Laptops</h3>
 
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
-          <p class="w3-clear"></p></div></div>
+          </div></div>
     </div>
 
     <!-- About/Information menu -->
@@ -146,32 +145,32 @@ and is wrapped around the whole page content, except for the footer in this exam
 
       <div class="w3-white w3-margin">
       <div class="w3-container w3-padding w3-teal">
-        <h4>Trending Laptops</h4>
+        <h4>Related Posts</h4>
       </div>
       <ul class="w3-ul w3-hoverable w3-white">
         <li class="w3-padding-16">
           <img src="~/assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link style="color: black" to="/cheap-laptops-under-100-dollars"><span class="w3-large">Cheap Laptops Under 100 Dollars</span></nuxt-link>
+          <nuxt-link style="color: black" to="/cheap-gaming-laptops-under-1000-dollars/"><span class="w3-large">Gaming Laptops Under 1000 Dollars</span></nuxt-link>
           <br>
-          <span>Sed mattis nunc</span>
+          <span>Gaming</span>
         </li>
         <li class="w3-padding-16">
           <img src="~/assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <span class="w3-large">Cheap Laptops Under 300 Dollars</span>
+          <nuxt-link style="color: black" to="/under-500/"><span class="w3-large">Laptops Under 500</span></nuxt-link>
           <br>
-          <span>Praes tinci sed</span>
+          <span>Students</span>
         </li>
         <li class="w3-padding-16">
           <img src="~/assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <span class="w3-large">Cheap Laptops Under 400 Dollars</span>
+          <nuxt-link to="/under-400-dollars/" style="color: black"><span class="w3-large">Cheap Laptops Under 400 Dollars</span></nuxt-link>
           <br>
-          <span>Ultricies congue</span>
+          <span>General-purpose</span>
         </li>
         <li class="w3-padding-16">
-          <img src="~/assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <span class="w3-large">Cheap Laptops Under 500 Dollars</span>
+          <img src="~/assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+          <nuxt-link to="/under-500/" style="color: black"><span class="w3-large">Cheap Laptops Under 500 Dollars</span></nuxt-link>
           <br>
-          <span>Lorem ipsum dipsum</span>
+          <span>All-purpose</span>
         </li>
       </ul>
     </div>

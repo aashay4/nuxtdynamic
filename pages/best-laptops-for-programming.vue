@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Laptops for Programming</h1>
-          <date-app /><em class="w3-opacity"> by </em><strong>Adam Johnson</strong>
+          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <hr>
           <p>Best programming laptops need to be the best performers. Programmers have multiple commands prompts for front-end framework, back-end framework, and database. Along with that, the code editors also serve multiple files at the same time.</p>
           <p>It is not easy to work on ordinary laptops for programmers. For that reason, we have listed the best programming laptops which have an advanced specification and are capable of running multiple software at the same time.</p>
@@ -36,9 +36,7 @@ and is wrapped around the whole page content, except for the footer in this exam
             <h2>Apple MacBook pro 13</h2>
             <p>This Apple MacBook Pro 13 is one of the most recommended laptops for IOS developers. It offers all the necessary specification that a developer needs in a laptop. It has the latest Intel processor and it weighs less than 4 pounds which you can carry in a meeting and explain presentation.</p>
             <p>It has a long 10 hours of battery life, 512 GB storage, 16 GB RAM, 13.3-inch Retina display, and intel i5 2.0 GHz Quad-core Processor which makes this the best performer for the developers.</p><hr>
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-teal" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
-          <p class="w3-clear"></p></div></div>
+          </div></div>
     </div>
 
     <!-- About/Information menu -->

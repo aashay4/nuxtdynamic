@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Laptops Under 200 Dollars</h1>
-          <span class="w3-opacity">Jan 2, 2020</span><em class="w3-opacity"> by </em><strong>Adam Johnson</strong>
+          <span class="w3-opacity">Jan 2, 2020</span><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <hr>
           <p>In this competitive world, companies are more focusing on improving product quality and decreasing the price. So, today it is possible to find the best laptop under 200 dollars which offers almost all the latest functionalities. With these laptops, you can do everyday tasks like creating docs, watching movies, surfing the web but some tasks these laptops can't perform. So, let's dive into the list of the best laptops under 200 dollars without wasting any time.</p>
           <p>Before starting, make a list of your requirements and purpose behind buying a laptop. Because a laptop under 200 dollars won't work just great with the latest games, designing & programming software.</p>
@@ -42,9 +42,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <h3>HP 14-Inch Laptop</h3>
           <h3>Windows</h3>
           <p>As said above, HP is one of the most reliable brands. Whether you are a student or a businessman, the performance and designs of HP laptops suit both. It weighs just 3.01 pounds so easy to carry or travel. A 14 inch HD screen, 4 GB RAM is great. Just add a few dollars and increase features on this laptop. 8 hours of battery life little less compare to the other laptop on this list.</p>
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-teal" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white">1</span></button></p>
-          <p class="w3-clear"></p></div></div>
+          </div></div>
     </div>
 
     <!-- About/Information menu -->

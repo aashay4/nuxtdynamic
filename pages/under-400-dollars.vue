@@ -11,7 +11,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Laptops Under 400 Dollars</h1>
-          <date-app /><em class="w3-opacity"> by </em><strong>Adam Johnson</strong>
+          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <hr>
           <p>As you increase your budget you get to choose a laptop from many options. Sometimes, it leads to a lot of confusion as there are so many laptop manufacturers present in the market. Each budget laptop has pros and cons. For that reason, we have shortlisted the best laptops under 400 dollars so that you can buy the best laptop based on your work requirement.</p>
           <p>To find the best laptop under $400, we travel through many stores, check various laptop's designs, keyboards, size, weight, and then shortlist the best laptops. Also, we keep a sharp eye on battery life, internal storage, performance, RAM, and then divide laptops into different categories to help you to select the best laptop as per your requirement.</p><hr>
@@ -44,9 +44,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <h4>Windows</h4>
           <p>We added the Acer aspire based on performance. If you are looking for a performance powerhouse then this is the perfect laptop below $400. We would highly recommend it for the salespeople because of the professional design. It offers 4 GB of RAM and 128GB storage which is less than the other competitors in the same budget. But we included this system only for those who seek higher performance laptops. Apart from that, it is a nice HD display and 4 pounds of weight, best for frequent travelers.</p>
           <p>By default, this machine offers Wi-fi, Bluetooth, USB ports, and ethernet LAN ports but it does not have a card reader space. We recommend this laptop to the students and the salespeople who just cannot afford a slow system while presenting a business proposal or PPT to the clients.</p>
-          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-teal" onclick="myFunction('demo1')" id="myBtn"><b>Replies</b><span class="w3-tag w3-white"> 1</span></button></p>
-          <p class="w3-clear"></p></div></div>
+          </div></div>
     </div>
 
     <!-- About/Information menu -->
