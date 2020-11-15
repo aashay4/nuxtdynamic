@@ -69,11 +69,11 @@ and is wrapped around the whole page content, except for the footer in this exam
                           </li>
           </ul>
         <br>
-        Nowadays, there are many different laptop manufacturing companies available in the market. To select a decent laptop within your budget is quite difficult. For that reason, we bring these top 10 best budget laptops that are affordable and run efficiantly at the same time. Our main focus is to include the laptops with innovative functionality and are cheap at the same time.</p>
-        <p>As, this is the list of the budget laptops, you might need to compromise on some functionality. If you are a student then you might use laptop for programming, designing, create document, or creating note faster. So, you can avoid the laptops with extra-ordinary functionality in music, or gaming. You can select the laptops which perform better for programming or designing work. So, without wasting any time let's dive into the list</p><hr>
+        Nowadays, there are many different laptop manufacturing companies available in the market. To select a decent laptop within your budget is quite difficult. For that reason, we bring these top 10 best budget laptops that are affordable and run efficiently at the same time. Our main focus is to include laptops with innovative functionality and are cheap at the same time.</p>
+        <p>As this is the list of the budget laptops, you might need to compromise on some functionality. If you are a student then you might use a laptop for programming, designing, create a document, or creating notes faster. So, you can avoid the laptops with extra-ordinary functionality in music or gaming. You can select the laptops which perform better for programming or designing work. So, without wasting any time let's dive into the list</p><hr>
         <h3 class="">HP Chromebook 15</h3>
         <h4>Chrome OS</h4>
-        <p>HP is a brand widely known for the extra-ordinary battery life of the product. HP's chromebook has decent features including comfortable keyboard. Like other HP laptops, Chromebook also offer fentastic battery life. Even after working hours, HP chromebook does not heat up, that's a plus. Data in chromebook is stored on the cloud instead of the local machine. If you are dealing with a lot of data then cloud data storing process might be slow. But this one is indeed one of the best budget laptops available right now.</p>
+        <p>HP is a brand widely known for the extra-ordinary battery life of the product. HP's Chromebook has decent features including a comfortable keyboard. Like other HP laptops, Chromebook also offers fantastic battery life. Even after working hours, HP Chromebook does not heat up, that's a plus. Data in Chromebook is stored on the cloud instead of the local machine. If you are dealing with a lot of data then the cloud data storing process might be slow. But this one is indeed one of the best budget laptops available right now.</p>
         <div class="">
           <div class="w3-half">
           <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
@@ -113,7 +113,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <hr>
         <h3>Acer Chromebook 714</h3>
         <h4>Chrome OS</h4>
-        <p>Chrome OS can be a right choice when you are looking for the laptops within your budget. Acer Chromebook is right choice for the business purposes. You can work on mails, online/off-line documents for hours with this device. With the basic configuration, you can get these laptops under 400 dollars. If you want to go with more features then the budget might touch $500. This laptop is famous among the youngsters especially the techies.</p>
+        <p>Chrome OS can be the right choice when you are looking for laptops within your budget. Acer Chromebook is the right choice for business purposes. You can work on emails, online/off-line documents for hours with this device. With the basic configuration, you can get these laptops for under 400 dollars. If you want to go with more features then the budget might touch $500. This laptop is famous among youngsters especially the techies.</p>
         <div class="">
           <div class="w3-half">
           <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
@@ -153,9 +153,9 @@ and is wrapped around the whole page content, except for the footer in this exam
         <hr>
         <h3>Acer Spin 3</h3>
         <h4>Windows</h4>
-        <p>Love windows? This one is for you. It's a two in one laptop with long battery life. Intel i-3 processor, 4 GM RAM, and windows 10 at under $450 is profitable.</p>
+        <p>Love windows? This one is for you. It's a two in one laptop with a long battery life. Intel i-3 processor, 4 GM RAM, and Windows 10 at under $450 is profitable.</p>
         <h5>Note:</h5>
-        <p>The same model is available with some advanced features at $799.99. The advanced Acer Spin 3 offer 16 GB RAM and intel i-7 processor which makes this laptop an outstanding performer. If you are looking for an all-purpose laptop and perform various tasks with ease then you should consider the machine with advanced features. If you want a laptop for daily regular tasks and some document work then you should go with $450 model.</p>
+        <p>The same model is available with some advanced features at $799.99. The advanced Acer Spin 3 offers 16 GB RAM and an intel i-7 processor which makes this laptop an outstanding performer. If you are looking for an all-purpose laptop and perform various tasks with ease then you should consider the machine with advanced features. If you want a laptop for daily regular tasks and some document work then you should go with the $450 model.</p>
         <div class="">
           <div class="w3-half">
           <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
@@ -195,7 +195,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <hr>
         <h3>Acer Aspire 5</h3>
         <h4>Windows</h4>
-        <p>Great for business use. Complete your projects, use large software with ease with this Acer laptops. AMD ryzen 4000 series mobile processor and AMD radeon grapics, users can perform milti tasks and run different software simanteniously. In other words, this laptop is a powerhouse.</p>
+        <p>Great for business use. Complete your projects, use big software with ease with this Acer laptop. AMD ryzen 4000 series mobile processor and AMD Radeon graphics, users can perform multi-tasks and run different software simultaneously. In other words, this laptop is a powerhouse.</p>
         <div class="">
           <div class="w3-half">
           <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
@@ -235,7 +235,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <hr>
         <h3>Asus VivoBook S15</h3>
         <h4>Windows</h4>
-        <p>This is a great laptop if you play games for hours or work on different software. It offers long-lasting battery life, 88% screen-to-body ratio and 15.6" FHD display. A pleasing HD camera makes way for this laptop in this list.</p>
+        <p>This is a great laptop if you play games for hours or work on different software. It offers long-lasting battery life, 88% screen-to-body ratio, and a 15.6" FHD display. A pleasing HD camera makes way for this laptop in this list.</p>
         <div class="">
           <div class="w3-half">
           <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
@@ -275,7 +275,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <hr>
         <h3>HP 15</h3>
         <h4>Windows</h4>
-        <p>HP 15 costs just around $400 with all the necessary specification required in the budget laptop. It offer 10th-gen Core i3 processor, 4GB RAM and 128 GB SSD storage. If you are actually looking for a fabulous windows laptop then you can really rely on this laptop. It has all the features except for the HD display.</p>
+        <p>HP 15 costs just around $400 with all the necessary specifications required in the budget laptop. It offers a 10th-gen Core i3 processor, 4GB RAM, and 128 GB SSD storage. If you are looking for a fabulous windows laptop then you can rely on this laptop. It has all the features except for the HD display.</p>
         <div class="">
           <div class="w3-half">
           <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
@@ -315,7 +315,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <hr>
         <h3>Samsung Chromebook 4</h3>
         <h4>Chrome OS</h4>
-        <p>This is the best laptop under $300. Its a slim, weights under 3 pounds, and 11.6 inches of screen. Best product for kids for their learning purposes. Specifications like 4GB RAM and 64GB storage are bonus for such a cheap price.</p>
+        <p>This is the best laptop under $300. It's slim, weighs under 3 pounds, and 11.6 inches of screen. Best product for kids for their learning purposes. Specifications like 4GB RAM and 64GB storage are a bonus for such a cheap price.</p>
         <div class="">
           <div class="w3-half">
           <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
@@ -353,7 +353,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <hr>
         <h3>Lenovo S340 Chromebook</h3>
         <h4>Chrome OS</h4>
-        <p>Usually Chromebook laptops come at a very cheap price and so is this laptop. Lenovo S340 Chromebook's specifications include 4GB RAM, 14" Touch-screen at just under $300. The price may go upto $400 if you want to include other specification like accidental geek squad protection.</p>
+        <p>Usually, Chromebook laptops come at a very cheap price and so is this laptop. Lenovo S340 Chromebook's specifications include 4GB RAM, 14" Touch-screen at just under $300. The price may go up to $400 if you want to include other specifications like accidental geek squad protection.</p>
         <div class="">
           <div class="w3-half">
           <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
@@ -391,7 +391,8 @@ and is wrapped around the whole page content, except for the footer in this exam
         <hr>
         <h3>HP Stream 11</h3>
         <h4>Windows</h4>
-        <p>11.6" Stream N3060, 4GB RAM windows laptop. Best for any use except for gaming. If you are a gaming enthusiast and love gaing while working then you should not opt for this one. Apert from that, it is a performer.
+        <p>11.6" Stream N3060, 4GB RAM windows laptop. Best for any use except for gaming. If you are a gaming enthusiast and love gaming while working then you should not opt for this
+          one. Apart from that, it is a performer.</p>
           <div class="">
             <div class="w3-half">
             <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
@@ -559,7 +560,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="borderleft" style="background-color: white;">
       <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-padding-left w3-card w3-center">Best Budget Laptops Collection</h3></div>
   </div>
-<client-only>
+
   <div class="w3-row-padding">
     <div class="w3-row-padding">
        <div class="w3-quarter w3-container -bottom">
@@ -569,7 +570,7 @@ and is wrapped around the whole page content, except for the footer in this exam
            <div class="w3-display-topright w3-teal w3-padding">Denzel Vieta</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
-           <a><p><b><h3>Laptops Under 100 Dollars</h3></b></p></a>
+           <p><b><h3>Laptops Under 100 Dollars</h3></b></p>
          </div>
          </router-link>
        </div>
@@ -580,7 +581,7 @@ and is wrapped around the whole page content, except for the footer in this exam
            <div class="w3-display-topright w3-teal w3-padding">Denzel Vieta</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
-           <a><p><b><h3>Laptops Under 200 Dollars</h3></b></p></a>
+           <p><b><h3>Laptops Under 200 Dollars</h3></b></p>
          </div>
          </router-link>
        </div>
@@ -591,7 +592,7 @@ and is wrapped around the whole page content, except for the footer in this exam
            <div class="w3-display-topright w3-teal w3-padding">Denzel Vieta</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
-           <a><p><b><h3>Laptops Under 300 Dollars</h3></b></p></a>
+           <p><b><h3>Laptops Under 300 Dollars</h3></b></p>
          </div>
          </router-link>
        </div>
@@ -602,13 +603,12 @@ and is wrapped around the whole page content, except for the footer in this exam
            <div class="w3-display-topright w3-teal w3-padding">Denzel Vieta</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
-           <a><p><b><h3>Laptops Under 400 Dollars</h3></b></p></a>
+           <p><b><h3>Laptops Under 400 Dollars</h3></b></p>
          </div>
          </router-link>
        </div>
      </div>
   </div>
-</client-only>
 <!-- Blog entries -->
       </div>
 <br>
