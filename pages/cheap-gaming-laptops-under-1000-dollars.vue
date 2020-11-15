@@ -12,7 +12,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <h1>Cheap Gaming Laptops Under 1000</h1>
           <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <hr>
-          <p>There is a “myth” that Gaming laptops are often too expensive but the fact is they are not. You can buy cheap gaming laptops under 1000 dollars. A laptop’s performance is not measured based on price but it is measured on basis of software and hardware specification.</p>
+          <p>There is a “myth” that Gaming laptops are often too expensive but the fact is they are not. You can buy cheap gaming laptops for under 1000 dollars. A laptop’s performance is not measured based on price but it is measured on basis of software and hardware specification.</p>
           <p>There are a lot of laptops available within this budget and these machines are produced by multiple known companies like HP, Acer, Lenovo, and many others. So, despite the cheap price, you won’t be compromising much of the performance or specification of these machines.</p>
           <p>Our goal is to go through every single gaming laptop that’s under 1000, study the specification in detail and list out the best models that match your expectation. In this list, all the laptops are powered by the latest GPU, CPU, graphics cards, and other important specifications.</p>
           <h1>Cheap Best gaming laptops under 1000 dollars</h1><hr>
@@ -97,7 +97,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                   <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
           <hr>
           <h2>MSI GF63</h2>
-          <p>With intel I 7 processor and Nvidia GeForce GTX 1050 Ti with 4GB of VRAM, MSI GF63 is one of the best performers in this budget. It has a big 15.6 inch HD screen that makes your gaming experience even better. With the kind of performance, it offers, you get to play almost all the modern games smoothly. A perfect choice for gaming enthusiasts and want to spend a limited amount of gaming laptop.</p><hr>
+          <p>With intel I 7 processor and Nvidia GeForce GTX 1050 Ti with 4GB of VRAM, MSI GF63 is one of the best performers in this budget. It has a big 15.6 inch HD screen that makes your gaming experience even better. With the kind of performance, it offers, you get to play almost all the modern games smoothly. A perfect choice for gaming enthusiasts and want to spend a limited amount on a gaming laptop.</p><hr>
           <div class="">
             <div class="w3-half">
             <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
@@ -175,7 +175,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                   <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
           <hr>
           <h2>Lenovo Legion 5i</h2>
-            <p>Lenovo Legion 5i costs just above 1000 dollars and it offers 8 GB of RAM, 512 GB storage, 15.6 inches screen, and an HD display. It also offers remarkable performance. It came into the limelight because of the VR technology. Apart from that, it has a great FPS score compared to other laptops.</p>
+            <p>Lenovo Legion 5i costs just above 1000 dollars and it offers 8 GB of RAM, 512 GB storage, 15.6 inches screen, and an HD display. It also offers remarkable performance. It came into the limelight because of VR technology. Apart from that, it has a great FPS score compared to other laptops.</p>
             <p>It has a decent design and not as large compared to other laptops on the list. So, it is really easy to carry this laptop while traveling.</p>
             <div class="">
               <div class="w3-half">
@@ -255,7 +255,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                     <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
             <hr>
             <h2>HP Gaming Pavilion 15-dk0046nr</h2>
-            <p>Don’t be surprised to see HP on this list. HP gaming pavilion 15 is a great entry-level laptop from HP. Ever since its release, this laptop is getting positive reviews from the users. Outstanding performance and long-lasting battery life are the biggest advantages of this laptop. HP gaming pavilion does not heat up after ours of gaming that is also a great sign for the gaming laptop.</p>
+            <p>Don’t be surprised to see HP on this list. HP gaming pavilion 15 is a great entry-level laptop from HP. Ever since its release, this laptop is getting positive reviews from users. Outstanding performance and long-lasting battery life are the biggest advantages of this laptop. HP gaming pavilion does not heat up after hours of gaming that is also a great sign for the gaming laptop.</p>
             <div class="">
               <div class="w3-half">
               <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>

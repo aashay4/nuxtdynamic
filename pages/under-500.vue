@@ -34,13 +34,13 @@ and is wrapped around the whole page content, except for the footer in this exam
           <h4>Windows</h4>
           <p>Acer Swift 1 starts at just around $329 and you can add more specifications by adding a few more bucks. Acer's model is a complete professional laptop and because of a comfortable keyboard, you can work for hours on this machine. Apart from that, battery life is also magnificent. With 10 hours of battery life, you can work on this machine for the whole day and after completing work, you can watch an episode of the Netflix show. With a decent webcam, you can easily handle client meetings on this laptop.</p>
           <p>Many users of this laptop, complain about the dull display. Overall, this is a good laptop under 500 dollars.</p><hr>
-          <h3>Dell inspiron 3593</h3>
+          <h3>Dell Inspiron 3593</h3>
           <h4>Windows</h4>
-          <p>Since the release of Dell Inspiron 3593, it has been receiving a lot of positive reviews from the users. Talking about the features, it offers 256 GB of internal storage, 8 GB RAM(Can be expanded), Intel 1 GHz, Core i5 CPU, and Intel UHD Graphics which is capable of running any task smoothly. This one is one of the best laptops under 500 dollars. You can take this machine in your consideration if you need a lot of space on your machine. Along with that, you can perform different tasks simultaneously on this laptop with ease.</p><hr>
+          <p>Since the release of Dell Inspiron 3593, it has been receiving a lot of positive reviews from users. Talking about the features, it offers 256 GB of internal storage, 8 GB RAM(Can be expanded), Intel 1 GHz, Core i5 CPU, and Intel UHD Graphics which is capable of running any task smoothly. This one is one of the best laptops under 500 dollars. You can take this machine in your consideration if you need a lot of space on your machine. Along with that, you can perform different tasks simultaneously on this laptop with ease.</p><hr>
           <h3>HP - 14 Laptop - df0023cl</h3>
           <h4>Windows</h4>
-          <p>If you are looking for an outstanding performer under 500 dollars then this machine is for you. With 4 GB RAM, Intel UHD 620 graphics, and Intel Core i3-8130U, this machine can run every task that you throw at it. Apart from that, it has a really cool keyboard, you can work on this laptop comfortably.</p>
-          <p>Battery life can be an issue with this laptop, battery lasts for just around 7 hours. </p><hr>
+          <p>If you are looking for an outstanding performer under 500 dollars then this machine is for you. With 4 GB RAM, Intel UHD 620 graphics, and Intel Core i3-8130U, this machine can run every task that you throw at it. Apart from that, it has a cool keyboard, you can work on this laptop comfortably.</p>
+          <p>Battery life can be an issue with this laptop, the battery lasts for just around 7 hours.</p><hr>
           </div></div>
     </div>
 

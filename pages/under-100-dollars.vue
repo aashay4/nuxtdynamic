@@ -22,10 +22,10 @@ and is wrapped around the whole page content, except for the footer in this exam
           <h2>Cheap Laptops Under 100 Dollars</h2><hr>
           <h3>Acer - Chromebook</h3>
           <h4>Chromebook</h4>
-          <p>Chromebook laptops are considered as one of the most affordable laptops. Acer is also one of the most trusted brands. You can trust this brand even if you are buying a pre-owned laptop.</p><hr>
+          <p>Chromebook laptops are considered one of the most affordable laptops. Acer is also one of the most trusted brands. You can trust this brand even if you are buying a pre-owned laptop.</p><hr>
           <h3>Dell Latitude D630</h3>
           <h4>Windows 7</h4>
-          <p>Amazing 14.1 inches display, Windows 7 already installed, less 3 pounds of weight makes this laptop best for children. While growing up, handing this kind of laptops to kids is more preferable.</p><hr>
+          <p>Amazing 14.1 inches display, Windows 7 already installed, less than 3 pounds of weight makes this laptop best for children. While growing up, handing this kind of laptops to kids is more preferable.</p><hr>
           <h3>Apple MacBook MB402LL/A A1181</h3>
           <p>Released in 2008, it is a pre-owned laptop. With 2 GB of RAM, it makes it super easy to create docs and maintain sheets. The processor speed is 2.0 GHz which will work amazingly well unless you run big designing or programming software.</p>
           </div></div>

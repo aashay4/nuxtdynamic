@@ -12,14 +12,14 @@ and is wrapped around the whole page content, except for the footer in this exam
           <h1>Best Gaming Laptops Under 1500 Dollars</h1>
           <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <hr>
-          <p>Gaming laptops under 1500 dollars do exist. There are multiple companies that product laptop at this price range. If you are looking for a gaming laptop with all the modern specifications in CPU and GPU, then it would cost around 2500 and above. But the best thing is that you get a great experience with the laptops under 1500 dollars as well.</p>
+          <p>Gaming laptops under 1500 dollars do exist. There are multiple companies that produce a laptop at this price range. If you are looking for a gaming laptop with all the modern specifications in CPU and GPU, then it would cost around 2500 and above. But the best thing is that you get a great experience with the laptops under 1500 dollars as well.</p>
           <h2>Should you buy gaming laptops under 1500?</h2>
           <p>The answer is yes! Ultimately, a gamer needs a good performing gaming laptop and here in this list, we have shortlisted laptops with great performance. You may compromise on some specifications like storage, RAM, and CPU but you won’t be compromising on the laptop’s performance.</p>
           <p>All the laptops in this list are powerful and capable of running almost all games. Apart from gaming, you can work on different software and do programming. These multi-purpose laptops are powered by the latest technologies and specifications.</p><hr>
           <h1>Best Gaming Laptops under $1500</h1>
           <h2>Razer Blade 15</h2>
           <p>Ultimately you need magnificent performance from a laptop, right? Razer Blade 15 offers outstanding performance and cool design. It is very slim, weighs just 5 pounds and the screen size is 15 inches which is probably the smallest gaming laptop.</p>
-          <p>Other specifications include 16 GB of RAM, 256 GB SSD, and Nvidia GeForce GTX 1660 Ti GPU. Battery life is below average but the fact is the majority of gaming laptops have very short battery life. It has a powerful Nvidia GTX graphic card which makes the gaming experience even better for the gaming enthusiasts. It also offers three USB ports and on Ethernet LAN port.</p>
+          <p>Other specifications include 16 GB of RAM, 256 GB SSD, and Nvidia GeForce GTX 1660 Ti GPU. Battery life is below average but the fact is the majority of gaming laptops have very short battery life. It has a powerful Nvidia GTX graphic card which makes the gaming experience even better for gaming enthusiasts. It also offers three USB ports and an Ethernet LAN port.</p>
           <p>Razer blade costs just around 1500 dollars which is a pretty great deal for a gaming laptop. Apart from gaming, you can also install and work on other software. We included the razer blade 15 in the list of gaming laptops under 1500 dollars for its stylish design and gaming performance.</p>
           <div class="">
             <div class="w3-half">
@@ -140,7 +140,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <hr>
           <h2>MSI GP65 Leopard</h2>
           <p>How can you miss the brand MSI when talking about gaming laptops? MSI GP65 is one of the best gaming laptops under 1500 dollars. As we have said earlier, the merit of this list is the performance of the laptops. Just like other laptops on the list, you will get a great gaming experience with MSI GP65 laptops. Along with that, it offers a revolutionary cooling for gaming enthusiasts who love to play for hours.</p>
-          <p>It has in-built windows 10 home OS, 15.6 inches full HD screen, Intel Core i7-10750H 2.6-5.0GHz CPU, and 512 GB internal storage. Talking about the audio, it has 5 times louder sound, more resonance, and higher quality sound play that make you feel every bit of a game. In short, it is a great laptop for gaming enthusiasts, and best if you do not want to spend a lot of cash on gaming laptops.</p>
+          <p>It has an in-built windows 10 home OS, 15.6 inches full HD screen, Intel Core i7-10750H 2.6-5.0GHz CPU, and 512 GB internal storage. Talking about the audio, it has 5 times louder sound, more resonance, and higher quality sound play that make you feel every bit of a game. In short, it is a great laptop for gaming enthusiasts, and best if you do not want to spend a lot of cash on gaming laptops.</p>
           <div class="">
             <div class="w3-half">
             <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>

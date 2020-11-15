@@ -18,7 +18,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <h1>Best laptops for writers</h1><hr>
           <h2>Dell XPS 13</h2>
           <p>Dell XPS has a revolutionary design that looks professional. Along with writers, more businessmen carry this laptop in conferences and presentation meetings. If you are looking for a great performer, then Dell XPS 13 is the right choice. Apart from that, the keyboard has been receiving many positive reviews. With 13 inches full HD screen, it’s easy to work on this laptop for hours.</p>
-          <p>Talking about features, it offers an Intel Core i5 Quad-Code processor, 8 GB RAM, 256 GB memory, and almost 10 hours of battery life. 2.6 pounds of weight makes Dell XPS really easy to carry while traveling. Apart from that, it offers 2 thunderbolt ports and an SD card reader. With these features, Dell XPS 13 is the perfect laptop for writers.</p>
+          <p>Talking about features, it offers an Intel Core i5 Quad-Code processor, 8 GB RAM, 256 GB memory, and almost 10 hours of battery life. 2.6 pounds of weight makes Dell XPS easy to carry while traveling. Apart from that, it offers 2 thunderbolt ports and an SD card reader. With these features, Dell XPS 13 is the perfect laptop for writers.</p>
           <div class="">
             <div class="w3-half">
             <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
@@ -97,7 +97,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                   <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
           <hr>
           <h2>MacBook Pro(13-inch)</h2>
-          <p>If you prefer macOS over windows then MacBook Pro is the laptop for you. It has a powerful processor that is capable of performing multi-tasks and extra-ordinary keyword to work for hours. It offers 8 GB RAM, 256 GB SSD storage which is capable of performing all the daily tasks of writers. When it comes to pricing, this laptop is a few dollars costlier than, the other laptops on this list. But the kind of features MacBook Pro offers, it totally justifies the pricing.</p>
+          <p>If you prefer macOS over windows then MacBook Pro is the laptop for you. It has a powerful processor that is capable of performing multi-tasks and extra-ordinary keyword to work for hours. It offers 8 GB RAM, 256 GB SSD storage which is capable of performing all the daily tasks of writers. When it comes to pricing, this laptop is a few dollars costlier than, the other laptops on this list. But the kind of features MacBook Pro offers, it justifies the pricing.</p>
           <p>Along with writing, if you want to use a laptop for other tasks like proposal creation, playing games or you are looking to run photo/video editing software then this one is the laptop for you. You won’t be disappointed with the multi-tasking performance of this laptop.</p>
           <div class="">
             <div class="w3-half">
@@ -137,7 +137,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                   <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
           <hr>
           <h2>Lenovo Thinkpad E15</h2>
-          <p>Lenovo Thinkpad E 15 is one of the best laptops on this list. It is the most preferred by the business owners for the professional looks. If you are a writer and running your business simultaneously or you have business plans in the near future, then this is definitely for you. It offers extra-ordinary features but the price is the only minus. It is costlier the most laptops on this list.</p>
+          <p>Lenovo Thinkpad E 15 is one of the best laptops on this list. It is the most preferred by the business owners for the professional looks. If you are a writer and running your business simultaneously or you have business plans shortly, then this is definitely for you. It offers extra-ordinary features but the price is the only minus. It is costlier the most laptops on this list.</p>
           <p>Talking about features, it 8 GB of RAM(can be upgraded up to 32 GB), big 15.6 inches HD display, long battery life of 12 hours. With 4.3 pounds It is way heavier than the other laptops on this list. With a larger screen and heavier weight, it might be difficult for you to carry this laptop while traveling. Apart from that, if you want a great multi-tasker then this one is the right choice.</p>
           <div class="">
             <div class="w3-half">
