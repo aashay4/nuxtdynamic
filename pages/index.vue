@@ -6,7 +6,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 <div class="w3-content" style="max-width:1600px">
   <!-- Header -->
   <header class="w3-container w3-center w3-padding-48 w3-light-gray">
-    <h1 class="w3-xxxlarge"><b>Best Budget Laptops</b></h1>
+    <h1 class="w3-xxxlarge"><b>Best Budget Laptop</b></h1>
     <h6>We help you to <span class="w3-tag w3-teal">Find the Best Budget Laptops</span></h6>
   </header>
 <navbar />
@@ -26,6 +26,8 @@ and is wrapped around the whole page content, except for the footer in this exam
           <h3>Best Budget Laptops 2020</h3>
           <span class="w3-opacity">Nov 19, 2020</span><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <h5>As our lives are getting back to normal, more stock of different budget laptops is available for you. Here, we bring the best laptops within your budget.</h5>
+          Nowadays, there are many different laptop manufacturing companies available in the market. To select a decent laptop within your budget is quite difficult. For that reason, we bring these top 10 best budget laptops that are affordable and run efficiently at the same time. Our main focus is to include laptops with innovative functionality and are cheap at the same time.</p>
+          <p>As this is the list of the budget laptops, you might need to compromise on some functionality. If you are a student then you might use a laptop for programming, designing, create a document, or creating notes faster. So, you can avoid the laptops with extra-ordinary functionality in music or gaming. You can select the laptops which perform better for programming or designing work. So, without wasting any time let's dive into the list</p>
           <ul class="w3-ul w3-hoverable w3-white">
             <li class="w3-padding-16">
               <strong>1.</strong> <span class="w3-large" style="color: blue">HP Chromebook 15</span>
@@ -68,9 +70,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                           <br>
                           </li>
           </ul>
-        <br>
-        Nowadays, there are many different laptop manufacturing companies available in the market. To select a decent laptop within your budget is quite difficult. For that reason, we bring these top 10 best budget laptops that are affordable and run efficiently at the same time. Our main focus is to include laptops with innovative functionality and are cheap at the same time.</p>
-        <p>As this is the list of the budget laptops, you might need to compromise on some functionality. If you are a student then you might use a laptop for programming, designing, create a document, or creating notes faster. So, you can avoid the laptops with extra-ordinary functionality in music or gaming. You can select the laptops which perform better for programming or designing work. So, without wasting any time let's dive into the list</p><hr>
+        <hr>
         <h3 class="">HP Chromebook 15</h3>
         <h4>Chrome OS</h4>
         <p>HP is a brand widely known for the extra-ordinary battery life of the product. HP's Chromebook has decent features including a comfortable keyboard. Like other HP laptops, Chromebook also offers fantastic battery life. Even after working hours, HP Chromebook does not heat up, that's a plus. Data in Chromebook is stored on the cloud instead of the local machine. If you are dealing with a lot of data then the cloud data storing process might be slow. But this one is indeed one of the best budget laptops available right now.</p>
@@ -467,12 +467,12 @@ and is wrapped around the whole page content, except for the footer in this exam
         <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
         <nuxt-link style="color: black;" to="/cheap-gaming-laptops-under-1000-dollars/"><span class="w3-large">Gaming Laptops Under 1000 Dollars</span></nuxt-link>
         <br>
-        <span>Includes Gaming/App-Purpose Laptops</span>
+        <span>Includes Gaming/All-Purpose Laptops</span>
       </li>
       <li class="w3-padding-16">
         <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
         <nuxt-link style="color: black" to="/laptops-for-college-students/"><span class="w3-large">Laptops for College Students</span></nuxt-link><br>
-        <span>Includes App-Purpose Laptops</span>
+        <span>Includes All-Purpose Laptops</span>
         </li>
       <li class="w3-padding-16">
         <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
@@ -484,7 +484,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
         <nuxt-link style="color: black" to="/laptops-under-1000-dollars/"><span class="w3-large">Laptops Under 1000 Dollars</span></nuxt-link>
         <br>
-        <span>Includes App-Purpose Laptops</span>
+        <span>Includes All-Purpose Laptops</span>
       </li>
     </ul>
   </div>
