@@ -54,7 +54,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link to="/best-gaming-laptops-under-1500-dollars/" <span class="w3-large">Gaming Laptops Under $1500</span>
+          <nuxt-link style="color: black" to="/best-gaming-laptops-under-1500-dollars/"> <span class="w3-large">Gaming Laptops Under $1500</span></nuxt-link>
           <br>
           <span>Gaming, all-purpose</span>
         </li>
