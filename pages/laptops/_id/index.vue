@@ -24,7 +24,7 @@
 
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
-            <img :src="require('~/assets/' + article.imgpath)" style="width:100%"><br><br>
+            <img :src="require('~/assets/' + article.imgpath)" style="width:100%"><br><br><br>
           <div class="w3-display-bottomleft w3-container w3-text-black">
             <h2>{{article.title}}</h2>
           </div>

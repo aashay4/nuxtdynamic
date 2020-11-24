@@ -57,16 +57,12 @@ and is wrapped around the whole page content, except for the footer in this exam
                     <strong>7.</strong> <span class="w3-large" style="color: blue">Samsung Chromebook 4</span>
                     <br>
                     </li>
-                    <li class="w3-padding-16">
-                      <strong>8.</strong> <span class="w3-large" style="color: blue">Denim</span>
-                      <br>
-                      </li>
                       <li class="w3-padding-16">
-                        <strong>9.</strong> <span class="w3-large" style="color: blue">Lenovo S340 Chromebook</span>
+                        <strong>8.</strong> <span class="w3-large" style="color: blue">Lenovo S340 Chromebook</span>
                         <br>
                         </li>
                         <li class="w3-padding-16">
-                          <strong>10.</strong> <span class="w3-large" style="color: blue">HP Stream 11</span>
+                          <strong>9.</strong> <span class="w3-large" style="color: blue">HP Stream 11</span>
                           <br>
                           </li>
           </ul>
@@ -74,7 +70,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <h3 class="">HP Chromebook 15</h3>
         <h4>Chrome OS</h4><br>
         <img src="../assets/hp_chromebook_15.jpg" class="w3-margin w3-padding" alt="HP Chromebook 15" style="width: 80%"><br>
-        <p>HP is a brand widely known for the extra-ordinary battery life of the product. HP's Chromebook has decent features including a comfortable keyboard. Like other HP laptops, Chromebook also offers fantastic battery life. Even after working hours, HP Chromebook does not heat up, that's a plus. Data in Chromebook is stored on the cloud instead of the local machine. If you are dealing with a lot of data then the cloud data storing process might be slow. But this one is indeed one of the best budget laptops available right now.</p>
+        <p>HP is a brand widely known for the extra-ordinary battery life of the product. HP's Chromebook has decent features including a comfortable keyboard. Like other HP laptops, this Chromebook also offers fantastic battery life. Even after working for hours, HP Chromebook does not heat up, that's a plus. Data in Chromebook is stored on the cloud instead of the local machine. If you are dealing with a lot of data then the cloud data storing process might be slow. But this one is indeed one of the best budget laptops available right now.</p>
         <div class="">
           <div class="w3-half">
           <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
@@ -198,7 +194,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <hr>
         <h3>Acer Aspire 5</h3>
         <h4>Windows</h4><br>
-        <img src="../assets/Acer_Aspire_5.jpg" class="w3-margin w3-padding" alt="Acer Spin 3" style="width: 80%"><br>
+        <img src="../assets/Acer_Aspire_5.jpg" class="w3-margin w3-padding" alt="Acer Aspire 5" style="width: 80%"><br>
         <p>Great for business use. Complete your projects, use big software with ease with this Acer laptop. AMD ryzen 4000 series mobile processor and AMD Radeon graphics, users can perform multi-tasks and run different software simultaneously. In other words, this laptop is a powerhouse.</p>
         <div class="">
           <div class="w3-half">
@@ -574,7 +570,7 @@ and is wrapped around the whole page content, except for the footer in this exam
        <div class="w3-quarter w3-container -bottom">
          <router-link to="/under-100-dollars/">
            <div class="w3-display-container">
-           <div class="w3-display-topleft w3-white w3-padding"><b>Oct, 19 2020</b></div>
+           <div class="w3-display-topleft w3-white w3-padding"><b>Nov, 19 2020</b></div>
            <div class="w3-display-topright w3-teal w3-padding">Denzel Vieta</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
@@ -585,7 +581,7 @@ and is wrapped around the whole page content, except for the footer in this exam
        <div class="w3-quarter w3-container -bottom">
          <router-link to="/under-200-dollars/">
            <div class="w3-display-container">
-           <div class="w3-display-topleft w3-white w3-padding"><b>Oct, 19 2020</b></div>
+           <div class="w3-display-topleft w3-white w3-padding"><b>Nov, 19 2020</b></div>
            <div class="w3-display-topright w3-teal w3-padding">Denzel Vieta</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
@@ -596,7 +592,7 @@ and is wrapped around the whole page content, except for the footer in this exam
        <div class="w3-quarter w3-container -bottom">
          <router-link to="/under-300-dollars/">
            <div class="w3-display-container">
-           <div class="w3-display-topleft w3-white w3-padding"><b>Oct, 19 2020</b></div>
+           <div class="w3-display-topleft w3-white w3-padding"><b>Nov, 19 2020</b></div>
            <div class="w3-display-topright w3-teal w3-padding">Denzel Vieta</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
@@ -607,7 +603,7 @@ and is wrapped around the whole page content, except for the footer in this exam
        <div class="w3-quarter w3-container -bottom">
          <router-link to="/under-400-dollars/">
            <div class="w3-display-container">
-           <div class="w3-display-topleft w3-white w3-padding"><b>Oct, 19 2020</b></div>
+           <div class="w3-display-topleft w3-white w3-padding"><b>Nov, 19 2020</b></div>
            <div class="w3-display-topright w3-teal w3-padding">Denzel Vieta</div>
              <img src="../assets/laptop.jpg" alt="House" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">

@@ -15,10 +15,10 @@ and is wrapped around the whole page content, except for the footer in this exam
 
           <p>A good gaming laptop is a kind of blessing for a gamer. Buying the best gaming laptop can confusing because there are some magnificent models available in the market now. Let us guide you through this web and help you choose the best gaming laptops.</p>
           <p>In this article, we will guide you through all the specifications, features, advantages, and disadvantages (in any!) of the best gaming laptops. We visited different e-commerce websites and company stores and we have come up with top-notch laptops from different companies.</p>
-          <p>Our team has several years of gaming experience starting from the 90’s games Road rash to GTA: vice city, Counterstrike, FIFA, GTA:5, call of duty: warzone, and many other games. We have played games on several machines and here the list we share is our experience. Here, we share the best gaming laptops which are great performers and affordable at the same time.</p>
+          <p>Our team has several years of gaming experience starting from the 90’s games Road rash & GTA: vice city to COD, Counterstrike, FIFA, GTA:5, call of duty: warzone, and many other games. We have played games on several machines and here the list we share is our experience. Here, we share the best gaming laptops which are great performers and affordable at the same time.</p>
           <h1>Top Gaming Laptops</h1><hr>
           <div id="Alienware"><h2>Alienware m17 R3</h2>
-          <img src="../assets/alienware.jpg" alt="Alienware m17 R3" style="width: 100%">
+          <img src="../assets/alienware.jpg" class="w3-margin w3-padding" alt="Alienware m17 R3" style="width: 80%">
           <p>Overall one of the best gaming laptops, Alienware m17 R3 deserves a place. With Nvidia RTX 2080 Super GPU, Intel Core i9-10980HK processor, and 32 GB RAM, Alienware m17 R3 is built to give a magnificent gaming experience. 17.3 inches’ screen and 4K display enhance the gaming experience.</p>
           <p>Alienware m17 R3 is very expensive, that’s the only disadvantage of this laptop. Due to so many advanced features, the battery is below average. The design of this machine is out of the box. Slight white paint gives it a classy look.</p>
           <div class="">
@@ -59,7 +59,8 @@ and is wrapped around the whole page content, except for the footer in this exam
                   <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
         </div>
           <hr>
-          <h2>Razer Blade 15</h2>
+          <h2>Razer Blade 15</h2><br>
+          <img src="../assets/Razer_Blade_15.jpg" class="w3-margin w3-padding" alt="Razer Blade 15" style="width: 80%">
           <p>Razer Blade 15 has everything that the best gaming laptop requires, outstanding performance, amazing gaming experience, well built, display, and lighting. Razer laptops are known for all these qualities. This laptop’s design is unique and cool and it is smaller than the other competitor laptops. With a 10th-gen intel processor with 16 GB of RAM, performance can never be an issue.</p>
           <p>The bottom-line is any game that can easily be installed and played on this machine with outstanding performance. There are several other configurations available that you can choose or replace while buying. Do check the configuration before buying this laptop.
           </p>
@@ -101,6 +102,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                   <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
           <hr>
           <h2>ACER PREDATOR TRITON 500</h2>
+          <img src="../assets/ACER_PREDATOR_TRITON_500.jpg" class="w3-margin w3-padding" alt="ACER PREDATOR TRITON 500" style="width: 80%">
           <p>The Acer predator triton 500 is one of the most attractive laptops and delivers awesome performance. It deserves a place on this list. With 15.6 inches widescreen, 16 GB of RAM, Intel Core i7-8750H, 2.20GHz, it can run every game smoothly. Ray tracing capable RTX graphics is a plus. This laptop is not quite as expensive as the other laptops on this list. It can be considered as a high-performing budget gaming laptop.</p>
           <div class="">
             <div class="w3-half">
@@ -140,6 +142,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                   <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
           <hr>
             <h2>Razer Blade Pro 17</h2>
+            <img src="../assets/Razer_Blade_Pro_17.jpg" class="w3-margin w3-padding" alt="Razer Blade Pro 17" style="width: 80%">
             <p>Razer laptops have the image of great performers and so do Razer blade pro 17. It is a powerhouse and provides the best gaming experience. It has a 17.6 inches large screen with a 1080p display that works great for gaming. It has 16GB RAM and 512 GB SSD and weighs almost 6.1 pounds.</p>
             <p>With Nvidia GeForce RTX 2080 Super Max-Q and 10th generation octa-core processor, it gives tough competition to other laptops in every aspect of the specification. Pricing might be a disadvantage but overall it’s a great machine and long-lasting battery life. You can consider it in the best gaming laptops.</p>
             <div class="">
@@ -180,6 +183,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                     <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
             <hr>
             <h2>ASUS ROG ZEPHYRUS G14</h2>
+            <img src="../assets/ASUS_ROG_ZEPHYRUS_G14.jpg" class="w3-margin w3-padding" alt="ASUS ROG ZEPHYRUS G14" style="width: 80%">
             <p>Despite being a gaming laptop, Asus rog ZEPHYRUS G14’s battery life is above average which is not usual in all gaming laptops. Additionally, it offers 1 TB of memory, 16 GB RAM and it weighs just 3.5 pounds so you can also carry it while traveling easily.</p>
             <p>It is powered by AMD Ryzen 9 processors which enhances the performance of a system. All the specifications are pointing out that it is one of the best gaming laptops and worth buying if you are a gaming enthusiast.</p>
             <div class="">
@@ -220,6 +224,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                     <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
             <hr>
             <h2>ASUS ZEPHYRUS S GX701</h2>
+            <img src="../assets/ASUS_ZEPHYRUS_S_GX701.jpg" class="w3-margin w3-padding" alt="ASUS ZEPHYRUS S GX701" style="width: 80%">
             <p>Asus is one of the best producers of gaming laptops and you can always reply to their product. Asus Zephyrus s gx701 is also an outstanding performer equipped with all the latest specifications. It offers 1 TB of memory, 17.3 inches full HD screen, 32 GB RAM, and Intel Core i7-9750H CPU which make it stand tall in the list of the best gaming laptops.</p>
             <p>The price of this Asus laptop is very high but if you are an enthusiast and want to spend a heavy amount of the amazing then this laptop is definitely worth it.</p>
             <div class="">
@@ -260,6 +265,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                     <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
             <hr>
             <h2>HP Omen 17</h2>
+            <img src="../assets/HP_Omen_17.jpg" class="w3-margin w3-padding" alt="HP Omen 17" style="width: 80%">
             <p>HP Omen 17 is amongst the most popular gaming laptops with great designs and performance. This is not as expensive as other laptops on the list. Many users have complaints regarding the heat so, this machine has an advanced cooling system. Along with that, it offers intel core i-7 CPU and 8 GB of RAM which is capable of running most of the games.</p>
             <p>HP Omen 17 comes with GTX 1660 which is a great GPU. Increase RAM up to 32 GB and all the modern games will work just fine with this machine. Yes, HP can produce a great gaming laptop as well and this one is an example.</p>
             <div class="">
@@ -300,6 +306,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                     <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
             <hr>
             <h2>MSI GS65 STEALTH</h2>
+            <img src="../assets/MSI_GS65_STEALTH.jpg" class="w3-margin w3-padding" alt="MSI GS65 STEALTH" style="width: 80%">
             <p>Nvidia GeForce RTX 2060, Intel core i-7, 16 GB of RAM, and 15.6 inches full HD screen make MSI GS5 stand tall in this list of best gaming laptops. MSI brand keeps on producing great gaming machines and this one is one of the bests. The 240 Hz monitor increases responsiveness of the screen makes a better fluid gaming experience and eventually reduces screen blurring issues.</p>
             <p>In GS65 you get plenty of RAM and SSD space to store games. It has a great 8 hours of battery life which is above average for such advanced gaming laptops. For 240 Hz penal, you should give this one a chance.</p>
             <div class="">
@@ -340,6 +347,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                     <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
             <hr>
             <h2>Dell G3 15</h2>
+            <img src="../assets/Dell_G3_15.jpg" class="w3-margin w3-padding" alt="Dell G3 15" style="width: 80%">
             <p>With the powerful 9th generation intel core i5 9300H processors and 16 GB RAM, this is one of the best gaming laptops when you are searching for a machine under your budget. This laptop costs just under 1000 dollars. It is perfect if you want to get an awesome gaming experience and want to spend under your budget.</p>
             <p>This laptop is not as good as the other laptops on this list when it comes to performance, design, and battery life. Apart from that, Dell G3 15 has 512 GB of storage, a big wide 15.6-inch full HD screen, and 16GB of RAM.</p>
             <div class="">
@@ -380,6 +388,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                     <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
             <hr>
             <h2>ACER NITRO 5</h2>
+            <img src="../assets/ACER_NITRO_5.jpg" class="w3-margin w3-padding" alt="ACER NITRO 5" style="width: 80%">
             <p>We included Acer nitro 5 in this list for good performance and lower prices. If you want to experience the best gaming but do not want to spend a lot of money, then this is the laptop you should look forward to. Though the price of this laptop is cheap and storage is also a minus point but you won’t be upset about its performance.</p>
             <p>It has a long battery life compared to other laptops on the list. 8 GB RAM and Intel i-5 make sure that you smoothly play medium to large-sized games. Apart from that, you can also install and work on large software. So, this is not just a gaming laptop but it’s a multi-purpose laptop that you can use for work and play games part-time.</p>
             <div class="">
