@@ -8,7 +8,7 @@ module.exports = {
     title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
-      { hid: 'robots', name: 'robots', content: 'noindex,nofollow' },
+      { hid: 'robots', name: 'robots', content: 'noindex,follow' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     script: [

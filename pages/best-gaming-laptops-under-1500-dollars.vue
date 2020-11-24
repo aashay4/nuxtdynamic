@@ -18,6 +18,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <p>All the laptops in this list are powerful and capable of running almost all games. Apart from gaming, you can work on different software and do programming. These multi-purpose laptops are powered by the latest technologies and specifications.</p><hr>
           <h1>Best Gaming Laptops under $1500</h1>
           <h2>Razer Blade 15</h2>
+          <img src="../assets/Razer_Blade_15.jpg" class="w3-margin w3-padding" alt="Razer Blade 15" style="width: 80%">
           <p>Ultimately you need magnificent performance from a laptop, right? Razer Blade 15 offers outstanding performance and cool design. It is very slim, weighs just 5 pounds and the screen size is 15 inches which is probably the smallest gaming laptop.</p>
           <p>Other specifications include 16 GB of RAM, 256 GB SSD, and Nvidia GeForce GTX 1660 Ti GPU. Battery life is below average but the fact is the majority of gaming laptops have very short battery life. It has a powerful Nvidia GTX graphic card which makes the gaming experience even better for gaming enthusiasts. It also offers three USB ports and an Ethernet LAN port.</p>
           <p>Razer blade costs just around 1500 dollars which is a pretty great deal for a gaming laptop. Apart from gaming, you can also install and work on other software. We included the razer blade 15 in the list of gaming laptops under 1500 dollars for its stylish design and gaming performance.</p>
@@ -59,6 +60,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                   <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
           <hr>
           <h2>Alienware M15</h2>
+          <img src="../assets/Alienware_M15.jpg" class="w3-margin w3-padding" alt="Alienware M15" style="width: 80%">
           <p>Alienware is one of the thinnest notebook laptops which do not give up on the designs, look, or performance. This is one of the top sellers from Dell and it is receiving plenty of positive reviews. Because of design and performance, it has become quite popular among the gaming enthusiast who is looking for a gaming laptop with outstanding performance.</p>
           <p>Alienware offers 16GB of RAM, 9th generation intel i7 processor which is capable of running large big games and performing multi-tasks. The battery is still an issue with this laptop but playing multiple AAA games puts a lot of burden on the processor and eventually, gaming laptops under-perform when it comes to battery life.</p>
           <div class="">
@@ -99,6 +101,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                   <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
           <hr>
           <h2>Dell G3 15</h2>
+          <img src="../assets/Dell_G3_15.jpg" class="w3-margin w3-padding" alt="Dell G3 15" style="width: 80%">
           <p>With the 9th generation intel core processor, 16 GB RAM, and 512 GB storage, you can probably play every single game on this machine. Also, Dell G3 15 is one of the best laptops under $1500. It costs just below 1000 dollars but it stands tall when it comes to performance.</p>
           <p>A big wide 15.6 inches full HD screen makes the experience even better for the gamers. With 512 GB storage, you can store multiple games on your system.</p>
           <div class="">
@@ -139,6 +142,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                   <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
           <hr>
           <h2>MSI GP65 Leopard</h2>
+          <img src="../assets/MSI_GP65_Leopard.jpg" class="w3-margin w3-padding" alt="MSI GP65 Leopard" style="width: 80%">
           <p>How can you miss the brand MSI when talking about gaming laptops? MSI GP65 is one of the best gaming laptops under 1500 dollars. As we have said earlier, the merit of this list is the performance of the laptops. Just like other laptops on the list, you will get a great gaming experience with MSI GP65 laptops. Along with that, it offers a revolutionary cooling for gaming enthusiasts who love to play for hours.</p>
           <p>It has an in-built windows 10 home OS, 15.6 inches full HD screen, Intel Core i7-10750H 2.6-5.0GHz CPU, and 512 GB internal storage. Talking about the audio, it has 5 times louder sound, more resonance, and higher quality sound play that make you feel every bit of a game. In short, it is a great laptop for gaming enthusiasts, and best if you do not want to spend a lot of cash on gaming laptops.</p>
           <div class="">
@@ -179,6 +183,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                   <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
           <hr>
           <h2>Lenovo Legion Y740</h2>
+          <img src="../assets/Lenovo_Legion_Y740.jpg" class="w3-margin w3-padding" alt="Lenovo Legion Y740" style="width: 80%">
             <p>There is a category of users that want a laptop with a stylish look and attractive designs. If you belong to this category of users, then Lenovo legion y740 is built for you. It is one of the stylish laptops with outstanding performance. This laptop offers 15.6 Inches full HD display and powered by an Intel Core i7 processor with 16 GB RAM. Talking about the graphics, it has 8 GB Nvidia GeForce RTX 2070 which is one of the best GPUs in the market.</p>
             <p>In short, you do not need to worry about the performance of this Lenovo machine which offers a stylish design at the same time. This laptop has a battery life of five hours which is not bad for a gaming laptop.</p>
             <div class="">
@@ -219,6 +224,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                     <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
             <hr>
             <h2>HP Omen 15</h2>
+            <img src="../assets/hp_omen_15.jpg" class="w3-margin w3-padding" alt="HP Omen 15" style="width: 80%">
             <p>HP is widely known for building professional laptops but now HP has introduced an attractive gaming laptop HP Omen 15. The new edition of this laptop comes with the latest RTX powering the laptop to perform as good as the other competitor laptops.</p>
             <p>If we look at the specifications of this laptop, it has 15.6 inches of screen full HD, 16 GB RAM, 9th generation intel i-7 processor which offers an amazing gaming experience above your expectations. It can be considered as one of the best gaming laptops under 1500 for sure.</p>
             <p>Along with gaming, you can also perform multi-tasks with ease on this laptop, it’s a great combination to perform daily tasks and play some kickass games.</p>
@@ -260,6 +266,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                     <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
             <hr>
             <h2>Acer Predator Helios 300</h2>
+            <img src="../assets/Acer_Predator_Helios_300.jpg" class="w3-margin w3-padding" alt="HP Omen 15" style="width: 80%">
             <p>Acer Predator is one of the most popular and used laptops around the world. For all the latest features it deserves a place in the list of best laptops under 1.5K. You can play all the latest games on this laptop smoothly.</p>
             <p>Acer predator offers Intel Core i7-9750H, 15.6 inches full HD screen, and 6GB of NVidia GeForce RTX 2060 card which gives a great gaming experience. 512 GB SSD storage helps you to store different games on the machine. It also offers a comfortable keyboard for better gaming and dual cooling fat to manage hit issues.</p>
             <div class="">
