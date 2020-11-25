@@ -17,6 +17,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <p>Our goal is to go through every single gaming laptop that’s under 1000, study the specification in detail and list out the best models that match your expectation. In this list, all the laptops are powered by the latest GPU, CPU, graphics cards, and other important specifications.</p>
           <h1>Cheap Best gaming laptops under 1000 dollars</h1><hr>
           <h2>ACER NITRO 5</h2>
+          <img src="../assets/ACER_NITRO_5.jpg" class="w3-margin w3-padding" alt="ACER NITRO 5" style="width: 80%">
           <p>Acer Nitro 5 is a great performer and it is amongst the best gaming laptops list. It comes with Nvidia GTX 1650 with 4GB of VRAM and 2.4 GHz intel i5 CPU, you can smoothly play almost any games on this laptop.</p>
           <p>Acer nitro starts from just $699, just add a few more bucks and increase the specification of this laptop. It has a big 15.6 inches screen so it might be difficult for you to carry it while traveling. Apart from gaming, you can install and use video and sound editing software, programming software and this laptop will work just fine. It deserves a place in the list of cheap laptops under $1000.</p>
           <div class="">
@@ -57,6 +58,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                   <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
           <hr>
           <h2>Dell G3 15</h2>
+          <img src="../assets/Dell_G3_15.jpg" class="w3-margin w3-padding" alt="Dell G3 15" style="width: 80%">
           <p>This biggest advantage of this laptop is its battery life. You don’t see many laptops with great battery life but it offers an above-average battery life. Of course, the performance of this laptop is a plus. Just like Nitro, Dell G3 15 stands tall in-front of higher budget gaming laptops. Though it offers lesser storage space and a dull display other specifications are worth considering when opting for gaming laptops below 1000 dollars.</p>
           <p>You can play almost all the games smoothly and a comfortable keyboard adds a better playing experience. It is an all-purpose laptop that’s going to help you in using different software and performing other office tasks as well.</p><hr>
           <div class="">
@@ -97,6 +99,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                   <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
           <hr>
           <h2>MSI GF63</h2>
+          <img src="../assets/MSI_GF63.jpg" class="w3-margin w3-padding" alt="MSI GF63" style="width: 80%"><br>
           <p>With intel I 7 processor and Nvidia GeForce GTX 1050 Ti with 4GB of VRAM, MSI GF63 is one of the best performers in this budget. It has a big 15.6 inch HD screen that makes your gaming experience even better. With the kind of performance, it offers, you get to play almost all the modern games smoothly. A perfect choice for gaming enthusiasts and want to spend a limited amount on a gaming laptop.</p><hr>
           <div class="">
             <div class="w3-half">
@@ -136,6 +139,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                   <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
           <hr>
           <h2>Dell G7 15</h2>
+          <img src="../assets/Dell_G7_15.jpg" class="w3-margin w3-padding" alt="Dell G7 15" style="width: 80%"><br>
           <p>As we said earlier, there are very few gaming laptops available in the market that offers good battery life and Dell G7 15 is one of them. It has a stylish design and it’s very slim. You get an outstanding gaming experience with medium-sized games. If you want to install and play multiple large games, then this laptop won’t be a good choice. It is good for daily work and gaming.</p>
           <div class="">
             <div class="w3-half">
@@ -175,6 +179,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                   <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
           <hr>
           <h2>Lenovo Legion 5i</h2>
+          <img src="../assets/Lenovo_Legion_5i.jpg" class="w3-margin w3-padding" alt="Lenovo Legion 5i" style="width: 80%"><br>
             <p>Lenovo Legion 5i costs just above 1000 dollars and it offers 8 GB of RAM, 512 GB storage, 15.6 inches screen, and an HD display. It also offers remarkable performance. It came into the limelight because of VR technology. Apart from that, it has a great FPS score compared to other laptops.</p>
             <p>It has a decent design and not as large compared to other laptops on the list. So, it is really easy to carry this laptop while traveling.</p>
             <div class="">
@@ -215,6 +220,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                     <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
             <hr>
             <h2>Acer Aspire 7</h2>
+            <img src="../assets/Acer_Aspire_7.jpg" class="w3-margin w3-padding" alt="Acer Aspire 7" style="width: 80%"><br>
             <p>If you are a part-time gamer and also use laptops for school/college work or office work then Acer Aspire 7 is the right choice. This is not an ideal gaming laptop but works great when it comes to multi-purpose. With Nvidia GTX 1650 graphics card and intel i-5 processor, it provides decent performance for almost all games. Also, 15.6 inches full HD display is a plus for a laptop just around 800 dollars.</p>
             <p>Design is something you need to compromise for this laptop. Apart from that, each features Acer Aspire has, totally justifies the price. We recommend this laptop if you are looking for a multi-purpose laptop.</p>
             <div class="">
@@ -255,6 +261,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                     <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
             <hr>
             <h2>HP Gaming Pavilion 15-dk0046nr</h2>
+            <img src="../assets/HP_Gaming_Pavilion_15-dk0046nr.jpg" class="w3-margin w3-padding" alt="HP Gaming Pavilion 15-dk0046nr" style="width: 80%"><br>
             <p>Don’t be surprised to see HP on this list. HP gaming pavilion 15 is a great entry-level laptop from HP. Ever since its release, this laptop is getting positive reviews from users. Outstanding performance and long-lasting battery life are the biggest advantages of this laptop. HP gaming pavilion does not heat up after hours of gaming that is also a great sign for the gaming laptop.</p>
             <div class="">
               <div class="w3-half">

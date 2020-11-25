@@ -646,7 +646,7 @@ export default {
   components: { 'footer-app': footer, 'about-section': aboutsection, navbar },
   data () {
     return {
-      price: '640',
+      price: '460',
       articles: []
       }
     },
