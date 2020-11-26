@@ -148,6 +148,20 @@ import navbar from '~/components/navbar.vue'
 import popularposts from '~/components/popularposts.vue'
 import date from '../components/date.vue'
 export default {
+  head() {
+  // sets document title
+  return {
+  title: 'Laptops for college students',
+  // optional; sets final title as "Index Page - My Website", useful for multiple level meta
+  // meta tags
+  meta: [
+      { hid: 'description', name: 'description', content: 'Laptops for college students' }
+  ],
+  link: [
+  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/laptops-for-college-students/'}
+  ]
+  }
+  },
 components: { 'date-app': date, navbar, 'footer-app': footer, popularposts },
 }
 </script>

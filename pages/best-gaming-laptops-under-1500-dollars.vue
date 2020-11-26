@@ -419,6 +419,20 @@ import date from '../components/date.vue'
 import navbar from '~/components/navbar.vue'
 import popularposts from '~/components/popularposts.vue'
 export default {
+  head() {
+  // sets document title
+  return {
+  title: 'Gaming Laptops Under 1500 Dollars',
+  // optional; sets final title as "Index Page - My Website", useful for multiple level meta
+  // meta tags
+  meta: [
+      { hid: 'description', name: 'description', content: 'Looking for the best gaming laptops under 1500 dollars? In this article, we list the best laptops for gaming enthusiasts under $1500. The brands include Razer, Lenovo, MSI and many other.' }
+  ],
+  link: [
+  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/best-gaming-laptops-under-1500-dollars/'}
+  ]
+  }
+  },
 components: { 'date-app': date, navbar, 'footer-app': footer, popularposts },
 }
 </script>

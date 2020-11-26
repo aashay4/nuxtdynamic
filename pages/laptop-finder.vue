@@ -191,6 +191,21 @@ import navbar from '~/components/navbar.vue'
 import footer from '../components/footer.vue'
 
 export default {
+  head() {
+  // sets document title
+  return {
+  title: 'Laptop finder',
+  // optional; sets final title as "Index Page - My Website", useful for multiple level meta
+  // meta tags
+  meta: [
+      { hid: 'description', name: 'description', content: 'Laptop finder.' },
+      { hid: 'keywords', name: 'keywords', content: 'Laptop finder' }
+  ],
+  link: [
+  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/laptop-finder/'}
+  ]
+  }
+  },
   components: { navbar, 'footer-app': footer },
   data(){
     return{

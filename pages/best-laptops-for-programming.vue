@@ -179,6 +179,20 @@ import date from '../components/date.vue'
 import navbar from '~/components/navbar.vue'
 import footer from '~/components/footer.vue'
 export default {
+  head() {
+  // sets document title
+  return {
+  title: 'Best Laptops for programming',
+  // optional; sets final title as "Index Page - My Website", useful for multiple level meta
+  // meta tags
+  meta: [
+      { hid: 'description', name: 'description', content: '' }
+  ],
+  link: [
+  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/best-laptops-for-programming/'}
+  ]
+  }
+  },
 components: { 'date-app': date, navbar, 'footer-app': footer },
 }
 </script>

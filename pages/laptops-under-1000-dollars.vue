@@ -153,6 +153,20 @@ import footer from '~/components/footer.vue'
 import date from '../components/date.vue'
 import popularposts from '../components/popularposts.vue'
 export default {
+  head() {
+  // sets document title
+  return {
+  title: 'Laptops under 1000 dollars',
+  // optional; sets final title as "Index Page - My Website", useful for multiple level meta
+  // meta tags
+  meta: [
+      { hid: 'description', name: 'description', content: 'Best laptops under 1000 dollars' }
+  ],
+  link: [
+  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/laptops-under-1000-dollars/'}
+  ]
+  }
+  },
 components: { 'date-app': date, navbar, 'footer-app': footer, popularposts },
 }
 </script>

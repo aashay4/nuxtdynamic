@@ -250,6 +250,21 @@ import Dropdown2 from '~/components/Dropdown2.vue'
 import Dropdown3 from '~/components/Dropdown2.vue'
 import Dropdown4 from '~/components/Dropdown2.vue'
   export default {
+    head() {
+    // sets document title
+    return {
+    title: 'Compare laptops',
+    // optional; sets final title as "Index Page - My Website", useful for multiple level meta
+    // meta tags
+    meta: [
+        { hid: 'description', name: 'description', content: 'Compare laptops.' },
+        { hid: 'keywords', name: 'keywords', content: 'Compare laptops' }
+    ],
+    link: [
+    {rel: 'canonical', href: 'https://bestbudgetlaptop.net/compare-laptops/'}
+    ]
+    }
+    },
     components: { Dropdown, Dropdown1, navbar, Dropdown2, Dropdown3, Dropdown4, 'footer-app': footer },
     async asyncData(context){
       const {data} = await context.$axios.get('/api/articles/')

@@ -413,6 +413,20 @@ import navbar from '~/components/navbar.vue'
 import footer from '~/components/footer.vue'
 import popularposts from '~/components/popularposts.vue'
 export default {
+  head() {
+  // sets document title
+  return {
+  title: 'Cheap Gaming Laptops collection 2020',
+  // optional; sets final title as "Index Page - My Website", useful for multiple level meta
+  // meta tags
+  meta: [
+      { hid: 'description', name: 'description', content: 'Looking for the cheap gaming laptops under 1000 dollars? Here, we list the best cheap gaming laptops sub-$1000. Visit her and know more.' }
+  ],
+  link: [
+  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/cheap-gaming-laptops-under-1000-dollars/'}
+  ]
+  }
+  },
 components: { 'date-app': date, navbar, 'footer-app': footer, popularposts },
 }
 </script>

@@ -541,6 +541,20 @@ import navbar from '~/components/navbar.vue'
 import popularposts from '~/components/popularposts.vue'
 import footer from '~/components/footer.vue'
 export default {
+  head() {
+  // sets document title
+  return {
+  title: 'Best Gaming Laptops for the year 2020',
+  // optional; sets final title as "Index Page - My Website", useful for multiple level meta
+  // meta tags
+  meta: [
+      { hid: 'description', name: 'description', content: 'We bring the best gaming laptops of 2020 for the gaming enthusiasts. This list include Alienware m17 R3, Razer Blade 15, ACER PREDATOR TRITON 500...' }
+  ],
+  link: [
+  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/best-gaming-laptops/'}
+  ]
+  }
+  },
 components: { 'date-app': date, navbar, 'footer-app': footer, popularposts },
 }
 </script>
