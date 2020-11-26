@@ -69,8 +69,8 @@ and is wrapped around the whole page content, except for the footer in this exam
               <img src="../assets/hp_15.jpg" class="w3-margin w3-padding" alt="HP 15" style="width: 80%"><br>
               <p>If you are looking for a cheap laptop with a huge storage capacity then HP 15 is the right option for you. HP 15 offers 1 TB storage and 8 GB RAM, it is not usual for a machine just around $450. With AMD Ryzen processor, it is a powerful performer.</p>
               <p>The battery life of this machine is not impressive, it lasts just below 5 hours. Choose this laptop if you are a fan of the AMD Ryzen processor and require a lot of internal storage to save your data.</p><hr>
-              <h3>Dell Inspiron 15</h3>
-              <img src="../assets/Dell_Inspiron_15.jpg" class="w3-margin w3-padding" alt="Dell Inspiron 15" style="width: 80%"><br>
+              <h3>Dell Inspiron 15 3000</h3>
+              <img src="../assets/Dell_Inspiron_15.jpg" class="w3-margin w3-padding" alt="Dell Inspiron 15 3000" style="width: 80%"><br>
               <p>This is a great performer for day-to-day tasks. Dell Inspiron 15 can be considered as a general-purpose laptop. It offers 4 GB of RAM and 1 TB storage and an Intel Celeron processor. On this machine, you can perform regular daily tasks and store a lot of data. Just like HP 11, you can buy this laptop if you are dealing with a lot of data and requires a lot of storage on your machine.</p><hr>
               <h3>Lenovo Chromebook C340-11</h3>
               <img src="../assets/Lenovo_Chromebook_C340-11.jpg" class="w3-margin w3-padding" alt="Lenovo Chromebook C340-11" style="width: 80%"><br>
