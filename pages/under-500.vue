@@ -18,27 +18,35 @@ and is wrapped around the whole page content, except for the footer in this exam
           <h2>Best Cheap Laptops Under 500 Dollars</h2>
           <h3>Acer Aspire 5 - high performance</h3>
           <h4>Windows</h4>
+          <img src="../assets/Acer_Aspire_5.jpg" class="w3-margin w3-padding" alt="Acer Aspire 5" style="width: 80%"><br>
           <p>If you are looking for a good performing laptop then Acer Aspire 5 is one of the best laptops under 500 dollars. The 8th generation intel core i5 processor helps this laptop to perform better. It has a 15.6 inches full HD display. Apart from that, it offers 8 GB of RAM which is capable of running large software and playing games.</p>
-          <p>It offers 256 GB of memory which is pretty enough to keep important files and install multiple work software. Acer Aspire 5 offers all the necessary features like Wi-Fi connection, Bluetooth, speakers, Ethernet LAN port, and USB port. The battery life of this laptop is around 7 hours which is lower than the competitors. Due to the large laptop size and battery life, it might be difficult for frequent travelers to carry this laptop along. Keeping that dis-advantage away, you can buy this laptop when you are looking for laptops below $500.</p>
+          <p>It offers 256 GB of memory which is pretty enough to keep important files and install multiple work software. Acer Aspire 5 offers all the necessary features like Wi-Fi connection, Bluetooth, speakers, Ethernet LAN port, and USB port. The battery life of this laptop is around 7 hours which is lower than the competitors. Due to the large laptop size and battery life, it might be difficult for frequent travelers to carry this laptop along. Keeping that dis-advantage away, you can buy this laptop when you are looking for laptops below $500.</p><hr>
           <h3>HP Stream 11</h3>
           <h4>Windows</h4>
+          <img src="../assets/HP_Stream_11.jpg" class="w3-margin w3-padding" alt="HP Stream 11" style="width: 80%"><br>
           <p>We shortlisted this laptop for those who are looking for a Windows OS laptop and a good performer. This is an outstanding performer and comparatively way cheaper than all the other competitors. It offers a long battery life, an 11-inch display, 4 GB RAM, and weighs just 2.5 pounds which are best if you carry a laptop while traveling, need to show presentations to the clients. This is the best selling laptop among the students because of the low price and high performance.</p>
           <p>If you have to deal with many files then we won't recommend this laptop because it offers just 32 GB of internal storage which is not enough for large files, photos, and videos. But, you can count on this laptop for fast performance.</p><hr>
           <h3>Asus VivoBook 15</h3>
+          <h4>Windows</h4>
+          <img src="../assets/Asus_VivoBook_S15.jpg" class="w3-margin w3-padding" alt="Asus VivoBook S15" style="width: 80%"><br>
           <p>Asus VivoBook 15 costs just $399 and offers you a great design but average performance. If the looks of a laptop matter then you are going to like this model. Apart from design, it offers average performance, battery life, and display. The screen size of this laptop is around 15.6 inches so, it might get difficult to carry while traveling. It offers a battery life of just 5 hours which is also below average. If you are a businessman and often attend different meetings then to make an impact on clients you can buy this laptop.</p><hr>
           <h3>Samsung Chromebook 3</h3>
           <h4>Chrome OS</h4>
+          <img src="../assets/Samsung_Chromebook_3.jpg" class="w3-margin w3-padding" alt="Samsung Chromebook 3" style="width: 80%"><br>
           <p>Samsung Chromebook 3 is one of the best Chromebook laptops which is also a good performer. Apart from that, it offers a long-lasting battery life as well. It offers 32 GB of storage and 4 GB of RAM. This is a great budget laptop and you can perform all the daily tasks, watch movies, and do documentation on this laptop easily. It weighs just 2.5 pounds and the size is also small, so it is really easy to carry this laptop while traveling.</p>
           <p>Talking about the negative points, the speakers of this machine are a disappointment and the keyboard is not up to the mark as well. If you are a student and looking for a laptop for studies or you are looking for a laptop for basic tasks then we would recommend this machine.</p><hr>
           <h3>Acer Swift 1</h3>
           <h4>Windows</h4>
+          <img src="../assets/Acer_Swift_1.jpg" class="w3-margin w3-padding" alt="Acer Swift 1" style="width: 80%"><br>
           <p>Acer Swift 1 starts at just around $329 and you can add more specifications by adding a few more bucks. Acer's model is a complete professional laptop and because of a comfortable keyboard, you can work for hours on this machine. Apart from that, battery life is also magnificent. With 10 hours of battery life, you can work on this machine for the whole day and after completing work, you can watch an episode of the Netflix show. With a decent webcam, you can easily handle client meetings on this laptop.</p>
           <p>Many users of this laptop, complain about the dull display. Overall, this is a good laptop under 500 dollars.</p><hr>
           <h3>Dell Inspiron 3593</h3>
           <h4>Windows</h4>
+          <img src="../assets/Dell_Inspiron_15.jpg" class="w3-margin w3-padding" alt="Dell Inspiron 3593" style="width: 80%"><br>
           <p>Since the release of Dell Inspiron 3593, it has been receiving a lot of positive reviews from users. Talking about the features, it offers 256 GB of internal storage, 8 GB RAM(Can be expanded), Intel 1 GHz, Core i5 CPU, and Intel UHD Graphics which is capable of running any task smoothly. This one is one of the best laptops under 500 dollars. You can take this machine in your consideration if you need a lot of space on your machine. Along with that, you can perform different tasks simultaneously on this laptop with ease.</p><hr>
           <h3>HP - 14 Laptop - df0023cl</h3>
           <h4>Windows</h4>
+          <img src="../assets/HP_14_Laptop--df0023cl.jpg" class="w3-margin w3-padding" alt="HP - 14 Laptop - df0023cl" style="width: 80%"><br>
           <p>If you are looking for an outstanding performer under 500 dollars then this machine is for you. With 4 GB RAM, Intel UHD 620 graphics, and Intel Core i3-8130U, this machine can run every task that you throw at it. Apart from that, it has a cool keyboard, you can work on this laptop comfortably.</p>
           <p>Battery life can be an issue with this laptop, the battery lasts for just around 7 hours.</p><hr>
           </div></div>
