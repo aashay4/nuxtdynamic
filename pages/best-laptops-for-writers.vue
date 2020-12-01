@@ -17,6 +17,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <p>In this article, we shortlisted laptops with a good display, keyboard, and good battery life.</p><hr>
           <h1>Best laptops for writers</h1><hr>
           <h2>Dell XPS 13</h2>
+          <img src="../assets/Dell_XPS_13.jpg" class="w3-margin w3-padding" alt="Dell XPS 13" style="width: 80%"><br>
           <p>Dell XPS has a revolutionary design that looks professional. Along with writers, more businessmen carry this laptop in conferences and presentation meetings. If you are looking for a great performer, then Dell XPS 13 is the right choice. Apart from that, the keyboard has been receiving many positive reviews. With 13 inches full HD screen, it’s easy to work on this laptop for hours.</p>
           <p>Talking about features, it offers an Intel Core i5 Quad-Code processor, 8 GB RAM, 256 GB memory, and almost 10 hours of battery life. 2.6 pounds of weight makes Dell XPS easy to carry while traveling. Apart from that, it offers 2 thunderbolt ports and an SD card reader. With these features, Dell XPS 13 is the perfect laptop for writers.</p>
           <div class="">
@@ -57,6 +58,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                   <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
           <hr>
           <h2>Asus Chromebook Flip C434</h2>
+          <img src="../assets/Asus_Chromebook_Flip_C434.jpg" class="w3-margin w3-padding" alt="Asus Chromebook Flip C434" style="width: 80%"><br>
           <p>Choose this Chromebook laptop if you do not want to spend too much on your laptop. If you want to use a word and write on your laptop, then this is the perfect laptop for you. It has a 12 hours long battery life and weighs just 3.30 pounds which makes it easy to carry anywhere.</p>
           <p>Since it is a lower budget laptop compare to other laptops on the list, you need to compromise on the performance for multi-tasks. If you are considering a laptop for just writing, then this one is perfect. 64 GB of memory is enough to store multiple word files and other presentations. With 4 GB RAM and Intel HD Graphics 615 performance, you won’t face any leg while writing. Probably one of the best budget laptops for writers.</p>
           <div class="">
@@ -97,6 +99,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                   <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
           <hr>
           <h2>MacBook Pro(13-inch)</h2>
+          <img src="../assets/Apple_MacBook_pro_13.jpg" class="w3-margin w3-padding" alt="Apple MacBook pro 13" style="width: 80%"><br>
           <p>If you prefer macOS over windows then MacBook Pro is the laptop for you. It has a powerful processor that is capable of performing multi-tasks and extra-ordinary keyword to work for hours. It offers 8 GB RAM, 256 GB SSD storage which is capable of performing all the daily tasks of writers. When it comes to pricing, this laptop is a few dollars costlier than, the other laptops on this list. But the kind of features MacBook Pro offers, it justifies the pricing.</p>
           <p>Along with writing, if you want to use a laptop for other tasks like proposal creation, playing games or you are looking to run photo/video editing software then this one is the laptop for you. You won’t be disappointed with the multi-tasking performance of this laptop.</p>
           <div class="">
@@ -137,6 +140,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                   <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
           <hr>
           <h2>Lenovo Thinkpad E15</h2>
+          <img src="../assets/Lenovo_Thinkpad_E15.jpg" class="w3-margin w3-padding" alt="Lenovo Thinkpad E15" style="width: 80%"><br>
           <p>Lenovo Thinkpad E 15 is one of the best laptops on this list. It is the most preferred by the business owners for the professional looks. If you are a writer and running your business simultaneously or you have business plans shortly, then this is definitely for you. It offers extra-ordinary features but the price is the only minus. It is costlier the most laptops on this list.</p>
           <p>Talking about features, it 8 GB of RAM(can be upgraded up to 32 GB), big 15.6 inches HD display, long battery life of 12 hours. With 4.3 pounds It is way heavier than the other laptops on this list. With a larger screen and heavier weight, it might be difficult for you to carry this laptop while traveling. Apart from that, if you want a great multi-tasker then this one is the right choice.</p>
           <div class="">
@@ -177,6 +181,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                   <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
           <hr>
           <h2>Google Pixelbook Go</h2>
+          <img src="../assets/Google_Pixelbook_Go.jpg" class="w3-margin w3-padding" alt="Google Pixelbook Go" style="width: 80%"><br>
             <p>If you are going after Chromebook laptops, then Google pixelbook Go is the best Chromebook laptop in today’s date. The price of this laptop starts at just $650 and battery life is the biggest advantage. It also has an excellent keyboard. These two features make it the best laptop for writers.</p>
             <div class="">
               <div class="w3-half">
@@ -214,7 +219,8 @@ and is wrapped around the whole page content, except for the footer in this exam
               <br>
             </div><br><br><br><br><br><br><br><br><br><br><br><br>
                     <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div><hr>
-            <h2>Asus Zenbook 13 UX331UA – AS51</h2>
+            <h2>Asus Zenbook 13 UX333FA</h2>
+            <img src="../assets/Asus_Zenbook_13_UX333FA.jpg" class="w3-margin w3-padding" alt="Asus Zenbook 13 UX333FA" style="width: 80%"><br>
             <p>Asus zenbook is another budget laptop on this list. It costs just around $600 but in return, you will get a battery life of around 12 hours, 512 GB of storage, 8 GB RAM, 13.3 inches full HD screen. It weighs just 2.5 pounds so, really easy to carry while traveling.</p>
             <p>Talking about the performance, it is compatible with all software and apps. Along with the techies and part-time gamer, Asus Zenbook 13 is the best laptop for writers as well.</p>
             <div class="">
@@ -255,6 +261,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                     <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
             <hr>
             <h2>Acer Switch 3</h2>
+            <img src="../assets/Acer_Switch_3.jpg" class="w3-margin w3-padding" alt="Acer Switch 3" style="width: 80%"><br>
             <p>Just like Asus Chromebook, if you do not want to spend too much on a laptop then Acer switch 3 can be a good option. It has a great battery life and decent performance when it comes to writing. It has 8 GB of RAM, an Intel i-3 processor, and a great HD screen. In short, this is a brilliant laptop for writers and those who do not want to spend too much on a laptop.</p>
             <div class="">
               <div class="w3-half">
