@@ -230,7 +230,7 @@ and is wrapped around the whole page content, except for the footer in this exam
               </div>
           <br>
         </div><br><br><br><br><br><br><br><br><br><br><br><br>
-        <div><p> <a href="https://google.com/" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a></p></div>
+        <div><p> <a href="https://amzn.to/3fYBUSN" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a></p></div>
         <hr>
         <h3>Asus VivoBook S15</h3>
         <h4>Windows</h4><br>

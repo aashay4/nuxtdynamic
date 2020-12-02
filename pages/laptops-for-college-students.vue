@@ -31,7 +31,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <p>This one also offers a stylish design and it is also a 2-in-1 laptop, very popular among college students. It offers an attractive design, longer battery life, and outstanding performance. This one deserves a place in the list of the best student laptops.</p>
           <p>With Intel Core i-7 processor, Intel Iris Plus GPU, up to 16 GB of RAM, and up to 2 TB storage, Lenovo Yoga C940 has one of the most advanced features in this list. It weighs just a little more than the other competitors. Apart from that, it offers a beautiful 4K display screen but battery life may be an issue as it is lesser than the other laptops.</p><hr>
           <h2>Asus Zenbook 13</h2>
-          <img src="../assets/Asus_Zenbook_13.jpg" class="w3-margin w3-padding" alt="Asus Zenbook 13" style="width: 80%"><br>
+          <img src="../assets/Asus_Zenbook_13_UX333FA.jpg" class="w3-margin w3-padding" alt="Asus Zenbook 13" style="width: 80%"><br>
             <p>The Asus Zenbook 13 is one of the most attractive laptops on this list. If style and looks are your priority, then this one is for you. Apart from that, all the other features it offers are perfect for the students. 13.3-inch display, 2.8-pound weight, 16 GB RAM, and great performance make this laptop perfect for college students.</p>
             <p>With the attractive looks, this machine is not only used by the students but also by the businessmen. More than 8 hours of battery life is a plus.</p><hr>
             <h2>Apple MacBook Air</h2>
