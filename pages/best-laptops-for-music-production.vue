@@ -17,20 +17,25 @@ and is wrapped around the whole page content, except for the footer in this exam
           <p>Today there are many laptops available in the market. Sometimes, it may get confusing for anyone to select the best one for music. In this article, we shortlisted the best suitable laptops for music production.</p>
           <h1>Best Laptops for music production</h1>
           <h2>Dell XPS 15</h2>
+          <img src="../assets/Dell_XPS_15.jpg" class="w3-margin w3-padding" alt="Dell XPS 15" style="width: 80%"><br>
           <p>If you are a windows fan and looking for the best windows laptop for music, then keep Dell XPS 15 first on the list. It is one of the best sellers’ laptops and has a huge number of positive reviews as well. When it comes to performance, it is one of the best performing laptops by the company and capable of running any sound engineering or music production application flawlessly.</p>
           <p>Talking about the features, it runs on the Intel 10th generation i-7 core processor and 16 GB RAM. It offers the storage of 512 GB on an SSD drive and Nvidia GeForce GTX 1650 Ti graphics which are capable of running any kind of audio or video software. For refreshment, if you like to play games, just bring it on! You can play any game on this machine and it will work great.</p>
           <p>If we talk about the screen, it offers 15.6 inches full HD display which is the best. Its battery life is around 9 hours which is pretty amazing for a laptop that offers such features. For the 15.6 inches’ screen, 4 pounds’ weight is comparable. In a nutshell, this one is one of the best laptops for music.</p><hr>
           <h2>MacBook Pro 16</h2>
+          <img src="../assets/MacBook_pro.jpg" class="w3-margin w3-padding" alt="Apple MacBook pro 16" style="width: 80%"><br>
           <p>There is a macOS community as well, if you belong to that community then Macbook Pro 16 is the right choice for you. This is currently the market’s best sellers and the first choice of music producers. With the features it offers, the Macbook pro 16 can be used as a multi-purpose laptop for music production as well as gaming and video editing.</p>
           <p>MacBook Pro 16 is popular for the best quality of performance and power it offers to the users. It is possible because of the intel i-7-9750H Six-Core 2.6 GHz CPU, 16 GB RAM, 512GB SSD, AMD Radeon graphics. The battery life is above 11 hours which is commendable for a machine with these specifications. We will highly recommend this device because of the macOS. When it comes to editing, macOS has many default editing applications.</p><hr>
           <h2>Razer Blade</h2>
+          <img src="../assets/Razer_Blade_15.jpg" class="w3-margin w3-padding" alt="Razer Blade 15" style="width: 80%"><br>
           <p>There is a similarity between music production laptops and gaming laptops in that they are extremely powerful. You might think that Razer is the company that produces games but looking at the performance, Razer laptops are good for music production and video editing.</p>
           <p>Talking about the specifications, it offers a 9th generation intel core i-7 processor, 16 GB RAM, 256 GB SSD storage, and Nvidia GeForce GTX 1660 graphics which is capable of running any music editing software smoothly. Apart from that, battery life is up to 8 hours and it weighs 4.6 pounds. So, the Razer Blade is a powerful ultrabook laptop that is capable of running any task.</p>
           <hr>
           <h2>ASUS TUF A15</h2>
+          <img src="../assets/ASUS_TUF_A15.jpg" class="w3-margin w3-padding" alt="ASUS TUF A15" style="width: 80%"><br>
           <p>Running short of cash? Asus TUD A15 is a powerful music production laptop under $1000. Just like the Razer blade Asus TUF is also a gaming laptop and a great performer. It provides the latest hardware specifications at just under $1000. It is the perfect machine for any kind of music production and editing.</p>
           <p>Asus TUF A15 has an AMD Ryzen 7 processor, 16 GB of RAM, 512 GB of Storage, and 15.6 inches full HD screen. Apart from that, it offers 8 hours of battery life and it weighs 5 pounds which is a little bit heavier than the other laptops so it might be difficult to carry. The good thing is, spend some extra bucks and you can upgrade RAM and storage.</p><hr>
           <h2>HP Omen 15</h2>
+          <img src="../assets/hp_omen_15.jpg" class="w3-margin w3-padding" alt="HP Omen 15" style="width: 80%"><br>
           <p>HP Omen 15 is yet another budget laptop that costs just around $1000. HP is known for the business laptop but with HP Omen 15 HP has been praised for the gaming laptop. With magnificent battery life and performance, HP has gained a lot of appreciation as a gaming laptop as well as music production and editing.</p>
           <p>With Intel Core i7-10750H processor, 16 GB RAM, and Nvidia GeForce GTX 1650 Ti 4GB DDR6 Graphics HP Omen 15 is one of the top performers. But, battery life is the minus point. Battery life HP Omen 15 is just around 5 hours. If you are really after the best performers in the market this machine is definitely for you.</p><hr>
           </div></div>
