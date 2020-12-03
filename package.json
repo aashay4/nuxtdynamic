@@ -23,7 +23,9 @@
     "mongoose": "^5.9.18",
     "node-sass": "^4.14.1",
     "nuxt": "^2.0.0",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^8.0.2",
+    "vue-google-adsense": "^1.9.1",
+    "vue-script2": "^2.1.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
