@@ -70,7 +70,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <h3 class="">HP Chromebook 15</h3>
         <h4>Chrome OS</h4><br>
         <img src="../assets/hp_chromebook_15.jpg" class="w3-margin w3-padding" alt="HP Chromebook 15" style="width: 80%"><br>
-        <p>HP is a brand widely known for the extra-ordinary battery life of the product. HP's Chromebook has decent features including a comfortable keyboard. Like other HP laptops, this Chromebook also offers fantastic battery life. Even after working for hours, HP Chromebook does not heat up, that's a plus. Data in Chromebook is stored on the cloud instead of the local machine. If you are dealing with a lot of data then the cloud data storing process might be slow. But this one is indeed one of the best budget laptops available right now.</p>
+        <p>HP is a brand widely known for the extra-ordinary battery life of the product. This HP Chromebook also offers long-lasting battery life, good performance, a comfortable keyboard, and which is a budget laptop at the same time. Like other HP laptops, this Chromebook also offers fantastic battery life. Even after working for hours, HP Chromebook does not heat up, that's a plus. Data in Chromebook is stored on the cloud instead of the local machine. If you are dealing with a lot of data then the cloud data storing process might be slow. But this one is indeed one of the best budget laptops available right now.</p>
         <div class="">
           <div class="w3-half">
           <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
@@ -99,19 +99,19 @@ and is wrapped around the whole page content, except for the footer in this exam
               <li><b>Storage:</b> 128 GB SSD |</li>
               <li><b>CPU:</b> Intel Core i3-8130U |</li>
               <li><b>GPU:</b> Intel UHD 620 |</li>
-              <li><b>Display:</b> 14 Inches 1080P</li>
+              <li><b>Display:</b> 15.6 Inches 1080P</li>
             </ul>
 
           </p>
               </div>
           <br>
         </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+      <div><p> <a href="https://amzn.to/2Vutlpt" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a></p></div>
         <hr>
         <h3>Acer Chromebook 714</h3>
         <h4>Chrome OS</h4><br>
         <img src="../assets/Acer_Chromebook_714.jpg" class="w3-margin w3-padding" alt="Acer Chromebook 714" style="width: 80%"><br>
-        <p>Chrome OS can be the right choice when you are looking for laptops within your budget. Acer Chromebook is the right choice for business purposes. You can work on emails, online/off-line documents for hours with this device. With the basic configuration, you can get these laptops for under 400 dollars. If you want to go with more features then the budget might touch $500. This laptop is famous among youngsters especially the techies.</p>
+        <p>Chrome OS can be the right choice when you are looking for laptops within your budget. Acer Chromebook 714 is a great budget multi-tasker. You can work on emails, online/off-line documents for hours with this device. With the basic configuration, you can get these laptops for under 400 dollars. If you want to go with more features then the budget might touch $500. This laptop is famous among youngsters especially the techies.</p>
         <div class="">
           <div class="w3-half">
           <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
@@ -134,12 +134,11 @@ and is wrapped around the whole page content, except for the footer in this exam
           <div class="w3-third">
           <p class="w3-large"><b><i class="fa fa-list-alt w3-margin-right w3-text-teal"></i>Specifications</b></p>
             <p class="w3-margin-left">
-
             <ul>
               <li><b>RAM:</b> 8 GB |</li>
               <li><b>Storage:</b> 64 GB SSD |</li>
               <li><b>CPU:</b> Intel Core i3-8130U |</li>
-              <li><b>GPU:</b> Intel HD Graphics 620 |</li>
+              <li><b>GPU:</b> Intel UHD Graphics |</li>
               <li><b>Display:</b> 14 Inches 1080P</li>
             </ul>
 
@@ -147,7 +146,7 @@ and is wrapped around the whole page content, except for the footer in this exam
               </div>
           <br>
         </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+        <div><p> <a href="https://amzn.to/2KRwDRx" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a></p></div>
         <hr>
         <h3>Acer Spin 3</h3>
         <h4>Windows</h4><br>
@@ -179,10 +178,10 @@ and is wrapped around the whole page content, except for the footer in this exam
             <p class="w3-margin-left">
 
             <ul>
-              <li><b>RAM:</b> 16 GB |</li>
-              <li><b>Storage:</b> 256 GB SSD |</li>
+              <li><b>RAM:</b> 8 GB |</li>
+              <li><b>Storage:</b> 512 GB SSD |</li>
               <li><b>CPU:</b> 8th Gen Intel Core i7-8665U |</li>
-              <li><b>GPU:</b> Intel UHD 620 |</li>
+              <li><b>GPU:</b> Intel Iris Plus |</li>
               <li><b>Display:</b> 14 Inches 1080P</li>
             </ul>
 
@@ -190,12 +189,12 @@ and is wrapped around the whole page content, except for the footer in this exam
               </div>
           <br>
         </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+        <div><p> <a href="https://amzn.to/3lsU4NO" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a></p></div>
         <hr>
         <h3>Acer Aspire 5</h3>
         <h4>Windows</h4><br>
         <img src="../assets/Acer_Aspire_5.jpg" class="w3-margin w3-padding" alt="Acer Aspire 5" style="width: 80%"><br>
-        <p>Great for business use. Complete your projects, use big software with ease with this Acer laptop. AMD ryzen 4000 series mobile processor and AMD Radeon graphics, users can perform multi-tasks and run different software simultaneously. In other words, this laptop is a powerhouse.</p>
+        <p>Great for business use. Complete your projects, use large software with ease with this Acer laptop. With Intel Core i5-1035G1 processor and Intel UHD 620 GPU, users can perform multi-tasks and run different software simultaneously. In other words, this laptop is a powerhouse.</p>
         <div class="">
           <div class="w3-half">
           <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
@@ -271,7 +270,7 @@ and is wrapped around the whole page content, except for the footer in this exam
               </div>
           <br>
         </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+                <div><p> <a href="https://amzn.to/37z7nqU" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a></p></div>
         <hr>
         <h3>HP 15</h3>
         <h4>Windows</h4><br>
@@ -312,7 +311,7 @@ and is wrapped around the whole page content, except for the footer in this exam
               </div>
           <br>
         </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+        <div><p> <a href="https://amzn.to/36ANhgA" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a></p></div>
         <hr>
         <h3>Samsung Chromebook 4</h3>
         <h4>Chrome OS</h4><br>
@@ -351,8 +350,8 @@ and is wrapped around the whole page content, except for the footer in this exam
               </div>
           <br>
         </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
-        <hr>
+        <div><p> <a href="https://amzn.to/37srnM1" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a></p></div>
+                <hr>
         <h3>Lenovo S340 Chromebook</h3>
         <h4>Chrome OS</h4><br>
         <img src="../assets/Lenovo_S340_Chromebook.png" class="w3-margin w3-padding" alt="Lenovo S340 Chromebook" style="width: 80%"><br>
@@ -381,7 +380,7 @@ and is wrapped around the whole page content, except for the footer in this exam
             <p class="w3-margin-left">
 
             <ul>
-              <li><b>RAM:</b> Up to 8 GB |</li>
+              <li><b>RAM:</b> 4 GB |</li>
               <li><b>CPU:</b> Intel Celeron N4000 |</li>
               <li><b>Display</b> 14-inch, 1920 x 1080</li>
             </ul>
@@ -390,7 +389,7 @@ and is wrapped around the whole page content, except for the footer in this exam
               </div>
           <br>
         </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+        <div><p> <a href="https://amzn.to/3mzqdVm" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a></p></div>
         <hr>
         <h3>HP Stream 11</h3>
         <h4>Windows</h4><br>
@@ -431,7 +430,7 @@ and is wrapped around the whole page content, except for the footer in this exam
                 </div>
             <br>
           </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                  <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+  <div><p> <a href="https://amzn.to/3g1wKpn" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a></p></div>
         </p>
         </div></div>
       </div>

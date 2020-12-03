@@ -109,7 +109,9 @@ and is wrapped around the whole page content, except for the footer in this exam
 <option value="6">6+ Hours</option>
 </select>
 <hr>
-
+<div>
+<button v-for="pageNumber in totalPages" :key="pageNumber.id" class="w3-button" v-bind:key="pageNumber" @click="setPage(pageNumber)" :class="{current: currentPage === pageNumber, last: (pageNumber == totalPages && Math.abs(pageNumber - currentPage) > 3), first:(pageNumber == 1 && Math.abs(pageNumber - currentPage) > 3)}">{{ pageNumber }} </button>
+</div>
               <div class="container w3-white w3-card" v-for="article in paginate"
                 :key="article._id"><br>
   <div class="row">
