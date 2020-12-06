@@ -204,7 +204,7 @@ export default {
   },
   head () {
     return {
-      title: this.article.title + ' review',
+      title: this.article.title + ' review, all the specifications and rating - read now',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         { hid: 'description', name: 'description', content: this.article.description }

@@ -77,9 +77,9 @@
             </div>
 
             <div class="w3-container" v-if="step == 5">
-                <h5 class="w3-opacity"><b>Step 5 - Do you prefer two in one Laptops?</b></h5>
+                <h5 class="w3-opacity"><b>Step 5 - Do you prefer TOuch screen Laptops?</b></h5>
                 <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">Sept, 24 2020</span></h6>
-                <p>Two in one laptop offer both touchscreen and keyboard. Most of the businessmen who have to carry laptops while traveling prefer two in one laptop. Also, Students who do group projects select these laptops.</p>
+                <p>Touch screen laptop offer both touchscreen and keyboard. Most of the businessmen who have to carry laptops while traveling prefer two in one laptop. Also, Students who do group projects select these laptops.</p>
                 <hr>
                 <input type="radio" id="" value="Yes" v-model="twoinone">
           <label for="radio">Yes</label><br>
@@ -135,7 +135,7 @@
           <p><i class="fa fa-money fa-fw w3-margin-right w3-large w3-text-teal"></i>Laptop Price: <b>{{ price }}</b></p>
           <p><i class="fa fa-file-powerpoint-o fa-fw w3-margin-right w3-large w3-text-teal"></i>Buying Purpose: <b>{{ reason }}</b></p>
           <p><i class="fa fa-laptop fa-fw w3-margin-right w3-large w3-text-teal"></i>OS: <b>{{ os }}</b></p>
-          <p><i class="fa fa-laptop fa-fw w3-margin-right w3-large w3-text-teal"></i>Two in One: <b>{{ twoinone }}</b></p>
+          <p><i class="fa fa-laptop fa-fw w3-margin-right w3-large w3-text-teal"></i>Touchscreen: <b>{{ twoinone }}</b></p>
           <hr>
 
           <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating & Review</b></p>
