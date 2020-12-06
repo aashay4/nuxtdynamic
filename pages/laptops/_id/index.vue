@@ -159,7 +159,7 @@
     </div>
     <div class="col-sm-4">
 
-      <h5><nuxt-link style="color: black" :to="'/laptops/' + article._id"><span class="w3-large w3-text-teal">{{ article.title }},</span></nuxt-link></h5>
+      <h5><nuxt-link style="color: black" :to="'/laptops/' + article._id + '/'"><span class="w3-large w3-text-teal">{{ article.title }},</span></nuxt-link></h5>
       <span>OS: {{article.os}}</span><br>
       <span>{{article.size}} Inches</span><br>
       <span>{{article.ram}} GB</span><br>
