@@ -137,8 +137,12 @@ and is wrapped around the whole page content, except for the footer in this exam
 <button v-for="pageNumber in totalPages" :key="pageNumber.id" class="w3-button" v-bind:key="pageNumber" @click="setPage(pageNumber)" :class="{current: currentPage === pageNumber, last: (pageNumber == totalPages && Math.abs(pageNumber - currentPage) > 3), first:(pageNumber == 1 && Math.abs(pageNumber - currentPage) > 3)}">{{ pageNumber }} </button>
 </div>
       <h3>Best Affordable Laptops</h3>
-
-          </div></div>
+          </div>
+          <p>Find the best laptop for school, business, music production, kids, gaming. Just enter your requirements and find the perfect laptop as per your requirements in the least amount of time.</p>
+          <h5>Laptops with basic features:</h5>
+          <p>You will find laptops with 4 GB, 8 GB, 16 GB or 32 GB RAM on this list.</p>
+          <p></p>
+        </div>
     </div>
 
     <!-- About/Information menu -->
@@ -262,7 +266,7 @@ export default {
       { hid: 'description', name: 'description', content: 'Find the best laptops by entering your preferred budget, RAM, storage, company, OS, weight, battery life. Checkout laptops now!' }
   ],
   link: [
-  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/under-500/'}
+  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/laptops/'}
   ]
   }
   },
