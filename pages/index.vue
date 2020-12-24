@@ -23,7 +23,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-padding-large">
 
         <div style="width:100%;" class="w3-justify">
-          <h3>Best Budget Laptops 2020</h3>
+          <h3>Best Budget Laptops 2021</h3>
           <span class="w3-opacity">Dec 1, 2020</span><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <h5>As our lives are getting back to normal, more stock of different budget laptops is available for you. Here, we bring the best laptops within your budget.</h5>
           There are many different laptop manufacturing companies available in the market. To select a decent laptop within your budget is quite difficult. For that reason, we bring these top 10 best budget laptops that are affordable and run efficiently at the same time. On this list, we focused on including laptops with advanced features and the laptops which are affordable as well.</p>
@@ -73,6 +73,10 @@ and is wrapped around the whole page content, except for the footer in this exam
                           <strong>9.</strong> <span class="w3-large" style="color: blue">HP Stream 11</span>
                           <br>
                           </li>
+                          <li class="w3-padding-16">
+                            <strong>10.</strong> <span class="w3-large" style="color: blue">Lenovo ideapad 1</span>
+                            <br>
+                            </li>
           </ul>
         <hr>
         <h3 class="">HP Chromebook 15</h3>
@@ -438,7 +442,45 @@ and is wrapped around the whole page content, except for the footer in this exam
                 </div>
             <br>
           </div><br><br><br><br><br><br><br><br><br><br><br><br>
-  <div><p> <a href="https://amzn.to/3g1wKpn" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a></p></div>
+  <div><p> <a href="https://amzn.to/3g1wKpn" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a></p></div><hr>
+  <h3>Lenovo ideapad 1</h3>
+  <h4>Windows</h4><br>
+  <img src="../assets/Lenovo_Ideapad_1.jpg" class="w3-margin w3-padding" alt="Lenovo ideapad 1" style="width: 80%"><br>
+    <p>If you are looking for a top general-purpose laptop ten this Lenovo laptop is perfect for you. It offers 64 GB of Storage, 4 GB RAM and AMD Ryzen processor which is capable of running any task smoothly. This is one of the best laptops under 300 Dollars.</p>
+    <div class="">
+      <div class="w3-half">
+      <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
+      <p>Performance</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 50%"> 65% </div>
+      </div>
+      <p>Battery Life</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 60%"> 60% </div>
+      </div>
+      <p>Display</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 40%"> 40% </div>
+      </div>
+      <p>Style</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width: 40%"> 40% </div>
+      </div></div></div>
+      <div class="w3-third">
+      <p class="w3-large"><b><i class="fa fa-list-alt w3-margin-right w3-text-teal"></i>Specifications</b></p>
+        <p class="w3-margin-left">
+
+        <ul>
+          <li><b>RAM:</b> 4 GB |</li>
+          <li><b>CPU:</b> AMD A6-9220e |</li>
+          <li><b>GPU:</b> AMD Radeon R4 |</li>
+          <li><b>Display</b> 14 Inches, 1366 x 768</li>
+        </ul>
+      </p>
+          </div>
+      <br>
+    </div><br><br><br><br><br><br><br><br><br><br><br><br>
+<div><p> <a href="https://amzn.to/3g1wKpn" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a></p></div>
         </p>
         </div></div>
       </div>
@@ -653,11 +695,11 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'The Best Budget Laptop of 2020',
+  title: 'The Best Budget Laptop for Year 2021',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'Check out the collection of the best budget laptops of 2020. Just enter the price and find out the budget laptops easily.' }
+      { hid: 'description', name: 'description', content: 'Check out the collection of the best budget laptops for 2021.' }
   ],
   link: [
   {rel: 'canonical', href: 'https://bestbudgetlaptop.net/'}
