@@ -11,7 +11,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Laptops Under 100 Dollars</h1>
-          <span class="w3-opacity">Nov 22, 2020</span><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
+          <span class="w3-opacity">Jan 1, 2021</span><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <hr>
           <p>Yes, you read it right. Laptops under 100 dollars do exist. There are a few companies that manufacture laptops at such a cheap price. When there are plenty of choices, selecting a particular piece is difficult. For that reason, we are here to help you out with the best laptops under $100.
           </p>
@@ -27,7 +27,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <h4>Windows 7</h4>
           <p>Amazing 14.1 inches display, Windows 7 already installed, less than 3 pounds of weight makes this laptop best for children. While growing up, handing this kind of laptops to kids is more preferable.</p><hr>
           <h3>Apple MacBook MB402LL/A A1181</h3>
-          <p>Released in 2008, it is a pre-owned laptop. With 2 GB of RAM, it makes it super easy to create docs and maintain sheets. The processor speed is 2.0 GHz which will work amazingly well unless you run big designing or programming software.</p>
+          <p>It is a pre-owned laptop. With 2 GB of RAM, it makes it super easy to create docs and maintain sheets. The processor speed is 2.0 GHz which will work amazingly well unless you run big designing or programming software.</p>
           </div></div>
     </div>
 

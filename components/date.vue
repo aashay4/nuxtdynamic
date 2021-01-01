@@ -1,5 +1,5 @@
 <template lang="html">
-  <span class="w3-opacity">Dec 22, 2020</span>
+  <span class="w3-opacity">Jan 1, 2021</span>
 </template>
 
 <script>
