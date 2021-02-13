@@ -202,7 +202,7 @@ export default {
       { hid: 'keywords', name: 'keywords', content: 'Laptop finder' }
   ],
   link: [
-  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/laptop-finder/'}
+  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/laptop-finder'}
   ]
   }
   },

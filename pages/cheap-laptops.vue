@@ -13,7 +13,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <span class="w3-opacity">Jan 1, 2021</span><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <hr>
           <p>In this article, we bring you the best cheap laptops. There are some inexpensive laptops available in the market today that are capable of getting the job done quickly. Select the price that and we will get you the best cheap laptops from our database. Remember one thing, all the affordable laptops won't be able to pull out all the tasks/load that you throw at it. The inexpensive laptops are not as good at performance as all the other gaming laptops. But the laptops on this list are capable of performing all the daily tasks smoothly.</p>
-          <p>If you want more customization options then you can visit our <nuxt-link to="/laptop-finder/" style="color: blue">laptop finder tool</nuxt-link>. With this tool, you can customize price, operating system, laptop size and purpose.</p><hr>
+          <p>If you want more customization options then you can visit our <nuxt-link to="/laptop-finder" style="color: blue">laptop finder tool</nuxt-link>. With this tool, you can customize price, operating system, laptop size and purpose.</p><hr>
           <div>
           <section>
             <h2>
@@ -41,7 +41,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 </div>
 <div class="col-sm-4">
 
-  <h5><nuxt-link style="color: black" :to="'/laptops/' + article._id + '/'"><span class="w3-large w3-text-teal">{{ article.title }},</span></nuxt-link></h5>
+  <h5><nuxt-link style="color: black" :to="'/laptops/' + article._id"><span class="w3-large w3-text-teal">{{ article.title }},</span></nuxt-link></h5>
   <span>OS: {{article.os}}</span><br>
   <span>{{article.size}} Inches</span><br>
   <span>{{article.ram}} GB RAM</span><br>
@@ -93,25 +93,25 @@ and is wrapped around the whole page content, except for the footer in this exam
       <ul class="w3-ul w3-hoverable w3-white">
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link style="color: black" to="/under-100-dollars/"><span class="w3-large">Cheap Laptops Under 100 Dollars</span></nuxt-link>
+          <nuxt-link style="color: black" to="/under-100-dollars"><span class="w3-large">Cheap Laptops Under 100 Dollars</span></nuxt-link>
           <br>
           <span>Kids</span>
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link to="/under-300-dollars/" style="color: black"> <span class="w3-large">Laptops Under 300 Dollars</span></nuxt-link>
+          <nuxt-link to="/under-300-dollars" style="color: black"> <span class="w3-large">Laptops Under 300 Dollars</span></nuxt-link>
           <br>
           <span>General-purpose</span>
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link to="/under-400-dollars/" style="color: black"><span class="w3-large">Cheap Laptops Under 400 Dollars</span></nuxt-link>
+          <nuxt-link to="/under-400-dollars" style="color: black"><span class="w3-large">Cheap Laptops Under 400 Dollars</span></nuxt-link>
           <br>
           <span>General-purpose</span>
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link to="/under-500/" style="color: black;"><span class="w3-large">Cheap Laptops Under 500 Dollars</span></nuxt-link>
+          <nuxt-link to="/under-500" style="color: black;"><span class="w3-large">Cheap Laptops Under 500 Dollars</span></nuxt-link>
           <br>
           <span>All-purpose</span>
         </li>
@@ -203,7 +203,7 @@ export default {
       { hid: 'description', name: 'description', content: 'Cheap Laptops' }
   ],
   link: [
-  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/cheap-laptops/'}
+  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/cheap-laptops'}
   ]
   }
   },

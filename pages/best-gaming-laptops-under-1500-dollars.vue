@@ -318,25 +318,25 @@ and is wrapped around the whole page content, except for the footer in this exam
       <ul class="w3-ul w3-hoverable w3-white">
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link style="color: black" to="/cheap-gaming-laptops-under-1000-dollars/"><span class="w3-large">Gaming Laptops Under 1000 Dollars</span></nuxt-link>
+          <nuxt-link style="color: black" to="/cheap-gaming-laptops-under-1000-dollars"><span class="w3-large">Gaming Laptops Under 1000 Dollars</span></nuxt-link>
           <br>
           <span style="w3-margin-left">Gaming</span>
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link style="color: black" to="/under-300-dollars/"> <span class="w3-large">Laptops Under 300 Dollars</span></nuxt-link>
+          <nuxt-link style="color: black" to="/under-300-dollars"> <span class="w3-large">Laptops Under 300 Dollars</span></nuxt-link>
           <br>
           <span>General-purpose</span>
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link style="color: black" to="/under-400-dollars/"><span class="w3-large">Cheap Laptops Under 400 Dollars</span></nuxt-link>
+          <nuxt-link style="color: black" to="/under-400-dollars"><span class="w3-large">Cheap Laptops Under 400 Dollars</span></nuxt-link>
           <br>
           <span>General Purpose</span>
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link style="color: black" to="/under-500/"><span class="w3-large">Cheap Laptops Under 500 Dollars</span></nuxt-link>
+          <nuxt-link style="color: black" to="/under-500"><span class="w3-large">Cheap Laptops Under 500 Dollars</span></nuxt-link>
           <br>
           <span>General-purpose</span>
         </li>
@@ -429,7 +429,7 @@ export default {
       { hid: 'description', name: 'description', content: 'Looking for the best gaming laptops under 1500 dollars? In this article, we list the best laptops for gaming enthusiasts under $1500. The brands include Razer, Lenovo, MSI and many other.' }
   ],
   link: [
-  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/best-gaming-laptops-under-1500-dollars/'}
+  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/best-gaming-laptops-under-1500-dollars'}
   ]
   }
   },

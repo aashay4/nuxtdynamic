@@ -56,25 +56,25 @@ and is wrapped around the whole page content, except for the footer in this exam
       <ul class="w3-ul w3-hoverable w3-white">
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link style="color: black" to="/under-100-dollars/"><span class="w3-large">Cheap Laptops Under 100 Dollars</span></nuxt-link>
+          <nuxt-link style="color: black" to="/under-100-dollars"><span class="w3-large">Cheap Laptops Under 100 Dollars</span></nuxt-link>
           <br>
           <span>Kids</span>
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link to="/under-200-dollars/" style="color: black"> <span class="w3-large">Laptops Under 200 Dollars</span></nuxt-link>
+          <nuxt-link to="/under-200-dollars" style="color: black"> <span class="w3-large">Laptops Under 200 Dollars</span></nuxt-link>
           <br>
           <span>General-purpose</span>
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link to="/under-300-dollars/" style="color: black"><span class="w3-large">Cheap Laptops Under 300 Dollars</span></nuxt-link>
+          <nuxt-link to="/under-300-dollars" style="color: black"><span class="w3-large">Cheap Laptops Under 300 Dollars</span></nuxt-link>
           <br>
           <span>General-purpose</span>
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link to="/under-500/" style="color: black;"><span class="w3-large">Cheap Laptops Under 500 Dollars</span></nuxt-link>
+          <nuxt-link to="/under-500" style="color: black;"><span class="w3-large">Cheap Laptops Under 500 Dollars</span></nuxt-link>
           <br>
           <span>All-purpose</span>
         </li>
@@ -167,7 +167,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
   ],
   link: [
-  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/under-400-dollars/'}
+  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/under-400-dollars'}
   ]
   }
   },

@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="">
-    <nuxt-link to="./logout" class="nav-link" exact-active-class="active">Logout</nuxt-link>
+    <nuxt-link to="/logout" class="nav-link" exact-active-class="active">Logout</nuxt-link>
     <h1>My Account</h1>
 
     <hr>
@@ -14,7 +14,7 @@
     </div>
     <h1>Add New Laptop</h1>
     <hr>
-    <p id="slug">http://bestbudgetlaptops.com/laptops/<span>{{ slug }}</span></p>
+    <p id="slug">http://bestbudgetlaptops.com/laptops<span>{{ slug }}</span></p>
     <div class="row" style="margin-left: 20px">
       <div class="col-md-6">
         <form action=""
@@ -331,7 +331,7 @@ export default {
   head () {
     return {
       meta: [
-        { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+
       ]
     }
   },

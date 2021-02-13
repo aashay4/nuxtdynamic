@@ -261,7 +261,7 @@ import Dropdown4 from '~/components/Dropdown2.vue'
         { hid: 'keywords', name: 'keywords', content: 'Compare laptops' }
     ],
     link: [
-    {rel: 'canonical', href: 'https://bestbudgetlaptop.net/compare-laptops/'}
+    {rel: 'canonical', href: 'https://bestbudgetlaptop.net/compare-laptops'}
     ]
     }
     },

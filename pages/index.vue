@@ -493,7 +493,7 @@ and is wrapped around the whole page content, except for the footer in this exam
     <ul v-for="article in articles" :key="article._id" class="w3-ul w3-hoverable w3-white">
       <li class="w3-padding-16">
         <img v-if="article.title != null" :src="require('~/assets/' + article.imgpath)" class="w3-left w3-margin-right" style="width:50px">
-        <nuxt-link style="color: blue" :to="'/laptops/' + article._id + '/'"><span class="w3-large"><b>{{article.title}}</b></span></nuxt-link>
+        <nuxt-link style="color: blue" :to="'/laptops/' + article._id"><span class="w3-large"><b>{{article.title}}</b></span></nuxt-link>
         <br>
         <span>${{article.price}}, {{article.ram}} GB RAM, {{article.size}} Inches, {{ article.weight }} Pounds</span>
       </li>
@@ -510,24 +510,24 @@ and is wrapped around the whole page content, except for the footer in this exam
     <ul class="w3-ul w3-hoverable w3-white">
       <li class="w3-padding-16">
         <img src="../assets/laptop.jpg" class="w3-left w3-margin-right" style="width:50px">
-        <nuxt-link style="color: black;" to="/cheap-gaming-laptops-under-1000-dollars/"><span class="w3-large">Gaming Laptops Under 1000 Dollars</span></nuxt-link>
+        <nuxt-link style="color: black;" to="/cheap-gaming-laptops-under-1000-dollars"><span class="w3-large">Gaming Laptops Under 1000 Dollars</span></nuxt-link>
         <br>
         <span>Includes Gaming/All-Purpose Laptops</span>
       </li>
       <li class="w3-padding-16">
         <img src="../assets/laptop.jpg" class="w3-left w3-margin-right" style="width:50px">
-        <nuxt-link style="color: black" to="/laptops-for-college-students/"><span class="w3-large">Laptops for College Students</span></nuxt-link><br>
+        <nuxt-link style="color: black" to="/laptops-for-college-students"><span class="w3-large">Laptops for College Students</span></nuxt-link><br>
         <span>Includes All-Purpose Laptops</span>
         </li>
       <li class="w3-padding-16">
         <img src="../assets/laptop.jpg" class="w3-left w3-margin-right" style="width:50px">
-        <nuxt-link style="color: black" to="/best-laptops-for-programming/"><span class="w3-large">Best Laptops for Programming</span></nuxt-link>
+        <nuxt-link style="color: black" to="/best-laptops-for-programming"><span class="w3-large">Best Laptops for Programming</span></nuxt-link>
         <br>
         <span>Includes Programming Laptops</span>
       </li>
       <li class="w3-padding-16">
         <img src="../assets/laptop.jpg" class="w3-left w3-margin-right" style="width:50px">
-        <nuxt-link style="color: black" to="/laptops-under-1000-dollars/"><span class="w3-large">Laptops Under 1000 Dollars</span></nuxt-link>
+        <nuxt-link style="color: black" to="/laptops-under-1000-dollars"><span class="w3-large">Laptops Under 1000 Dollars</span></nuxt-link>
         <br>
         <span>Includes All-Purpose Laptops</span>
       </li>
@@ -554,7 +554,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <h4>Compare Laptops</h4>
     </div>
     <div class="w3-container w3-white"><br>
-      <p>Confused, Which laptop to choose? Nevigate to our <router-link style="color:blue;" to="/compare-laptops/">compare laptops</router-link> page and enter the specification of laptops and compare different laptops of various brands.</p>
+      <p>Confused, Which laptop to choose? Nevigate to our <router-link style="color:blue;" to="/compare-laptops">compare laptops</router-link> page and enter the specification of laptops and compare different laptops of various brands.</p>
     </div>
   </div>
   <hr>
@@ -565,7 +565,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <h4>Laptop Finder</h4>
     </div>
     <div class="w3-container w3-white"><br>
-      <p><router-link style="color:blue;" to="/laptop-finder/">Laptop finder</router-link> is an advanced feature of our website. Enter your needs and reason, our algorithm will help you find the best laptop as per your needs and requirement.</p>
+      <p><router-link style="color:blue;" to="/laptop-finder">Laptop finder</router-link> is an advanced feature of our website. Enter your needs and reason, our algorithm will help you find the best laptop as per your needs and requirement.</p>
     </div>
   </div>
   <hr>
@@ -609,7 +609,7 @@ and is wrapped around the whole page content, except for the footer in this exam
   <div class="w3-row-padding">
     <div class="w3-row-padding">
        <div class="w3-quarter w3-container -bottom">
-         <router-link to="/under-100-dollars/">
+         <router-link to="/under-100-dollars">
            <div class="w3-display-container">
            <div class="w3-display-topleft w3-white w3-padding"><b>Jan 1, 2021</b></div>
            <div class="w3-display-topright w3-teal w3-padding">Denzel Vieta</div>
@@ -620,7 +620,7 @@ and is wrapped around the whole page content, except for the footer in this exam
          </router-link>
        </div>
        <div class="w3-quarter w3-container -bottom">
-         <router-link to="/under-200-dollars/">
+         <router-link to="/under-200-dollars">
            <div class="w3-display-container">
            <div class="w3-display-topleft w3-white w3-padding"><b>Jan 1, 2021</b></div>
            <div class="w3-display-topright w3-teal w3-padding">Denzel Vieta</div>
@@ -631,7 +631,7 @@ and is wrapped around the whole page content, except for the footer in this exam
          </router-link>
        </div>
        <div class="w3-quarter w3-container -bottom">
-         <router-link to="/under-300-dollars/">
+         <router-link to="/under-300-dollars">
            <div class="w3-display-container">
            <div class="w3-display-topleft w3-white w3-padding"><b>Jan 1, 2021</b></div>
            <div class="w3-display-topright w3-teal w3-padding">Denzel Vieta</div>
@@ -642,9 +642,9 @@ and is wrapped around the whole page content, except for the footer in this exam
          </router-link>
        </div>
        <div class="w3-quarter w3-container -bottom">
-         <router-link to="/under-400-dollars/">
+         <router-link to="/under-400-dollars">
            <div class="w3-display-container">
-           <div class="w3-display-topleft w3-white w3-padding"><b>Jan 1, 2021</b></div>
+           <div class="w3-display-topleft w3-white w3-padding"><b>Feb 12, 2021</b></div>
            <div class="w3-display-topright w3-teal w3-padding">Denzel Vieta</div>
              <img src="../assets/laptop.jpg" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">

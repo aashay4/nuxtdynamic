@@ -120,7 +120,7 @@ export default {
       { hid: 'description', name: 'description', content: 'Best laptops under 100 dollars' }
   ],
   link: [
-  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/under-100-dollars/'}
+  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/under-100-dollars'}
   ]
   }
   },

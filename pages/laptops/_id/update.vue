@@ -322,6 +322,13 @@
 
 <script>
 export default {
+  head () {
+    return {
+      meta: [
+        { hid: 'robots', name: 'robots', content: 'noindex,nofollow' }
+      ]
+    }
+  },
   middleware: 'auth',
   async asyncData(context){
     const {data} = await context.$axios.get('/api/articles/' + context.route.params.id)

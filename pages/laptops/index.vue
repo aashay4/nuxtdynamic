@@ -13,7 +13,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <span class="w3-opacity">Jan 1, 2021</span><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <hr>
           <p>Shop the best laptop as per your requirement. Filter the best laptops as per your budget, the company you prefer, operating system you are comfortable with and the kind of tasks you are going to perform on this laptop. Accelerate everything you do on a laptop by selecting the perfect laptop as per your profession with ease. Compare different brands in the least amount of time.</p>
-          <p>If you want to comare different laptps, you can visit <nuxt-link to="/compare-laptops/" style="color: blue">this link</nuxt-link> to compare all the features and specifications. If you want more customization in the laptop search then you can visit our laptop compare tool.</p><hr>
+          <p>If you want to comare different laptps, you can visit <nuxt-link to="/compare-laptops" style="color: blue">this link</nuxt-link> to compare all the features and specifications. If you want more customization in the laptop search then you can visit our laptop compare tool.</p><hr>
             <h2>
               Filter Laptops
             </h2><br>
@@ -120,7 +120,7 @@ and is wrapped around the whole page content, except for the footer in this exam
     </div>
     <div class="col-sm-4">
 
-      <h5><nuxt-link style="color: black" :to="'/laptops/' + article._id + '/'"><span class="w3-large w3-text-teal">{{ article.title }},</span></nuxt-link></h5>
+      <h5><nuxt-link style="color: black" :to="'/laptops/' + article._id"><span class="w3-large w3-text-teal">{{ article.title }},</span></nuxt-link></h5>
       <span>OS: {{article.os}}</span><br>
       <span>{{article.size}} Inches</span><br>
       <span>{{article.ram}} GB RAM</span><br>
@@ -156,25 +156,25 @@ and is wrapped around the whole page content, except for the footer in this exam
       <ul class="w3-ul w3-hoverable w3-white">
         <li class="w3-padding-16">
           <img src="~/assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link style="color: black" to="/cheap-gaming-laptops-under-1000-dollars/"><span class="w3-large">Gaming Laptops Under 1000 Dollars</span></nuxt-link>
+          <nuxt-link style="color: black" to="/cheap-gaming-laptops-under-1000-dollars"><span class="w3-large">Gaming Laptops Under 1000 Dollars</span></nuxt-link>
           <br>
           <span>Gaming</span>
         </li>
         <li class="w3-padding-16">
           <img src="~/assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link style="color: black" to="/under-500/"><span class="w3-large">Laptops Under 500</span></nuxt-link>
+          <nuxt-link style="color: black" to="/under-500"><span class="w3-large">Laptops Under 500</span></nuxt-link>
           <br>
           <span>Students</span>
         </li>
         <li class="w3-padding-16">
           <img src="~/assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link to="/under-400-dollars/" style="color: black"><span class="w3-large">Cheap Laptops Under 400 Dollars</span></nuxt-link>
+          <nuxt-link to="/under-400-dollars" style="color: black"><span class="w3-large">Cheap Laptops Under 400 Dollars</span></nuxt-link>
           <br>
           <span>General-purpose</span>
         </li>
         <li class="w3-padding-16">
           <img src="~/assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link to="/under-500/" style="color: black"><span class="w3-large">Cheap Laptops Under 500 Dollars</span></nuxt-link>
+          <nuxt-link to="/under-500" style="color: black"><span class="w3-large">Cheap Laptops Under 500 Dollars</span></nuxt-link>
           <br>
           <span>All-purpose</span>
         </li>

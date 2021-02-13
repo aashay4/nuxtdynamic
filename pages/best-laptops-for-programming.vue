@@ -55,25 +55,25 @@ and is wrapped around the whole page content, except for the footer in this exam
       <ul class="w3-ul w3-hoverable w3-white">
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link style="color: black" to="/cheap-gaming-laptops-under-1000-dollars/"><span class="w3-large">Gaming Laptops Under 1000 Dollars</span></nuxt-link>
+          <nuxt-link style="color: black" to="/cheap-gaming-laptops-under-1000-dollars"><span class="w3-large">Gaming Laptops Under 1000 Dollars</span></nuxt-link>
           <br>
           <span class="">Gaming</span>
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link style="color: black" to="/best-gaming-laptops-under-1500-dollars/"> <span class="w3-large">Gaming Laptops Under $1500</span></nuxt-link>
+          <nuxt-link style="color: black" to="/best-gaming-laptops-under-1500-dollars"> <span class="w3-large">Gaming Laptops Under $1500</span></nuxt-link>
           <br>
           <span>Gaming, all-purpose</span>
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link style="color: black" to="/laptops-for-college-students/"> <span class="w3-large">Laptops for College Students</span></nuxt-link>
+          <nuxt-link style="color: black" to="/laptops-for-college-students"> <span class="w3-large">Laptops for College Students</span></nuxt-link>
           <br>
           <span>All-purpose</span>
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link to="/best-gaming-laptops/" style="color: black"> <span class="w3-large">Best Gaming Laptops</span></nuxt-link>
+          <nuxt-link to="/best-gaming-laptops" style="color: black"> <span class="w3-large">Best Gaming Laptops</span></nuxt-link>
           <br>
           <span>Gaming</span>
         </li>
@@ -94,19 +94,19 @@ and is wrapped around the whole page content, except for the footer in this exam
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link to="/under-300-dollars/" style="color: black"><span class="w3-large">Cheap Laptops Under 300 Dollars</span></nuxt-link>
+          <nuxt-link to="/under-300-dollars" style="color: black"><span class="w3-large">Cheap Laptops Under 300 Dollars</span></nuxt-link>
           <br>
           <span>Praes tinci sed</span>
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link to="/best-laptops-for-music-production/" style="color: black"><span class="w3-large">Laptops for Music Production</span></nuxt-link>
+          <nuxt-link to="/best-laptops-for-music-production" style="color: black"><span class="w3-large">Laptops for Music Production</span></nuxt-link>
           <br>
           <span>Music, All-purpose</span>
         </li>
         <li class="w3-padding-16">
           <img src="../assets/laptop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-          <nuxt-link to="/under-500/" style="color: black"><span class="w3-large">Cheap Laptops Under 500 Dollars</span></nuxt-link>
+          <nuxt-link to="/under-500" style="color: black"><span class="w3-large">Cheap Laptops Under 500 Dollars</span></nuxt-link>
           <br>
           <span>All-purpose</span>
         </li>
@@ -196,7 +196,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
   ],
   link: [
-  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/best-laptops-for-programming/'}
+  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/best-laptops-for-programming'}
   ]
   }
   },

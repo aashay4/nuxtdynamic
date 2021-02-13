@@ -47,12 +47,27 @@ module.exports = {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    '@nuxtjs/auth', // enables Nuxt Auth module
+    '@nuxtjs/auth', // enables Nuxt Auth module,
+    '@nuxtjs/sitemap'
   ],
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
   */
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://bestbudgetlaptop.net/',
+    exclude: [
+  '/login',
+  '/logout',
+  '/register',
+  '/add',
+  '/login/',
+  '/logout/',
+  '/register/',
+  '/add/'
+]
+},
   axios: {
     proxy: true
   },

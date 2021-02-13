@@ -7,7 +7,7 @@
         <nuxt-link :to="'/laptops/' + article._id + '/update'" v-if="$auth.loggedIn" class="btn btn-primary mr-3">Update</nuxt-link>
         <button v-if="$auth.loggedIn" class="btn btn-secondary mr-3 w3-teal" @click="deleteRecord()">Delete</button>
       </div>
-      <nuxt-link to="/laptops/" class="btn btn-secondary mr-3 w3-teal">All Laptops</nuxt-link>
+      <nuxt-link to="/laptops" class="btn btn-secondary mr-3 w3-teal">All Laptops</nuxt-link>
     </div>
     <div class="alert alert-success"
       v-if="$route.params.updated=='yes'">Record updated successfully</div><br>
@@ -159,7 +159,7 @@
     </div>
     <div class="col-sm-4">
 
-      <h5><nuxt-link style="color: black" :to="'/laptops/' + article._id + '/'"><span class="w3-large w3-text-teal">{{ article.title }},</span></nuxt-link></h5>
+      <h5><nuxt-link style="color: black" :to="'/laptops/' + article._id"><span class="w3-large w3-text-teal">{{ article.title }},</span></nuxt-link></h5>
       <span>OS: {{article.os}}</span><br>
       <span>{{article.size}} Inches</span><br>
       <span>{{article.ram}} GB</span><br>
@@ -210,7 +210,7 @@ export default {
         { hid: 'description', name: 'description', content: this.article.description }
       ],
       link: [
- {rel: 'canonical', href: 'https://bestbudgetlaptop.net/laptops/' + this.article._id + '/' }
+ {rel: 'canonical', href: 'https://bestbudgetlaptop.net/laptops/' + this.article._id }
 ]
     }
   },
