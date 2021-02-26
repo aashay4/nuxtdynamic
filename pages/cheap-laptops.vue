@@ -196,7 +196,7 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Cheap Laptops collection 2021',
+  title: 'Cheap Laptops collection 2021 | Find the affordable laptops under your budget',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [

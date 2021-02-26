@@ -194,7 +194,7 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Laptop finder',
+  title: 'Laptop finder tool | Enter your specifications and get laptops',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [

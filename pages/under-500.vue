@@ -165,7 +165,7 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Laptops under 500 dollars',
+  title: 'Laptops under 500 dollars | Check out the laptops now!',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [

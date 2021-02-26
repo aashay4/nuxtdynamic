@@ -157,7 +157,7 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Laptops for college students',
+  title: 'Laptops for college students of high-schools and Colleges',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [

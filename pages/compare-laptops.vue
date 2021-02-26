@@ -253,7 +253,7 @@ import Dropdown4 from '~/components/Dropdown2.vue'
     head() {
     // sets document title
     return {
-    title: 'Compare laptops',
+    title: 'Compare laptops - HP, Apple, Dell, Acer, MSI and many other brands',
     // optional; sets final title as "Index Page - My Website", useful for multiple level meta
     // meta tags
     meta: [

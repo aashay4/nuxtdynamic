@@ -422,7 +422,7 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Gaming Laptops Under 1500 Dollars',
+  title: 'Gaming Laptops Under 1500 Dollars - Laptops for All-purpose and Business owners',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [

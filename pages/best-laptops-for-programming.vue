@@ -189,7 +189,7 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Best Laptops for programming',
+  title: 'Best Laptops for programming - Use Angular, node.js, react.js, vue.js, php easily on these laptops',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [

@@ -159,7 +159,7 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Laptops under 1000 dollars',
+  title: 'Laptops under 1000 dollars | Best All-purpose laptops for everyone',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [

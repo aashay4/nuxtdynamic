@@ -416,7 +416,7 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Cheap Gaming Laptops collection 2021',
+  title: 'Cheap Gaming Laptops under 1000 collection 2021 for gaming enthusiasts',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [

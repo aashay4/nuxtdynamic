@@ -446,7 +446,7 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Best Laptops for writing',
+  title: 'Best Laptops for writing, write multiple words on these affordable laptops',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [

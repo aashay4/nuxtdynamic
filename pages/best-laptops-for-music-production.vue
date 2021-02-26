@@ -154,7 +154,7 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Best Laptops for music production',
+  title: 'Best Laptops for music production and different music editing software',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [

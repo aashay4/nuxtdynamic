@@ -544,7 +544,7 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Best Gaming Laptops for the year 2021',
+  title: 'Best Gaming Laptops for the year 2021 - Do checkout all the gaming enthusiasts',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
