@@ -15,7 +15,7 @@
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-laptop fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Laptop Finder</h2>
         <div class="w3-container" v-if="step == 1">
           <h5 class="w3-opacity"><b>Step 1 - Select a Size</b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">Sept, 24 2021</span></h6>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">March, 24 2021</span></h6>
           <p>The average size of a laptop is around 11-12 inches. If you are a frequent traveler and often carry a laptop while traveling then we would recommend you choose a smaller laptop.</p>
           <hr>
             <input type="radio" id="10" value="10" v-model="size">
@@ -31,7 +31,7 @@
         </div>
         <div class="w3-container" v-if="step == 2">
             <h5 class="w3-opacity"><b>Step 2 - Select Price</b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">Sept, 24 2021</span></h6>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">March, 24 2021</span></h6>
             <p>The price of a laptop is directly proportional to the features and specifications. A laptop with more advanced specs is way costlier. For general purposes, you can find a good laptop at around $700.</p>
             <hr>
             <input type="radio" id="700" value="400" v-model="price">
@@ -46,7 +46,7 @@
 
         <div class="w3-container" v-if="step == 3">
             <h5 class="w3-opacity"><b>Step 3 - What's Your reason?</b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">Sept, 24 2021</span></h6>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">March, 24 2021</span></h6>
             <p>Gaming, Video/Audio Editing, and Music production laptops are way costly. Programming, Business, and college laptops are less costly while general-purpose laptops are the cheapest.</p>
             <hr>
             <input type="radio" id="General-purpose" value="General-purpose" v-model="reason">
@@ -63,7 +63,7 @@
 
           <div class="w3-container" v-if="step == 4">
               <h5 class="w3-opacity"><b>Step 4 - Which OS you prefer?</b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">Sept, 24 2021</span></h6>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">March, 24 2021</span></h6>
               <p>There are three major operating systems, ChromeOS, Windows, and macOS. ChromeOS laptops are way cheaper than the Windows and macOS. If you are looking for a laptop with general-purpose then ChromeOS is the right choice.</p>
               <hr>
               <input type="radio" id="Chrome" value="Chrome" v-model="os">
@@ -78,7 +78,7 @@
 
             <div class="w3-container" v-if="step == 5">
                 <h5 class="w3-opacity"><b>Step 5 - Do you prefer TOuch screen Laptops?</b></h5>
-                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">Sept, 24 2021</span></h6>
+                <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Tool Last Updated <span class="w3-tag w3-teal w3-round">March, 24 2021</span></h6>
                 <p>Touch screen laptop offer both touchscreen and keyboard. Most of the businessmen who have to carry laptops while traveling prefer two in one laptop. Also, Students who do group projects select these laptops.</p>
                 <hr>
                 <input type="radio" id="" value="Yes" v-model="twoinone">
