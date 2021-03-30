@@ -5,10 +5,7 @@
 and is wrapped around the whole page content, except for the footer in this example -->
 <div class="w3-content" style="max-width:1600px">
   <!-- Header -->
-  <header class="w3-container w3-center w3-padding-48 w3-light-gray">
-    <h1 class="w3-xxxlarge"><b>Best Budget Laptop</b></h1>
-    <h6>We help you to <span class="w3-tag w3-teal">Find the Best Budget Laptops</span></h6>
-  </header>
+
 <navbar />
   <!-- Navbar -->
 <!-- Navbar -->
@@ -23,7 +20,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-padding-large">
 
         <div style="width:100%;" class="w3-justify">
-          <h3>Best Budget Laptops 2021</h3>
+          <h3>Best Budget Laptop 2021</h3>
           <span class="w3-opacity">Jan 1, 2021</span><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <h5>As our lives are getting back to normal, more stock of different budget laptops is available for you. Here, we bring the best laptops within your budget.</h5>
           There are many different laptop manufacturing companies available in the market. To select a decent laptop within your budget is quite difficult. For that reason, we bring these top 10 best budget laptops that are affordable and run efficiently at the same time. On this list, we focused on including laptops with advanced features and the laptops which are affordable as well.</p>
@@ -157,7 +154,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <img src="../assets/acer_spin_3.jpg" class="w3-margin w3-padding" alt="Acer Spin 3" style="width: 80%"><br>
         <p>Love windows? This one is for you. It's a two in one laptop with a long battery life. Intel i-3 processor, 4 GM RAM, and Windows 10 at under $450 is profitable.</p>
         <h5>Note:</h5>
-        <p>The same model is available with some advanced features at $799.99. The advanced Acer Spin 3 offers 16 GB RAM and an intel i-7 processor which makes this laptop an outstanding performer. If you are looking for an all-purpose laptop and perform various tasks with ease then you should consider the machine with advanced features. If you want a laptop for daily regular tasks and some document work then you should go with the $450 model.</p>
+        <p>The same model is available with some advanced features at $799.99. The advanced Acer Spin 3 offers 16 GB RAM and an intel i-7 processor which makes this laptop an outstanding performer. If you are looking for an all-purpose laptop and perform various tasks with ease then you should consider the machine with advanced features. If you want a laptop for daily regular tasks and some document work then you should go with the $450 model, it is the best budget laptop right now!</p>
         <div class="">
           <div class="w3-half">
           <div class=""><p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Rating</b></p>
@@ -487,7 +484,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <h4>Filter Budget Laptops</h4>
       </div><br>
       <div class="w3-container">
-        <p class="w3-padding">Enter your Budget: <input type="text" v-model="price" placeholder="Or Enter a custom value" /></p>
+        <p class="w3-padding">Enter your Budget: <input type="text" v-model="price" placeholder="460" /></p>
         <p><button type="button" class="w3-button w3-block w3-teal" @click.prevent="findit">Get Laptops</button></p><br>
     </div>
     <ul v-for="article in articles" :key="article._id" class="w3-ul w3-hoverable w3-white">
@@ -691,7 +688,7 @@ export default {
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'Check out the collection of the best budget laptops for 2021.' }
+      { hid: 'description', name: 'description', content: 'Check out the collection of the best budget laptops for 2021. The perfect budget laptops are great performers and affordable at the same time. Visit here and select the best budget laptop for your profession!' }
   ],
   link: [
   {rel: 'canonical', href: 'https://bestbudgetlaptop.net/'}
@@ -701,7 +698,7 @@ export default {
   components: { 'footer-app': footer, 'about-section': aboutsection, navbar },
   data () {
     return {
-      price: '460',
+      price: '',
       articles: []
       }
     },
@@ -711,13 +708,10 @@ export default {
             price: this.price
           })
           .then((response) => {
+            console.log(response);
            this.articles = response.slice(0,10)
-           this.$router.push({ to:'/#laptops' })
          })
        }
-    },
-    mounted:function(){
-        this.findit() //method1 will execute at pageload
     }
       }
 </script>
