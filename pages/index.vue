@@ -6,7 +6,6 @@ and is wrapped around the whole page content, except for the footer in this exam
 <div class="w3-content" style="max-width:1600px">
   <!-- Header -->
 
-<navbar />
   <!-- Navbar -->
 <!-- Navbar -->
   <!-- Image header -->
@@ -677,7 +676,6 @@ and is wrapped around the whole page content, except for the footer in this exam
 <script>
 import footer from '../components/footer.vue'
 import aboutsection from '../components/aboutsection.vue'
-import navbar from '../components/navbar.vue'
 
 export default {
   name: 'Home',
@@ -695,7 +693,7 @@ export default {
   ]
   }
   },
-  components: { 'footer-app': footer, 'about-section': aboutsection, navbar },
+  components: { 'footer-app': footer, 'about-section': aboutsection },
   data () {
     return {
       price: '',
