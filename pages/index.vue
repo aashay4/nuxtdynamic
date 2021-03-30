@@ -21,8 +21,8 @@ and is wrapped around the whole page content, except for the footer in this exam
 
         <div style="width:100%;" class="w3-justify">
           <h3>Best Budget Laptop 2021</h3>
-          <span class="w3-opacity">Jan 1, 2021</span><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
-          <h5>As our lives are getting back to normal, more stock of different budget laptops is available for you. Here, we bring the best laptops within your budget.</h5>
+          <span class="w3-opacity">Mar 28, 2021</span><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong><br><br>
+          <p>As our lives are getting back to normal, more stock of different budget laptops is available for you. Here, we bring the best laptops within your budget.</p>
           There are many different laptop manufacturing companies available in the market. To select a decent laptop within your budget is quite difficult. For that reason, we bring these top 10 best budget laptops that are affordable and run efficiently at the same time. On this list, we focused on including laptops with advanced features and the laptops which are affordable as well.</p>
           <p>As this is the list of the budget laptops, you might need to compromise on some functionality. If you are a student then you might use a laptop for programming, designing, create a document, or creating notes faster. So, you can avoid the laptops with extra-ordinary RAM and Graphics. You can select the laptops which perform better for programming or designing work. So, without wasting any time let's dive into the list.</p>
           <ul class="w3-ul w3-hoverable w3-white">

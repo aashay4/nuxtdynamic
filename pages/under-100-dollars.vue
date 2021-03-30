@@ -11,7 +11,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Laptops Under 100 Dollars</h1>
-          <span class="w3-opacity">Jan 1, 2021</span><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
+          <span class="w3-opacity">Mar 28, 2021</span><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <hr>
           <p>Yes, you read it right. Laptops under 100 dollars do exist. There are a few companies that manufacture laptops at such a cheap price. When there are plenty of choices, selecting a particular piece is difficult. For that reason, we are here to help you out with the best laptops under $100.
           </p>
