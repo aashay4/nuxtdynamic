@@ -117,6 +117,18 @@
 </div><hr>
 </div>
       </div>
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-justify">
+          <h1 class="w3-text-teal">How to use this laptop fider tool by specs?</h1>
+        <p>Welcome to the simple yet effective laptop finder tool. Here, just enter the specifications you require and get the perfect laptops for your usage. The best way to use this tool properly is to enter the most accurate feature that you require in a laptop. Here, we will discuss each option in the list in detail so that you can have a detailed indea about using this laptop selection tool.</p><br>
+        <h3>Determine your purpose</h3>
+        <p>The best way to find an appropriate laptop is to first determine your purpose behind buying a laptop. For example, if you are buying a laptop for daily use, excel sheet updating, watching movies, schools then you do not need to spend a lot of money in your laptop. You can just select the option value "General Purpose". Normally, high performing machine is required for programming, music production, gaming and photography. If you do not fining a laptop for these reasons then you can just opt for the All-purpose laptop option in the finder.</p>
+        <h3>Select Budget</h3>
+        <p>Selecting budget is also important. The budget of a laptop is directly proposanal to the performance, memory and ram of a laptop. You need the budget of around $200-500 for the general purpose laptop and $500-$1000 for the All-purpose, business, students and writers laptop. If you are using a laptop for music, gaming, video production or designing then you need to spend more money to get the desired laptop. We have a collection of the <nuxt-link style="color: teal" to="/"><span>best budget laptop</span></nuxt-link>, you can check if you are looking for the budget laptops.</p>
+        <h3>Laptop size</h3>
+        <p>The laptop size does not really affect the budget of your laptop. But in case you are a frequent traveler and you carry your laptop while traveling then we would highly recommend you select a laptop size of around 10-12 inches. Because these laptops are smaller in size and their weight is lesser then the other big laptops so, it might get  easier for you to carry small laptops while traveling.</p>
+      </div>
+      </div>
 
     <!-- End Right Column -->
     </div>
@@ -125,7 +137,7 @@
       <div class="w3-white w3-text-grey w3-card-4">
 
         <div class="w3-display-container">
-          <img src="~/assets/laptop.jpg" style="width:100%" alt="Avatar">
+          <img src="~/assets/laptop.jpg" style="width:100%" alt="Laptop finder">
           <div class="w3-display-bottomleft w3-container w3-text-black">
             <h2>YOUR SELECTION</h2>
           </div>
@@ -246,13 +258,11 @@ export default {
               price: this.price
             })
             .then((response) => {
-              console.log(response)
              this.articles = response
              this.$router.push({ to:'/#laptops' })
            })
           }
           else if( this.size == "No Preference" && this.os == "No Preference"){
-            alert("into size and os")
             await this.$axios.$post('/api/articles/filtertwo', {
               reason: this.reason,
               price: this.price,
@@ -264,7 +274,6 @@ export default {
            })
           }
           else if(this.size == "No Preference" && this.twoinone == "No Preference") {
-            alert("into size and two in one");
             await this.$axios.$post('/api/articles/filterone', {
               reason: this.reason,
               price: this.price,
@@ -276,7 +285,6 @@ export default {
            })
           }
           else if(this.twoinone == "No Preference" && this.os == "No Preference"){
-            alert("twoinone and os all");
             await this.$axios.$post('/api/articles/filterthree', {
               reason: this.reason,
               price: this.price,
@@ -288,7 +296,6 @@ export default {
            })
           }
           else if (this.size == "No Preference") {
-          alert("size all");
           await this.$axios.$post('/api/articles/filterfour', {
             reason: this.reason,
             price: this.price,
@@ -301,7 +308,6 @@ export default {
          })
         }
         else if(this.os == "No Preference"){
-          alert("os all")
           await this.$axios.$post('/api/articles/filterfive', {
             reason: this.reason,
             price: this.price,
@@ -314,7 +320,6 @@ export default {
          })
         }
           else if(this.twoinone == "No Preference"){
-            alert("two in one all")
             await this.$axios.$post('/api/articles/filtersix', {
               reason: this.reason,
               price: this.price,
@@ -327,7 +332,6 @@ export default {
            })
           }
         else {
-          alert("given all information")
           await this.$axios.$post('/api/articles/filtersev', {
             reason: this.reason,
             price: this.price,
@@ -343,13 +347,11 @@ export default {
       },
   async secondbutton()
   {
-    alert("into second")
     const data = await this.$axios.$get('/api/articles/filtera')
     this.articles = data
   },
   async sendvalues()
   {
-    alert("sending values")
    await this.$axios.$post('/api/articles/filter', {
      author: this.author
    })

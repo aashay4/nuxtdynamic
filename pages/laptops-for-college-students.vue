@@ -18,30 +18,58 @@ and is wrapped around the whole page content, except for the footer in this exam
           <h2>Dell XPS 13</h2>
           <img src="../assets/Dell_XPS_13.jpg" class="w3-margin w3-padding" alt="Dell XPS 13" style="width: 80%"><br>
           <p>Released in 2020, Dell XPS 13 is receiving some great reviews from the students. With attractive looks, outstanding performance, and excellent battery life, Dell XPS 13 is one of the best laptops for college students.</p>
-          <p>It is a lightweight laptop that can easily be carried by the student. With the 10th generation intel core i7 processor, it is perfect for multi-tasks. A comfortable keyboard and near -bezel-less display make it perfect to work on this laptop for hours. If you are looking for the perfect laptop for college students, then this laptop is definitely for you.</p><hr>
+          <p>It is a lightweight laptop that can easily be carried by the student. With the 10th generation intel core i7 processor, it is perfect for multi-tasks. A comfortable keyboard and near -bezel-less display make it perfect to work on this laptop for hours. If you are looking for the perfect laptop for college students, then this laptop is definitely for you.</p>
+          <div><p> <a href="https://amzn.to/3tNZwzx" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+          </p>
+          </div>
+          <hr>
           <h2>HP Envy 13t</h2>
           <img src="../assets/HP_Envy_13t.jpg" class="w3-margin w3-padding" alt="HP Envy 13t" style="width: 80%"><br>
           <p>When it comes to performance, you can rely on the brand HP. HP Envy 13t is perfect for the students who play games often and do some document work as well. Along with students, this laptop is also perfect for professionals.</p>
-          <p>It weighs just 2.8 pounds, really easy to carry while traveling or going to school/college. Depending on your budget and requirement, you can choose between storage, display quality, and RAM. It offers 8 GB/16 GB RAM, 256 GB/512 GB/1 TB of storage. If you are a fan of attractive laptop designs, then this one is definitely for you. It has an excellent battery life of around 10-11 hours, an amazing display, and reliable performance for multi-tasking.</p><hr>
+          <p>It weighs just 2.8 pounds, really easy to carry while traveling or going to school/college. Depending on your budget and requirement, you can choose between storage, display quality, and RAM. It offers 8 GB/16 GB RAM, 256 GB/512 GB/1 TB of storage. If you are a fan of attractive laptop designs, then this one is definitely for you. It has an excellent battery life of around 10-11 hours, an amazing display, and reliable performance for multi-tasking.</p>
+          <div><p> <a href="https://amzn.to/3r3gRlU" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+          </p>
+          </div>
+          <hr>
           <h2>HP Envy x360 13</h2>
           <img src="../assets/HP_Envy_x360_13.jpg" class="w3-margin w3-padding" alt="HP Envy x360 13" style="width: 80%"><br>
-          <p>If you are looking for an all-purpose laptop and you perform several tasks like gaming, programming, document creation, or project work then this is the perfect laptop for you. With AMD Ryzen 5 4500U and AMD Radeon graphics, it best performer on this list. This 2-in-1 envy laptop costs just around 800 dollars and becomes one of the best college laptops.</p><hr>
+          <p>If you are looking for an all-purpose laptop and you perform several tasks like gaming, programming, document creation, or project work then this is the perfect laptop for you. With AMD Ryzen 5 4500U and AMD Radeon graphics, it best performer on this list. This 2-in-1 envy laptop costs just around 800 dollars and becomes one of the best college laptops.</p>
+          <div><p> <a href="https://amzn.to/3fAUvWT" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+          </p>
+          </div>
+          <hr>
           <h2>Lenovo Yoga C940</h2>
           <img src="../assets/Lenovo_Yoga_C940.jpg" class="w3-margin w3-padding" alt="Lenovo Yoga C940" style="width: 80%"><br>
           <p>This one also offers a stylish design and it is also a 2-in-1 laptop, very popular among college students. It offers an attractive design, longer battery life, and outstanding performance. This one deserves a place in the list of the best student laptops.</p>
-          <p>With Intel Core i-7 processor, Intel Iris Plus GPU, up to 16 GB of RAM, and up to 2 TB storage, Lenovo Yoga C940 has one of the most advanced features in this list. It weighs just a little more than the other competitors. Apart from that, it offers a beautiful 4K display screen but battery life may be an issue as it is lesser than the other laptops.</p><hr>
+          <p>With Intel Core i-7 processor, Intel Iris Plus GPU, up to 16 GB of RAM, and up to 2 TB storage, Lenovo Yoga C940 has one of the most advanced features in this list. It weighs just a little more than the other competitors. Apart from that, it offers a beautiful 4K display screen but battery life may be an issue as it is lesser than the other laptops.</p>
+          <div><p> <a href="https://amzn.to/3cHqHVq" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+          </p>
+          </div>
+          <hr>
           <h2>Asus Zenbook 13</h2>
           <img src="../assets/Asus_Zenbook_13_UX333FA.jpg" class="w3-margin w3-padding" alt="Asus Zenbook 13" style="width: 80%"><br>
             <p>The Asus Zenbook 13 is one of the most attractive laptops on this list. If style and looks are your priority, then this one is for you. Apart from that, all the other features it offers are perfect for the students. 13.3-inch display, 2.8-pound weight, 16 GB RAM, and great performance make this laptop perfect for college students.</p>
-            <p>With the attractive looks, this machine is not only used by the students but also by the businessmen. More than 8 hours of battery life is a plus.</p><hr>
+            <p>With the attractive looks, this machine is not only used by the students but also by the businessmen. More than 8 hours of battery life is a plus.</p>
+            <div><p> <a href="https://amzn.to/30Wa2rZ" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+            </p>
+            </div>
+            <hr>
             <h2>Apple MacBook Air</h2>
             <img src="../assets/Apple_MacBook_Air.jpg" class="w3-margin w3-padding" alt="Apple MacBook Air" style="width: 80%"><br>
             <p>There is a different community who prefers MacBook laptops, this one is for them. It is one of the best 13-in laptops with professional looks. Unsurprisingly, Apple MacBook offers one of the best battery life. You can work for hours on this laptop and perform absolutely any task. A great sound system is a plus of this laptop.</p>
-            <p>Apple Macbook air offers a comfortable keyboard, can be a great experience if you need to work for hours on your project or you are programming. Sometimes, performance can be an issue with this laptop. This machine is perfect for macOS lovers.</p><hr>
+            <p>Apple Macbook air offers a comfortable keyboard, can be a great experience if you need to work for hours on your project or you are programming. Sometimes, performance can be an issue with this laptop. This machine is perfect for macOS lovers.</p>
+            <div><p> <a href="https://amzn.to/3eXVUH0" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+            </p>
+            </div>
+            <hr>
             <h2>Acer Swift 3</h2>
             <img src="../assets/Acer_Swift_3.jpg" class="w3-margin w3-padding" alt="Acer Swift 3" style="width: 80%"><br>
             <p>If you do not want to save on a laptop and expecting outstanding performance at the same time, then you should consider Acer Swift 3. At the price of just around $650, Acer Swift 3 stands tall when it comes to performance. AMD Ryzen 7 4700U & AMD Radeon Graphics make this laptop capable of running any software or game smoothly.</p>
-            <p>It offers 8 GB RAM, 512 GB storage and weighs just around 2.7 pounds. All these features make this laptop a perfect choice for college students. The fingerprint scanner is the plus point in this laptop. The display can be an issue for those who sit in front of the laptop for hours. If the display is not an issue for then this is a great choice under budget.</p><hr>
+            <p>It offers 8 GB RAM, 512 GB storage and weighs just around 2.7 pounds. All these features make this laptop a perfect choice for college students. The fingerprint scanner is the plus point in this laptop. The display can be an issue for those who sit in front of the laptop for hours. If the display is not an issue for then this is a great choice under budget.</p>
+            <div><p> <a href="https://amzn.to/3c1aJXp" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+            </p>
+            </div>
+            <hr>
           </div></div>
     </div>
 
@@ -157,7 +185,7 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Laptops for college students of high-schools and Colleges',
+  title: 'The best Laptops for college students of high-schools and Colleges',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [

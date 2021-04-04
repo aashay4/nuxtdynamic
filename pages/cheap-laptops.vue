@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Choose Best Cheap Laptops</h1>
-          <span class="w3-opacity">Jan 1, 2021</span><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
+          <span class="w3-opacity">Apr 1, 2021</span><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
           <hr>
           <p>In this article, we bring you the best cheap laptops. There are some inexpensive laptops available in the market today that are capable of getting the job done quickly. Select the price that and we will get you the best cheap laptops from our database. Remember one thing, all the affordable laptops won't be able to pull out all the tasks/load that you throw at it. The inexpensive laptops are not as good at performance as all the other gaming laptops. But the laptops on this list are capable of performing all the daily tasks smoothly.</p>
           <p>If you want more customization options then you can visit our <nuxt-link to="/laptop-finder" style="color: blue">laptop finder tool</nuxt-link>. With this tool, you can customize price, operating system, laptop size and purpose.</p><hr>
@@ -64,23 +64,47 @@ and is wrapped around the whole page content, except for the footer in this exam
               <h2>Best Cheap Laptops</h2>
               <h3>Acer Aspire 5</h3>
               <img src="../assets/Acer_Aspire_5.jpg" class="w3-margin w3-padding" alt="Acer Aspire 5" style="width: 80%"><br>
-              <p>With good performance, 8 hours of battery life, and an intel core i-3 processor, Acer Aspire 5 comes at just $399. Apart from that, it offers 8 GB of RAM and 256 GB storage. With these features, Acer Aspire 5 deserves to be on this list. If you are looking for an all-purpose cheap laptop then you can choose this laptop. This machine is not receiving good reviews when it comes to graphics and display.</p><hr>
+              <p>With good performance, 8 hours of battery life, and an intel core i-3 processor, Acer Aspire 5 comes at just $399. Apart from that, it offers 8 GB of RAM and 256 GB storage. With these features, Acer Aspire 5 deserves to be on this list. If you are looking for an all-purpose cheap laptop then you can choose this laptop. This machine is not receiving good reviews when it comes to graphics and display.</p>
+              <div><p> <a href="https://amzn.to/3c2yZYV" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+              </p>
+              </div>
+              <hr>
               <h3>HP 15</h3>
               <img src="../assets/hp_15.jpg" class="w3-margin w3-padding" alt="HP 15" style="width: 80%"><br>
               <p>If you are looking for a cheap laptop with a huge storage capacity then HP 15 is the right option for you. HP 15 offers 1 TB storage and 8 GB RAM, it is not usual for a machine just around $450. With AMD Ryzen processor, it is a powerful performer.</p>
-              <p>The battery life of this machine is not impressive, it lasts just below 5 hours. Choose this laptop if you are a fan of the AMD Ryzen processor and require a lot of internal storage to save your data.</p><hr>
+              <p>The battery life of this machine is not impressive, it lasts just below 5 hours. Choose this laptop if you are a fan of the AMD Ryzen processor and require a lot of internal storage to save your data.</p>
+              <div><p> <a href="https://amzn.to/38T7Eqj" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+              </p>
+              </div>
+              <hr>
               <h3>Dell Inspiron 15 3000</h3>
               <img src="../assets/Dell_Inspiron_15.jpg" class="w3-margin w3-padding" alt="Dell Inspiron 15 3000" style="width: 80%"><br>
-              <p>This is a great performer for day-to-day tasks. Dell Inspiron 15 can be considered as a general-purpose laptop. It offers 4 GB of RAM and 1 TB storage and an Intel Celeron processor. On this machine, you can perform regular daily tasks and store a lot of data. Just like HP 11, you can buy this laptop if you are dealing with a lot of data and requires a lot of storage on your machine.</p><hr>
+              <p>This is a great performer for day-to-day tasks. Dell Inspiron 15 can be considered as a general-purpose laptop. It offers 4 GB of RAM and 1 TB storage and an Intel Celeron processor. On this machine, you can perform regular daily tasks and store a lot of data. Just like HP 11, you can buy this laptop if you are dealing with a lot of data and requires a lot of storage on your machine.</p>
+              <div><p> <a href="https://amzn.to/3vHe99p" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+              </p>
+              </div>
+              <hr>
               <h3>Lenovo Chromebook C340-11</h3>
               <img src="../assets/Lenovo_Chromebook_C340-11.jpg" class="w3-margin w3-padding" alt="Lenovo Chromebook C340-11" style="width: 80%"><br>
-              <p>Chromebook laptops are often way cheaper but great performers at the same time. Lenovo Chromebook C340 is an inexpensive laptop but a good performer comes with a long-lasting battery of 10-hours. Apart from that, it offers 4GB RAM, 64GB storage, and an Intel Celeron N4000 processor. With just an 11.6 inch screen, you can carry this laptop easily while traveling.</p><hr>
+              <p>Chromebook laptops are often way cheaper but great performers at the same time. Lenovo Chromebook C340 is an inexpensive laptop but a good performer comes with a long-lasting battery of 10-hours. Apart from that, it offers 4GB RAM, 64GB storage, and an Intel Celeron N4000 processor. With just an 11.6 inch screen, you can carry this laptop easily while traveling.</p>
+              <div><p> <a href="https://amzn.to/3cMe1y3" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+              </p>
+              </div>
+              <hr>
               <h3>Lenovo Ideapad 1</h3>
               <img src="../assets/Lenovo_Ideapad_1.jpg" class="w3-margin w3-padding" alt="Lenovo Ideapad 1" style="width: 80%"><br>
-              <p>This is a good all-purpose laptop that offers 4 GB RAM, 64 GB storage, AMD A6-9220E processor, and AMD Radeon graphics. With professional design and good battery life, this machine can be a great choice for college students and businessmen. Dolly audio at such a cheap budget is a plus.</p><hr>
+              <p>This is a good all-purpose laptop that offers 4 GB RAM, 64 GB storage, AMD A6-9220E processor, and AMD Radeon graphics. With professional design and good battery life, this machine can be a great choice for college students and businessmen. Dolly audio at such a cheap budget is a plus.</p>
+              <div><p> <a href="https://amzn.to/3cKaEHG" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+              </p>
+              </div>
+              <hr>
               <h3>Samsung Chromebook 4</h3>
               <img src="../assets/Samsung_Chromebook_4.jpg" class="w3-margin w3-padding" alt="Samsung Chromebook 4" style="width: 80%"><br>
-              <p>Samsung Chromebook 4 is one of the cheapest laptops that is a good performer at the same time. It costs just around $229 but you won't be compromising on the performance. For 229 dollars, you get an 11.6 inches screen, 32 GB of storage, and 4 GB RAM. Along with performance, battery life is also a plus of this laptop. The battery of Samsung Chromebook 4 lasts around 9 hours. If you need a laptop with more storage and RAM, you can add a few bucks more and get a bigger machine with more storage and RAM.</p><hr>
+              <p>Samsung Chromebook 4 is one of the cheapest laptops that is a good performer at the same time. It costs just around $229 but you won't be compromising on the performance. For 229 dollars, you get an 11.6 inches screen, 32 GB of storage, and 4 GB RAM. Along with performance, battery life is also a plus of this laptop. The battery of Samsung Chromebook 4 lasts around 9 hours. If you need a laptop with more storage and RAM, you can add a few bucks more and get a bigger machine with more storage and RAM.</p>
+              <div><p> <a href="https://amzn.to/38ZIBll" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+              </p>
+              </div>
+              <hr>
           </div></div>
     </div>
 

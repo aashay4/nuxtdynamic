@@ -20,27 +20,50 @@ and is wrapped around the whole page content, except for the footer in this exam
           <img src="../assets/Asus_Zenbook_13_UX333FA.jpg" class="w3-margin w3-padding" alt="Asus ZenBook 13" style="width: 80%">
           <p>Asus Zenbook 13 offers good battery life and great performance at the price of just below $1000. It features an 8th generation intel core i5 processor and beautiful design at just around $850, making it one of the best Asus laptops available right now.</p>
           <p>Apart from that, it offers 8GB of RAM, 256 GB of storage, a 1080P display, and around 11 hours of battery life. With the classy design and 2.69 pounds’ weight, you can easily carry this laptop to the meeting or school presentations.</p>
-          <p>With these kinds of features, this machine is capable of running any software smoothly. When it comes to gaming, the performance is average, you cannot install and play multiple large games on this machine. Apart from gaming, all these features make Asus Zenbook one of the best contenders for the sub-$1000 laptop list.</p><hr>
+          <p>With these kinds of features, this machine is capable of running any software smoothly. When it comes to gaming, the performance is average, you cannot install and play multiple large games on this machine. Apart from gaming, all these features make Asus Zenbook one of the best contenders for the sub-$1000 laptop list.</p>
+          <div><p> <a href="https://amzn.to/30Wa2rZ" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+          </p>
+          </div>
+          <hr>
           <h3>Dell XPS 13</h3>
           <img src="../assets/Dell_XPS_13.jpg" class="w3-margin w3-padding" alt="Dell XPS 13" style="width: 80%"><br>
           <p>Since the release, Dell XPS 13 has been receiving numerous positive reviews. With the kind of features it offers, Dell XPS 13 is one of the best laptops under 1000 dollars. This Dell machine is powered by a 10th generation Intel core i5 processor and offers 8 GB of RAM. This helps it to handle all the tasks that you throw easily.</p>
-          <p>It offers 256 GB of storage which is sufficient for almost all the users. If you require more storage to save your data, you can upgrade memory space to 1 TB. Talking about the weight, it weighs lesser than most of the competitors on the list with just 2.7 Pounds.</p><hr>
+          <p>It offers 256 GB of storage which is sufficient for almost all the users. If you require more storage to save your data, you can upgrade memory space to 1 TB. Talking about the weight, it weighs lesser than most of the competitors on the list with just 2.7 Pounds.</p>
+          <div><p> <a href="https://amzn.to/3tNZwzx" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+          </p>
+          </div>
+          <hr>
           <h3>Apple MacBook Air</h3>
           <img src="../assets/Apple_MacBook_Air.jpg" class="w3-margin w3-padding" alt="Apple MacBook Air" style="width: 80%"><br>
           <p>Apple MacBook Air is slim, stylish, a powerful performer with a long-lasting battery. If you prefer macOS and looking for a budget MacBook, then this laptop is for you. Despite being a budget laptop, you can rely on this laptop.</p>
-          <p>MacBook Air comes with the 10th generation intel i3 processor, it is powered by 8 GB RAM which is capable of running multi-tasks smoothly. Along with that, Apple MacBook Air offers 256 GB of internal storage and if you need more storage space, you can upgrade it. This is one of the cheapest Apple laptops but with a comfortable keyboard and long battery life, it is one of the best under 1000.</p><hr>
+          <p>MacBook Air comes with the 10th generation intel i3 processor, it is powered by 8 GB RAM which is capable of running multi-tasks smoothly. Along with that, Apple MacBook Air offers 256 GB of internal storage and if you need more storage space, you can upgrade it. This is one of the cheapest Apple laptops but with a comfortable keyboard and long battery life, it is one of the best under 1000.</p>
+          <div><p> <a href="https://amzn.to/3eXVUH0" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+          </p>
+          </div>
+          <hr>
           <h3>Dell G5 15</h3>
           <img src="../assets/Dell_G5_15.jpg" class="w3-margin w3-padding" alt="Dell G5 15" style="width: 80%"><br>
           <p>It is believed that the gaming laptops are great performers and so is Dell G5. This is one of a gaming laptop and one of the best performers. If performance is your priority and wants to run multiple heavy software at the same time, then Dell G5 is a perfect choice.</p>
-          <p>With 9th Generation quad-core Intel Core i5 processor, 8 GB of RAM, 1 TB storage, you can play absolutely any game or run any software. This is a great all-purpose laptop under $1000. Everything’s great about this laptop except for battery life. Since this is a gaming laptop, battery life is lesser than the other laptops on this list.</p><hr>
+          <p>With 9th Generation quad-core Intel Core i5 processor, 8 GB of RAM, 1 TB storage, you can play absolutely any game or run any software. This is a great all-purpose laptop under $1000. Everything’s great about this laptop except for battery life. Since this is a gaming laptop, battery life is lesser than the other laptops on this list.</p>
+          <div><p> <a href="https://amzn.to/38Vo6pO" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+          </p>
+          </div>
+          <hr>
           <h3>Lenovo Legion Y540</h3>
           <img src="../assets/Lenovo_Legion_Y540.jpg" class="w3-margin w3-padding" alt="Lenovo Legion Y540" style="width: 80%"><br>
           <p>Here comes another gaming laptop on the list. Lenovo Legion Y540 is a gaming laptop and a great performer. With 9th Generation Intel Core i5 processor, 8 GB RAM(Can be expanded to 323 GB), and 256 GB storage, you can pull out any task on this laptop.</p>
-          <p>It has a 17.3-inch display which is bigger than other laptops on this list. For a graphics card, it offers Nvidia GeForce GTX 1660 Ti graphic card which helps you to perform gaming and other graphic related tasks. It weighs 6.2 Pounds. Just like Dell G5 15, Lenovo Legion’s battery life is shorter than the other laptops in the same range. The battery life of most gaming laptops is generally low because of the specifications and performance they offer. Apart from battery life, you are not going to compromise on anything with this laptop.</p><hr>
+          <p>It has a 17.3-inch display which is bigger than other laptops on this list. For a graphics card, it offers Nvidia GeForce GTX 1660 Ti graphic card which helps you to perform gaming and other graphic related tasks. It weighs 6.2 Pounds. Just like Dell G5 15, Lenovo Legion’s battery life is shorter than the other laptops in the same range. The battery life of most gaming laptops is generally low because of the specifications and performance they offer. Apart from battery life, you are not going to compromise on anything with this laptop.</p>
+          <div><p> <a href="https://amzn.to/2OQjaMj" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+          </p>
+          </div>
+          <hr>
           <h3>Acer Swift 3</h3>
           <img src="../assets/Acer_Swift_3.jpg" class="w3-margin w3-padding" alt="Acer Swift 3" style="width: 80%"><br>
           <p>This one is the first laptop on this list with AMD Ryzen 7 4700U processor. Currently, this is the best Acer budget laptop. With 8 GB RAM, Radeon Graphics, and AMD Ryzen processer, this is one of the best performers. Apart from that, it offers 512 GB storage and a 1920 x 1080 display. The fingerprint scanner is another surprise factor within this laptop.</p>
           <p>With more than 11 hours of battery life, you can work on this laptop for the whole day. Acer Swift 3 costs just around $650 which is way lesser than the other laptops on this list. This Acer machine is probably one of the best laptops below $1000.</p>
+          <div><p> <a href="https://amzn.to/3c1aJXp" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+          </p>
+          </div>
           <h3></h3>
           </div></div>
     </div>

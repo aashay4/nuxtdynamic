@@ -55,7 +55,9 @@ and is wrapped around the whole page content, except for the footer in this exam
                 </div>
             <br>
           </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                  <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+          <div><p> <a href="https://amzn.to/3s76uyQ" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+          </p>
+          </div>
           <hr>
           <h2>Dell G3 15</h2>
           <img src="../assets/Dell_G3_15.jpg" class="w3-margin w3-padding" alt="Dell G3 15" style="width: 80%">
@@ -96,7 +98,9 @@ and is wrapped around the whole page content, except for the footer in this exam
                 </div>
             <br>
           </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                  <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+          <div><p> <a href="https://amzn.to/3eTeoIx" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+          </p>
+          </div>
           <hr>
           <h2>MSI GF63</h2>
           <img src="../assets/MSI_GF63.jpg" class="w3-margin w3-padding" alt="MSI GF63" style="width: 80%"><br>
@@ -136,7 +140,9 @@ and is wrapped around the whole page content, except for the footer in this exam
                 </div>
             <br>
           </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                  <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+          <div><p> <a href="https://amzn.to/3qX0NSQ" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+          </p>
+          </div>
           <hr>
           <h2>Dell G7 15</h2>
           <img src="../assets/Dell_G7_15.jpg" class="w3-margin w3-padding" alt="Dell G7 15" style="width: 80%"><br>
@@ -176,7 +182,9 @@ and is wrapped around the whole page content, except for the footer in this exam
                 </div>
             <br>
           </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                  <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+          <div><p> <a href="https://amzn.to/310KtWy" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+          </p>
+          </div>
           <hr>
           <h2>Lenovo Legion 5i</h2>
           <img src="../assets/Lenovo_Legion_5i.jpg" class="w3-margin w3-padding" alt="Lenovo Legion 5i" style="width: 80%"><br>
@@ -217,7 +225,9 @@ and is wrapped around the whole page content, except for the footer in this exam
                   </div>
               <br>
             </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                    <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+            <div><p> <a href="https://amzn.to/3f1VYWd" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+            </p>
+            </div>
             <hr>
             <h2>Acer Aspire 7</h2>
             <img src="../assets/Acer_Aspire_7.jpg" class="w3-margin w3-padding" alt="Acer Aspire 7" style="width: 80%"><br>
@@ -258,7 +268,9 @@ and is wrapped around the whole page content, except for the footer in this exam
                   </div>
               <br>
             </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                    <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+            <div><p> <a href="https://amzn.to/2QmG12v" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+            </p>
+            </div>
             <hr>
             <h2>HP Gaming Pavilion 15-dk0046nr</h2>
             <img src="../assets/HP_Gaming_Pavilion_15-dk0046nr.jpg" class="w3-margin w3-padding" alt="HP Gaming Pavilion 15-dk0046nr" style="width: 80%"><br>
@@ -298,7 +310,9 @@ and is wrapped around the whole page content, except for the footer in this exam
                   </div>
               <br>
             </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                    <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+            <div><p> <a href="https://amzn.to/3cNee2O" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+            </p>
+            </div>
             <hr>
           </div></div>
     </div>

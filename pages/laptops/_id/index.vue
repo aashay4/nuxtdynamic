@@ -229,7 +229,6 @@ export default {
       }
     },
     linkcall(event){
-      alert(this.article.amazonlink)
       window.open(this.article.amazonlink);
     },
     async method1() {

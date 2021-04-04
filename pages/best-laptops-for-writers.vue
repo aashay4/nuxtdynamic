@@ -55,7 +55,9 @@ and is wrapped around the whole page content, except for the footer in this exam
                 </div>
             <br>
           </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                  <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+          <div><p> <a href="https://amzn.to/3tNZwzx" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+          </p>
+          </div>
           <hr>
           <h2>Asus Chromebook Flip C434</h2>
           <img src="../assets/Asus_Chromebook_Flip_C434.jpg" class="w3-margin w3-padding" alt="Asus Chromebook Flip C434" style="width: 80%"><br>
@@ -96,7 +98,9 @@ and is wrapped around the whole page content, except for the footer in this exam
                 </div>
             <br>
           </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                  <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+          <div><p> <a href="https://amzn.to/38YjBuS" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+          </p>
+          </div>
           <hr>
           <h2>MacBook Pro(13-inch)</h2>
           <img src="../assets/Apple_MacBook_pro_13.jpg" class="w3-margin w3-padding" alt="Apple MacBook pro 13" style="width: 80%"><br>
@@ -137,7 +141,9 @@ and is wrapped around the whole page content, except for the footer in this exam
                 </div>
             <br>
           </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                  <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+          <div><p> <a href="https://amzn.to/3lwnqfF" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+          </p>
+          </div>
           <hr>
           <h2>Lenovo Thinkpad E15</h2>
           <img src="../assets/Lenovo_Thinkpad_E15.jpg" class="w3-margin w3-padding" alt="Lenovo Thinkpad E15" style="width: 80%"><br>
@@ -178,7 +184,9 @@ and is wrapped around the whole page content, except for the footer in this exam
                 </div>
             <br>
           </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                  <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+          <div><p> <a href="https://amzn.to/2Om5bh4" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+          </p>
+          </div>
           <hr>
           <h2>Google Pixelbook Go</h2>
           <img src="../assets/Google_Pixelbook_Go.jpg" class="w3-margin w3-padding" alt="Google Pixelbook Go" style="width: 80%"><br>
@@ -218,7 +226,10 @@ and is wrapped around the whole page content, except for the footer in this exam
                   </div>
               <br>
             </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                    <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div><hr>
+            <div><p> <a href="https://amzn.to/38WWtNs" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+            </p>
+            </div>
+            <hr>
             <h2>Asus Zenbook 13 UX333FA</h2>
             <img src="../assets/Asus_Zenbook_13_UX333FA.jpg" class="w3-margin w3-padding" alt="Asus Zenbook 13 UX333FA" style="width: 80%"><br>
             <p>Asus zenbook is another budget laptop on this list. It costs just around $600 but in return, you will get a battery life of around 12 hours, 512 GB of storage, 8 GB RAM, 13.3 inches full HD screen. It weighs just 2.5 pounds so, really easy to carry while traveling.</p>
@@ -258,7 +269,9 @@ and is wrapped around the whole page content, except for the footer in this exam
                   </div>
               <br>
             </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                    <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+            <div><p> <a href="https://amzn.to/30Wa2rZ" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+            </p>
+            </div>
             <hr>
             <h2>Acer Switch 3</h2>
             <img src="../assets/Acer_Switch_3.jpg" class="w3-margin w3-padding" alt="Acer Switch 3" style="width: 80%"><br>
@@ -297,7 +310,9 @@ and is wrapped around the whole page content, except for the footer in this exam
                   </div>
               <br>
             </div><br><br><br><br><br><br><br><br><br><br><br><br>
-                    <div><p> <button class="w3-button w3-block w3-blue">Buy Now</button></p></div>
+            <div><p> <a href="https://amzn.to/3lwnqfF" style="color: white;"><button class="w3-button w3-block w3-blue"> Buy Now</button></a>
+            </p>
+            </div>
             <hr>
           </div></div>
     </div>
@@ -446,7 +461,7 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'Best Laptops for writing, write multiple words on these affordable laptops',
+  title: 'Best Laptops for writers in 2021, best writer choice',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
