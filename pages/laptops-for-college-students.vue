@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Laptops for College Students</h1>
-          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
+          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Daniel Hanratty</strong>
           <hr>
           <p>If you are a college student, you need the best performer machine. When you have so many choices, finding the best college laptop under budget is a challenging task. When you are buying a laptop for school or college, you need to make sure the display is good for group studies, the weight of a laptop, and the most important battery life. While working on a project, students may not get a charging port every time so long-lasting battery life is the most required. Apart from that, many students are familiar with Windows 10 and some might not be comfortable with Ubuntu.</p>
           <p>As the analysis suggests, college students use the laptop for multiple tasks like watching movies, programming, video editing, designing, and whatnot. Keeping that in mind, we included only those laptops which you can use for the multi-tasks. Have a look at the best laptops for college students.</p>

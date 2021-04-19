@@ -21,7 +21,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
         <div style="width:100%;" class="w3-justify">
           <h1 class="w3-text-teal">Best Budget Laptop 2021</h1>
-          <span class="w3-opacity">Mar 28, 2021</span><em class="w3-opacity"> by </em><strong class="w3-text-teal">Denzel Vieta</strong><br><br>
+          <span class="w3-opacity">Mar 28, 2021</span><em class="w3-opacity"> by </em><strong class="w3-text-teal">Daniel Hanratty</strong><br><br>
           <p>As our lives are getting back to normal, more stock of different budget laptops is available for you. Here, we bring the best laptops within your budget.</p>
           There are many different laptop manufacturing companies available in the market. To select a decent laptop within your budget is quite difficult. For that reason, we bring these top 10 best budget laptops that are affordable and run efficiently at the same time. On this list, we focused on including laptops with advanced features and the laptops which are affordable as well.</p>
           <p>As this is the list of the budget laptops, you might need to compromise on some functionality. If you are a student then you might use a laptop for programming, designing, create a document, or creating notes faster. So, you can avoid the laptops with extra-ordinary RAM and Graphics. You can select the laptops which perform better for programming or designing work. So, without wasting any time let's dive into the list.</p>
@@ -611,7 +611,7 @@ and is wrapped around the whole page content, except for the footer in this exam
          <router-link to="/under-100-dollars">
            <div class="w3-display-container">
            <div class="w3-display-topleft w3-white w3-padding"><b>Jan 1, 2021</b></div>
-           <div class="w3-display-topright w3-teal w3-padding">Denzel Vieta</div>
+           <div class="w3-display-topright w3-teal w3-padding">Daniel Hanratty</div>
              <img src="../assets/laptop.jpg" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
            <p><b><h3>Laptops Under 100 Dollars</h3></b></p>
@@ -622,7 +622,7 @@ and is wrapped around the whole page content, except for the footer in this exam
          <router-link to="/under-200-dollars">
            <div class="w3-display-container">
            <div class="w3-display-topleft w3-white w3-padding"><b>Jan 1, 2021</b></div>
-           <div class="w3-display-topright w3-teal w3-padding">Denzel Vieta</div>
+           <div class="w3-display-topright w3-teal w3-padding">Daniel Hanratty</div>
              <img src="../assets/laptop.jpg" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
            <p><b><h3>Laptops Under 200 Dollars</h3></b></p>
@@ -633,7 +633,7 @@ and is wrapped around the whole page content, except for the footer in this exam
          <router-link to="/under-300-dollars">
            <div class="w3-display-container">
            <div class="w3-display-topleft w3-white w3-padding"><b>Jan 1, 2021</b></div>
-           <div class="w3-display-topright w3-teal w3-padding">Denzel Vieta</div>
+           <div class="w3-display-topright w3-teal w3-padding">Daniel Hanratty</div>
              <img src="../assets/laptop.jpg" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
            <p><b><h3>Laptops Under 300 Dollars</h3></b></p>
@@ -644,7 +644,7 @@ and is wrapped around the whole page content, except for the footer in this exam
          <router-link to="/under-400-dollars">
            <div class="w3-display-container">
            <div class="w3-display-topleft w3-white w3-padding"><b>Feb 12, 2021</b></div>
-           <div class="w3-display-topright w3-teal w3-padding">Denzel Vieta</div>
+           <div class="w3-display-topright w3-teal w3-padding">Daniel Hanratty</div>
              <img src="../assets/laptop.jpg" style="width:100%" class="w3-hover-opacity"></div>
              <div class="w3-container w3-white">
            <p><b><h3>Laptops Under 400 Dollars</h3></b></p>

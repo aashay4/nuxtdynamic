@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Laptops Under 500 Dollars</h1>
-          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
+          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Daniel Hanratty</strong>
           <hr>
           <p>There is a vast number of laptops available in the market with advanced features specifically built to run advanced software, play games. The price of these laptops may go beyond a thousand dollars which might not be possible to buy for everyone. But the good thing is that you can still find the best laptops under 500 dollars. In this list, you may need to compromise on some of the latest features, the laptops may not be recently released but we are here to shortlist the best laptops under 500 that are capable of doing almost all the daily routine tasks and run some of the large software.</p>
           <p>After reviewing many laptops, we shortlisted these laptops. In this list, we prioritized the laptop's performance and memory. Whether you are a student, businessman, writer, or programmer, we know how important a laptop's performance is. Gone are the days when users worked on just one software or use one web browser. Nowadays, users work on multiple software simultaneously and deal with hundreds of files. In this scenario, having a high performing laptop with a good amount of memory space can be helpful. So, all the laptops we included in this list have these features.</p>

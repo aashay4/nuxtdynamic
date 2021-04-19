@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Laptops for Programming</h1>
-          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
+          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Daniel Hanratty</strong>
           <hr>
           <p>Best programming laptops need to be the best performers. Programmers have multiple commands prompts for front-end framework, back-end framework, and database. Along with that, the code editors also serve multiple files at the same time.</p>
           <p>It is not easy to work on ordinary laptops for programmers. For that reason, we have listed the best programming laptops which have an advanced specification and are capable of running multiple software at the same time.</p>

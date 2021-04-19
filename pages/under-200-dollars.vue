@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Laptops Under 200 Dollars</h1>
-          <span class="w3-opacity">Jan 1, 2021</span><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
+          <span class="w3-opacity">Jan 1, 2021</span><em class="w3-opacity"> by </em><strong style="color: blue">Daniel Hanratty</strong>
           <hr>
           <p>In this competitive world, companies are more focusing on improving product quality and decreasing the price. So, today it is possible to find the best laptop under 200 dollars which offer almost all the latest functionalities. With these laptops, you can do everyday tasks like creating docs, watching movies, surfing the web but some tasks these laptops can't perform. So, let's dive into the list of the best laptops under 200 dollars without wasting any time.</p>
           <p>Before starting, make a list of your requirements and purpose behind buying a laptop. Because a laptop under 200 dollars won't work just great with the latest games, designing & programming software.</p>

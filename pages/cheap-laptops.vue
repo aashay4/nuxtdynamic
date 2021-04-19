@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Choose Best Cheap Laptops</h1>
-          <span class="w3-opacity">Apr 1, 2021</span><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
+          <span class="w3-opacity">Apr 1, 2021</span><em class="w3-opacity"> by </em><strong style="color: blue">Daniel Hanratty</strong>
           <hr>
           <p>In this article, we bring you the best cheap laptops. There are some inexpensive laptops available in the market today that are capable of getting the job done quickly. Select the price that and we will get you the best cheap laptops from our database. Remember one thing, all the affordable laptops won't be able to pull out all the tasks/load that you throw at it. The inexpensive laptops are not as good at performance as all the other gaming laptops. But the laptops on this list are capable of performing all the daily tasks smoothly.</p>
           <p>If you want more customization options then you can visit our <nuxt-link to="/laptop-finder" style="color: blue">laptop finder tool</nuxt-link>. With this tool, you can customize price, operating system, laptop size and purpose.</p><hr>

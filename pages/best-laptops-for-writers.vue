@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Laptops for Writers</h1>
-          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
+          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Daniel Hanratty</strong>
           <hr>
           <p>To choose the best laptops for writers is not easy at all. Just like programmers, photographers, or designers, writers also have a requirement and that needs to be fulfilled to give them a good writing experience. After asking several writers, two common requirements are a great keyboard and a long-lasting battery.</p>
           <p>Writers type on a laptop for hours so, laptops with ordinary keyboards just do not work. Apart from that, writers often need a laptop with good battery life. The display is another important feature that is required. A laptop with a dull display can also create problems for the writes as they sit in front of the laptop for hours.</p>

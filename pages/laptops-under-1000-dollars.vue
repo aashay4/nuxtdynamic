@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Laptops Under 1000 Dollars</h1>
-          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
+          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Daniel Hanratty</strong>
           <hr>
           <p>By selecting the best laptop under 1000 dollars, you can get an above-average laptop with some of the most advanced specifications. Apart from features, these laptops offer excellent performance, long battery life, and classic design.</p>
           <p>As the recent trend suggests, everyone needs a laptop for different kinds of works. It has become an integral part of our professional life. With this kind of growing demand, there are several laptops available in the market and to choose the best one from all these laptops is challenging. For that reason, we have analyzed all the laptops under $1000 and shortlisted the best one for you.</p>

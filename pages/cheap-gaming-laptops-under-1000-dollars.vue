@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Cheap Gaming Laptops Under 1000</h1>
-          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
+          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Daniel Hanratty</strong>
           <hr>
           <p>There is a “myth” that Gaming laptops are often too expensive but the fact is they are not. You can buy cheap gaming laptops for under 1000 dollars. A laptop’s performance is not measured based on price but it is measured on basis of software and hardware specification.</p>
           <p>There are a lot of laptops available within this budget and these machines are produced by multiple known companies like HP, Acer, Lenovo, and many others. So, despite the cheap price, you won’t be compromising much of the performance or specification of these machines.</p>

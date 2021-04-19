@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Gaming Laptops</h1>
-          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
+          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Daniel Hanratty</strong>
           <hr>
 
           <p>A good gaming laptop is a kind of blessing for a gamer. Buying the best gaming laptop can confusing because there are some magnificent models available in the market now. Let us guide you through this web and help you choose the best gaming laptops.</p>

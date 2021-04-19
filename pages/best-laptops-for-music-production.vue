@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Laptops for College Students</h1>
-          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
+          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Daniel Hanratty</strong>
           <hr>
           <p>For modern musicians, DJs, and singers, the laptop is as required as any other musical instrument. There are several editing software like FL Studio, Logic Pro, Audacity help musicians to express their creativity.</p>
           <p>To use software to create music, remix, edit musical notes, you need a high-performing powerful laptop with long battery life.</p>

@@ -10,7 +10,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Laptops Under 300 Dollars</h1>
-          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
+          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Daniel Hanratty</strong>
           <hr>
           <p>Nowadays the demand for laptops has hiked and so is the number of companies around the world. A few years back, getting a brand new laptop for just 300 dollars was not possible at all. But thanks to the competition, getting the best laptops under 300 dollars is possible. You can get a laptop that offers the latest functionalities at such an affordable price. With the laptops under 300 dollars, you can perform day-to-day tasks like managing excel sheets, creating docs, creating business proposals easily. But, playing high-resolution games, working on multiple software or tools at the same time might not be possible with these cheap laptops under 300. But some of the laptops in this list are capable of doing it. There are some potential laptops that you can find within your budget, so let's dive into the list.</p>
           <h4>What You Can Expect from These Laptops?</h4>

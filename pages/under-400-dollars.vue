@@ -11,7 +11,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-justify">
           <h1>Best Laptops Under 400 Dollars</h1>
-          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Denzel Vieta</strong>
+          <date-app /><em class="w3-opacity"> by </em><strong style="color: blue">Daniel Hanratty</strong>
           <hr>
           <p>As you increase your budget you get to choose a laptop from many options. Sometimes, it leads to a lot of confusion as there are so many laptop manufacturers present in the market. Each budget laptop has pros and cons. For that reason, we have shortlisted the best laptops under 400 dollars so that you can buy the best laptop based on your work requirement.</p>
           <p>To find the best laptop under $400, we travel through many stores, check various laptop's designs, keyboards, size, weight, and then shortlist the best laptops. Also, we keep a sharp eye on battery life, internal storage, performance, RAM, and then divide laptops into different categories to help you to select the best laptop as per your requirement.</p><hr>
