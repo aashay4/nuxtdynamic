@@ -266,7 +266,7 @@ export default {
       { hid: 'description', name: 'description', content: 'Find the best laptops by entering your preferred budget, RAM, storage, company, OS, weight, battery life. Checkout laptops now!' }
   ],
   link: [
-  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/laptops/'}
+  {rel: 'canonical', href: 'https://bestbudgetlaptop.net/laptops'}
   ]
   }
   },
