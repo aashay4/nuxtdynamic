@@ -253,12 +253,11 @@ import Dropdown4 from '~/components/Dropdown2.vue'
     head() {
     // sets document title
     return {
-    title: 'Compare laptops - HP, Apple, Dell, Acer, MSI and many other brands',
+    title: 'Compare laptops - Brands, Performance, Battery life, Size, RAM, Processor',
     // optional; sets final title as "Index Page - My Website", useful for multiple level meta
     // meta tags
     meta: [
-        { hid: 'description', name: 'description', content: 'Compare laptops.' },
-        { hid: 'keywords', name: 'keywords', content: 'Compare laptops' }
+        { hid: 'description', name: 'description', content: 'Compare laptops.' }
     ],
     link: [
     {rel: 'canonical', href: 'https://bestbudgetlaptop.net/compare-laptops'}

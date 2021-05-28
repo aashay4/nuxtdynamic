@@ -13,7 +13,7 @@ and is wrapped around the whole page content, except for the footer in this exam
           <span class="w3-opacity">Jan 1, 2021</span><em class="w3-opacity"> by </em><strong style="color: blue">Daniel Hanratty</strong>
           <hr>
           <p>Shop the best laptop as per your requirement. Filter the best laptops as per your budget, the company you prefer, operating system you are comfortable with and the kind of tasks you are going to perform on this laptop. Accelerate everything you do on a laptop by selecting the perfect laptop as per your profession with ease. Compare different brands in the least amount of time.</p>
-          <p>If you want to comare different laptps, you can visit <nuxt-link to="/compare-laptops" style="color: blue">this link</nuxt-link> to compare all the features and specifications. If you want more customization in the laptop search then you can visit our laptop compare tool.</p><hr>
+          <p>If you want to comare different laptps, you can <nuxt-link to="/compare-laptops" style="color: blue">Compare laptops.</nuxt-link>. If you want more customization in the laptop search then you can visit our laptop compare tool.</p><hr>
             <h2>
               Filter Laptops
             </h2><br>

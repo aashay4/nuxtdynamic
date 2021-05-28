@@ -48,7 +48,8 @@ module.exports = {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     '@nuxtjs/auth', // enables Nuxt Auth module,
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    'nuxt-lazy-load'
   ],
   /*
   ** Axios module configuration
