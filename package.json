@@ -22,7 +22,7 @@
     "express-validator": "^6.5.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.18",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "nuxt": "^2.0.0",
     "nuxt-lazy-load": "^1.2.6",
     "sass-loader": "^8.0.2",
